@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<dictionary title="TemplateDocumentBasedApplication Document Suite Terminology">
+    <suite name="TemplateDocumentBasedApplication Document Suite" code="TAdc" description="TemplateDocumentBasedApplication Document Scripting Support.">
+		
+		<class name="document" inherits="ASKDocumentSuite.NSDocument" code="docu">
+			<cocoa class="TADocument"/>
+			<responds-to name="test command">
+				<cocoa key="handleTestCommandScriptCommand:"/>
+			</responds-to>
+		</class>
+		
+		<command name="test command" code="TEstCMnd" description="">
+			<direct-parameter type="document"/>
+			<result type="string" description=""/>
+		</command>
+		
+    </suite>
+</dictionary>

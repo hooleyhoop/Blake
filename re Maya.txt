@@ -1,0 +1,16 @@
+SEE: http://caad.arch.ethz.ch/info/maya/manual/DevKit/PlugInsAPI/PlugInsDAGhierarchy.doc.html
+
+maya has transform nodes which act like layers and groups
+
+traznsfor can have 'shape-node' children
+
+shape-node children can have geeometry-node children
+
+
+every piece of geometry must have at least 2 nodes above it -  a shap and then a transfrom
+
+transform can have any number of child transforms
+
+it only really makes sense for a transform to have 1 shape
+
+1 shape can have - !many parent transforms! -- these are instances! the shape will be drawn each time for each parent transform!

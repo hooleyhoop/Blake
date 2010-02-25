@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {close = id; visitDownloadPage = id; }; 
+            CLASS = BKSoftwareUpdateController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {releaseNotesWebView = WebView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

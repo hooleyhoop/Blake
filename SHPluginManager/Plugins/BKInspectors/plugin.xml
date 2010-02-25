@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.BKInspectors"
+	name="Inspectors"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.BKUserInterface"/>
+	</requirements>
+
+	<extension-point id="inspectorpalette" protocol="BKInspectorPaletteContributerProtocol"/>
+	
+	<extension point="uk.co.stevehooley.BKUserInterface.mainmenu" class="BKInspectorsMenuExtension"/>
+	<extension point="uk.co.stevehooley.BKUserInterface.alltoolbars" class="BKInspectorsToolbarExtension"/>
+</plugin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.Hooley.mori.MIDocument"
+	name="Mori Document"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.Hooley.blocks"/>
+		<requirement bundle="uk.co.Hooley.documents"/>
+		<requirement bundle="uk.co.Hooley.statusmessage"/>
+	</requirements>
+
+	<extension-point id="entryDataDelegate" protocol="MIEntryDataDelegateProtocol"/>
+	<extension-point id="attributeDescriptionDelegate" protocol="MIAttributeDescriptionDelegateProtocol"/>
+	<extension-point id="entryImport" protocol="MIEntryImportProtocol"/>
+	<extension-point id="entryExport" protocol="MIEntryExportProtocol"/>
+
+	<extension point="uk.co.Hooley.documents.documentType" class="MIDocumentTypeExtension"/>
+	<extension point="uk.co.Hooley.documents.documentType" class="MISpotlightEntryDocumentTypeExtension"/>
+	<extension point="uk.co.Hooley.mori.MIDocument.attributeDescriptionDelegate" class="MIAttributeDescriptionsDelegate"/>
+
+</plugin>

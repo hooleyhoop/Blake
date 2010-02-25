@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleEventCode</key>
+	<string>TAdc</string>
+	<key>Classes</key>
+	<dict>
+		<key>TADocument</key>
+		<dict>
+			<key>AppleEventCode</key>
+			<string>docu</string>
+			<key>Superclass</key>
+			<string>ASKDocumentSuite.NSDocument</string>
+		</dict>
+	</dict>
+	<key>Commands</key>
+	<dict>
+		<key>TestCommand</key>
+		<dict>
+			<key>AppleEventClassCode</key>
+			<string>TEst</string>
+			<key>AppleEventCode</key>
+			<string>CMnd</string>
+			<key>CommandClass</key>
+			<string>NSScriptCommand</string>
+			<key>ResultAppleEventCode</key>
+			<string>TEXT</string>
+			<key>Type</key>
+			<string>NSString</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Type</key>
+				<string>TemplateDocumentBasedApplicationDocumentSuite.TADocument</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Name</key>
+	<string>TemplateDocumentBasedApplicationDocumentSuite</string>
+	<key>UsedFeatures</key>
+	<array>
+		<string>UnnamedArguments</string>
+	</array>
+</dict>
+</plist>

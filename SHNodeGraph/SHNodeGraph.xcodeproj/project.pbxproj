@@ -1,0 +1,2267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		73CC095E11368C8E00B53CA9 /* Run All Tests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 73CC097411368CCA00B53CA9 /* Build configuration list for PBXAggregateTarget "Run All Tests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				73CC096911368CAC00B53CA9 /* PBXTargetDependency */,
+				73CC096311368C9900B53CA9 /* PBXTargetDependency */,
+			);
+			name = "Run All Tests";
+			productName = "Run All Tests";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		731442D40C09B2E1007F971A /* SHNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* SHNodeGraph.framework */; };
+		731443090C09B838007F971A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		7314431E0C09B83C007F971A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E167705657A7D005A3EEA /* SenTestingKit.framework */; };
+		7314438C0C09BB86007F971A /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D2FFD00C008759006CF2C6 /* FScript.framework */; };
+		731CA60B1047FAD700E5EF8B /* AllChildrenProxyFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 731CA6091047FAD700E5EF8B /* AllChildrenProxyFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		731CA60C1047FAD700E5EF8B /* AllChildrenProxyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 731CA60A1047FAD700E5EF8B /* AllChildrenProxyFactory.m */; };
+		7326457310AD710700D8E6B1 /* SHNodeSelectingMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D201190C00900B006CF2C6 /* SHNodeSelectingMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7326457410AD710700D8E6B1 /* SHNodeSelectingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D2011A0C00900B006CF2C6 /* SHNodeSelectingMethods.m */; };
+		732DAE4C0E851082005E3CC4 /* SHNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* SHNodeGraph.framework */; };
+		732DAE4D0E851082005E3CC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		732DAE4E0E851082005E3CC4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E167705657A7D005A3EEA /* SenTestingKit.framework */; };
+		732DAE4F0E851082005E3CC4 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D2FFD00C008759006CF2C6 /* FScript.framework */; };
+		732DAE500E851082005E3CC4 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F653260C626EDF000F1EAF /* SHShared.framework */; };
+		732DAE510E851082005E3CC4 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734DEB3F0D99568100B5990C /* OCMock.framework */; };
+		7339650E10D7E30C002D99FE /* SHChildContainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C0FB3D0F55672800DEEDFC /* SHChildContainerTests.m */; };
+		733965D910D7E8E4002D99FE /* SHParentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C0FA4D0F555FE300DEEDFC /* SHParentTests.m */; };
+		7339662810D7ECBC002D99FE /* SHChildContainerSelectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8E7A60F5803B0008B9BB3 /* SHChildContainerSelectionTests.m */; };
+		7339662910D7ECBD002D99FE /* SHChildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7311CC4E0DBDF38000ED9E30 /* SHChildTests.m */; };
+		7339662A10D7ECBE002D99FE /* SHAbstractDataTypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D6E1700D0184FF00980A88 /* SHAbstractDataTypeTests.m */; };
+		7339662B10D7ECBE002D99FE /* SHPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE90DF0C08507A005BDDD6 /* SHPathTests.m */; };
+		7339662C10D7ECBF002D99FE /* NodeNameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C0FF0C0F56A17500DEEDFC /* NodeNameTests.m */; };
+		7339662E10D7ECCA002D99FE /* SHOutletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ACC7A710B6FE7D002822FB /* SHOutletTests.m */; };
+		7339662F10D7ECCB002D99FE /* SHInletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ACC7A210B6FE71002822FB /* SHInletTests.m */; };
+		7339663010D7ECCB002D99FE /* SHConnectletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE90CB0C08507A005BDDD6 /* SHConnectletTests.m */; };
+		7339663110D7ECCC002D99FE /* SHProtoOutputAttributeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB304C0F585A6F005B8713 /* SHProtoOutputAttributeTests.m */; };
+		7339663210D7ECCC002D99FE /* SHProtoInputAttributeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB30510F585A91005B8713 /* SHProtoInputAttributeTests.m */; };
+		7339663310D7ECCD002D99FE /* SHProtoAttributeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB30700F585AE3005B8713 /* SHProtoAttributeTests.m */; };
+		7339663410D7ECCD002D99FE /* SHParent_ConnectableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B46BD30F8E22740003B36A /* SHParent_ConnectableTests.m */; };
+		7339663510D7ECCE002D99FE /* InterconnectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE90C70C08507A005BDDD6 /* InterconnectorTests.m */; };
+		7339663610D7ECCE002D99FE /* SHParent_SelectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8E7340F57FFB7008B9BB3 /* SHParent_SelectionTests.m */; };
+		733DE6CB0FCBF02D00A37E71 /* AllChildrenFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 733DE6C90FCBF02D00A37E71 /* AllChildrenFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		733DE6CC0FCBF02D00A37E71 /* AllChildrenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733DE6CA0FCBF02D00A37E71 /* AllChildrenFilter.m */; };
+		734DEB400D99568100B5990C /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734DEB3F0D99568100B5990C /* OCMock.framework */; };
+		734E944F0F95F07B00248B4B /* SHChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 7311CC120DBDEEEE00ED9E30 /* SHChild.m */; };
+		734E94500F95F07B00248B4B /* SHChildContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C0FB2D0F5566C300DEEDFC /* SHChildContainer.m */; };
+		734E94510F95F07B00248B4B /* SHParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C0FA460F555FB400DEEDFC /* SHParent.m */; };
+		734E94520F95F07B00248B4B /* NodeName.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C0FEBF0F569C5D00DEEDFC /* NodeName.m */; };
+		734E94530F95F07B00248B4B /* SHProtoAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C55ED30F55E42D00584B4D /* SHProtoAttribute.m */; };
+		734E94540F95F07B00248B4B /* SHProtoInputAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 73810E940F56CDD400E254B1 /* SHProtoInputAttribute.m */; };
+		734E94550F95F07B00248B4B /* SHProtoOutputAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 73810E9A0F56CDED00E254B1 /* SHProtoOutputAttribute.m */; };
+		734E94560F95F07B00248B4B /* SHParent_Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8E72E0F57FFA2008B9BB3 /* SHParent_Selection.m */; };
+		734E94570F95F07B00248B4B /* SHChildContainer_Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8E79F0F58036D008B9BB3 /* SHChildContainer_Selection.m */; };
+		734E94580F95F07B00248B4B /* SHConnectlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D201260C00900B006CF2C6 /* SHConnectlet.m */; };
+		734E94590F95F07B00248B4B /* SHInlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D201280C00900B006CF2C6 /* SHInlet.m */; };
+		734E945A0F95F07B00248B4B /* SHOutlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D2012A0C00900B006CF2C6 /* SHOutlet.m */; };
+		734E945C0F95F07B00248B4B /* mockDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE90EB0C08507A005BDDD6 /* mockDataType.m */; };
+		734E945D0F95F07B00248B4B /* SHAbstractDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D6E16C0D01844400980A88 /* SHAbstractDataType.m */; };
+		734E945E0F95F07B00248B4B /* SHInterConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E8C2260F7832560055B07D /* SHInterConnector.m */; };
+		734E945F0F95F07B00248B4B /* SHParent_Connectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B46BCC0F8E22190003B36A /* SHParent_Connectable.m */; };
+		734E94600F95F07B00248B4B /* SH_Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D2013F0C00900C006CF2C6 /* SH_Path.m */; };
+		734E94610F95F09E00248B4B /* SHChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 7311CC110DBDEEEE00ED9E30 /* SHChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94620F95F09E00248B4B /* SHNodeLikeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C0F93E0F554BF500DEEDFC /* SHNodeLikeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94630F95F09E00248B4B /* SHChildContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C0FB2C0F5566C300DEEDFC /* SHChildContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94640F95F09E00248B4B /* SHParent.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C0FA450F555FB400DEEDFC /* SHParent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94650F95F09E00248B4B /* SHProtoAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C55ED20F55E42D00584B4D /* SHProtoAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94660F95F09E00248B4B /* NodeName.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C0FEBE0F569C5D00DEEDFC /* NodeName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94670F95F09E00248B4B /* SHProtoInputAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 73810E930F56CDD400E254B1 /* SHProtoInputAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94680F95F09E00248B4B /* SHProtoOutputAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 73810E990F56CDED00E254B1 /* SHProtoOutputAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94690F95F09E00248B4B /* SHParent_Selection.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8E72D0F57FFA2008B9BB3 /* SHParent_Selection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E946A0F95F09E00248B4B /* SHChildContainer_Selection.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8E79E0F58036D008B9BB3 /* SHChildContainer_Selection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E946B0F95F09E00248B4B /* SHConnectlet.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D201250C00900B006CF2C6 /* SHConnectlet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E946C0F95F09E00248B4B /* SHInlet.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D201270C00900B006CF2C6 /* SHInlet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E946D0F95F09E00248B4B /* SHOutlet.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D201290C00900B006CF2C6 /* SHOutlet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E946E0F95F09E00248B4B /* SHValueProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D8EA6F0F5827C0008B9BB3 /* SHValueProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94700F95F09E00248B4B /* mockDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AE90EA0C08507A005BDDD6 /* mockDataType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94710F95F09E00248B4B /* SHAbstractDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D6E16B0D01844400980A88 /* SHAbstractDataType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94720F95F09E00248B4B /* SHInterConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E8C2250F7832560055B07D /* SHInterConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94730F95F09E00248B4B /* SHParent_Connectable.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B46BCB0F8E22190003B36A /* SHParent_Connectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94740F95F09E00248B4B /* SH_Path.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D2013E0C00900C006CF2C6 /* SH_Path.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E94880F95F10F00248B4B /* ProtoNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734E94340F95EFB800248B4B /* ProtoNodeGraph.framework */; };
+		734E94FC0F95FB4100248B4B /* ProtoNodeGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 734E94FA0F95FB2100248B4B /* ProtoNodeGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734E956D0F95FDA600248B4B /* ProtoNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734E94340F95EFB800248B4B /* ProtoNodeGraph.framework */; };
+		734E95710F95FDC800248B4B /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734DEB3F0D99568100B5990C /* OCMock.framework */; };
+		734E95720F95FDC900248B4B /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F653260C626EDF000F1EAF /* SHShared.framework */; };
+		734E95730F95FDCC00248B4B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E167705657A7D005A3EEA /* SenTestingKit.framework */; };
+		734E98261068DBFD00E69660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		734E982B1068DBFE00E69660 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D6A5FE840307C02AAC07 /* AppKit.framework */; };
+		734E982C1068DC0100E69660 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		734E98621068E27300E69660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		734E98651068E27400E69660 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D6A5FE840307C02AAC07 /* AppKit.framework */; };
+		734E98661068E27500E69660 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		73511E391046E72000A03A20 /* DelayedNotificationCoalescer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73511E371046E72000A03A20 /* DelayedNotificationCoalescer.m */; };
+		73511E3A1046E72000A03A20 /* DelayedNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 73511E381046E72000A03A20 /* DelayedNotifier.m */; };
+		73511E3D1046E72A00A03A20 /* DelayedNotificationCoalescer.h in Headers */ = {isa = PBXBuildFile; fileRef = 73511E3B1046E72A00A03A20 /* DelayedNotificationCoalescer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73511E3E1046E72A00A03A20 /* DelayedNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 73511E3C1046E72A00A03A20 /* DelayedNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		735738AD0FBACB6A00D14E7F /* SHConnectableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D2010E0C00900B006CF2C6 /* SHConnectableNode.m */; };
+		735738AE0FBACB6D00D14E7F /* SHConnectableNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D2010D0C00900B006CF2C6 /* SHConnectableNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7377B0E60FFA346A00C9E762 /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 739CA6790E93DA4E00AB1F93 /* SKTAudio.m */; };
+		7377B0E70FFA346B00C9E762 /* SKTAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 739CA6780E93DA4E00AB1F93 /* SKTAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73870DA70FD7E62E0073D9C7 /* AllChildProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 73870DA50FD7E62E0073D9C7 /* AllChildProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73870DA80FD7E62E0073D9C7 /* AllChildProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73870DA60FD7E62E0073D9C7 /* AllChildProxy.m */; };
+		73870DF90FD7EA910073D9C7 /* SHCustomMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 734855750D99A4A200087B6A /* SHCustomMutableArray.m */; };
+		73870DFA0FD7EA920073D9C7 /* SHCustomMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 734855760D99A4A200087B6A /* SHCustomMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7389CF4A10BAE73D00BDEB28 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733218610D5FC3BA0012D71A /* SHShared.framework */; };
+		7389CF5B10BAE77700BDEB28 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733218610D5FC3BA0012D71A /* SHShared.framework */; };
+		739CA44F0E93B54400AB1F93 /* SketchModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8C2040E8D01CC0037E99F /* SketchModelTests.m */; };
+		739CA4510E93B54E00AB1F93 /* StubContentFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8C23B0E8D022A0037E99F /* StubContentFilter.m */; };
+		739CA4520E93B54F00AB1F93 /* StubFilterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8BF680E8CE9380037E99F /* StubFilterUser.m */; };
+		73A1BEB00EA913D30003AF54 /* NodeProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A1BEAF0EA913D30003AF54 /* NodeProxyTests.m */; };
+		73A8BDE10E8CE1D70037E99F /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F653260C626EDF000F1EAF /* SHShared.framework */; };
+		73A8BDE30E8CE1E10037E99F /* SHNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* SHNodeGraph.framework */; };
+		73A8BDE90E8CE2360037E99F /* SHSketchGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A8BDE80E8CE2360037E99F /* SHSketchGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73A8BE160E8CE4F80037E99F /* SHNodeGraphModel_sketchAmmends.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8BE150E8CE4F80037E99F /* SHNodeGraphModel_sketchAmmends.m */; };
+		73A8BE180E8CE50A0037E99F /* SHNodeGraphModel_sketchAmmends.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A8BE170E8CE50A0037E99F /* SHNodeGraphModel_sketchAmmends.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73A8BE1A0E8CE5350037E99F /* SketchGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A8BDC90E8CE1410037E99F /* SketchGraph.framework */; };
+		73BBC38E10B1B51A00F1CB2F /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733218610D5FC3BA0012D71A /* SHShared.framework */; };
+		73C3B39E0FDC4B190088A92A /* SHExecutableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D201100C00900B006CF2C6 /* SHExecutableNode.m */; };
+		73CB010B10DB93BA00AE25C8 /* NodeGraphLoaderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73ADB0E70D718B46005E15D3 /* NodeGraphLoaderProtocol.h */; };
+		73CE27BA0E9623CF00826441 /* AbstractModelFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739CA62F0E93D6E500AB1F93 /* AbstractModelFilterTests.m */; };
+		73CE27BC0E9623D900826441 /* NodeClassFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8BECF0E8CE6010037E99F /* NodeClassFilterTests.m */; };
+		73D0CA480FDD0BF700AE447A /* SHExecutableNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D2010F0C00900B006CF2C6 /* SHExecutableNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73D6EE8610C7CAA70072DC88 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6EE7D10C7CA3D0072DC88 /* SHTestUtilities.framework */; };
+		73D6EEB310C7CB240072DC88 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6EE7D10C7CA3D0072DC88 /* SHTestUtilities.framework */; };
+		73DD5ADA0FB43424002CDF7C /* SHContentProvidorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A8BE020E8CE4B80037E99F /* SHContentProvidorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DD5ADC0FB43425002CDF7C /* AbtractModelFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A8BE0A0E8CE4CB0037E99F /* AbtractModelFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DD5ADD0FB43425002CDF7C /* AbtractModelFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8BE090E8CE4CB0037E99F /* AbtractModelFilter.m */; };
+		73DD5ADE0FB43426002CDF7C /* NodeClassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A8BE0E0E8CE4D60037E99F /* NodeClassFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DD5ADF0FB43426002CDF7C /* NodeClassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8BE0D0E8CE4D60037E99F /* NodeClassFilter.m */; };
+		73DD5AE00FB43426002CDF7C /* NodeProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E7A71D0E95083400BFAC5B /* NodeProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DD5AE10FB43427002CDF7C /* NodeProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7A71E0E95083400BFAC5B /* NodeProxy.m */; };
+		73DD5C020FB44033002CDF7C /* MockConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE90E30C08507A005BDDD6 /* MockConsumer.m */; };
+		73DD5C030FB44033002CDF7C /* MockProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE90E50C08507A005BDDD6 /* MockProcessor.m */; };
+		73DD5C040FB44034002CDF7C /* MockProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE90E70C08507A005BDDD6 /* MockProducer.m */; };
+		73DD5C050FB44037002CDF7C /* StubFilterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8BF680E8CE9380037E99F /* StubFilterUser.m */; };
+		73DD5C060FB44038002CDF7C /* StubContentFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8C23B0E8D022A0037E99F /* StubContentFilter.m */; };
+		73DD5C1E0FB44143002CDF7C /* SHAbstractOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AB5C060D84775300504225 /* SHAbstractOperator.m */; };
+		73DD5C1F0FB44144002CDF7C /* SHAbstractOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AB5C050D84775300504225 /* SHAbstractOperator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DD5D270FB452D6002CDF7C /* SHInputAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D201300C00900C006CF2C6 /* SHInputAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DD5D280FB452D6002CDF7C /* SHInputAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D201310C00900C006CF2C6 /* SHInputAttribute.m */; };
+		73DD5D290FB452D7002CDF7C /* SHOutputAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D201320C00900C006CF2C6 /* SHOutputAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DD5D2A0FB452D8002CDF7C /* SHOutputAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D201330C00900C006CF2C6 /* SHOutputAttribute.m */; };
+		73F174A110CEBBA2006A94AD /* NodeClassFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8BECF0E8CE6010037E99F /* NodeClassFilterTests.m */; };
+		73F543010FB3333A006CCA39 /* SHNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D201130C00900B006CF2C6 /* SHNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73F543020FB3333A006CCA39 /* SHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D201140C00900B006CF2C6 /* SHNode.m */; };
+		73F543C80FB34E0E006CCA39 /* SHNodeGraphModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D200FD0C00900B006CF2C6 /* SHNodeGraphModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73F543C90FB34E0F006CCA39 /* SHNodeGraphModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D200FE0C00900B006CF2C6 /* SHNodeGraphModel.m */; };
+		73F543DE0FB35071006CCA39 /* SHNodeGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D200F60C008FFB006CF2C6 /* SHNodeGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73F543F10FB352CD006CCA39 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		73FA722B0FB5E7A200B6D453 /* ProtoNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734E94340F95EFB800248B4B /* ProtoNodeGraph.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		731442980C09A830007F971A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = SHNodeGraph;
+		};
+		732DAE330E851082005E3CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = SHNodeGraph;
+		};
+		733218600D5FC3BA0012D71A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 738C7C770C5CDC180096EF9D;
+			remoteInfo = SHShared;
+		};
+		733218620D5FC3BA0012D71A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 732360B80C5E75BD0039CC7F;
+			remoteInfo = SHSharedTests;
+		};
+		734CCCE20FC46DBD0068F8D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
+			remoteInfo = SHShared;
+		};
+		734E94840F95F10100248B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
+			remoteInfo = SHShared;
+		};
+		734E94860F95F10A00248B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734E94330F95EFB800248B4B;
+			remoteInfo = ProtoNodeGraph;
+		};
+		734E956B0F95FD9F00248B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734E94330F95EFB800248B4B;
+			remoteInfo = ProtoNodeGraph;
+		};
+		734F329110A374ED00B33AB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73FF8EBA10A1FC4E0097E2A2;
+			remoteInfo = SHSharedUI;
+		};
+		734F329310A374ED00B33AB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73FF8EC710A1FC680097E2A2;
+			remoteInfo = SHSharedUITests;
+		};
+		7352F9C210D6569400871424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
+			remoteInfo = SHShared;
+		};
+		7389CF2610BAE5C500BDEB28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734E94330F95EFB800248B4B;
+			remoteInfo = ProtoNodeGraph;
+		};
+		7389FBE50EB0D233003DD618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = SHNodeGraph;
+		};
+		7389FBE70EB0D233003DD618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
+			remoteInfo = SHShared;
+		};
+		73A8BE1E0E8CE5400037E99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73A8BDC80E8CE1410037E99F;
+			remoteInfo = SketchGraph;
+		};
+		73BA80DB0F418D8400262035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73AC00F70F4037DF00FA9887;
+			remoteInfo = SHShared_static;
+		};
+		73BA80DD0F418D8400262035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73AC016B0F4039D100FA9887;
+			remoteInfo = SHShared_iphone;
+		};
+		73CC096211368C9900B53CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734E94410F95EFE600248B4B /* ProtoNodeGraphTests */;
+			remoteInfo = ProtoNodeGraphTests;
+		};
+		73CC096811368CAC00B53CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731442830C09A7F1007F971A /* SHNodeGraphTests - (otest) */;
+			remoteInfo = "SHNodeGraphTests - (otest)";
+		};
+		73CC097211368CCA00B53CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73CC082911368A3700B53CA9 /* TestUtilitiesTests.octest */;
+			remoteInfo = TestUtilitiesTests;
+		};
+		73D6EE7C10C7CA3D0072DC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73D6ED9510C7C5BC0072DC88;
+			remoteInfo = SHTestUtilities;
+		};
+		73D6EE8410C7CA8F0072DC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73D6ED9410C7C5BC0072DC88;
+			remoteInfo = SHTestUtilities;
+		};
+		73D6EEAC10C7CB170072DC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73D6ED9410C7C5BC0072DC88;
+			remoteInfo = SHTestUtilities;
+		};
+		73F5431F0FB33599006CCA39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
+			remoteInfo = SHShared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		7311CBCA10BFDB4100BF3A27 /* Project-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Base.xcconfig"; sourceTree = "<group>"; };
+		7311CBCB10BFDB4100BF3A27 /* Project-Coverage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Coverage.xcconfig"; sourceTree = "<group>"; };
+		7311CBCC10BFDB4100BF3A27 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		7311CBCD10BFDB4100BF3A27 /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		7311CBCE10BFDB4100BF3A27 /* Target-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target-Base.xcconfig"; sourceTree = "<group>"; };
+		7311CBCF10BFDB4100BF3A27 /* Target-Executable.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target-Executable.xcconfig"; sourceTree = "<group>"; };
+		7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target-Framework.xcconfig"; sourceTree = "<group>"; };
+		7311CBD110BFDB4100BF3A27 /* Target-iPhone.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target-iPhone.xcconfig"; sourceTree = "<group>"; };
+		7311CBD210BFDB4100BF3A27 /* Target-Plugin.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target-Plugin.xcconfig"; sourceTree = "<group>"; };
+		7311CBD310BFDB4100BF3A27 /* Target-QCPlugin.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target-QCPlugin.xcconfig"; sourceTree = "<group>"; };
+		7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Target-TestBundle.xcconfig"; sourceTree = "<group>"; };
+		7311CC110DBDEEEE00ED9E30 /* SHChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHChild.h; path = Src/Node/SHChild.h; sourceTree = "<group>"; };
+		7311CC120DBDEEEE00ED9E30 /* SHChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHChild.m; path = Src/Node/SHChild.m; sourceTree = "<group>"; };
+		7311CC4E0DBDF38000ED9E30 /* SHChildTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHChildTests.m; path = "Core Graph Tests/SHChildTests.m"; sourceTree = "<group>"; };
+		731442840C09A7F1007F971A /* SHNodeGraphTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHNodeGraphTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		731442850C09A7F2007F971A /* SHNodeGraphTes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHNodeGraphTes-Info.plist"; sourceTree = "<group>"; };
+		731CA6091047FAD700E5EF8B /* AllChildrenProxyFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllChildrenProxyFactory.h; path = Src/AllChildrenProxyFactory.h; sourceTree = "<group>"; };
+		731CA60A1047FAD700E5EF8B /* AllChildrenProxyFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllChildrenProxyFactory.m; path = Src/AllChildrenProxyFactory.m; sourceTree = "<group>"; };
+		732DAE570E851082005E3CC4 /* SketchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732DAE5A0E851082005E3CC4 /* SHNodeGraphTes-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHNodeGraphTes-Info copy.plist"; sourceTree = "<group>"; };
+		7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SHShared.xcodeproj; path = ../SHShared/SHShared.xcodeproj; sourceTree = SOURCE_ROOT; };
+		733DE6C90FCBF02D00A37E71 /* AllChildrenFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllChildrenFilter.h; path = Src/AllChildrenFilter.h; sourceTree = "<group>"; };
+		733DE6CA0FCBF02D00A37E71 /* AllChildrenFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllChildrenFilter.m; path = Src/AllChildrenFilter.m; sourceTree = "<group>"; };
+		733DE6D10FCBF0FC00A37E71 /* AllChildrenFilterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllChildrenFilterTests.m; sourceTree = "<group>"; };
+		734855750D99A4A200087B6A /* SHCustomMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHCustomMutableArray.m; path = Src/SHCustomMutableArray.m; sourceTree = "<group>"; };
+		734855760D99A4A200087B6A /* SHCustomMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCustomMutableArray.h; path = Src/SHCustomMutableArray.h; sourceTree = "<group>"; };
+		734DEB3F0D99568100B5990C /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = /Library/Frameworks/OCMock.framework; sourceTree = "<absolute>"; };
+		734E94340F95EFB800248B4B /* ProtoNodeGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProtoNodeGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		734E94350F95EFB800248B4B /* ProtoNodeGraph-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProtoNodeGraph-Info.plist"; sourceTree = "<group>"; };
+		734E94420F95EFE600248B4B /* ProtoNodeGraphTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoNodeGraphTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		734E94460F95EFE600248B4B /* ProtoNodeGraphTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProtoNodeGraphTests-Info.plist"; sourceTree = "<group>"; };
+		734E94FA0F95FB2100248B4B /* ProtoNodeGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtoNodeGraph.h; path = Src/ProtoNodeGraph.h; sourceTree = "<group>"; };
+		73511E371046E72000A03A20 /* DelayedNotificationCoalescer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DelayedNotificationCoalescer.m; path = Src/DelayedNotificationCoalescer.m; sourceTree = "<group>"; };
+		73511E381046E72000A03A20 /* DelayedNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DelayedNotifier.m; path = Src/DelayedNotifier.m; sourceTree = "<group>"; };
+		73511E3B1046E72A00A03A20 /* DelayedNotificationCoalescer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedNotificationCoalescer.h; path = Src/DelayedNotificationCoalescer.h; sourceTree = "<group>"; };
+		73511E3C1046E72A00A03A20 /* DelayedNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedNotifier.h; path = Src/DelayedNotifier.h; sourceTree = "<group>"; };
+		7358BA2B0C956B8C00C0B872 /* FScriptSavingProtoNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FScriptSavingProtoNode.h; sourceTree = "<group>"; };
+		7358BA2C0C956B8C00C0B872 /* FScriptSavingProtoNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FScriptSavingProtoNode.m; sourceTree = "<group>"; };
+		7358BA310C956BA200C0B872 /* FScriptSavingAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FScriptSavingAttribute.h; sourceTree = "<group>"; };
+		7358BA320C956BA200C0B872 /* FScriptSavingAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FScriptSavingAttribute.m; sourceTree = "<group>"; };
+		7378115F10C910CF003DC1AF /* SHAbstractOperatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAbstractOperatorTests.m; sourceTree = "<group>"; };
+		73784F9D0D1A87B00092E72C /* GeneralMutabilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralMutabilityTests.m; sourceTree = "<group>"; };
+		737852650D1A9A5B0092E72C /* SHLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHLog.h; path = Src/Operators/SHLog.h; sourceTree = "<group>"; };
+		737852660D1A9A5B0092E72C /* SHLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHLog.m; path = Src/Operators/SHLog.m; sourceTree = "<group>"; };
+		737853730D1AA68C0092E72C /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		73810E930F56CDD400E254B1 /* SHProtoInputAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHProtoInputAttribute.h; path = Src/Attributes/SHProtoInputAttribute.h; sourceTree = "<group>"; };
+		73810E940F56CDD400E254B1 /* SHProtoInputAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHProtoInputAttribute.m; path = Src/Attributes/SHProtoInputAttribute.m; sourceTree = "<group>"; };
+		73810E990F56CDED00E254B1 /* SHProtoOutputAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHProtoOutputAttribute.h; path = Src/Attributes/SHProtoOutputAttribute.h; sourceTree = "<group>"; };
+		73810E9A0F56CDED00E254B1 /* SHProtoOutputAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHProtoOutputAttribute.m; path = Src/Attributes/SHProtoOutputAttribute.m; sourceTree = "<group>"; };
+		73850BE010BE8DCA004D3F20 /* DelayedNotifierTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayedNotifierTests.m; sourceTree = "<group>"; };
+		73850BE510BE8DED004D3F20 /* DelayedNotificationCoalescerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayedNotificationCoalescerTests.m; sourceTree = "<group>"; };
+		73870DA50FD7E62E0073D9C7 /* AllChildProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllChildProxy.h; path = Src/AllChildProxy.h; sourceTree = "<group>"; };
+		73870DA60FD7E62E0073D9C7 /* AllChildProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllChildProxy.m; path = Src/AllChildProxy.m; sourceTree = "<group>"; };
+		738F62750F5D8164006545A1 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = "../../../Source_Code/google-toolBox-for-mac-read-only/GTMDefines.h"; sourceTree = SOURCE_ROOT; };
+		739759F40D32D03E002532E2 /* SHNot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNot.h; sourceTree = "<group>"; };
+		739759F50D32D03E002532E2 /* SHNot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNot.m; sourceTree = "<group>"; };
+		739CA62F0E93D6E500AB1F93 /* AbstractModelFilterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractModelFilterTests.m; path = SketchGraph/Tests/AbstractModelFilterTests.m; sourceTree = SOURCE_ROOT; };
+		739CA6740E93D95D00AB1F93 /* SHNodeGroupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNodeGroupTests.m; sourceTree = "<group>"; };
+		739CA6780E93DA4E00AB1F93 /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTAudio.h; path = SketchGraph/Src/SKTAudio.h; sourceTree = "<group>"; };
+		739CA6790E93DA4E00AB1F93 /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTAudio.m; path = SketchGraph/Src/SKTAudio.m; sourceTree = "<group>"; };
+		73A1BEAF0EA913D30003AF54 /* NodeProxyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NodeProxyTests.m; path = ../SketchGraph/Tests/NodeProxyTests.m; sourceTree = "<group>"; };
+		73A8766E0C8DE9080046A316 /* XMLSavingAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLSavingAttribute.h; sourceTree = "<group>"; };
+		73A8766F0C8DE9080046A316 /* XMLSavingAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLSavingAttribute.m; sourceTree = "<group>"; };
+		73A898630E1E20FB0020BBD8 /* FScriptMemoryMngmt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FScriptMemoryMngmt.m; path = Tests/FScriptMemoryMngmt.m; sourceTree = SOURCE_ROOT; };
+		73A8BDC90E8CE1410037E99F /* SketchGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SketchGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A8BDCF0E8CE1410037E99F /* SketchGraph-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SketchGraph-Info.plist"; sourceTree = "<group>"; };
+		73A8BDE80E8CE2360037E99F /* SHSketchGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHSketchGraph.h; path = SketchGraph/Src/SHSketchGraph.h; sourceTree = "<group>"; };
+		73A8BE020E8CE4B80037E99F /* SHContentProvidorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHContentProvidorProtocol.h; path = SketchGraph/Src/SHContentProvidorProtocol.h; sourceTree = "<group>"; };
+		73A8BE050E8CE4C10037E99F /* SKTGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTGraphic.m; path = SketchGraph/Src/SKTGraphic.m; sourceTree = "<group>"; };
+		73A8BE060E8CE4C10037E99F /* SKTGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTGraphic.h; path = SketchGraph/Src/SKTGraphic.h; sourceTree = "<group>"; };
+		73A8BE090E8CE4CB0037E99F /* AbtractModelFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbtractModelFilter.m; path = SketchGraph/Src/AbtractModelFilter.m; sourceTree = "<group>"; };
+		73A8BE0A0E8CE4CB0037E99F /* AbtractModelFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbtractModelFilter.h; path = SketchGraph/Src/AbtractModelFilter.h; sourceTree = "<group>"; };
+		73A8BE0D0E8CE4D60037E99F /* NodeClassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NodeClassFilter.m; path = SketchGraph/Src/NodeClassFilter.m; sourceTree = "<group>"; };
+		73A8BE0E0E8CE4D60037E99F /* NodeClassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NodeClassFilter.h; path = SketchGraph/Src/NodeClassFilter.h; sourceTree = "<group>"; };
+		73A8BE110E8CE4E00037E99F /* SKTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTError.h; path = SketchGraph/Src/SKTError.h; sourceTree = "<group>"; };
+		73A8BE120E8CE4E00037E99F /* SKTError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTError.m; path = SketchGraph/Src/SKTError.m; sourceTree = "<group>"; };
+		73A8BE150E8CE4F80037E99F /* SHNodeGraphModel_sketchAmmends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHNodeGraphModel_sketchAmmends.m; path = SketchGraph/Src/SHNodeGraphModel_sketchAmmends.m; sourceTree = "<group>"; };
+		73A8BE170E8CE50A0037E99F /* SHNodeGraphModel_sketchAmmends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHNodeGraphModel_sketchAmmends.h; path = SketchGraph/Src/SHNodeGraphModel_sketchAmmends.h; sourceTree = "<group>"; };
+		73A8BECF0E8CE6010037E99F /* NodeClassFilterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NodeClassFilterTests.m; path = SketchGraph/Tests/NodeClassFilterTests.m; sourceTree = SOURCE_ROOT; };
+		73A8BF680E8CE9380037E99F /* StubFilterUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StubFilterUser.m; path = SketchGraph/Tests/StubFilterUser.m; sourceTree = SOURCE_ROOT; };
+		73A8BF690E8CE9380037E99F /* StubFilterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StubFilterUser.h; path = SketchGraph/Tests/StubFilterUser.h; sourceTree = SOURCE_ROOT; };
+		73A8C2040E8D01CC0037E99F /* SketchModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SketchModelTests.m; path = SketchGraph/Tests/SketchModelTests.m; sourceTree = SOURCE_ROOT; };
+		73A8C23B0E8D022A0037E99F /* StubContentFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StubContentFilter.m; path = ../SketchGraph/Tests/StubContentFilter.m; sourceTree = "<group>"; };
+		73A8C23C0E8D022A0037E99F /* StubContentFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StubContentFilter.h; path = ../SketchGraph/Tests/StubContentFilter.h; sourceTree = "<group>"; };
+		73A8C49A0E8D28D70037E99F /* SHNodePrivateMethodsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNodePrivateMethodsTests.m; sourceTree = "<group>"; };
+		73AB5C050D84775300504225 /* SHAbstractOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAbstractOperator.h; sourceTree = "<group>"; };
+		73AB5C060D84775300504225 /* SHAbstractOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAbstractOperator.m; sourceTree = "<group>"; };
+		73ACC7A210B6FE71002822FB /* SHInletTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHInletTests.m; path = Src/SHInletTests.m; sourceTree = SOURCE_ROOT; };
+		73ACC7A710B6FE7D002822FB /* SHOutletTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHOutletTests.m; sourceTree = "<group>"; };
+		73AD51900DAA3EFF004BDBFA /* FScriptSaving_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FScriptSaving_protocol.h; sourceTree = "<group>"; };
+		73ADB0E70D718B46005E15D3 /* NodeGraphLoaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeGraphLoaderProtocol.h; sourceTree = "<group>"; };
+		73ADB16C0D71915C005E15D3 /* SHFScriptNodeGraphLoaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHFScriptNodeGraphLoaderTests.m; path = Tests/SHFScriptNodeGraphLoaderTests.m; sourceTree = SOURCE_ROOT; };
+		73AE90C50C08507A005BDDD6 /* feedbackTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = feedbackTests.m; sourceTree = "<group>"; };
+		73AE90C70C08507A005BDDD6 /* InterconnectorTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = InterconnectorTests.m; path = "Core Graph Tests/InterconnectorTests.m"; sourceTree = "<group>"; };
+		73AE90C90C08507A005BDDD6 /* SHAttributeTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHAttributeTests.m; sourceTree = "<group>"; };
+		73AE90CB0C08507A005BDDD6 /* SHConnectletTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SHConnectletTests.m; path = "Core Graph Tests/SHConnectletTests.m"; sourceTree = "<group>"; };
+		73AE90CD0C08507A005BDDD6 /* SHExecuteNodesTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SHExecuteNodesTests.m; path = "Core Graph Tests/SHExecuteNodesTests.m"; sourceTree = "<group>"; };
+		73AE90CF0C08507A005BDDD6 /* SHNodeAttributeMethodsTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHNodeAttributeMethodsTests.m; sourceTree = "<group>"; };
+		73AE90D10C08507A005BDDD6 /* SHNodeTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SHNodeTests.m; path = "Core Graph Tests/SHNodeTests.m"; sourceTree = "<group>"; };
+		73AE90D30C08507A005BDDD6 /* SHSaving_LoadingTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHSaving_LoadingTests.m; sourceTree = "<group>"; };
+		73AE90D60C08507A005BDDD6 /* SHMutableBoolTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHMutableBoolTests.m; sourceTree = "<group>"; };
+		73AE90D80C08507A005BDDD6 /* SHMutableFloatTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHMutableFloatTests.m; sourceTree = "<group>"; };
+		73AE90DA0C08507A005BDDD6 /* SHMutableIntTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHMutableIntTests.m; sourceTree = "<group>"; };
+		73AE90DC0C08507A005BDDD6 /* SHNumberTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHNumberTests.m; sourceTree = "<group>"; };
+		73AE90DF0C08507A005BDDD6 /* SHPathTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SHPathTests.m; path = "Misc. Tests/SHPathTests.m"; sourceTree = "<group>"; };
+		73AE90E20C08507A005BDDD6 /* MockConsumer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MockConsumer.h; sourceTree = "<group>"; };
+		73AE90E30C08507A005BDDD6 /* MockConsumer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MockConsumer.m; sourceTree = "<group>"; };
+		73AE90E40C08507A005BDDD6 /* MockProcessor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MockProcessor.h; sourceTree = "<group>"; };
+		73AE90E50C08507A005BDDD6 /* MockProcessor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MockProcessor.m; sourceTree = "<group>"; };
+		73AE90E60C08507A005BDDD6 /* MockProducer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MockProducer.h; sourceTree = "<group>"; };
+		73AE90E70C08507A005BDDD6 /* MockProducer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MockProducer.m; sourceTree = "<group>"; };
+		73AE90E80C08507A005BDDD6 /* mockDataProducingOperator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = mockDataProducingOperator.h; sourceTree = "<group>"; };
+		73AE90E90C08507A005BDDD6 /* mockDataProducingOperator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = mockDataProducingOperator.m; sourceTree = "<group>"; };
+		73AE90EA0C08507A005BDDD6 /* mockDataType.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = mockDataType.h; sourceTree = "<group>"; };
+		73AE90EB0C08507A005BDDD6 /* mockDataType.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = mockDataType.m; sourceTree = "<group>"; };
+		73AE90EC0C08507A005BDDD6 /* mockExternalTimeSourceOperator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = mockExternalTimeSourceOperator.h; sourceTree = "<group>"; };
+		73AE90ED0C08507A005BDDD6 /* mockExternalTimeSourceOperator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = mockExternalTimeSourceOperator.m; sourceTree = "<group>"; };
+		73AE90EE0C08507A005BDDD6 /* mockLoopTestProxy.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = mockLoopTestProxy.h; sourceTree = "<group>"; };
+		73AE90EF0C08507A005BDDD6 /* mockLoopTestProxy.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = mockLoopTestProxy.m; sourceTree = "<group>"; };
+		73AE90F40C08507A005BDDD6 /* SHNodeGraphModelTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SHNodeGraphModelTests.m; path = "Node Model Tests/SHNodeGraphModelTests.m"; sourceTree = "<group>"; };
+		73AE90F60C08507A005BDDD6 /* SHSchedulerTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHSchedulerTests.m; sourceTree = "<group>"; };
+		73AE90F90C08507A005BDDD6 /* ArrayDataTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ArrayDataTests.m; sourceTree = "<group>"; };
+		73AE90FB0C08507A005BDDD6 /* mathOperatorTests.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = mathOperatorTests.m; sourceTree = "<group>"; };
+		73B23D1A0EA38FB500CE3C8D /* Nodegraph_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Nodegraph_defs.h; path = Src/Nodegraph_defs.h; sourceTree = "<group>"; };
+		73B46BCB0F8E22190003B36A /* SHParent_Connectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHParent_Connectable.h; path = Src/SHParent_Connectable.h; sourceTree = "<group>"; };
+		73B46BCC0F8E22190003B36A /* SHParent_Connectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHParent_Connectable.m; path = Src/SHParent_Connectable.m; sourceTree = "<group>"; };
+		73B46BD30F8E22740003B36A /* SHParent_ConnectableTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHParent_ConnectableTests.m; sourceTree = "<group>"; };
+		73BEA19910C6C70200B72903 /* AllChildProxyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllChildProxyTests.m; sourceTree = "<group>"; };
+		73C0F93E0F554BF500DEEDFC /* SHNodeLikeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHNodeLikeProtocol.h; path = Src/Protocols/SHNodeLikeProtocol.h; sourceTree = "<group>"; };
+		73C0FA450F555FB400DEEDFC /* SHParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHParent.h; path = Src/Node/SHParent.h; sourceTree = "<group>"; };
+		73C0FA460F555FB400DEEDFC /* SHParent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHParent.m; path = Src/Node/SHParent.m; sourceTree = "<group>"; };
+		73C0FA4D0F555FE300DEEDFC /* SHParentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHParentTests.m; sourceTree = "<group>"; };
+		73C0FB2C0F5566C300DEEDFC /* SHChildContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHChildContainer.h; path = Src/Node/SHChildContainer.h; sourceTree = "<group>"; };
+		73C0FB2D0F5566C300DEEDFC /* SHChildContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHChildContainer.m; path = Src/Node/SHChildContainer.m; sourceTree = "<group>"; };
+		73C0FB3D0F55672800DEEDFC /* SHChildContainerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHChildContainerTests.m; sourceTree = "<group>"; };
+		73C0FEBE0F569C5D00DEEDFC /* NodeName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NodeName.h; path = Src/Node/NodeName.h; sourceTree = "<group>"; };
+		73C0FEBF0F569C5D00DEEDFC /* NodeName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NodeName.m; path = Src/Node/NodeName.m; sourceTree = "<group>"; };
+		73C0FF0C0F56A17500DEEDFC /* NodeNameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeNameTests.m; sourceTree = "<group>"; };
+		73C55ED20F55E42D00584B4D /* SHProtoAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHProtoAttribute.h; path = Src/Attributes/SHProtoAttribute.h; sourceTree = "<group>"; };
+		73C55ED30F55E42D00584B4D /* SHProtoAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHProtoAttribute.m; path = Src/Attributes/SHProtoAttribute.m; sourceTree = "<group>"; };
+		73D200F60C008FFB006CF2C6 /* SHNodeGraph.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SHNodeGraph.h; path = Src/SHNodeGraph.h; sourceTree = "<group>"; };
+		73D200FC0C00900B006CF2C6 /* SHLoopTestProxyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHLoopTestProxyProtocol.h; sourceTree = "<group>"; };
+		73D200FD0C00900B006CF2C6 /* SHNodeGraphModel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SHNodeGraphModel.h; path = Src/NodeModel/SHNodeGraphModel.h; sourceTree = "<group>"; };
+		73D200FE0C00900B006CF2C6 /* SHNodeGraphModel.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SHNodeGraphModel.m; path = Src/NodeModel/SHNodeGraphModel.m; sourceTree = "<group>"; };
+		73D200FF0C00900B006CF2C6 /* SHNodeGraphScheduler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHNodeGraphScheduler.h; sourceTree = "<group>"; };
+		73D201000C00900B006CF2C6 /* SHNodeGraphScheduler.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHNodeGraphScheduler.m; sourceTree = "<group>"; };
+		73D201020C00900B006CF2C6 /* SHAbsOperator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHAbsOperator.h; sourceTree = "<group>"; };
+		73D201030C00900B006CF2C6 /* SHAbsOperator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHAbsOperator.m; sourceTree = "<group>"; };
+		73D201040C00900B006CF2C6 /* SHDivideOperator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHDivideOperator.h; sourceTree = "<group>"; };
+		73D201050C00900B006CF2C6 /* SHDivideOperator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHDivideOperator.m; sourceTree = "<group>"; };
+		73D201060C00900B006CF2C6 /* SHMinusOperator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHMinusOperator.h; sourceTree = "<group>"; };
+		73D201070C00900B006CF2C6 /* SHMinusOperator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHMinusOperator.m; sourceTree = "<group>"; };
+		73D201080C00900B006CF2C6 /* SHMultiplyOperator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHMultiplyOperator.h; sourceTree = "<group>"; };
+		73D201090C00900B006CF2C6 /* SHMultiplyOperator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHMultiplyOperator.m; sourceTree = "<group>"; };
+		73D2010A0C00900B006CF2C6 /* SHPlusOperator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHPlusOperator.h; sourceTree = "<group>"; };
+		73D2010B0C00900B006CF2C6 /* SHPlusOperator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHPlusOperator.m; sourceTree = "<group>"; };
+		73D2010D0C00900B006CF2C6 /* SHConnectableNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHConnectableNode.h; sourceTree = "<group>"; };
+		73D2010E0C00900B006CF2C6 /* SHConnectableNode.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHConnectableNode.m; sourceTree = "<group>"; };
+		73D2010F0C00900B006CF2C6 /* SHExecutableNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHExecutableNode.h; sourceTree = "<group>"; };
+		73D201100C00900B006CF2C6 /* SHExecutableNode.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHExecutableNode.m; sourceTree = "<group>"; };
+		73D201130C00900B006CF2C6 /* SHNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SHNode.h; path = Src/Node/SHNode.h; sourceTree = "<group>"; };
+		73D201140C00900B006CF2C6 /* SHNode.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SHNode.m; path = Src/Node/SHNode.m; sourceTree = "<group>"; };
+		73D201150C00900B006CF2C6 /* SHNodeAttributeMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHNodeAttributeMethods.h; sourceTree = "<group>"; };
+		73D201160C00900B006CF2C6 /* SHNodeAttributeMethods.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHNodeAttributeMethods.m; sourceTree = "<group>"; };
+		73D201170C00900B006CF2C6 /* SHNodePrivateMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SHNodePrivateMethods.h; path = Src/Node/SHNodePrivateMethods.h; sourceTree = "<group>"; };
+		73D201180C00900B006CF2C6 /* SHNodePrivateMethods.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SHNodePrivateMethods.m; path = Src/Node/SHNodePrivateMethods.m; sourceTree = "<group>"; };
+		73D201190C00900B006CF2C6 /* SHNodeSelectingMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHNodeSelectingMethods.h; sourceTree = "<group>"; };
+		73D2011A0C00900B006CF2C6 /* SHNodeSelectingMethods.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHNodeSelectingMethods.m; sourceTree = "<group>"; };
+		73D2011C0C00900B006CF2C6 /* SavingSHAttribute.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SavingSHAttribute.h; sourceTree = "<group>"; };
+		73D2011D0C00900B006CF2C6 /* SavingSHAttribute.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SavingSHAttribute.m; sourceTree = "<group>"; };
+		73D201200C00900B006CF2C6 /* SavingSHProto_Node.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SavingSHProto_Node.h; sourceTree = "<group>"; };
+		73D201210C00900B006CF2C6 /* SavingSHProto_Node.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SavingSHProto_Node.m; sourceTree = "<group>"; };
+		73D201220C00900B006CF2C6 /* SHFScriptNodeGraphLoader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHFScriptNodeGraphLoader.h; sourceTree = "<group>"; };
+		73D201230C00900B006CF2C6 /* SHFScriptNodeGraphLoader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHFScriptNodeGraphLoader.m; sourceTree = "<group>"; };
+		73D201250C00900B006CF2C6 /* SHConnectlet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHConnectlet.h; sourceTree = "<group>"; };
+		73D201260C00900B006CF2C6 /* SHConnectlet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHConnectlet.m; sourceTree = "<group>"; };
+		73D201270C00900B006CF2C6 /* SHInlet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHInlet.h; sourceTree = "<group>"; };
+		73D201280C00900B006CF2C6 /* SHInlet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHInlet.m; sourceTree = "<group>"; };
+		73D201290C00900B006CF2C6 /* SHOutlet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHOutlet.h; sourceTree = "<group>"; };
+		73D2012A0C00900B006CF2C6 /* SHOutlet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHOutlet.m; sourceTree = "<group>"; };
+		73D2012C0C00900B006CF2C6 /* SHAttribute.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHAttribute.h; sourceTree = "<group>"; };
+		73D2012D0C00900C006CF2C6 /* SHAttribute.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHAttribute.m; sourceTree = "<group>"; };
+		73D2012E0C00900C006CF2C6 /* SHAttributePrivateMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHAttributePrivateMethods.h; sourceTree = "<group>"; };
+		73D2012F0C00900C006CF2C6 /* SHAttributePrivateMethods.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHAttributePrivateMethods.m; sourceTree = "<group>"; };
+		73D201300C00900C006CF2C6 /* SHInputAttribute.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHInputAttribute.h; sourceTree = "<group>"; };
+		73D201310C00900C006CF2C6 /* SHInputAttribute.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHInputAttribute.m; sourceTree = "<group>"; };
+		73D201320C00900C006CF2C6 /* SHOutputAttribute.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHOutputAttribute.h; sourceTree = "<group>"; };
+		73D201330C00900C006CF2C6 /* SHOutputAttribute.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHOutputAttribute.m; sourceTree = "<group>"; };
+		73D201350C00900C006CF2C6 /* SHMutableBool.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHMutableBool.h; sourceTree = "<group>"; };
+		73D201360C00900C006CF2C6 /* SHMutableBool.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHMutableBool.m; sourceTree = "<group>"; };
+		73D201370C00900C006CF2C6 /* SHMutableFloat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHMutableFloat.h; sourceTree = "<group>"; };
+		73D201380C00900C006CF2C6 /* SHMutableFloat.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHMutableFloat.m; sourceTree = "<group>"; };
+		73D201390C00900C006CF2C6 /* SHMutableInt.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHMutableInt.h; sourceTree = "<group>"; };
+		73D2013A0C00900C006CF2C6 /* SHMutableInt.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHMutableInt.m; sourceTree = "<group>"; };
+		73D2013B0C00900C006CF2C6 /* SHNumber.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHNumber.h; sourceTree = "<group>"; };
+		73D2013C0C00900C006CF2C6 /* SHNumber.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHNumber.m; sourceTree = "<group>"; };
+		73D2013E0C00900C006CF2C6 /* SH_Path.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SH_Path.h; path = Src/Misc/SH_Path.h; sourceTree = "<group>"; };
+		73D2013F0C00900C006CF2C6 /* SH_Path.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SH_Path.m; path = Src/Misc/SH_Path.m; sourceTree = "<group>"; };
+		73D2FFD00C008759006CF2C6 /* FScript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FScript.framework; path = /Library/Frameworks/FScript.framework; sourceTree = "<absolute>"; };
+		73D363760C89A857006D757B /* SavingXMLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavingXMLTests.m; sourceTree = "<group>"; };
+		73D3637C0C89AA5A006D757B /* XMLSavingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLSavingNode.h; sourceTree = "<group>"; };
+		73D3637D0C89AA5A006D757B /* XMLSavingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLSavingNode.m; sourceTree = "<group>"; };
+		73D6E16B0D01844400980A88 /* SHAbstractDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHAbstractDataType.h; path = "Src/Data Types/SHAbstractDataType.h"; sourceTree = "<group>"; };
+		73D6E16C0D01844400980A88 /* SHAbstractDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHAbstractDataType.m; path = "Src/Data Types/SHAbstractDataType.m"; sourceTree = "<group>"; };
+		73D6E1700D0184FF00980A88 /* SHAbstractDataTypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHAbstractDataTypeTests.m; path = "Data Type Tests/SHAbstractDataTypeTests.m"; sourceTree = "<group>"; };
+		73D8E72D0F57FFA2008B9BB3 /* SHParent_Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHParent_Selection.h; path = Src/Node/SHParent_Selection.h; sourceTree = "<group>"; };
+		73D8E72E0F57FFA2008B9BB3 /* SHParent_Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHParent_Selection.m; path = Src/Node/SHParent_Selection.m; sourceTree = "<group>"; };
+		73D8E7340F57FFB7008B9BB3 /* SHParent_SelectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHParent_SelectionTests.m; sourceTree = "<group>"; };
+		73D8E79E0F58036D008B9BB3 /* SHChildContainer_Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHChildContainer_Selection.h; path = Src/Node/SHChildContainer_Selection.h; sourceTree = "<group>"; };
+		73D8E79F0F58036D008B9BB3 /* SHChildContainer_Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHChildContainer_Selection.m; path = Src/Node/SHChildContainer_Selection.m; sourceTree = "<group>"; };
+		73D8E7A60F5803B0008B9BB3 /* SHChildContainerSelectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHChildContainerSelectionTests.m; sourceTree = "<group>"; };
+		73D8EA6F0F5827C0008B9BB3 /* SHValueProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHValueProtocol.h; path = Src/Attributes/SHValueProtocol.h; sourceTree = "<group>"; };
+		73DEDAE30D9A5DCC00A1E02A /* SHCustomMutableArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCustomMutableArrayTests.m; sourceTree = "<group>"; };
+		73E4C7F310C81D9300DD9CC2 /* AllChildrenProxyFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllChildrenProxyFactoryTests.m; sourceTree = "<group>"; };
+		73E7A71D0E95083400BFAC5B /* NodeProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NodeProxy.h; path = SketchGraph/Src/NodeProxy.h; sourceTree = "<group>"; };
+		73E7A71E0E95083400BFAC5B /* NodeProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NodeProxy.m; path = SketchGraph/Src/NodeProxy.m; sourceTree = "<group>"; };
+		73E828BC0E8E393300CE1C3D /* SHNodeSelectingMethodsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHNodeSelectingMethodsTests.m; path = "Core Graph Tests/SHNodeSelectingMethodsTests.m"; sourceTree = "<group>"; };
+		73E8C2250F7832560055B07D /* SHInterConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHInterConnector.h; path = Src/Node/SHInterConnector.h; sourceTree = "<group>"; };
+		73E8C2260F7832560055B07D /* SHInterConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHInterConnector.m; path = Src/Node/SHInterConnector.m; sourceTree = "<group>"; };
+		73EB304C0F585A6F005B8713 /* SHProtoOutputAttributeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHProtoOutputAttributeTests.m; sourceTree = "<group>"; };
+		73EB30510F585A91005B8713 /* SHProtoInputAttributeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHProtoInputAttributeTests.m; sourceTree = "<group>"; };
+		73EB30700F585AE3005B8713 /* SHProtoAttributeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHProtoAttributeTests.m; sourceTree = "<group>"; };
+		73F0650C0FC1C3AC006A89D7 /* SHConnectableNodeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHConnectableNodeTests.m; sourceTree = "<group>"; };
+		73F653260C626EDF000F1EAF /* SHShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SHShared.framework; path = ../build/SHShared.framework; sourceTree = SOURCE_ROOT; };
+		73FF3EFF0F5465CB00D325A7 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
+		749E167705657A7D005A3EEA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* SHNodeGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHNodeGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		731442810C09A7F1007F971A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731442D40C09B2E1007F971A /* SHNodeGraph.framework in Frameworks */,
+				731443090C09B838007F971A /* Cocoa.framework in Frameworks */,
+				7314431E0C09B83C007F971A /* SenTestingKit.framework in Frameworks */,
+				7314438C0C09BB86007F971A /* FScript.framework in Frameworks */,
+				734DEB400D99568100B5990C /* OCMock.framework in Frameworks */,
+				73FA722B0FB5E7A200B6D453 /* ProtoNodeGraph.framework in Frameworks */,
+				7389CF5B10BAE77700BDEB28 /* SHShared.framework in Frameworks */,
+				73D6EEB310C7CB240072DC88 /* SHTestUtilities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732DAE4B0E851082005E3CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732DAE4C0E851082005E3CC4 /* SHNodeGraph.framework in Frameworks */,
+				732DAE4D0E851082005E3CC4 /* Cocoa.framework in Frameworks */,
+				732DAE4E0E851082005E3CC4 /* SenTestingKit.framework in Frameworks */,
+				732DAE4F0E851082005E3CC4 /* FScript.framework in Frameworks */,
+				732DAE500E851082005E3CC4 /* SHShared.framework in Frameworks */,
+				732DAE510E851082005E3CC4 /* OCMock.framework in Frameworks */,
+				73A8BE1A0E8CE5350037E99F /* SketchGraph.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734E94320F95EFB800248B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734E98261068DBFD00E69660 /* Foundation.framework in Frameworks */,
+				734E982B1068DBFE00E69660 /* AppKit.framework in Frameworks */,
+				734E982C1068DC0100E69660 /* Cocoa.framework in Frameworks */,
+				73BBC38E10B1B51A00F1CB2F /* SHShared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734E943F0F95EFE600248B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734E956D0F95FDA600248B4B /* ProtoNodeGraph.framework in Frameworks */,
+				734E95710F95FDC800248B4B /* OCMock.framework in Frameworks */,
+				734E95720F95FDC900248B4B /* SHShared.framework in Frameworks */,
+				734E95730F95FDCC00248B4B /* SenTestingKit.framework in Frameworks */,
+				734E98621068E27300E69660 /* Foundation.framework in Frameworks */,
+				734E98651068E27400E69660 /* AppKit.framework in Frameworks */,
+				734E98661068E27500E69660 /* Cocoa.framework in Frameworks */,
+				73D6EE8610C7CAA70072DC88 /* SHTestUtilities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A8BDC70E8CE1410037E99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A8BDE10E8CE1D70037E99F /* SHShared.framework in Frameworks */,
+				73A8BDE30E8CE1E10037E99F /* SHNodeGraph.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734E94880F95F10F00248B4B /* ProtoNodeGraph.framework in Frameworks */,
+				73F543F10FB352CD006CCA39 /* Cocoa.framework in Frameworks */,
+				7389CF4A10BAE73D00BDEB28 /* SHShared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* SHNodeGraph.framework */,
+				731442840C09A7F1007F971A /* SHNodeGraphTests.octest */,
+				732DAE570E851082005E3CC4 /* SketchTests.octest */,
+				73A8BDC90E8CE1410037E99F /* SketchGraph.framework */,
+				734E94340F95EFB800248B4B /* ProtoNodeGraph.framework */,
+				734E94420F95EFE600248B4B /* ProtoNodeGraphTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* SHNodeGraph */ = {
+			isa = PBXGroup;
+			children = (
+				737853730D1AA68C0092E72C /* TODO.txt */,
+				7311CBC910BFDB4100BF3A27 /* Config */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				73AE90C20C085079005BDDD6 /* Tests */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */,
+			);
+			name = SHNodeGraph;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				732DAE5A0E851082005E3CC4 /* SHNodeGraphTes-Info copy.plist */,
+				731442850C09A7F2007F971A /* SHNodeGraphTes-Info.plist */,
+				73A8BDCF0E8CE1410037E99F /* SketchGraph-Info.plist */,
+				734E94350F95EFB800248B4B /* ProtoNodeGraph-Info.plist */,
+				734E94460F95EFE600248B4B /* ProtoNodeGraphTests-Info.plist */,
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+				73FF3EFF0F5465CB00D325A7 /* Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				73A8BD6A0E8CDD640037E99F /* SketchGraph */,
+				73A8BD660E8CDB820037E99F /* Nodegraph */,
+				734E948D0F95F1D200248B4B /* ProtoNodeGraph */,
+				73A8BD690E8CDD4E0037E99F /* unused */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				734DEB3F0D99568100B5990C /* OCMock.framework */,
+				73F653260C626EDF000F1EAF /* SHShared.framework */,
+				73D2FFD00C008759006CF2C6 /* FScript.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+				749E167705657A7D005A3EEA /* SenTestingKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		7311CBC910BFDB4100BF3A27 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				7311CBCA10BFDB4100BF3A27 /* Project-Base.xcconfig */,
+				7311CBCB10BFDB4100BF3A27 /* Project-Coverage.xcconfig */,
+				7311CBCC10BFDB4100BF3A27 /* Project-Debug.xcconfig */,
+				7311CBCD10BFDB4100BF3A27 /* Project-Release.xcconfig */,
+				7311CBCE10BFDB4100BF3A27 /* Target-Base.xcconfig */,
+				7311CBCF10BFDB4100BF3A27 /* Target-Executable.xcconfig */,
+				7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */,
+				7311CBD110BFDB4100BF3A27 /* Target-iPhone.xcconfig */,
+				7311CBD210BFDB4100BF3A27 /* Target-Plugin.xcconfig */,
+				7311CBD310BFDB4100BF3A27 /* Target-QCPlugin.xcconfig */,
+				7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */,
+			);
+			name = Config;
+			path = ../Config;
+			sourceTree = SOURCE_ROOT;
+		};
+		7332185C0D5FC3BA0012D71A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				733218610D5FC3BA0012D71A /* SHShared.framework */,
+				733218630D5FC3BA0012D71A /* SHSharedTests.octest */,
+				73BA80DC0F418D8400262035 /* libSHShared_static.a */,
+				73BA80DE0F418D8400262035 /* libSHShared_iphone.a */,
+				734F329210A374ED00B33AB7 /* SHSharedUI.framework */,
+				734F329410A374ED00B33AB7 /* SHSharedUITests.octest */,
+				73D6EE7D10C7CA3D0072DC88 /* SHTestUtilities.framework */,
+				73CC097311368CCA00B53CA9 /* TestUtilitiesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		733DE6C30FCBEFFA00A37E71 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				73A8BE0E0E8CE4D60037E99F /* NodeClassFilter.h */,
+				73A8BE0D0E8CE4D60037E99F /* NodeClassFilter.m */,
+				73D5E5D71046D7C900EEE988 /* AllChildrenFilter */,
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+		734E948D0F95F1D200248B4B /* ProtoNodeGraph */ = {
+			isa = PBXGroup;
+			children = (
+				734E94FA0F95FB2100248B4B /* ProtoNodeGraph.h */,
+				73D8EA6F0F5827C0008B9BB3 /* SHValueProtocol.h */,
+				73C0F93E0F554BF500DEEDFC /* SHNodeLikeProtocol.h */,
+				7311CC110DBDEEEE00ED9E30 /* SHChild.h */,
+				7311CC120DBDEEEE00ED9E30 /* SHChild.m */,
+				73C0FA450F555FB400DEEDFC /* SHParent.h */,
+				73C0FA460F555FB400DEEDFC /* SHParent.m */,
+				73B46BCB0F8E22190003B36A /* SHParent_Connectable.h */,
+				73B46BCC0F8E22190003B36A /* SHParent_Connectable.m */,
+				73D8E72D0F57FFA2008B9BB3 /* SHParent_Selection.h */,
+				73D8E72E0F57FFA2008B9BB3 /* SHParent_Selection.m */,
+				73F1792D10CFC71B006A94AD /* Attributes */,
+				73E8C2250F7832560055B07D /* SHInterConnector.h */,
+				73E8C2260F7832560055B07D /* SHInterConnector.m */,
+				73F1792E10CFC739006A94AD /* Components of child */,
+				73D6E16B0D01844400980A88 /* SHAbstractDataType.h */,
+				73D6E16C0D01844400980A88 /* SHAbstractDataType.m */,
+				73D201240C00900B006CF2C6 /* Connectlets */,
+			);
+			name = ProtoNodeGraph;
+			sourceTree = "<group>";
+		};
+		734E94980F95F2C600248B4B /* ProtoNodeGraph */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90DF0C08507A005BDDD6 /* SHPathTests.m */,
+				73C0FF0C0F56A17500DEEDFC /* NodeNameTests.m */,
+				73D6E1700D0184FF00980A88 /* SHAbstractDataTypeTests.m */,
+				7311CC4E0DBDF38000ED9E30 /* SHChildTests.m */,
+				73C0FB3D0F55672800DEEDFC /* SHChildContainerTests.m */,
+				73D8E7A60F5803B0008B9BB3 /* SHChildContainerSelectionTests.m */,
+				73C0FA4D0F555FE300DEEDFC /* SHParentTests.m */,
+				73D8E7340F57FFB7008B9BB3 /* SHParent_SelectionTests.m */,
+				73AE90C70C08507A005BDDD6 /* InterconnectorTests.m */,
+				73B46BD30F8E22740003B36A /* SHParent_ConnectableTests.m */,
+				73EB30700F585AE3005B8713 /* SHProtoAttributeTests.m */,
+				73EB30510F585A91005B8713 /* SHProtoInputAttributeTests.m */,
+				73EB304C0F585A6F005B8713 /* SHProtoOutputAttributeTests.m */,
+				73EB30480F585A2A005B8713 /* connectlet tests */,
+			);
+			name = ProtoNodeGraph;
+			sourceTree = "<group>";
+		};
+		7378526A0D1A9A6B0092E72C /* Math operators */ = {
+			isa = PBXGroup;
+			children = (
+				739759F40D32D03E002532E2 /* SHNot.h */,
+				739759F50D32D03E002532E2 /* SHNot.m */,
+				73D201020C00900B006CF2C6 /* SHAbsOperator.h */,
+				73D201030C00900B006CF2C6 /* SHAbsOperator.m */,
+				73D201040C00900B006CF2C6 /* SHDivideOperator.h */,
+				73D201050C00900B006CF2C6 /* SHDivideOperator.m */,
+				73D201060C00900B006CF2C6 /* SHMinusOperator.h */,
+				73D201070C00900B006CF2C6 /* SHMinusOperator.m */,
+				73D201080C00900B006CF2C6 /* SHMultiplyOperator.h */,
+				73D201090C00900B006CF2C6 /* SHMultiplyOperator.m */,
+				73D2010A0C00900B006CF2C6 /* SHPlusOperator.h */,
+				73D2010B0C00900B006CF2C6 /* SHPlusOperator.m */,
+			);
+			name = "Math operators";
+			sourceTree = "<group>";
+		};
+		7383357C0F54B0020062CD90 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				734855760D99A4A200087B6A /* SHCustomMutableArray.h */,
+				734855750D99A4A200087B6A /* SHCustomMutableArray.m */,
+			);
+			name = Infrastructure;
+			sourceTree = "<group>";
+		};
+		73870DE30FD7E7380073D9C7 /* Proxies */ = {
+			isa = PBXGroup;
+			children = (
+				73E7A71D0E95083400BFAC5B /* NodeProxy.h */,
+				73E7A71E0E95083400BFAC5B /* NodeProxy.m */,
+				73870DA50FD7E62E0073D9C7 /* AllChildProxy.h */,
+				73870DA60FD7E62E0073D9C7 /* AllChildProxy.m */,
+			);
+			name = Proxies;
+			sourceTree = "<group>";
+		};
+		738F62540F5D7EA0006545A1 /* google test runner stuff */ = {
+			isa = PBXGroup;
+			children = (
+				738F62750F5D8164006545A1 /* GTMDefines.h */,
+			);
+			name = "google test runner stuff";
+			sourceTree = "<group>";
+		};
+		739CA5110E93C92B00AB1F93 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				73A8BE020E8CE4B80037E99F /* SHContentProvidorProtocol.h */,
+				73A8BE0A0E8CE4CB0037E99F /* AbtractModelFilter.h */,
+				73A8BE090E8CE4CB0037E99F /* AbtractModelFilter.m */,
+				733DE6C30FCBEFFA00A37E71 /* Filters */,
+				73870DE30FD7E7380073D9C7 /* Proxies */,
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+		73A8BD660E8CDB820037E99F /* Nodegraph */ = {
+			isa = PBXGroup;
+			children = (
+				73B23D1A0EA38FB500CE3C8D /* Nodegraph_defs.h */,
+				73D200F60C008FFB006CF2C6 /* SHNodeGraph.h */,
+				739CA5110E93C92B00AB1F93 /* Filters */,
+				73FF3E810F5464BB00D325A7 /* Domain */,
+				7383357C0F54B0020062CD90 /* Infrastructure */,
+				73D200FB0C00900B006CF2C6 /* NodeModel */,
+				73D201010C00900B006CF2C6 /* Operators */,
+				73D2010C0C00900B006CF2C6 /* Node */,
+				73D2011B0C00900B006CF2C6 /* Saving and loading */,
+				73D2012B0C00900B006CF2C6 /* Attributes */,
+				73D201340C00900C006CF2C6 /* Data Types */,
+				73D2013D0C00900C006CF2C6 /* Misc */,
+			);
+			name = Nodegraph;
+			sourceTree = "<group>";
+		};
+		73A8BD680E8CDD3C0037E99F /* Nodegraph */ = {
+			isa = PBXGroup;
+			children = (
+				73DD5AFF0FB4366F002CDF7C /* Stubs */,
+				73DD5AFE0FB435E3002CDF7C /* Filters */,
+				73FF3E830F54651800D325A7 /* Domain */,
+				73FF3E840F54652600D325A7 /* Infrastructure */,
+				73FF3E860F54653C00D325A7 /* Old */,
+			);
+			name = Nodegraph;
+			sourceTree = "<group>";
+		};
+		73A8BD690E8CDD4E0037E99F /* unused */ = {
+			isa = PBXGroup;
+			children = (
+				737852650D1A9A5B0092E72C /* SHLog.h */,
+				737852660D1A9A5B0092E72C /* SHLog.m */,
+			);
+			name = unused;
+			sourceTree = "<group>";
+		};
+		73A8BD6A0E8CDD640037E99F /* SketchGraph */ = {
+			isa = PBXGroup;
+			children = (
+				73A8BDE80E8CE2360037E99F /* SHSketchGraph.h */,
+				73A8BE170E8CE50A0037E99F /* SHNodeGraphModel_sketchAmmends.h */,
+				73A8BE150E8CE4F80037E99F /* SHNodeGraphModel_sketchAmmends.m */,
+				73A8BE060E8CE4C10037E99F /* SKTGraphic.h */,
+				73A8BE050E8CE4C10037E99F /* SKTGraphic.m */,
+				739CA6780E93DA4E00AB1F93 /* SKTAudio.h */,
+				739CA6790E93DA4E00AB1F93 /* SKTAudio.m */,
+				73A8BE110E8CE4E00037E99F /* SKTError.h */,
+				73A8BE120E8CE4E00037E99F /* SKTError.m */,
+			);
+			name = SketchGraph;
+			sourceTree = "<group>";
+		};
+		73A8BDEC0E8CE2BE0037E99F /* SketchGraph */ = {
+			isa = PBXGroup;
+			children = (
+				73A8C2040E8D01CC0037E99F /* SketchModelTests.m */,
+			);
+			name = SketchGraph;
+			sourceTree = "<group>";
+		};
+		73AE90C20C085079005BDDD6 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				738F62540F5D7EA0006545A1 /* google test runner stuff */,
+				73A8BDEC0E8CE2BE0037E99F /* SketchGraph */,
+				73A8BD680E8CDD3C0037E99F /* Nodegraph */,
+				734E94980F95F2C600248B4B /* ProtoNodeGraph */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		73AE90C30C08507A005BDDD6 /* Core Graph Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90C90C08507A005BDDD6 /* SHAttributeTests.m */,
+				73AE90C50C08507A005BDDD6 /* feedbackTests.m */,
+				73AE90CF0C08507A005BDDD6 /* SHNodeAttributeMethodsTests.m */,
+				739CA6740E93D95D00AB1F93 /* SHNodeGroupTests.m */,
+				73A8C49A0E8D28D70037E99F /* SHNodePrivateMethodsTests.m */,
+				73AE90D30C08507A005BDDD6 /* SHSaving_LoadingTests.m */,
+				73D363760C89A857006D757B /* SavingXMLTests.m */,
+				73ADB16C0D71915C005E15D3 /* SHFScriptNodeGraphLoaderTests.m */,
+				73A898630E1E20FB0020BBD8 /* FScriptMemoryMngmt.m */,
+			);
+			path = "Core Graph Tests";
+			sourceTree = "<group>";
+		};
+		73AE90D40C08507A005BDDD6 /* Data Type Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90D60C08507A005BDDD6 /* SHMutableBoolTests.m */,
+				73AE90D80C08507A005BDDD6 /* SHMutableFloatTests.m */,
+				73AE90DA0C08507A005BDDD6 /* SHMutableIntTests.m */,
+				73AE90DC0C08507A005BDDD6 /* SHNumberTests.m */,
+				73784F9D0D1A87B00092E72C /* GeneralMutabilityTests.m */,
+			);
+			path = "Data Type Tests";
+			sourceTree = "<group>";
+		};
+		73AE90DD0C08507A005BDDD6 /* Misc. Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Misc. Tests";
+			sourceTree = "<group>";
+		};
+		73AE90E00C08507A005BDDD6 /* Mock Objects */ = {
+			isa = PBXGroup;
+			children = (
+				73D6E1F50D01879900980A88 /* Mock Operators */,
+				73D6E1F40D01878A00980A88 /* Mock dataTypes */,
+				73AE90EE0C08507A005BDDD6 /* mockLoopTestProxy.h */,
+				73AE90EF0C08507A005BDDD6 /* mockLoopTestProxy.m */,
+			);
+			path = "Mock Objects";
+			sourceTree = "<group>";
+		};
+		73AE90E10C08507A005BDDD6 /* Mock Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90E20C08507A005BDDD6 /* MockConsumer.h */,
+				73AE90E30C08507A005BDDD6 /* MockConsumer.m */,
+				73AE90E40C08507A005BDDD6 /* MockProcessor.h */,
+				73AE90E50C08507A005BDDD6 /* MockProcessor.m */,
+				73AE90E60C08507A005BDDD6 /* MockProducer.h */,
+				73AE90E70C08507A005BDDD6 /* MockProducer.m */,
+			);
+			name = "Mock Nodes";
+			path = "Mock Objects/Mock Nodes";
+			sourceTree = "<group>";
+		};
+		73AE90F00C08507A005BDDD6 /* Node Model Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90F60C08507A005BDDD6 /* SHSchedulerTests.m */,
+			);
+			path = "Node Model Tests";
+			sourceTree = "<group>";
+		};
+		73AE90F70C08507A005BDDD6 /* Operator Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90F90C08507A005BDDD6 /* ArrayDataTests.m */,
+				73AE90FB0C08507A005BDDD6 /* mathOperatorTests.m */,
+			);
+			path = "Operator Tests";
+			sourceTree = "<group>";
+		};
+		73D200FB0C00900B006CF2C6 /* NodeModel */ = {
+			isa = PBXGroup;
+			children = (
+				73D200FC0C00900B006CF2C6 /* SHLoopTestProxyProtocol.h */,
+				73D200FF0C00900B006CF2C6 /* SHNodeGraphScheduler.h */,
+				73D201000C00900B006CF2C6 /* SHNodeGraphScheduler.m */,
+			);
+			name = NodeModel;
+			path = Src/NodeModel;
+			sourceTree = "<group>";
+		};
+		73D201010C00900B006CF2C6 /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				73AB5C050D84775300504225 /* SHAbstractOperator.h */,
+				73AB5C060D84775300504225 /* SHAbstractOperator.m */,
+				7378526A0D1A9A6B0092E72C /* Math operators */,
+			);
+			name = Operators;
+			path = Src/Operators;
+			sourceTree = "<group>";
+		};
+		73D2010C0C00900B006CF2C6 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				73D2010D0C00900B006CF2C6 /* SHConnectableNode.h */,
+				73D2010E0C00900B006CF2C6 /* SHConnectableNode.m */,
+				73D201150C00900B006CF2C6 /* SHNodeAttributeMethods.h */,
+				73D201160C00900B006CF2C6 /* SHNodeAttributeMethods.m */,
+				73D201190C00900B006CF2C6 /* SHNodeSelectingMethods.h */,
+				73D2011A0C00900B006CF2C6 /* SHNodeSelectingMethods.m */,
+				73D2010F0C00900B006CF2C6 /* SHExecutableNode.h */,
+				73D201100C00900B006CF2C6 /* SHExecutableNode.m */,
+			);
+			name = Node;
+			path = Src/Node;
+			sourceTree = "<group>";
+		};
+		73D2011B0C00900B006CF2C6 /* Saving and loading */ = {
+			isa = PBXGroup;
+			children = (
+				73ADB0E70D718B46005E15D3 /* NodeGraphLoaderProtocol.h */,
+				73D201200C00900B006CF2C6 /* SavingSHProto_Node.h */,
+				73D201210C00900B006CF2C6 /* SavingSHProto_Node.m */,
+				73D2011C0C00900B006CF2C6 /* SavingSHAttribute.h */,
+				73D2011D0C00900B006CF2C6 /* SavingSHAttribute.m */,
+				73D363640C89A814006D757B /* xml */,
+				73D363630C89A805006D757B /* FScript */,
+			);
+			name = "Saving and loading";
+			path = "Src/Saving and loading";
+			sourceTree = "<group>";
+		};
+		73D201240C00900B006CF2C6 /* Connectlets */ = {
+			isa = PBXGroup;
+			children = (
+				73D201250C00900B006CF2C6 /* SHConnectlet.h */,
+				73D201260C00900B006CF2C6 /* SHConnectlet.m */,
+				73D201270C00900B006CF2C6 /* SHInlet.h */,
+				73D201280C00900B006CF2C6 /* SHInlet.m */,
+				73D201290C00900B006CF2C6 /* SHOutlet.h */,
+				73D2012A0C00900B006CF2C6 /* SHOutlet.m */,
+			);
+			name = Connectlets;
+			path = Src/Connectlets;
+			sourceTree = "<group>";
+		};
+		73D2012B0C00900B006CF2C6 /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				73D2012C0C00900B006CF2C6 /* SHAttribute.h */,
+				73D2012D0C00900C006CF2C6 /* SHAttribute.m */,
+				73D2012E0C00900C006CF2C6 /* SHAttributePrivateMethods.h */,
+				73D2012F0C00900C006CF2C6 /* SHAttributePrivateMethods.m */,
+				73D201300C00900C006CF2C6 /* SHInputAttribute.h */,
+				73D201310C00900C006CF2C6 /* SHInputAttribute.m */,
+				73D201320C00900C006CF2C6 /* SHOutputAttribute.h */,
+				73D201330C00900C006CF2C6 /* SHOutputAttribute.m */,
+			);
+			name = Attributes;
+			path = Src/Attributes;
+			sourceTree = "<group>";
+		};
+		73D201340C00900C006CF2C6 /* Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				73D201350C00900C006CF2C6 /* SHMutableBool.h */,
+				73D201360C00900C006CF2C6 /* SHMutableBool.m */,
+				73D201370C00900C006CF2C6 /* SHMutableFloat.h */,
+				73D201380C00900C006CF2C6 /* SHMutableFloat.m */,
+				73D201390C00900C006CF2C6 /* SHMutableInt.h */,
+				73D2013A0C00900C006CF2C6 /* SHMutableInt.m */,
+				73D2013B0C00900C006CF2C6 /* SHNumber.h */,
+				73D2013C0C00900C006CF2C6 /* SHNumber.m */,
+			);
+			name = "Data Types";
+			path = "Src/Data Types";
+			sourceTree = "<group>";
+		};
+		73D2013D0C00900C006CF2C6 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Misc;
+			path = Src/Misc;
+			sourceTree = "<group>";
+		};
+		73D363630C89A805006D757B /* FScript */ = {
+			isa = PBXGroup;
+			children = (
+				73AD51900DAA3EFF004BDBFA /* FScriptSaving_protocol.h */,
+				7358BA2B0C956B8C00C0B872 /* FScriptSavingProtoNode.h */,
+				7358BA2C0C956B8C00C0B872 /* FScriptSavingProtoNode.m */,
+				7358BA310C956BA200C0B872 /* FScriptSavingAttribute.h */,
+				7358BA320C956BA200C0B872 /* FScriptSavingAttribute.m */,
+				73D201220C00900B006CF2C6 /* SHFScriptNodeGraphLoader.h */,
+				73D201230C00900B006CF2C6 /* SHFScriptNodeGraphLoader.m */,
+			);
+			name = FScript;
+			sourceTree = "<group>";
+		};
+		73D363640C89A814006D757B /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				73D3637C0C89AA5A006D757B /* XMLSavingNode.h */,
+				73D3637D0C89AA5A006D757B /* XMLSavingNode.m */,
+				73A8766E0C8DE9080046A316 /* XMLSavingAttribute.h */,
+				73A8766F0C8DE9080046A316 /* XMLSavingAttribute.m */,
+			);
+			name = xml;
+			sourceTree = "<group>";
+		};
+		73D5E5D71046D7C900EEE988 /* AllChildrenFilter */ = {
+			isa = PBXGroup;
+			children = (
+				733DE6C90FCBF02D00A37E71 /* AllChildrenFilter.h */,
+				733DE6CA0FCBF02D00A37E71 /* AllChildrenFilter.m */,
+				73511E3B1046E72A00A03A20 /* DelayedNotificationCoalescer.h */,
+				73511E371046E72000A03A20 /* DelayedNotificationCoalescer.m */,
+				73511E3C1046E72A00A03A20 /* DelayedNotifier.h */,
+				73511E381046E72000A03A20 /* DelayedNotifier.m */,
+				731CA6091047FAD700E5EF8B /* AllChildrenProxyFactory.h */,
+				731CA60A1047FAD700E5EF8B /* AllChildrenProxyFactory.m */,
+			);
+			name = AllChildrenFilter;
+			sourceTree = "<group>";
+		};
+		73D6E1F40D01878A00980A88 /* Mock dataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90EA0C08507A005BDDD6 /* mockDataType.h */,
+				73AE90EB0C08507A005BDDD6 /* mockDataType.m */,
+			);
+			name = "Mock dataTypes";
+			sourceTree = "<group>";
+		};
+		73D6E1F50D01879900980A88 /* Mock Operators */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90E80C08507A005BDDD6 /* mockDataProducingOperator.h */,
+				73AE90E90C08507A005BDDD6 /* mockDataProducingOperator.m */,
+				73AE90EC0C08507A005BDDD6 /* mockExternalTimeSourceOperator.h */,
+				73AE90ED0C08507A005BDDD6 /* mockExternalTimeSourceOperator.m */,
+			);
+			name = "Mock Operators";
+			sourceTree = "<group>";
+		};
+		73DD5AFE0FB435E3002CDF7C /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				739CA62F0E93D6E500AB1F93 /* AbstractModelFilterTests.m */,
+				73A8BECF0E8CE6010037E99F /* NodeClassFilterTests.m */,
+				733DE6D10FCBF0FC00A37E71 /* AllChildrenFilterTests.m */,
+				73A1BEAF0EA913D30003AF54 /* NodeProxyTests.m */,
+				73BEA19910C6C70200B72903 /* AllChildProxyTests.m */,
+				73850BE510BE8DED004D3F20 /* DelayedNotificationCoalescerTests.m */,
+				73E4C7F310C81D9300DD9CC2 /* AllChildrenProxyFactoryTests.m */,
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+		73DD5AFF0FB4366F002CDF7C /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				73DD5BF60FB44023002CDF7C /* Filters */,
+				73AE90E10C08507A005BDDD6 /* Mock Nodes */,
+			);
+			name = Stubs;
+			sourceTree = "<group>";
+		};
+		73DD5BF60FB44023002CDF7C /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				73A8C23C0E8D022A0037E99F /* StubContentFilter.h */,
+				73A8C23B0E8D022A0037E99F /* StubContentFilter.m */,
+				73A8BF690E8CE9380037E99F /* StubFilterUser.h */,
+				73A8BF680E8CE9380037E99F /* StubFilterUser.m */,
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+		73EB30480F585A2A005B8713 /* connectlet tests */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90CB0C08507A005BDDD6 /* SHConnectletTests.m */,
+				73ACC7A210B6FE71002822FB /* SHInletTests.m */,
+				73ACC7A710B6FE7D002822FB /* SHOutletTests.m */,
+			);
+			name = "connectlet tests";
+			sourceTree = "<group>";
+		};
+		73F1792D10CFC71B006A94AD /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				73C55ED20F55E42D00584B4D /* SHProtoAttribute.h */,
+				73C55ED30F55E42D00584B4D /* SHProtoAttribute.m */,
+				73810E930F56CDD400E254B1 /* SHProtoInputAttribute.h */,
+				73810E940F56CDD400E254B1 /* SHProtoInputAttribute.m */,
+				73810E990F56CDED00E254B1 /* SHProtoOutputAttribute.h */,
+				73810E9A0F56CDED00E254B1 /* SHProtoOutputAttribute.m */,
+			);
+			name = Attributes;
+			sourceTree = "<group>";
+		};
+		73F1792E10CFC739006A94AD /* Components of child */ = {
+			isa = PBXGroup;
+			children = (
+				73C0FB2C0F5566C300DEEDFC /* SHChildContainer.h */,
+				73C0FB2D0F5566C300DEEDFC /* SHChildContainer.m */,
+				73D8E79E0F58036D008B9BB3 /* SHChildContainer_Selection.h */,
+				73D8E79F0F58036D008B9BB3 /* SHChildContainer_Selection.m */,
+				73C0FEBE0F569C5D00DEEDFC /* NodeName.h */,
+				73C0FEBF0F569C5D00DEEDFC /* NodeName.m */,
+				73D2013E0C00900C006CF2C6 /* SH_Path.h */,
+				73D2013F0C00900C006CF2C6 /* SH_Path.m */,
+			);
+			name = "Components of child";
+			sourceTree = "<group>";
+		};
+		73FF3E810F5464BB00D325A7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				73D200FD0C00900B006CF2C6 /* SHNodeGraphModel.h */,
+				73D200FE0C00900B006CF2C6 /* SHNodeGraphModel.m */,
+				73D201130C00900B006CF2C6 /* SHNode.h */,
+				73D201140C00900B006CF2C6 /* SHNode.m */,
+				73D201170C00900B006CF2C6 /* SHNodePrivateMethods.h */,
+				73D201180C00900B006CF2C6 /* SHNodePrivateMethods.m */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		73FF3E830F54651800D325A7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90F40C08507A005BDDD6 /* SHNodeGraphModelTests.m */,
+				73AE90D10C08507A005BDDD6 /* SHNodeTests.m */,
+				73850BE010BE8DCA004D3F20 /* DelayedNotifierTests.m */,
+				73F0650C0FC1C3AC006A89D7 /* SHConnectableNodeTests.m */,
+				73E828BC0E8E393300CE1C3D /* SHNodeSelectingMethodsTests.m */,
+				7378115F10C910CF003DC1AF /* SHAbstractOperatorTests.m */,
+				73AE90CD0C08507A005BDDD6 /* SHExecuteNodesTests.m */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		73FF3E840F54652600D325A7 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				73DEDAE30D9A5DCC00A1E02A /* SHCustomMutableArrayTests.m */,
+			);
+			name = Infrastructure;
+			sourceTree = "<group>";
+		};
+		73FF3E860F54653C00D325A7 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				73AE90C30C08507A005BDDD6 /* Core Graph Tests */,
+				73AE90D40C08507A005BDDD6 /* Data Type Tests */,
+				73AE90DD0C08507A005BDDD6 /* Misc. Tests */,
+				73AE90E00C08507A005BDDD6 /* Mock Objects */,
+				73AE90F00C08507A005BDDD6 /* Node Model Tests */,
+				73AE90F70C08507A005BDDD6 /* Operator Tests */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		734E942F0F95EFB800248B4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734E94610F95F09E00248B4B /* SHChild.h in Headers */,
+				734E94620F95F09E00248B4B /* SHNodeLikeProtocol.h in Headers */,
+				734E94630F95F09E00248B4B /* SHChildContainer.h in Headers */,
+				734E94640F95F09E00248B4B /* SHParent.h in Headers */,
+				734E94650F95F09E00248B4B /* SHProtoAttribute.h in Headers */,
+				734E94660F95F09E00248B4B /* NodeName.h in Headers */,
+				734E94670F95F09E00248B4B /* SHProtoInputAttribute.h in Headers */,
+				734E94680F95F09E00248B4B /* SHProtoOutputAttribute.h in Headers */,
+				734E94690F95F09E00248B4B /* SHParent_Selection.h in Headers */,
+				734E946A0F95F09E00248B4B /* SHChildContainer_Selection.h in Headers */,
+				734E946B0F95F09E00248B4B /* SHConnectlet.h in Headers */,
+				734E946C0F95F09E00248B4B /* SHInlet.h in Headers */,
+				734E946D0F95F09E00248B4B /* SHOutlet.h in Headers */,
+				734E946E0F95F09E00248B4B /* SHValueProtocol.h in Headers */,
+				734E94700F95F09E00248B4B /* mockDataType.h in Headers */,
+				734E94710F95F09E00248B4B /* SHAbstractDataType.h in Headers */,
+				734E94720F95F09E00248B4B /* SHInterConnector.h in Headers */,
+				734E94730F95F09E00248B4B /* SHParent_Connectable.h in Headers */,
+				734E94740F95F09E00248B4B /* SH_Path.h in Headers */,
+				734E94FC0F95FB4100248B4B /* ProtoNodeGraph.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A8BDC40E8CE1410037E99F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A8BDE90E8CE2360037E99F /* SHSketchGraph.h in Headers */,
+				73A8BE180E8CE50A0037E99F /* SHNodeGraphModel_sketchAmmends.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F543DE0FB35071006CCA39 /* SHNodeGraph.h in Headers */,
+				73F543010FB3333A006CCA39 /* SHNode.h in Headers */,
+				73F543C80FB34E0E006CCA39 /* SHNodeGraphModel.h in Headers */,
+				73DD5ADA0FB43424002CDF7C /* SHContentProvidorProtocol.h in Headers */,
+				73DD5ADC0FB43425002CDF7C /* AbtractModelFilter.h in Headers */,
+				73DD5ADE0FB43426002CDF7C /* NodeClassFilter.h in Headers */,
+				73DD5AE00FB43426002CDF7C /* NodeProxy.h in Headers */,
+				73DD5C1F0FB44144002CDF7C /* SHAbstractOperator.h in Headers */,
+				73DD5D270FB452D6002CDF7C /* SHInputAttribute.h in Headers */,
+				73DD5D290FB452D7002CDF7C /* SHOutputAttribute.h in Headers */,
+				735738AE0FBACB6D00D14E7F /* SHConnectableNode.h in Headers */,
+				733DE6CB0FCBF02D00A37E71 /* AllChildrenFilter.h in Headers */,
+				73870DA70FD7E62E0073D9C7 /* AllChildProxy.h in Headers */,
+				73870DFA0FD7EA920073D9C7 /* SHCustomMutableArray.h in Headers */,
+				73D0CA480FDD0BF700AE447A /* SHExecutableNode.h in Headers */,
+				7377B0E70FFA346B00C9E762 /* SKTAudio.h in Headers */,
+				73511E3D1046E72A00A03A20 /* DelayedNotificationCoalescer.h in Headers */,
+				73511E3E1046E72A00A03A20 /* DelayedNotifier.h in Headers */,
+				731CA60B1047FAD700E5EF8B /* AllChildrenProxyFactory.h in Headers */,
+				7326457310AD710700D8E6B1 /* SHNodeSelectingMethods.h in Headers */,
+				73CB010B10DB93BA00AE25C8 /* NodeGraphLoaderProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		731442830C09A7F1007F971A /* SHNodeGraphTests - (otest) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731442870C09A7F5007F971A /* Build configuration list for PBXNativeTarget "SHNodeGraphTests - (otest)" */;
+			buildPhases = (
+				7314427F0C09A7F1007F971A /* Resources */,
+				731442800C09A7F1007F971A /* Sources */,
+				731442810C09A7F1007F971A /* Frameworks */,
+				731442820C09A7F1007F971A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731442990C09A830007F971A /* PBXTargetDependency */,
+				734CCCE30FC46DBD0068F8D7 /* PBXTargetDependency */,
+				7389CF2710BAE5C500BDEB28 /* PBXTargetDependency */,
+				73D6EEAD10C7CB170072DC88 /* PBXTargetDependency */,
+			);
+			name = "SHNodeGraphTests - (otest)";
+			productName = SHNodeGraphTes;
+			productReference = 731442840C09A7F1007F971A /* SHNodeGraphTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		732DAE310E851082005E3CC4 /* SketchTests - (otest) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732DAE530E851082005E3CC4 /* Build configuration list for PBXNativeTarget "SketchTests - (otest)" */;
+			buildPhases = (
+				732DAE340E851082005E3CC4 /* Resources */,
+				732DAE350E851082005E3CC4 /* Sources */,
+				732DAE4B0E851082005E3CC4 /* Frameworks */,
+				732DAE520E851082005E3CC4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732DAE320E851082005E3CC4 /* PBXTargetDependency */,
+				73A8BE1F0E8CE5400037E99F /* PBXTargetDependency */,
+			);
+			name = "SketchTests - (otest)";
+			productName = SHNodeGraphTes;
+			productReference = 732DAE570E851082005E3CC4 /* SketchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		734E94330F95EFB800248B4B /* ProtoNodeGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734E943A0F95EFBA00248B4B /* Build configuration list for PBXNativeTarget "ProtoNodeGraph" */;
+			buildPhases = (
+				734E942F0F95EFB800248B4B /* Headers */,
+				734E94300F95EFB800248B4B /* Resources */,
+				734E94310F95EFB800248B4B /* Sources */,
+				734E94320F95EFB800248B4B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734E94850F95F10100248B4B /* PBXTargetDependency */,
+			);
+			name = ProtoNodeGraph;
+			productName = ProtoNodeGraph;
+			productReference = 734E94340F95EFB800248B4B /* ProtoNodeGraph.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		734E94410F95EFE600248B4B /* ProtoNodeGraphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734E944A0F95EFE800248B4B /* Build configuration list for PBXNativeTarget "ProtoNodeGraphTests" */;
+			buildPhases = (
+				734E943D0F95EFE600248B4B /* Resources */,
+				734E943E0F95EFE600248B4B /* Sources */,
+				734E943F0F95EFE600248B4B /* Frameworks */,
+				734E94400F95EFE600248B4B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734E956C0F95FD9F00248B4B /* PBXTargetDependency */,
+				73D6EE8510C7CA8F0072DC88 /* PBXTargetDependency */,
+				7352F9C310D6569400871424 /* PBXTargetDependency */,
+			);
+			name = ProtoNodeGraphTests;
+			productName = ProtoNodeGraphTests;
+			productReference = 734E94420F95EFE600248B4B /* ProtoNodeGraphTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		73A8BDC80E8CE1410037E99F /* SketchGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A8BDD30E8CE1430037E99F /* Build configuration list for PBXNativeTarget "SketchGraph" */;
+			buildPhases = (
+				73A8BDC40E8CE1410037E99F /* Headers */,
+				73A8BDC50E8CE1410037E99F /* Resources */,
+				73A8BDC60E8CE1410037E99F /* Sources */,
+				73A8BDC70E8CE1410037E99F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7389FBE60EB0D233003DD618 /* PBXTargetDependency */,
+				7389FBE80EB0D233003DD618 /* PBXTargetDependency */,
+			);
+			name = SketchGraph;
+			productName = SketchGraph;
+			productReference = 73A8BDC90E8CE1410037E99F /* SketchGraph.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DC2EF4F0486A6940098B216 /* SHNodeGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73D2FF380C008671006CF2C6 /* Build configuration list for PBXNativeTarget "SHNodeGraph" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734E94870F95F10A00248B4B /* PBXTargetDependency */,
+				73F543200FB33599006CCA39 /* PBXTargetDependency */,
+			);
+			name = SHNodeGraph;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = SHNodeGraph;
+			productReference = 8DC2EF5B0486A6940098B216 /* SHNodeGraph.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 73D2FF3D0C008671006CF2C6 /* Build configuration list for PBXProject "SHNodeGraph" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* SHNodeGraph */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7332185C0D5FC3BA0012D71A /* Products */;
+					ProjectRef = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				73A8BDC80E8CE1410037E99F /* SketchGraph */,
+				8DC2EF4F0486A6940098B216 /* SHNodeGraph */,
+				731442830C09A7F1007F971A /* SHNodeGraphTests - (otest) */,
+				732DAE310E851082005E3CC4 /* SketchTests - (otest) */,
+				734E94330F95EFB800248B4B /* ProtoNodeGraph */,
+				734E94410F95EFE600248B4B /* ProtoNodeGraphTests */,
+				73CC095E11368C8E00B53CA9 /* Run All Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		733218610D5FC3BA0012D71A /* SHShared.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SHShared.framework;
+			remoteRef = 733218600D5FC3BA0012D71A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		733218630D5FC3BA0012D71A /* SHSharedTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SHSharedTests.octest;
+			remoteRef = 733218620D5FC3BA0012D71A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		734F329210A374ED00B33AB7 /* SHSharedUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SHSharedUI.framework;
+			remoteRef = 734F329110A374ED00B33AB7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		734F329410A374ED00B33AB7 /* SHSharedUITests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SHSharedUITests.octest;
+			remoteRef = 734F329310A374ED00B33AB7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		73BA80DC0F418D8400262035 /* libSHShared_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSHShared_static.a;
+			remoteRef = 73BA80DB0F418D8400262035 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		73BA80DE0F418D8400262035 /* libSHShared_iphone.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSHShared_iphone.a;
+			remoteRef = 73BA80DD0F418D8400262035 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		73CC097311368CCA00B53CA9 /* TestUtilitiesTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TestUtilitiesTests.octest;
+			remoteRef = 73CC097211368CCA00B53CA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		73D6EE7D10C7CA3D0072DC88 /* SHTestUtilities.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SHTestUtilities.framework;
+			remoteRef = 73D6EE7C10C7CA3D0072DC88 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7314427F0C09A7F1007F971A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732DAE340E851082005E3CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734E94300F95EFB800248B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734E943D0F95EFE600248B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A8BDC50E8CE1410037E99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		731442820C09A7F1007F971A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\nexport MallocStackLogging=YES\nexport MallocScribble=1\nexport MallocPreScribble=1\nexport NSDebugEnabled=YES\n\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n\n\n# Run gcov on the framework getting tested\n# (If lcov is installed, we'll use that instead, and get pretty html output)\n\nif [ \"${CONFIGURATION}\" = 'Coverage_OLD' ]; then     \n\tFRAMEWORK_NAME=ProtoNodeGraph\n\tFRAMEWORK_TARGET=ProtoNodeGraph\n# -- useful for building correct path to object files /${CONFIGURATION}/${FRAMEWORK_TARGET}.build\n     FRAMEWORK_OBJ_DIR=${OBJROOT}/${FRAMEWORK_NAME}.build/Objects-normal/${NATIVE_ARCH}\n\techo \"Black Sabbath -\"\n\techo $FRAMEWORK_OBJ_DIR\n\tmkdir -p coverage\n\tcd coverage\n\t\n#\tif hash lcov 2>/dev/null; then\n\t\tECHO ${FRAMEWORK_TARGET} STEVE\n\t\t/opt/local/bin/lcov --directory ${FRAMEWORK_OBJ_DIR} --capture --output-file ${FRAMEWORK_TARGET}.info\n\t\t/opt/local/bin/genhtml ${FRAMEWORK_TARGET}.info\n#\telse\n\t\techo \"***************\"\n\t\techo \"lcov is not installed - using gcov instead\"\n\t\techo \"***************\"\n\t\tfind ${OBJROOT} -name *.gcda -exec gcov -o ${FRAMEWORK_OBJ_DIR} {} \\;\n#\tfi\n\t\n     cd ..\nfi";
+		};
+		732DAE520E851082005E3CC4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\nexport MallocStackLogging=YES\nexport MallocScribble=1\nexport MallocPreScribble=1\nexport NSDebugEnabled=YES\n\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n\n\n# Run gcov on the framework getting tested\n# (If lcov is installed, we'll use that instead, and get pretty html output)\n\nif [ \"${CONFIGURATION}\" = 'Coverage' ]; then     \n\tFRAMEWORK_NAME=SHNodeGraph\n\tFRAMEWORK_TARGET=SHNodeGraph\n     FRAMEWORK_OBJ_DIR=${OBJROOT}/${FRAMEWORK_NAME}.build/${CONFIGURATION}/${FRAMEWORK_TARGET}.build/Objects-normal/${NATIVE_ARCH}\n\t\n\tmkdir -p coverage\n\tcd coverage\n\t\n\tif hash lcov 2>/dev/null; then\n\t\tECHO ${FRAMEWORK_TARGET} STEVE\n\t\tlcov --directory ${FRAMEWORK_OBJ_DIR} --capture --output-file ${FRAMEWORK_TARGET}.info\n\t\tgenhtml ${FRAMEWORK_TARGET}.info\n\telse\n\t\techo \"***************\"\n\t\techo \"lcov is not installed - using gcov instead\"\n\t\techo \"***************\"\n\t\tfind ${OBJROOT} -name *.gcda -exec gcov -o ${FRAMEWORK_OBJ_DIR} {} \\;\n\tfi\n\t\n     cd ..\nfi";
+		};
+		734E94400F95EFE600248B4B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\nexport MallocStackLogging=YES\nexport MallocScribble=1\nexport MallocPreScribble=1\nexport NSDebugEnabled=YES\nexport NSZombieEnabled=YES\n\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n\n\n# Run gcov on the framework getting tested\n# (If lcov is installed, we'll use that instead, and get pretty html output)\n\nif [ \"${CONFIGURATION}\" = 'Coverage' ]; then     \n\tFRAMEWORK_NAME=ProtoNodeGraph\n\tFRAMEWORK_TARGET=ProtoNodeGraph\n# -- useful for building correct path to object files /${CONFIGURATION}/${FRAMEWORK_TARGET}.build\n     FRAMEWORK_OBJ_DIR=${OBJROOT}/${FRAMEWORK_NAME}.build/Objects-normal/${NATIVE_ARCH}\n\techo \"Black Sabbath -\"\n\techo $FRAMEWORK_OBJ_DIR\n#\tmkdir -p coverage\n#\tcd coverage\t\n#\tif hash lcov 2>/dev/null; then\n#\t\tECHO ${FRAMEWORK_TARGET} STEVE\n#\t\t/opt/local/bin/lcov --directory ${FRAMEWORK_OBJ_DIR} --capture --output-file ${FRAMEWORK_TARGET}.info\n#\t\t/opt/local/bin/genhtml ${FRAMEWORK_TARGET}.info\n#\telse\n#\t\techo \"***************\"\n#\t\techo \"lcov is not installed - using gcov instead\"\n#\t\techo \"***************\"\n#\t\tfind ${OBJROOT} -name *.gcda -exec gcov -o ${FRAMEWORK_OBJ_DIR} {} \\;\n#\tfi\n\t\n#    cd ..\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		731442800C09A7F1007F971A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DD5C020FB44033002CDF7C /* MockConsumer.m in Sources */,
+				73DD5C030FB44033002CDF7C /* MockProcessor.m in Sources */,
+				73DD5C040FB44034002CDF7C /* MockProducer.m in Sources */,
+				73DD5C050FB44037002CDF7C /* StubFilterUser.m in Sources */,
+				73DD5C060FB44038002CDF7C /* StubContentFilter.m in Sources */,
+				73F174A110CEBBA2006A94AD /* NodeClassFilterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732DAE350E851082005E3CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739CA44F0E93B54400AB1F93 /* SketchModelTests.m in Sources */,
+				739CA4510E93B54E00AB1F93 /* StubContentFilter.m in Sources */,
+				739CA4520E93B54F00AB1F93 /* StubFilterUser.m in Sources */,
+				73CE27BA0E9623CF00826441 /* AbstractModelFilterTests.m in Sources */,
+				73CE27BC0E9623D900826441 /* NodeClassFilterTests.m in Sources */,
+				73A1BEB00EA913D30003AF54 /* NodeProxyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734E94310F95EFB800248B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734E944F0F95F07B00248B4B /* SHChild.m in Sources */,
+				734E94500F95F07B00248B4B /* SHChildContainer.m in Sources */,
+				734E94510F95F07B00248B4B /* SHParent.m in Sources */,
+				734E94520F95F07B00248B4B /* NodeName.m in Sources */,
+				734E94530F95F07B00248B4B /* SHProtoAttribute.m in Sources */,
+				734E94540F95F07B00248B4B /* SHProtoInputAttribute.m in Sources */,
+				734E94550F95F07B00248B4B /* SHProtoOutputAttribute.m in Sources */,
+				734E94560F95F07B00248B4B /* SHParent_Selection.m in Sources */,
+				734E94570F95F07B00248B4B /* SHChildContainer_Selection.m in Sources */,
+				734E94580F95F07B00248B4B /* SHConnectlet.m in Sources */,
+				734E94590F95F07B00248B4B /* SHInlet.m in Sources */,
+				734E945A0F95F07B00248B4B /* SHOutlet.m in Sources */,
+				734E945C0F95F07B00248B4B /* mockDataType.m in Sources */,
+				734E945D0F95F07B00248B4B /* SHAbstractDataType.m in Sources */,
+				734E945E0F95F07B00248B4B /* SHInterConnector.m in Sources */,
+				734E945F0F95F07B00248B4B /* SHParent_Connectable.m in Sources */,
+				734E94600F95F07B00248B4B /* SH_Path.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734E943E0F95EFE600248B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7339650E10D7E30C002D99FE /* SHChildContainerTests.m in Sources */,
+				733965D910D7E8E4002D99FE /* SHParentTests.m in Sources */,
+				7339662810D7ECBC002D99FE /* SHChildContainerSelectionTests.m in Sources */,
+				7339662910D7ECBD002D99FE /* SHChildTests.m in Sources */,
+				7339662A10D7ECBE002D99FE /* SHAbstractDataTypeTests.m in Sources */,
+				7339662B10D7ECBE002D99FE /* SHPathTests.m in Sources */,
+				7339662C10D7ECBF002D99FE /* NodeNameTests.m in Sources */,
+				7339662E10D7ECCA002D99FE /* SHOutletTests.m in Sources */,
+				7339662F10D7ECCB002D99FE /* SHInletTests.m in Sources */,
+				7339663010D7ECCB002D99FE /* SHConnectletTests.m in Sources */,
+				7339663110D7ECCC002D99FE /* SHProtoOutputAttributeTests.m in Sources */,
+				7339663210D7ECCC002D99FE /* SHProtoInputAttributeTests.m in Sources */,
+				7339663310D7ECCD002D99FE /* SHProtoAttributeTests.m in Sources */,
+				7339663410D7ECCD002D99FE /* SHParent_ConnectableTests.m in Sources */,
+				7339663510D7ECCE002D99FE /* InterconnectorTests.m in Sources */,
+				7339663610D7ECCE002D99FE /* SHParent_SelectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A8BDC60E8CE1410037E99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A8BE160E8CE4F80037E99F /* SHNodeGraphModel_sketchAmmends.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F543020FB3333A006CCA39 /* SHNode.m in Sources */,
+				73F543C90FB34E0F006CCA39 /* SHNodeGraphModel.m in Sources */,
+				73DD5ADD0FB43425002CDF7C /* AbtractModelFilter.m in Sources */,
+				73DD5ADF0FB43426002CDF7C /* NodeClassFilter.m in Sources */,
+				73DD5AE10FB43427002CDF7C /* NodeProxy.m in Sources */,
+				73DD5C1E0FB44143002CDF7C /* SHAbstractOperator.m in Sources */,
+				73DD5D280FB452D6002CDF7C /* SHInputAttribute.m in Sources */,
+				73DD5D2A0FB452D8002CDF7C /* SHOutputAttribute.m in Sources */,
+				735738AD0FBACB6A00D14E7F /* SHConnectableNode.m in Sources */,
+				733DE6CC0FCBF02D00A37E71 /* AllChildrenFilter.m in Sources */,
+				73870DA80FD7E62E0073D9C7 /* AllChildProxy.m in Sources */,
+				73870DF90FD7EA910073D9C7 /* SHCustomMutableArray.m in Sources */,
+				73C3B39E0FDC4B190088A92A /* SHExecutableNode.m in Sources */,
+				7377B0E60FFA346A00C9E762 /* SKTAudio.m in Sources */,
+				73511E391046E72000A03A20 /* DelayedNotificationCoalescer.m in Sources */,
+				73511E3A1046E72000A03A20 /* DelayedNotifier.m in Sources */,
+				731CA60C1047FAD700E5EF8B /* AllChildrenProxyFactory.m in Sources */,
+				7326457410AD710700D8E6B1 /* SHNodeSelectingMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		731442990C09A830007F971A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* SHNodeGraph */;
+			targetProxy = 731442980C09A830007F971A /* PBXContainerItemProxy */;
+		};
+		732DAE320E851082005E3CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* SHNodeGraph */;
+			targetProxy = 732DAE330E851082005E3CC4 /* PBXContainerItemProxy */;
+		};
+		734CCCE30FC46DBD0068F8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHShared;
+			targetProxy = 734CCCE20FC46DBD0068F8D7 /* PBXContainerItemProxy */;
+		};
+		734E94850F95F10100248B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHShared;
+			targetProxy = 734E94840F95F10100248B4B /* PBXContainerItemProxy */;
+		};
+		734E94870F95F10A00248B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734E94330F95EFB800248B4B /* ProtoNodeGraph */;
+			targetProxy = 734E94860F95F10A00248B4B /* PBXContainerItemProxy */;
+		};
+		734E956C0F95FD9F00248B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734E94330F95EFB800248B4B /* ProtoNodeGraph */;
+			targetProxy = 734E956B0F95FD9F00248B4B /* PBXContainerItemProxy */;
+		};
+		7352F9C310D6569400871424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHShared;
+			targetProxy = 7352F9C210D6569400871424 /* PBXContainerItemProxy */;
+		};
+		7389CF2710BAE5C500BDEB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734E94330F95EFB800248B4B /* ProtoNodeGraph */;
+			targetProxy = 7389CF2610BAE5C500BDEB28 /* PBXContainerItemProxy */;
+		};
+		7389FBE60EB0D233003DD618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* SHNodeGraph */;
+			targetProxy = 7389FBE50EB0D233003DD618 /* PBXContainerItemProxy */;
+		};
+		7389FBE80EB0D233003DD618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHShared;
+			targetProxy = 7389FBE70EB0D233003DD618 /* PBXContainerItemProxy */;
+		};
+		73A8BE1F0E8CE5400037E99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73A8BDC80E8CE1410037E99F /* SketchGraph */;
+			targetProxy = 73A8BE1E0E8CE5400037E99F /* PBXContainerItemProxy */;
+		};
+		73CC096311368C9900B53CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734E94410F95EFE600248B4B /* ProtoNodeGraphTests */;
+			targetProxy = 73CC096211368C9900B53CA9 /* PBXContainerItemProxy */;
+		};
+		73CC096911368CAC00B53CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731442830C09A7F1007F971A /* SHNodeGraphTests - (otest) */;
+			targetProxy = 73CC096811368CAC00B53CA9 /* PBXContainerItemProxy */;
+		};
+		73D6EE8510C7CA8F0072DC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHTestUtilities;
+			targetProxy = 73D6EE8410C7CA8F0072DC88 /* PBXContainerItemProxy */;
+		};
+		73D6EEAD10C7CB170072DC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHTestUtilities;
+			targetProxy = 73D6EEAC10C7CB170072DC88 /* PBXContainerItemProxy */;
+		};
+		73F543200FB33599006CCA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHShared;
+			targetProxy = 73F5431F0FB33599006CCA39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		731442880C09A7F5007F971A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = SHNodeGraphTests;
+			};
+			name = Debug;
+		};
+		731442890C09A7F5007F971A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = SHNodeGraphTests;
+			};
+			name = Release;
+		};
+		731575520C896DE4004991BD /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = SHNodeGraph;
+			};
+			name = Coverage;
+		};
+		731575530C896DE4004991BD /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = SHNodeGraphTests;
+			};
+			name = Coverage;
+		};
+		731575540C896DE4004991BD /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBCB10BFDB4100BF3A27 /* Project-Coverage.xcconfig */;
+			buildSettings = {
+				SYMROOT = "$(PROJECT_DIR)/../build";
+			};
+			name = Coverage;
+		};
+		732DAE540E851082005E3CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = SketchTests;
+			};
+			name = Debug;
+		};
+		732DAE550E851082005E3CC4 /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = SketchTests;
+			};
+			name = Coverage;
+		};
+		732DAE560E851082005E3CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = SketchTests;
+			};
+			name = Release;
+		};
+		734E94360F95EFBA00248B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				PRODUCT_NAME = ProtoNodeGraph;
+			};
+			name = Debug;
+		};
+		734E94370F95EFBA00248B4B /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				PRODUCT_NAME = ProtoNodeGraph;
+			};
+			name = Coverage;
+		};
+		734E94380F95EFBA00248B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				PRODUCT_NAME = ProtoNodeGraph;
+			};
+			name = Release;
+		};
+		734E94470F95EFE700248B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ProtoNodeGraphTests;
+			};
+			name = Debug;
+		};
+		734E94480F95EFE700248B4B /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ProtoNodeGraphTests;
+			};
+			name = Coverage;
+		};
+		734E94490F95EFE700248B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD410BFDB4100BF3A27 /* Target-TestBundle.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ProtoNodeGraphTests;
+			};
+			name = Release;
+		};
+		73A8BDD00E8CE1430037E99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../build\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SketchGraph-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SketchGraph;
+			};
+			name = Debug;
+		};
+		73A8BDD10E8CE1430037E99F /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(SYMROOT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../build\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SketchGraph-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SketchGraph;
+			};
+			name = Coverage;
+		};
+		73A8BDD20E8CE1430037E99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../build\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SketchGraph-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SketchGraph;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		73CC095F11368C8E00B53CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Run All Tests";
+			};
+			name = Debug;
+		};
+		73CC096011368C8E00B53CA9 /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Run All Tests";
+			};
+			name = Coverage;
+		};
+		73CC096111368C8E00B53CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Run All Tests";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		73D2FF390C008671006CF2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = SHNodeGraph;
+			};
+			name = Debug;
+		};
+		73D2FF3A0C008671006CF2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBD010BFDB4100BF3A27 /* Target-Framework.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_VERSION = A;
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = SHNodeGraph;
+			};
+			name = Release;
+		};
+		73D2FF3E0C008671006CF2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBCC10BFDB4100BF3A27 /* Project-Debug.xcconfig */;
+			buildSettings = {
+				SYMROOT = "$(PROJECT_DIR)/../build";
+			};
+			name = Debug;
+		};
+		73D2FF3F0C008671006CF2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBCD10BFDB4100BF3A27 /* Project-Release.xcconfig */;
+			buildSettings = {
+				SYMROOT = "$(PROJECT_DIR)/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		731442870C09A7F5007F971A /* Build configuration list for PBXNativeTarget "SHNodeGraphTests - (otest)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731442880C09A7F5007F971A /* Debug */,
+				731575530C896DE4004991BD /* Coverage */,
+				731442890C09A7F5007F971A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		732DAE530E851082005E3CC4 /* Build configuration list for PBXNativeTarget "SketchTests - (otest)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732DAE540E851082005E3CC4 /* Debug */,
+				732DAE550E851082005E3CC4 /* Coverage */,
+				732DAE560E851082005E3CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		734E943A0F95EFBA00248B4B /* Build configuration list for PBXNativeTarget "ProtoNodeGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734E94360F95EFBA00248B4B /* Debug */,
+				734E94370F95EFBA00248B4B /* Coverage */,
+				734E94380F95EFBA00248B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		734E944A0F95EFE800248B4B /* Build configuration list for PBXNativeTarget "ProtoNodeGraphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734E94470F95EFE700248B4B /* Debug */,
+				734E94480F95EFE700248B4B /* Coverage */,
+				734E94490F95EFE700248B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73A8BDD30E8CE1430037E99F /* Build configuration list for PBXNativeTarget "SketchGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A8BDD00E8CE1430037E99F /* Debug */,
+				73A8BDD10E8CE1430037E99F /* Coverage */,
+				73A8BDD20E8CE1430037E99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73CC097411368CCA00B53CA9 /* Build configuration list for PBXAggregateTarget "Run All Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CC095F11368C8E00B53CA9 /* Debug */,
+				73CC096011368C8E00B53CA9 /* Coverage */,
+				73CC096111368C8E00B53CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73D2FF380C008671006CF2C6 /* Build configuration list for PBXNativeTarget "SHNodeGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73D2FF390C008671006CF2C6 /* Debug */,
+				731575520C896DE4004991BD /* Coverage */,
+				73D2FF3A0C008671006CF2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73D2FF3D0C008671006CF2C6 /* Build configuration list for PBXProject "SHNodeGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73D2FF3E0C008671006CF2C6 /* Debug */,
+				731575540C896DE4004991BD /* Coverage */,
+				73D2FF3F0C008671006CF2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

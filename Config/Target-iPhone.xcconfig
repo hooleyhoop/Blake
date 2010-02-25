@@ -1,0 +1,24 @@
+//
+//  AudioBooTarget.xcconfig
+//  AudioBoo
+//
+//  Created by Jonathan del Strother on 17/12/2008.
+//  Copyright 2008 Best Before Media Ltd. All rights reserved.
+//
+
+#include "/Code/Config/Target-Base.xcconfig"
+
+CODE_SIGN_IDENTITY = iPhone Developer
+HEADER_SEARCH_PATHS = $(inherited) $(BUILT_PRODUCTS_DIR)/usr/local/include
+LIBRARY_SEARCH_PATHS = $(inherited) "$(SRCROOT)/lib"
+
+SDKROOT = iphoneos2.2
+IPHONEOS_DEPLOYMENT_TARGET = 2.2
+
+// Turn of accelerated dispatch on ppc, otherwise the debugger goes very flakey
+GCC_FAST_OBJC_DISPATCH[arch=ppc] = NO
+
+GCC_PREFIX_HEADER = $(PRODUCT_NAME)_Prefix.pch
+
+// load objc classes from static libraries on load
+OTHER_LDFLAGS = $(inherited) -ObjC

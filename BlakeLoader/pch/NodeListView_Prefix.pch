@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'Pharm' target in the 'Pharm' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import <SHShared/SHShared.h>
+	#import <SHSharedUI/SHSharedUI.h>
+	#import <ProtoNodeGraph/ProtoNodeGraph.h>
+	#import <SHNodeGraph/SHNodeGraph.h>
+#endif

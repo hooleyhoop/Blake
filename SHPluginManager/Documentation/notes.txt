@@ -1,0 +1,5 @@
+To make applescript support work we need to hack the sdef file and make each 
+extension of NSApplication inherit from some other extension of NSApplication.
+For instance BlocksPreferencesSuite's application inherits from 
+BlocksConfigurationSuite's application. Would be nice if we didn't have to do
+this.

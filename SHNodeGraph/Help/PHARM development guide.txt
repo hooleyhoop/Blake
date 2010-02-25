@@ -1,0 +1,75 @@
+N.B. ERROR setting principle class.. does it need to be placed last in the compile sources phase?
+
+
+// making a data type
+----------------------
+
+data types are cocoa bundles
+
+the bundle can contain one or more data types - you must list them in the principle class
+
+make sure to set the principle class - the principle class needs 1 method +(NSDictionary*) classDictionary;
+
+import shared and fscript bundles
+
+// CORRECT ME the displayString is what is shown and edited in the attribute editor. If the user can manipulate the value with the attribute editor then it is done by changing this value
+
+- dataTypeFromDisplayObject is required
+
+set the custom build location to ../../App/Build
+
+set framework search paths to "$(SRCROOT)/../../App/Build/Debug"
+
+if you like open pharm and add the bundle to the data type copy phase
+
+you must implement copyWithZone
+
+
+// making a bundle of operators
+-------------------------------
+
+operators are cocoa bundles
+
+the bundle can contain one or more operators - you must list them in the principle class
+
+set the custom build location to ../../App/Build
+set the intermediate build location to ../../App/Build
+
+if you dont build to the same place as the frameworks it probably wont work
+
+you probably need to add the shared library and nodegraph library
+
+make sure to set the principle class - the principle class needs 1 method +(NSDictionary*) classDictionary; (principle class might need to be last to work)
+
+
+
+// making a view
+-----------------
+
+custom views are dynamic frameworks
+
+import shared and SHNodeGraph bundles
+
+remember to set the principle class in "target/properties" to be the view controller
+
+make the headers you need to be public public
+
+set the custom build location to ../../App/Build
+
+views shouldnt really call the methods -value or -setValue, they should use -displayObject, -setDisplayObject
+
+
+// making a new property inspector view for a new data type
+-----------------------------------------------------------
+
+make a new controller and register it in the library
+
+name the files owner as the relevant dataTypeViewInspector_Controller
+
+add a view
+
+link the view to the ivar in the files owner
+
+add an object controller - link to data object in filesowner
+
+bind the elements in the view

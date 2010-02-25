@@ -1,0 +1,273 @@
+// Action Messages and where we would like them to go
+// • Window
+// performClose:
+
+// • WindowController
+
+// • Document
+// saveDocument: saveDocumentAs: revertDocumentToSaved:
+//"undo:",
+//"redo:",
+//"cut:",
+//"copy:",
+//"paste:",
+//"delete:",
+//"selectAllChildren:",
+//"deSelectAllChildren:",
+//"duplicate:",
+//"addNewEmptyGroup:",
+//"addNewInput:",
+//"addNewOutput:",
+//"moveUpToParent:",
+//"moveDownToChild:",
+//"group:",
+//"unGroup:"
+
+// • App
+
+// • App Delegate (BlakeGlobalCommandController)
+
+// • DocumentController
+//"newDocument:",
+//"openDocument:",
+
+
+
+- (BOOL)_processActionCanDo:(SEL)selector {
+	
+	// Some specific items (eg -NewDoc) dont care if there is a current document so we implement those methods
+	if([self respondsToSelector:selector]) {
+		return [self performInstanceSelectorReturningBool:selector];
+	} else {
+	// If we we don't care (eg -Cut) we forward to the frontmost document
+		NSAssert(_documentController, @"need a _documentController");
+		BlakeDocument *doc = (BlakeDocument *)[_documentController frontDocument];
+		if(doc){
+			NSAssert1([doc respondsToSelector:selector], @"Document needs to implement -%@", NSStringFromSelector(selector));
+			return [doc performInstanceSelectorReturningBool:selector];
+		}
+	}
+	return NO;
+}
+
+[self sendToActionToFrontDoc:_cmd withObject:sender];
+
+/*
+ * We are the bottom of the -action chain (by being app delegate - NB. we are not in the responder chain and dont want to be)
+ * - validateUserInterfaceItem: is called on the target of the action -
+ * ie. validate newDocument: it will only be calld on the object that implements -newDocument
+ 
+ "In general, you should use validateUserInterfaceItem: instead of
+ validateMenuItem: since the former will also work for toolbar items
+ which have the same target and action. If, however, there is
+ additional work that you want to do that is specific to a menu item,
+ use validateMenuItem:—for example, validateMenuItem: is also a good
+ place to toggle titles or set state on menu items to make sure they're
+ always correct."
+ 
+ Action Messages - 
+ 
+ The main window’s first responder and the successive responder objects up the view hierarchy
+ The main window itself
+ The main window’s delegate.
+ The window's NSWindowController object (which inherits from NSResponder)
+ The NSDocument object (if different from the main window’s delegate)
+ The application object, NSApp
+ The application object's delegate
+ The application's document controller (an NSDocumentController object, which does not inherit from NSResponder)
+ 
+*/
+
+
+//- (BOOL)menuHasKeyEquivalent:(NSMenu *)menu forEvent:(NSEvent *)event target:(id *)target action:(SEL *)action {
+//	/* why does the menuBar crash on performKeyEquivalent in some wierd carbon Event ? Oh well, this seems to stop it */
+//	logError(@"PAY ATTENTION");
+//	return NO;
+//}
+
+//- (void)keyDown:(NSEvent *)theEvent {
+//	BlakeNodeListWindowController* winControl = [(id<SHAppProtocol>)_sharedApp currentDocumentWindowController];
+
+//   NSString *characters = [event characters];
+//    int index, count;
+//    BOOL callSuper = YES;
+//    count = [characters length];
+//   for (index = 0; index < count; ++index) {
+//        switch ([characters characterAtIndex:index]) {
+//		
+//            case NSDeleteCharacter:
+//                if (!maintainsBackForwardList) {
+//                    callSuper = YES;
+//                    break;
+//                }
+//                // This odd behavior matches some existing browsers,
+//                // including Windows IE
+//                if ([event modifierFlags] & NSShiftKeyMask) {
+//                    [self _goForward];
+//                } else {
+//                    [self _goBack];
+//                }
+//                callSuper = NO;
+//                break;
+//            case SpaceKey:
+//                // Checking for a control will allow events to percolate 
+//                // correctly when the focus is on a form control and we
+//                // are in full keyboard access mode.
+//                if ((![self allowsScrolling] && ![self _largestChildWithScrollBars]) || [self _firstResponderIsFormControl]) {
+//                    callSuper = YES;
+//                    break;
+//                }
+//                if ([event modifierFlags] & NSShiftKeyMask) {
+//                    [self scrollPageUp:nil];
+//                } else {
+//                    [self scrollPageDown:nil];
+//                }
+//                callSuper = NO;
+//                break;
+//            case NSPageUpFunctionKey:
+//                if (![self allowsScrolling] && ![self _largestChildWithScrollBars]) {
+//                    callSuper = YES;
+//                    break;
+//                }
+//                [self scrollPageUp:nil];
+//                callSuper = NO;
+//                break;
+//            case NSPageDownFunctionKey:
+//                if (![self allowsScrolling] && ![self _largestChildWithScrollBars]) {
+//                    callSuper = YES;
+//                    break;
+//                }
+//                [self scrollPageDown:nil];
+//                callSuper = NO;
+//                break;
+//            case NSHomeFunctionKey:
+//                if (![self allowsScrolling] && ![self _largestChildWithScrollBars]) {
+//                    callSuper = YES;
+//                    break;
+//                }
+//                [self scrollToBeginningOfDocument:nil];
+//                callSuper = NO;
+//                break;
+//            case NSEndFunctionKey:
+//                if (![self allowsScrolling] && ![self _largestChildWithScrollBars]) {
+//                    callSuper = YES;
+//                    break;
+//                }
+//                [self scrollToEndOfDocument:nil];
+//                callSuper = NO;
+//                break;
+//            case NSUpArrowFunctionKey:
+//                // We don't handle shifted or control-arrow keys here, so let super have a chance.
+//                if ([event modifierFlags] & (NSShiftKeyMask | NSControlKeyMask)) {
+//                    callSuper = YES;
+//                    break;
+//                }
+//                if ((![self allowsScrolling] && ![self _largestChildWithScrollBars]) ||
+//                    [[[self window] firstResponder] isKindOfClass:[NSPopUpButton class]]) {
+//                    // Let arrow keys go through to pop up buttons
+//                    // <rdar://problem/3455910>: hitting up or down arrows when focus is on a 
+//                    // pop-up menu should pop the menu
+//                    callSuper = YES;
+//                    break;
+//                }
+//                if ([event modifierFlags] & NSCommandKeyMask) {
+//                    [self scrollToBeginningOfDocument:nil];
+//                } else if ([event modifierFlags] & NSAlternateKeyMask) {
+//                    [self scrollPageUp:nil];
+//                } else {
+//                    [self scrollLineUp:nil];
+//                }
+//                callSuper = NO;
+//                break;
+//            case NSDownArrowFunctionKey:
+//                // We don't handle shifted or control-arrow keys here, so let super have a chance.
+//                if ([event modifierFlags] & (NSShiftKeyMask | NSControlKeyMask)) {
+//                    callSuper = YES;
+//                    break;
+//                }
+//                if ((![self allowsScrolling] && ![self _largestChildWithScrollBars]) ||
+//                    [[[self window] firstResponder] isKindOfClass:[NSPopUpButton class]]) {
+//                    // Let arrow keys go through to pop up buttons
+//                    // <rdar://problem/3455910>: hitting up or down arrows when focus is on a 
+//                    // pop-up menu should pop the menu
+//                    callSuper = YES;
+//                    break;
+//                }
+//                if ([event modifierFlags] & NSCommandKeyMask) {
+//                    [self scrollToEndOfDocument:nil];
+//                } else if ([event modifierFlags] & NSAlternateKeyMask) {
+//                    [self scrollPageDown:nil];
+//                } else {
+//                    [self scrollLineDown:nil];
+//                }
+//                callSuper = NO;
+//                break;
+//            case NSLeftArrowFunctionKey:
+//                // We don't handle shifted or control-arrow keys here, so let super have a chance.
+//                if ([event modifierFlags] & (NSShiftKeyMask | NSControlKeyMask)) {
+//                    callSuper = YES;
+//                    break;
+//                }
+//                // Check back/forward related keys.
+//                if ([event modifierFlags] & NSCommandKeyMask) {
+//                    if (!maintainsBackForwardList) {
+//                        callSuper = YES;
+//                        break;
+//                    }
+//                    [self _goBack];
+//                } else {
+//                    // Now check scrolling related keys.
+//                    if ((![self allowsScrolling] && ![self _largestChildWithScrollBars])) {
+//                        callSuper = YES;
+//                        break;
+//                    }
+//
+//                    if ([event modifierFlags] & NSAlternateKeyMask) {
+//                        [self _pageHorizontally:YES];
+//                    } else {
+//                        [self _scrollLineHorizontally:YES];
+//                    }
+//                }
+//                callSuper = NO;
+//                break;
+//            case NSRightArrowFunctionKey:
+//                // We don't handle shifted or control-arrow keys here, so let super have a chance.
+//                if ([event modifierFlags] & (NSShiftKeyMask | NSControlKeyMask)) {
+//                    callSuper = YES;
+//                    break;
+//                }
+//                // Check back/forward related keys.
+//                if ([event modifierFlags] & NSCommandKeyMask) {
+//                    if (!maintainsBackForwardList) {
+//                        callSuper = YES;
+//                        break;
+//                    }
+//                    [self _goForward];
+//                } else {
+//                    // Now check scrolling related keys.
+//                    if ((![self allowsScrolling] && ![self _largestChildWithScrollBars])) {
+//                        callSuper = YES;
+//                        break;
+//                    }
+//
+//                    if ([event modifierFlags] & NSAlternateKeyMask) {
+//                        [self _pageHorizontally:NO];
+//                    } else {
+//                        [self _scrollLineHorizontally:NO];
+//                    }
+//                }
+//                callSuper = NO;
+//                break;
+//        }
+//    }
+//    
+//    if (callSuper) {
+//        [super keyDown:event];
+//    } else {
+//        // if we did something useful, get the cursor out of the way
+//        [NSCursor setHiddenUntilMouseMoves:YES];
+//    }
+
+
+//	[winControl deleteSelectedChildrenFromCurrentNode];
+//}

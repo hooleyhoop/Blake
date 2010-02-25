@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {
+            CLASS = BKTokenRuleViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                predicateOperatorPopupButton = NSPopUpButton; 
+                rightExpressionTokenField = NSTokenField; 
+            }; 
+            SUPERCLASS = BKViewController; 
+        }, 
+        {
+            CLASS = BKViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {view = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

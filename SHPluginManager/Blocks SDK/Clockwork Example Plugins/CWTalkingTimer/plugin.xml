@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.Hooley.clockwork.CWTalkingTimer"
+	name="Clockwork Talking Timer"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.Hooley.blocks"/>
+		<requirement bundle="uk.co.Hooley.lifecycle"/>
+		<requirement bundle="uk.co.Hooley.CWTimers"/>
+		<requirement bundle="uk.co.Hooley.CWUserInterface"/>
+	</requirements>
+
+	<extension point="uk.co.Hooley.lifecycle.lifecycle" class="CWTalkingTimerLifeCycleExtension"/>
+</plugin>

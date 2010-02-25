@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.Hooley.clockwork.CWAlarmActionExample"
+	name="Alarm Action Example"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.Hooley.blocks"/>
+		<requirement bundle="uk.co.Hooley.CWTimers"/>
+	</requirements>
+
+	<extension point="uk.co.Hooley.CWTimers.alarmActions" class="CWAlarmActionExtension"/>
+</plugin>

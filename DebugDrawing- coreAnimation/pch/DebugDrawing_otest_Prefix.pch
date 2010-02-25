@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'DebugDrawing' target in the 'DebugDrawing' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import <QuartzCore/QuartzCore.h>
+
+	#import <SenTestingKit/SenTestingKit.h>
+	#import <OCMock/OCMock.h>
+	#import <OCMock/OCMArg.h>
+
+	#import <SHShared/SHShared.h>
+	#import <SHSharedUI/SHSharedUI.h>
+	#import <SHTestUtilities/SHTestUtilities.h>
+	#import <ProtoNodeGraph/ProtoNodeGraph.h>
+	#import <SHNodeGraph/SHNodeGraph.h>
+
+#endif

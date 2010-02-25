@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.BKDocuments"
+	name="Documents"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.BKBlocks"/>
+		<requirement bundle="uk.co.stevehooley.BKLifecycle"/>
+	</requirements>
+
+	<extension-point id="documentLifecycle" protocol="BKDocumentLifecycleProtocol"/>
+	<extension-point id="documentType" protocol="BKDocumentTypeProtocol"/>
+	
+	<extension point="uk.co.stevehooley.BKLifecycle.lifecycle" class="BKDocumentsLifecycleExtension"/>
+</plugin>

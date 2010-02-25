@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Shared' target in the 'Shared' project.
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import "SHooleyObject.h"
+	#import "BBLogger.h"
+#endif

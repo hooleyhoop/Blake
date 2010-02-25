@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.BKLicense"
+	name="License"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.BKLifecycle"/>
+		<requirement bundle="uk.co.stevehooley.BKFoundation"/>
+		<requirement bundle="uk.co.stevehooley.BKConfiguration"/>
+		<requirement bundle="uk.co.stevehooley.BKDocuments"/>
+	</requirements>
+
+	<extension point="uk.co.stevehooley.BKLifecycle.lifecycle" class="BKLicenseLifecycleExtension"/>
+	<extension point="uk.co.stevehooley.BKDocuments.documentType" class="BKLicenseDocumentTypeExtension"/>
+</plugin>

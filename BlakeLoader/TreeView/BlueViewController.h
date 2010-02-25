@@ -1,0 +1,6 @@
+
+@interface BlueViewController : NSViewController 
+{
+}
+
+@end

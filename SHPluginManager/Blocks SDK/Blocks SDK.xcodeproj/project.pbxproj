@@ -1,0 +1,2545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		43CBAF5D0855D83C0077C2AE /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 43CBAF7A0855D8740077C2AE /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+			);
+			buildSettings = {
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Build All";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+				43340D400861BB5E00E4D83F /* PBXTargetDependency */,
+				43CBAF5F0855D8440077C2AE /* PBXTargetDependency */,
+				43CBAF610855D8440077C2AE /* PBXTargetDependency */,
+				43CBAF630855D8440077C2AE /* PBXTargetDependency */,
+				43CBAF650855D8440077C2AE /* PBXTargetDependency */,
+				433FA929091A4B1E0036B166 /* PBXTargetDependency */,
+				433FA92B091A4B1E0036B166 /* PBXTargetDependency */,
+				433FA92D091A4B1E0036B166 /* PBXTargetDependency */,
+				433FA92F091A4B1E0036B166 /* PBXTargetDependency */,
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		43340D280861BB3800E4D83F /* Blocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBAEF00855D6C70077C2AE /* Blocks.framework */; };
+		43340D2D0861BB3F00E4D83F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4351D846083CC89300D9607C /* Cocoa.framework */; };
+		43340D300861BB4200E4D83F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4351D846083CC89300D9607C /* Cocoa.framework */; };
+		43340D310861BB4200E4D83F /* Blocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBAEF00855D6C70077C2AE /* Blocks.framework */; };
+		43340D350861BB4600E4D83F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4351D846083CC89300D9607C /* Cocoa.framework */; };
+		43340D360861BB4600E4D83F /* Blocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBAEF00855D6C70077C2AE /* Blocks.framework */; };
+		43340D390861BB4900E4D83F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4351D846083CC89300D9607C /* Cocoa.framework */; };
+		433FA8F8091A4A340036B166 /* plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 433FA8F6091A4A1A0036B166 /* plugin.xml */; };
+		433FA8FA091A4A6E0036B166 /* plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 433FA8F9091A4A6E0036B166 /* plugin.xml */; };
+		433FA901091A4AB00036B166 /* MIHBN35Import.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FA900091A4AB00036B166 /* MIHBN35Import.m */; };
+		433FA912091A4AD30036B166 /* MITextFileImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FA910091A4AD30036B166 /* MITextFileImport.m */; };
+		433FA937091A4B8E0036B166 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4351D846083CC89300D9607C /* Cocoa.framework */; };
+		433FA93A091A4B920036B166 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4351D846083CC89300D9607C /* Cocoa.framework */; };
+		4351D8DD083CCC4F00D9607C /* LCPELifeCycleExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4351D8DC083CCC4F00D9607C /* LCPELifeCycleExtension.m */; };
+		4351D934083CD17000D9607C /* plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4351D933083CD17000D9607C /* plugin.xml */; };
+		4351D9CA083CD73F00D9607C /* UIPEMenuExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4351D9C9083CD73F00D9607C /* UIPEMenuExtension.m */; };
+		4351DB50083D035000D9607C /* plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4351DB4F083D035000D9607C /* plugin.xml */; };
+		437692940847738A004248BB /* CWAlarmActionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 437692930847738A004248BB /* CWAlarmActionExtension.m */; };
+		437692A9084774D9004248BB /* plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 437692A8084774D9004248BB /* plugin.xml */; };
+		437692DE08477730004248BB /* plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 437692DD08477730004248BB /* plugin.xml */; };
+		437692E10847773A004248BB /* CWTalkingTimerLifeCycleExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 437692E00847773A004248BB /* CWTalkingTimerLifeCycleExtension.m */; };
+		438D8096091A6B3C00CA842B /* Blocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBAEF00855D6C70077C2AE /* Blocks.framework */; };
+		438D80AF091A6B8200CA842B /* Blocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBAEF00855D6C70077C2AE /* Blocks.framework */; };
+		43E491E00919589E00762E21 /* MIOPMLExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E491DC0919589E00762E21 /* MIOPMLExport.m */; };
+		43E491E10919589E00762E21 /* MIOPMLImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E491DE0919589E00762E21 /* MIOPMLImport.m */; };
+		43E491E20919589E00762E21 /* MIOPMLSupport-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43E491DF0919589E00762E21 /* MIOPMLSupport-Info.plist */; };
+		43E492000919598C00762E21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4351D846083CC89300D9607C /* Cocoa.framework */; };
+		43E49206091959B400762E21 /* plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 43E49205091959B400762E21 /* plugin.xml */; };
+		43E4924309196BFB00762E21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4351D846083CC89300D9607C /* Cocoa.framework */; };
+		43E4926709196CAB00762E21 /* MIFolderImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E4926409196CAB00762E21 /* MIFolderImport.m */; };
+		43E4926809196CAB00762E21 /* MIFolderExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E4926509196CAB00762E21 /* MIFolderExport.m */; };
+		43E4927409196CDD00762E21 /* plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 43E4927309196CDD00762E21 /* plugin.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4351D635083CC59D00D9607C /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		4351D636083CC59D00D9607C /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		43340D3F0861BB5E00E4D83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C968AC078F47010038431D;
+			remoteInfo = "Build All";
+		};
+		433FA928091A4B1E0036B166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D637083CC59D00D9607C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E4923809196BAB00762E21;
+			remoteInfo = MIFolderSupport;
+		};
+		433FA92A091A4B1E0036B166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D637083CC59D00D9607C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E491CA0919579E00762E21;
+			remoteInfo = MIOPMLSupport;
+		};
+		433FA92C091A4B1E0036B166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D637083CC59D00D9607C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433FA8C7091A48650036B166;
+			remoteInfo = MITextFilelImport;
+		};
+		433FA92E091A4B1E0036B166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D637083CC59D00D9607C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433FA8D1091A487C0036B166;
+			remoteInfo = MIHBN35Import;
+		};
+		43A2984A0916AE7500ABA652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 436E0D090913ACCA00214A5B;
+			remoteInfo = BKStatusMessage;
+		};
+		43CBAEEF0855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Blocks;
+		};
+		43CBAEF10855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43726F90078EFD9B00042971;
+			remoteInfo = BKLifecycle;
+		};
+		43CBAEF30855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 436C48EF084C9F0900F0EB70;
+			remoteInfo = BKDocuments;
+		};
+		43CBAEF50855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43726C38078EE6A700042971;
+			remoteInfo = BKUserInterface;
+		};
+		43CBAEF70855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43DFD4E607ADE21F00E5AB0A;
+			remoteInfo = BKConfiguration;
+		};
+		43CBAEF90855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43C967A0078F40F50038431D;
+			remoteInfo = BKPreferences;
+		};
+		43CBAEFB0855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4379F7B607A9A50F00C435C1;
+			remoteInfo = BKLicense;
+		};
+		43CBAEFD0855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4379F52707A9854700C435C1;
+			remoteInfo = BKPlugins;
+		};
+		43CBAEFF0855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 432CB5D90791A70900197ECB;
+			remoteInfo = BKScripts;
+		};
+		43CBAF010855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 432CB6CE0792D0E000197ECB;
+			remoteInfo = BKSoftwareUpdate;
+		};
+		43CBAF030855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 437E6A190838287E0070865A;
+			remoteInfo = BKCrashReporter;
+		};
+		43CBAF050855D6C70077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43CBA88B0854FE580077C2AE;
+			remoteInfo = UnitTests;
+		};
+		43CBAF5E0855D8440077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D637083CC59D00D9607C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4351D84C083CC91C00D9607C;
+			remoteInfo = LifeCyclePluginExample;
+		};
+		43CBAF600855D8440077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D637083CC59D00D9607C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4351D998083CD65200D9607C;
+			remoteInfo = UserInterfacePluginExample;
+		};
+		43CBAF620855D8440077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D637083CC59D00D9607C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C365A40846A45700A03A5D;
+			remoteInfo = AlarmActionPluginExample;
+		};
+		43CBAF640855D8440077C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351D637083CC59D00D9607C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437692CF08477657004248BB;
+			remoteInfo = CWTalkingTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		433FA8C8091A48650036B166 /* MITextFileImport.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MITextFileImport.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		433FA8C9091A48660036B166 /* MITextFileImport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MITextFileImport-Info.plist"; sourceTree = "<group>"; };
+		433FA8D2091A487C0036B166 /* MIHBN35Import.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIHBN35Import.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		433FA8D3091A487C0036B166 /* MIHBN35Import-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MIHBN35Import-Info.plist"; sourceTree = "<group>"; };
+		433FA8F6091A4A1A0036B166 /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plugin.xml; sourceTree = "<group>"; };
+		433FA8F9091A4A6E0036B166 /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plugin.xml; sourceTree = "<group>"; };
+		433FA8FF091A4AB00036B166 /* MIHBN35Import.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MIHBN35Import.h; path = "Mori Example Plugins/MIHBN35Import/MIHBN35Import.h"; sourceTree = SOURCE_ROOT; };
+		433FA900091A4AB00036B166 /* MIHBN35Import.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MIHBN35Import.m; path = "Mori Example Plugins/MIHBN35Import/MIHBN35Import.m"; sourceTree = SOURCE_ROOT; };
+		433FA910091A4AD30036B166 /* MITextFileImport.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MITextFileImport.m; sourceTree = "<group>"; };
+		433FA911091A4AD30036B166 /* MITextFileImport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MITextFileImport.h; sourceTree = "<group>"; };
+		4351D648083CC68500D9607C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		4351D668083CC6DF00D9607C /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = plugin.xml; path = ../Blocks/Plugins/BKConfiguration/plugin.xml; sourceTree = "<group>"; };
+		4351D66B083CC70100D9607C /* BKConfigurationProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BKConfigurationProtocols.h; path = ../Blocks/Plugins/BKConfiguration/BKConfigurationProtocols.h; sourceTree = "<group>"; };
+		4351D66C083CC72F00D9607C /* BKLifecycleProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BKLifecycleProtocols.h; path = ../Blocks/Plugins/BKLifecycle/BKLifecycleProtocols.h; sourceTree = "<group>"; };
+		4351D66D083CC73700D9607C /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = plugin.xml; path = ../Blocks/Plugins/BKLifecycle/plugin.xml; sourceTree = "<group>"; };
+		4351D66E083CC74A00D9607C /* BKPreferencesProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BKPreferencesProtocols.h; path = ../Blocks/Plugins/BKPreferences/BKPreferencesProtocols.h; sourceTree = "<group>"; };
+		4351D66F083CC75000D9607C /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = plugin.xml; path = ../Blocks/Plugins/BKPreferences/plugin.xml; sourceTree = "<group>"; };
+		4351D670083CC77800D9607C /* BKScriptsProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BKScriptsProtocols.h; path = ../Blocks/Plugins/BKScripts/BKScriptsProtocols.h; sourceTree = "<group>"; };
+		4351D671083CC7A000D9607C /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = plugin.xml; path = ../Blocks/Plugins/BKScripts/plugin.xml; sourceTree = "<group>"; };
+		4351D672083CC7AA00D9607C /* BKSoftwareUpdateProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BKSoftwareUpdateProtocols.h; path = ../Blocks/Plugins/BKSoftwareUpdate/BKSoftwareUpdateProtocols.h; sourceTree = "<group>"; };
+		4351D673083CC7B000D9607C /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = plugin.xml; path = ../Blocks/Plugins/BKSoftwareUpdate/plugin.xml; sourceTree = "<group>"; };
+		4351D674083CC7BB00D9607C /* BKUserInterfaceProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BKUserInterfaceProtocols.h; path = ../Blocks/Plugins/BKUserInterface/BKUserInterfaceProtocols.h; sourceTree = "<group>"; };
+		4351D675083CC7BF00D9607C /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = plugin.xml; path = ../Blocks/Plugins/BKUserInterface/plugin.xml; sourceTree = "<group>"; };
+		4351D846083CC89300D9607C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		4351D84D083CC91C00D9607C /* LifeCyclePluginExample.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCyclePluginExample.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		4351D84F083CC91C00D9607C /* LifeCyclePluginExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "LifeCyclePluginExample-Info.plist"; sourceTree = "<group>"; };
+		4351D8AC083CC96800D9607C /* Blocks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blocks.xcodeproj; path = ../Blocks/Blocks.xcodeproj; sourceTree = "<group>"; };
+		4351D8DB083CCC4F00D9607C /* LCPELifeCycleExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPELifeCycleExtension.h; sourceTree = "<group>"; };
+		4351D8DC083CCC4F00D9607C /* LCPELifeCycleExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPELifeCycleExtension.m; sourceTree = "<group>"; };
+		4351D933083CD17000D9607C /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plugin.xml; sourceTree = "<group>"; };
+		4351D999083CD65200D9607C /* UserInterfacePluginExample.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserInterfacePluginExample.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		4351D99A083CD65200D9607C /* UserInterfacePluginExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "UserInterfacePluginExample-Info.plist"; sourceTree = "<group>"; };
+		4351D9C8083CD73F00D9607C /* UIPEMenuExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPEMenuExtension.h; sourceTree = "<group>"; };
+		4351D9C9083CD73F00D9607C /* UIPEMenuExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPEMenuExtension.m; sourceTree = "<group>"; };
+		4351DB4F083D035000D9607C /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plugin.xml; sourceTree = "<group>"; };
+		437692750846B3A9004248BB /* License.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		437692790846B3D3004248BB /* make_release_paths */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = make_release_paths; sourceTree = "<group>"; };
+		437692920847738A004248BB /* CWAlarmActionExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAlarmActionExtension.h; sourceTree = "<group>"; };
+		437692930847738A004248BB /* CWAlarmActionExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAlarmActionExtension.m; sourceTree = "<group>"; };
+		437692A8084774D9004248BB /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plugin.xml; sourceTree = "<group>"; };
+		437692D008477657004248BB /* CWTalkingTimer.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWTalkingTimer.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		437692D108477657004248BB /* CWTalkingTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "CWTalkingTimer-Info.plist"; sourceTree = "<group>"; };
+		437692DD08477730004248BB /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plugin.xml; sourceTree = "<group>"; };
+		437692DF0847773A004248BB /* CWTalkingTimerLifeCycleExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTalkingTimerLifeCycleExtension.h; sourceTree = "<group>"; };
+		437692E00847773A004248BB /* CWTalkingTimerLifeCycleExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTalkingTimerLifeCycleExtension.m; sourceTree = "<group>"; };
+		437695230848AEDC004248BB /* build_source_release_paths */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build_source_release_paths; sourceTree = "<group>"; };
+		439993510916B621002849C3 /* BKStatusMessageProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BKStatusMessageProtocols.h; path = ../Blocks/Plugins/BKStatusMessage/BKStatusMessageProtocols.h; sourceTree = SOURCE_ROOT; };
+		439993520916B621002849C3 /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = plugin.xml; path = ../Blocks/Plugins/BKStatusMessage/plugin.xml; sourceTree = SOURCE_ROOT; };
+		43C36534084672EC00A03A5D /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = plugin.xml; path = ../Clockwork/Plugins/CWTimers/plugin.xml; sourceTree = SOURCE_ROOT; };
+		43C365350846730600A03A5D /* CWTimersProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CWTimersProtocols.h; path = ../Clockwork/Plugins/CWTimers/CWTimersProtocols.h; sourceTree = SOURCE_ROOT; };
+		43C365390846736100A03A5D /* CWUserInterfaceProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CWUserInterfaceProtocols.h; path = ../Clockwork/Plugins/CWUserInterface/CWUserInterfaceProtocols.h; sourceTree = SOURCE_ROOT; };
+		43C3653A0846736A00A03A5D /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = plugin.xml; path = ../Clockwork/Plugins/CWUserInterface/plugin.xml; sourceTree = SOURCE_ROOT; };
+		43C365A50846A45700A03A5D /* CWAlarmActionExample.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWAlarmActionExample.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C365A60846A45700A03A5D /* CWAlarmActionExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "CWAlarmActionExample-Info.plist"; sourceTree = "<group>"; };
+		43E491740919549800762E21 /* MIDocumentProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MIDocumentProtocols.h; path = ../Mori/Plugins/MIDocument/MIDocumentProtocols.h; sourceTree = SOURCE_ROOT; };
+		43E491750919549800762E21 /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = plugin.xml; path = ../Mori/Plugins/MIDocument/plugin.xml; sourceTree = SOURCE_ROOT; };
+		43E491CB0919579E00762E21 /* MIOPMLSupport.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIOPMLSupport.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E491DB0919589E00762E21 /* MIOPMLExport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MIOPMLExport.h; sourceTree = "<group>"; };
+		43E491DC0919589E00762E21 /* MIOPMLExport.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MIOPMLExport.m; sourceTree = "<group>"; };
+		43E491DD0919589E00762E21 /* MIOPMLImport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MIOPMLImport.h; sourceTree = "<group>"; };
+		43E491DE0919589E00762E21 /* MIOPMLImport.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MIOPMLImport.m; sourceTree = "<group>"; };
+		43E491DF0919589E00762E21 /* MIOPMLSupport-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "MIOPMLSupport-Info.plist"; sourceTree = "<group>"; };
+		43E49205091959B400762E21 /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plugin.xml; sourceTree = "<group>"; };
+		43E4923909196BAB00762E21 /* MIFolderSupport.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIFolderSupport.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E4925A09196C3700762E21 /* MIFolderSupport-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "MIFolderSupport-Info.plist"; sourceTree = "<group>"; };
+		43E4926309196CAB00762E21 /* MIFolderImport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MIFolderImport.h; sourceTree = "<group>"; };
+		43E4926409196CAB00762E21 /* MIFolderImport.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MIFolderImport.m; sourceTree = "<group>"; };
+		43E4926509196CAB00762E21 /* MIFolderExport.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MIFolderExport.m; sourceTree = "<group>"; };
+		43E4926609196CAB00762E21 /* MIFolderExport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MIFolderExport.h; sourceTree = "<group>"; };
+		43E4927309196CDD00762E21 /* plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plugin.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		433FA8C6091A48650036B166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FA93A091A4B920036B166 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433FA8D0091A487C0036B166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FA937091A4B8E0036B166 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351D84B083CC91C00D9607C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43340D2D0861BB3F00E4D83F /* Cocoa.framework in Frameworks */,
+				43340D280861BB3800E4D83F /* Blocks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351D997083CD65200D9607C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43340D300861BB4200E4D83F /* Cocoa.framework in Frameworks */,
+				43340D310861BB4200E4D83F /* Blocks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437692CE08477657004248BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43340D390861BB4900E4D83F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C365A30846A45700A03A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43340D350861BB4600E4D83F /* Cocoa.framework in Frameworks */,
+				43340D360861BB4600E4D83F /* Blocks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E491C90919579E00762E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E492000919598C00762E21 /* Cocoa.framework in Frameworks */,
+				438D80AF091A6B8200CA842B /* Blocks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E4923709196BAB00762E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E4924309196BFB00762E21 /* Cocoa.framework in Frameworks */,
+				438D8096091A6B3C00CA842B /* Blocks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433FA8BE091A48200036B166 /* MITextFileImport */ = {
+			isa = PBXGroup;
+			children = (
+				433FA8F5091A49F20036B166 /* Extensions */,
+				433FA8F3091A49DB0036B166 /* Resource */,
+			);
+			path = MITextFileImport;
+			sourceTree = "<group>";
+		};
+		433FA8BF091A482F0036B166 /* MIHBN35Import */ = {
+			isa = PBXGroup;
+			children = (
+				433FA8F4091A49E80036B166 /* Extensions */,
+				433FA8F2091A49D10036B166 /* Resources */,
+			);
+			path = MIHBN35Import;
+			sourceTree = "<group>";
+		};
+		433FA8F2091A49D10036B166 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				433FA8D3091A487C0036B166 /* MIHBN35Import-Info.plist */,
+				433FA8F9091A4A6E0036B166 /* plugin.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433FA8F3091A49DB0036B166 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				433FA8C9091A48660036B166 /* MITextFileImport-Info.plist */,
+				433FA8F6091A4A1A0036B166 /* plugin.xml */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		433FA8F4091A49E80036B166 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				433FA8FF091A4AB00036B166 /* MIHBN35Import.h */,
+				433FA900091A4AB00036B166 /* MIHBN35Import.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		433FA8F5091A49F20036B166 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				433FA910091A4AD30036B166 /* MITextFileImport.m */,
+				433FA911091A4AD30036B166 /* MITextFileImport.h */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4351D633083CC59D00D9607C = {
+			isa = PBXGroup;
+			children = (
+				4351D8AC083CC96800D9607C /* Blocks.xcodeproj */,
+				4351D648083CC68500D9607C /* README.txt */,
+				437692750846B3A9004248BB /* License.txt */,
+				4351D640083CC5EC00D9607C /* Protocols */,
+				4351D641083CC5FD00D9607C /* Basic Example Plugins */,
+				437692C808477611004248BB /* Clockwork Example Plugins */,
+				43E491C3091956FD00762E21 /* Mori Example Plugins */,
+				437692760846B3B4004248BB /* Other */,
+				4351D840083CC80B00D9607C /* Frameworks */,
+				4351D84E083CC91C00D9607C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4351D63E083CC5B700D9607C /* Blocks Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4351D642083CC61800D9607C /* BKLifecycleProtocols */,
+				4351D647083CC65700D9607C /* BKUserInterfaceProtocols */,
+				4351D643083CC62400D9607C /* BKConfigurationProtocols */,
+				4399934C0916B5D3002849C3 /* BKStatusMessageProtocols */,
+				4351D644083CC63600D9607C /* BKPreferencesProtocols */,
+				4351D646083CC64B00D9607C /* BKSoftwareUpdateProtocols */,
+				4351D645083CC64000D9607C /* BKScriptsProtocols */,
+			);
+			name = "Blocks Protocols";
+			sourceTree = "<group>";
+		};
+		4351D63F083CC5D700D9607C /* Clockwork Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				43C36533084672B800A03A5D /* CWTimers */,
+				43C365380846735100A03A5D /* CWUserInterface */,
+			);
+			name = "Clockwork Protocols";
+			sourceTree = "<group>";
+		};
+		4351D640083CC5EC00D9607C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4351D63E083CC5B700D9607C /* Blocks Protocols */,
+				4351D63F083CC5D700D9607C /* Clockwork Protocols */,
+				43E4916C0919543D00762E21 /* Mori Protocols */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		4351D641083CC5FD00D9607C /* Basic Example Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				4351D851083CC93700D9607C /* LifeCyclePluginExample */,
+				4351D9A0083CD6A500D9607C /* UserInterfacePluginExample */,
+			);
+			path = "Basic Example Plugins";
+			sourceTree = "<group>";
+		};
+		4351D642083CC61800D9607C /* BKLifecycleProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				4351D66C083CC72F00D9607C /* BKLifecycleProtocols.h */,
+				4351D66D083CC73700D9607C /* plugin.xml */,
+			);
+			name = BKLifecycleProtocols;
+			sourceTree = "<group>";
+		};
+		4351D643083CC62400D9607C /* BKConfigurationProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				4351D66B083CC70100D9607C /* BKConfigurationProtocols.h */,
+				4351D668083CC6DF00D9607C /* plugin.xml */,
+			);
+			name = BKConfigurationProtocols;
+			sourceTree = "<group>";
+		};
+		4351D644083CC63600D9607C /* BKPreferencesProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				4351D66E083CC74A00D9607C /* BKPreferencesProtocols.h */,
+				4351D66F083CC75000D9607C /* plugin.xml */,
+			);
+			name = BKPreferencesProtocols;
+			sourceTree = "<group>";
+		};
+		4351D645083CC64000D9607C /* BKScriptsProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				4351D670083CC77800D9607C /* BKScriptsProtocols.h */,
+				4351D671083CC7A000D9607C /* plugin.xml */,
+			);
+			name = BKScriptsProtocols;
+			sourceTree = "<group>";
+		};
+		4351D646083CC64B00D9607C /* BKSoftwareUpdateProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				4351D672083CC7AA00D9607C /* BKSoftwareUpdateProtocols.h */,
+				4351D673083CC7B000D9607C /* plugin.xml */,
+			);
+			name = BKSoftwareUpdateProtocols;
+			sourceTree = "<group>";
+		};
+		4351D647083CC65700D9607C /* BKUserInterfaceProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				4351D674083CC7BB00D9607C /* BKUserInterfaceProtocols.h */,
+				4351D675083CC7BF00D9607C /* plugin.xml */,
+			);
+			name = BKUserInterfaceProtocols;
+			sourceTree = "<group>";
+		};
+		4351D840083CC80B00D9607C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4351D841083CC81600D9607C /* Linked Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4351D841083CC81600D9607C /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4351D846083CC89300D9607C /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		4351D84E083CC91C00D9607C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4351D84D083CC91C00D9607C /* LifeCyclePluginExample.plugin */,
+				4351D999083CD65200D9607C /* UserInterfacePluginExample.plugin */,
+				43C365A50846A45700A03A5D /* CWAlarmActionExample.plugin */,
+				437692D008477657004248BB /* CWTalkingTimer.plugin */,
+				43E491CB0919579E00762E21 /* MIOPMLSupport.plugin */,
+				43E4923909196BAB00762E21 /* MIFolderSupport.plugin */,
+				433FA8C8091A48650036B166 /* MITextFileImport.plugin */,
+				433FA8D2091A487C0036B166 /* MIHBN35Import.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4351D851083CC93700D9607C /* LifeCyclePluginExample */ = {
+			isa = PBXGroup;
+			children = (
+				4351D8DB083CCC4F00D9607C /* LCPELifeCycleExtension.h */,
+				4351D8DC083CCC4F00D9607C /* LCPELifeCycleExtension.m */,
+				4351D933083CD17000D9607C /* plugin.xml */,
+				4351D84F083CC91C00D9607C /* LifeCyclePluginExample-Info.plist */,
+			);
+			path = LifeCyclePluginExample;
+			sourceTree = "<group>";
+		};
+		4351D9A0083CD6A500D9607C /* UserInterfacePluginExample */ = {
+			isa = PBXGroup;
+			children = (
+				4351D9C8083CD73F00D9607C /* UIPEMenuExtension.h */,
+				4351D9C9083CD73F00D9607C /* UIPEMenuExtension.m */,
+				4351DB4F083D035000D9607C /* plugin.xml */,
+				4351D99A083CD65200D9607C /* UserInterfacePluginExample-Info.plist */,
+			);
+			path = UserInterfacePluginExample;
+			sourceTree = "<group>";
+		};
+		437692760846B3B4004248BB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				437692790846B3D3004248BB /* make_release_paths */,
+				437695230848AEDC004248BB /* build_source_release_paths */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		437692C808477611004248BB /* Clockwork Example Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				437692CB08477634004248BB /* CWTalkingTimer */,
+				43C3659C0846A37E00A03A5D /* CWAlarmActionExample */,
+			);
+			path = "Clockwork Example Plugins";
+			sourceTree = "<group>";
+		};
+		437692CB08477634004248BB /* CWTalkingTimer */ = {
+			isa = PBXGroup;
+			children = (
+				437692DF0847773A004248BB /* CWTalkingTimerLifeCycleExtension.h */,
+				437692E00847773A004248BB /* CWTalkingTimerLifeCycleExtension.m */,
+				437692D108477657004248BB /* CWTalkingTimer-Info.plist */,
+				437692DD08477730004248BB /* plugin.xml */,
+			);
+			path = CWTalkingTimer;
+			sourceTree = "<group>";
+		};
+		4399934C0916B5D3002849C3 /* BKStatusMessageProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				439993510916B621002849C3 /* BKStatusMessageProtocols.h */,
+				439993520916B621002849C3 /* plugin.xml */,
+			);
+			name = BKStatusMessageProtocols;
+			sourceTree = "<group>";
+		};
+		43C36533084672B800A03A5D /* CWTimers */ = {
+			isa = PBXGroup;
+			children = (
+				43C365350846730600A03A5D /* CWTimersProtocols.h */,
+				43C36534084672EC00A03A5D /* plugin.xml */,
+			);
+			name = CWTimers;
+			sourceTree = "<group>";
+		};
+		43C365380846735100A03A5D /* CWUserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				43C365390846736100A03A5D /* CWUserInterfaceProtocols.h */,
+				43C3653A0846736A00A03A5D /* plugin.xml */,
+			);
+			name = CWUserInterface;
+			sourceTree = "<group>";
+		};
+		43C3659C0846A37E00A03A5D /* CWAlarmActionExample */ = {
+			isa = PBXGroup;
+			children = (
+				437692920847738A004248BB /* CWAlarmActionExtension.h */,
+				437692930847738A004248BB /* CWAlarmActionExtension.m */,
+				437692A8084774D9004248BB /* plugin.xml */,
+				43C365A60846A45700A03A5D /* CWAlarmActionExample-Info.plist */,
+			);
+			name = CWAlarmActionExample;
+			path = AlarmActionPluginExample;
+			sourceTree = "<group>";
+		};
+		43CBAEE00855D6C70077C2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43CBAEF00855D6C70077C2AE /* Blocks.framework */,
+				43CBAEF20855D6C70077C2AE /* BKLifecycle.plugin */,
+				43CBAEF40855D6C70077C2AE /* BKDocuments.plugin */,
+				43CBAEF60855D6C70077C2AE /* BKUserInterface.plugin */,
+				43CBAEF80855D6C70077C2AE /* BKConfiguration.plugin */,
+				43CBAEFA0855D6C70077C2AE /* BKPreferences.plugin */,
+				43CBAEFC0855D6C70077C2AE /* BKLicense.plugin */,
+				43CBAEFE0855D6C70077C2AE /* BKPlugins.plugin */,
+				43CBAF000855D6C70077C2AE /* BKScripts.plugin */,
+				43A2984B0916AE7500ABA652 /* BKStatusMessage.plugin */,
+				43CBAF020855D6C70077C2AE /* BKSoftwareUpdate.plugin */,
+				43CBAF040855D6C70077C2AE /* BKCrashReporter.plugin */,
+				43CBAF060855D6C70077C2AE /* BlocksTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43E4916C0919543D00762E21 /* Mori Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				43E491730919545C00762E21 /* MIDocument */,
+			);
+			name = "Mori Protocols";
+			sourceTree = "<group>";
+		};
+		43E491730919545C00762E21 /* MIDocument */ = {
+			isa = PBXGroup;
+			children = (
+				43E491740919549800762E21 /* MIDocumentProtocols.h */,
+				43E491750919549800762E21 /* plugin.xml */,
+			);
+			name = MIDocument;
+			sourceTree = "<group>";
+		};
+		43E491C3091956FD00762E21 /* Mori Example Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				433FA8BF091A482F0036B166 /* MIHBN35Import */,
+				433FA8BE091A48200036B166 /* MITextFileImport */,
+				43E4920909196B4900762E21 /* MIFolderSupport */,
+				43E491D80919586D00762E21 /* MIOPMLSupport */,
+			);
+			path = "Mori Example Plugins";
+			sourceTree = "<group>";
+		};
+		43E491D80919586D00762E21 /* MIOPMLSupport */ = {
+			isa = PBXGroup;
+			children = (
+				43E491F90919591E00762E21 /* Extensions */,
+				43E491FA0919592700762E21 /* Resources */,
+			);
+			path = MIOPMLSupport;
+			sourceTree = "<group>";
+		};
+		43E491F90919591E00762E21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43E491DB0919589E00762E21 /* MIOPMLExport.h */,
+				43E491DC0919589E00762E21 /* MIOPMLExport.m */,
+				43E491DD0919589E00762E21 /* MIOPMLImport.h */,
+				43E491DE0919589E00762E21 /* MIOPMLImport.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		43E491FA0919592700762E21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43E491DF0919589E00762E21 /* MIOPMLSupport-Info.plist */,
+				43E49205091959B400762E21 /* plugin.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		43E4920909196B4900762E21 /* MIFolderSupport */ = {
+			isa = PBXGroup;
+			children = (
+				43E4925C09196C4900762E21 /* Extensions */,
+				43E4925B09196C3B00762E21 /* Resources */,
+			);
+			path = MIFolderSupport;
+			sourceTree = "<group>";
+		};
+		43E4925B09196C3B00762E21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43E4925A09196C3700762E21 /* MIFolderSupport-Info.plist */,
+				43E4927309196CDD00762E21 /* plugin.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		43E4925C09196C4900762E21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43E4926309196CAB00762E21 /* MIFolderImport.h */,
+				43E4926409196CAB00762E21 /* MIFolderImport.m */,
+				43E4926609196CAB00762E21 /* MIFolderExport.h */,
+				43E4926509196CAB00762E21 /* MIFolderExport.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		433FA8C7091A48650036B166 /* MITextFileImport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433FA8CA091A48670036B166 /* Build configuration list for PBXNativeTarget "MITextFileImport" */;
+			buildPhases = (
+				433FA8C4091A48650036B166 /* Resources */,
+				433FA8C5091A48650036B166 /* Sources */,
+				433FA8C6091A48650036B166 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "MITextFilelImport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MITextFilelImport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = MITextFileImport;
+			productName = MITextFilelImport;
+			productReference = 433FA8C8091A48650036B166 /* MITextFileImport.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MITextFilelImport</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.MITextFilelImport</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>18</string>
+	<key>CSResourcesFileMapped</key>
+	<string>yes</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		433FA8D1091A487C0036B166 /* MIHBN35Import */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433FA8D4091A487D0036B166 /* Build configuration list for PBXNativeTarget "MIHBN35Import" */;
+			buildPhases = (
+				433FA8CE091A487C0036B166 /* Resources */,
+				433FA8CF091A487C0036B166 /* Sources */,
+				433FA8D0091A487C0036B166 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "MIHBN35Import-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIHBN35Import;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = MIHBN35Import;
+			productName = MIHBN35Import;
+			productReference = 433FA8D2091A487C0036B166 /* MIHBN35Import.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MIHBN35Import</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.MIHBN35Import</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>18</string>
+	<key>CSResourcesFileMapped</key>
+	<string>yes</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		4351D84C083CC91C00D9607C /* LifeCyclePluginExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CBAF070855D6C70077C2AE /* Build configuration list for PBXNativeTarget "LifeCyclePluginExample" */;
+			buildPhases = (
+				4351D849083CC91C00D9607C /* Resources */,
+				4351D84A083CC91C00D9607C /* Sources */,
+				4351D84B083CC91C00D9607C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 18;
+				FRAMEWORK_SEARCH_PATHS = /Users/jessegrosjean/working/builds;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Example Plugins/LifeCyclePluginExample/LifeCyclePluginExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = LifeCyclePluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+			);
+			name = LifeCyclePluginExample;
+			productName = LifeCyclePluginExample;
+			productReference = 4351D84D083CC91C00D9607C /* LifeCyclePluginExample.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>LifeCyclePluginExample</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.LifeCyclePluginExample</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>18</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		4351D998083CD65200D9607C /* UserInterfacePluginExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CBAF0B0855D6C70077C2AE /* Build configuration list for PBXNativeTarget "UserInterfacePluginExample" */;
+			buildPhases = (
+				4351D995083CD65200D9607C /* Resources */,
+				4351D996083CD65200D9607C /* Sources */,
+				4351D997083CD65200D9607C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 18;
+				FRAMEWORK_SEARCH_PATHS = /Users/jessegrosjean/working/builds;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Example Plugins/UserInterfacePluginExample/UserInterfacePluginExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = UserInterfacePluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+			);
+			name = UserInterfacePluginExample;
+			productName = UserInterfacePluginExample;
+			productReference = 4351D999083CD65200D9607C /* UserInterfacePluginExample.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>UserInterfacePluginExample</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.UserInterfacePluginExample</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>18</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		437692CF08477657004248BB /* CWTalkingTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CBAF130855D6C70077C2AE /* Build configuration list for PBXNativeTarget "CWTalkingTimer" */;
+			buildPhases = (
+				437692CC08477657004248BB /* Resources */,
+				437692CD08477657004248BB /* Sources */,
+				437692CE08477657004248BB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Clockwork Example Plugins/CWTalkingTimer/CWTalkingTimer-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = CWTalkingTimer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+			);
+			name = CWTalkingTimer;
+			productName = CWTalkingTimer;
+			productReference = 437692D008477657004248BB /* CWTalkingTimer.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CWTalkingTimer</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.CWTalkingTimer</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>18</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		43C365A40846A45700A03A5D /* CWAlarmActionExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CBAF0F0855D6C70077C2AE /* Build configuration list for PBXNativeTarget "CWAlarmActionExample" */;
+			buildPhases = (
+				43C365A10846A45700A03A5D /* Resources */,
+				43C365A20846A45700A03A5D /* Sources */,
+				43C365A30846A45700A03A5D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Example Plugins/AlarmActionPluginExample/AlarmActionPluginExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = AlarmActionPluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+			);
+			name = CWAlarmActionExample;
+			productName = AlarmActionPluginExample;
+			productReference = 43C365A50846A45700A03A5D /* CWAlarmActionExample.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AlarmActionPluginExample</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.AlarmActionPluginExample</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>18</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		43E491CA0919579E00762E21 /* MIOPMLSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E491CD0919579F00762E21 /* Build configuration list for PBXNativeTarget "MIOPMLSupport" */;
+			buildPhases = (
+				43E491C70919579E00762E21 /* Resources */,
+				43E491C80919579E00762E21 /* Sources */,
+				43E491C90919579E00762E21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "MIOPMLSupport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIOPMLSupport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = MIOPMLSupport;
+			productName = MIOPMLSupport;
+			productReference = 43E491CB0919579E00762E21 /* MIOPMLSupport.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MIOPMLSupport</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.MIOPMLSupport</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>18</string>
+	<key>CSResourcesFileMapped</key>
+	<string>yes</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		43E4923809196BAB00762E21 /* MIFolderSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E4923B09196BAC00762E21 /* Build configuration list for PBXNativeTarget "MIFolderSupport" */;
+			buildPhases = (
+				43E4923509196BAB00762E21 /* Resources */,
+				43E4923609196BAB00762E21 /* Sources */,
+				43E4923709196BAB00762E21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "MIFolderSupport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIFolderSupport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = MIFolderSupport;
+			productName = MIFolderSupport;
+			productReference = 43E4923909196BAB00762E21 /* MIFolderSupport.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MIFolderSupport</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.MIFolderSupport</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>18</string>
+	<key>CSResourcesFileMapped</key>
+	<string>yes</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4351D637083CC59D00D9607C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 43CBAF170855D6C70077C2AE /* Build configuration list for PBXProject "Blocks SDK" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4351D635083CC59D00D9607C /* Development */,
+				4351D636083CC59D00D9607C /* Deployment */,
+			);
+			hasScannedForEncodings = 0;
+			mainGroup = 4351D633083CC59D00D9607C;
+			productRefGroup = 4351D84E083CC91C00D9607C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 43CBAEE00855D6C70077C2AE /* Products */;
+					ProjectRef = 4351D8AC083CC96800D9607C /* Blocks.xcodeproj */;
+				},
+			);
+			targets = (
+				4351D84C083CC91C00D9607C /* LifeCyclePluginExample */,
+				4351D998083CD65200D9607C /* UserInterfacePluginExample */,
+				43C365A40846A45700A03A5D /* CWAlarmActionExample */,
+				437692CF08477657004248BB /* CWTalkingTimer */,
+				43E4923809196BAB00762E21 /* MIFolderSupport */,
+				43E491CA0919579E00762E21 /* MIOPMLSupport */,
+				433FA8C7091A48650036B166 /* MITextFileImport */,
+				433FA8D1091A487C0036B166 /* MIHBN35Import */,
+				43CBAF5D0855D83C0077C2AE /* Build All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		43A2984B0916AE7500ABA652 /* BKStatusMessage.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKStatusMessage.plugin;
+			remoteRef = 43A2984A0916AE7500ABA652 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAEF00855D6C70077C2AE /* Blocks.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blocks.framework;
+			remoteRef = 43CBAEEF0855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAEF20855D6C70077C2AE /* BKLifecycle.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKLifecycle.plugin;
+			remoteRef = 43CBAEF10855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAEF40855D6C70077C2AE /* BKDocuments.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKDocuments.plugin;
+			remoteRef = 43CBAEF30855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAEF60855D6C70077C2AE /* BKUserInterface.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKUserInterface.plugin;
+			remoteRef = 43CBAEF50855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAEF80855D6C70077C2AE /* BKConfiguration.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKConfiguration.plugin;
+			remoteRef = 43CBAEF70855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAEFA0855D6C70077C2AE /* BKPreferences.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKPreferences.plugin;
+			remoteRef = 43CBAEF90855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAEFC0855D6C70077C2AE /* BKLicense.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKLicense.plugin;
+			remoteRef = 43CBAEFB0855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAEFE0855D6C70077C2AE /* BKPlugins.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKPlugins.plugin;
+			remoteRef = 43CBAEFD0855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAF000855D6C70077C2AE /* BKScripts.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKScripts.plugin;
+			remoteRef = 43CBAEFF0855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAF020855D6C70077C2AE /* BKSoftwareUpdate.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKSoftwareUpdate.plugin;
+			remoteRef = 43CBAF010855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAF040855D6C70077C2AE /* BKCrashReporter.plugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BKCrashReporter.plugin;
+			remoteRef = 43CBAF030855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CBAF060855D6C70077C2AE /* BlocksTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BlocksTests.octest;
+			remoteRef = 43CBAF050855D6C70077C2AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		433FA8C4091A48650036B166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FA8F8091A4A340036B166 /* plugin.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433FA8CE091A487C0036B166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FA8FA091A4A6E0036B166 /* plugin.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351D849083CC91C00D9607C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4351D934083CD17000D9607C /* plugin.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351D995083CD65200D9607C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4351DB50083D035000D9607C /* plugin.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437692CC08477657004248BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437692DE08477730004248BB /* plugin.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C365A10846A45700A03A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437692A9084774D9004248BB /* plugin.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E491C70919579E00762E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E491E20919589E00762E21 /* MIOPMLSupport-Info.plist in Resources */,
+				43E49206091959B400762E21 /* plugin.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E4923509196BAB00762E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E4927409196CDD00762E21 /* plugin.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433FA8C5091A48650036B166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FA912091A4AD30036B166 /* MITextFileImport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433FA8CF091A487C0036B166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FA901091A4AB00036B166 /* MIHBN35Import.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351D84A083CC91C00D9607C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4351D8DD083CCC4F00D9607C /* LCPELifeCycleExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351D996083CD65200D9607C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4351D9CA083CD73F00D9607C /* UIPEMenuExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437692CD08477657004248BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437692E10847773A004248BB /* CWTalkingTimerLifeCycleExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C365A20846A45700A03A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437692940847738A004248BB /* CWAlarmActionExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E491C80919579E00762E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E491E00919589E00762E21 /* MIOPMLExport.m in Sources */,
+				43E491E10919589E00762E21 /* MIOPMLImport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E4923609196BAB00762E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E4926709196CAB00762E21 /* MIFolderImport.m in Sources */,
+				43E4926809196CAB00762E21 /* MIFolderExport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43340D400861BB5E00E4D83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Build All";
+			targetProxy = 43340D3F0861BB5E00E4D83F /* PBXContainerItemProxy */;
+		};
+		433FA929091A4B1E0036B166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43E4923809196BAB00762E21 /* MIFolderSupport */;
+			targetProxy = 433FA928091A4B1E0036B166 /* PBXContainerItemProxy */;
+		};
+		433FA92B091A4B1E0036B166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43E491CA0919579E00762E21 /* MIOPMLSupport */;
+			targetProxy = 433FA92A091A4B1E0036B166 /* PBXContainerItemProxy */;
+		};
+		433FA92D091A4B1E0036B166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 433FA8C7091A48650036B166 /* MITextFileImport */;
+			targetProxy = 433FA92C091A4B1E0036B166 /* PBXContainerItemProxy */;
+		};
+		433FA92F091A4B1E0036B166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 433FA8D1091A487C0036B166 /* MIHBN35Import */;
+			targetProxy = 433FA92E091A4B1E0036B166 /* PBXContainerItemProxy */;
+		};
+		43CBAF5F0855D8440077C2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4351D84C083CC91C00D9607C /* LifeCyclePluginExample */;
+			targetProxy = 43CBAF5E0855D8440077C2AE /* PBXContainerItemProxy */;
+		};
+		43CBAF610855D8440077C2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4351D998083CD65200D9607C /* UserInterfacePluginExample */;
+			targetProxy = 43CBAF600855D8440077C2AE /* PBXContainerItemProxy */;
+		};
+		43CBAF630855D8440077C2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C365A40846A45700A03A5D /* CWAlarmActionExample */;
+			targetProxy = 43CBAF620855D8440077C2AE /* PBXContainerItemProxy */;
+		};
+		43CBAF650855D8440077C2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437692CF08477657004248BB /* CWTalkingTimer */;
+			targetProxy = 43CBAF640855D8440077C2AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		433FA8CB091A48670036B166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MITextFileImport/MITextFileImport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MITextFileImport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		433FA8CC091A48670036B166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MITextFileImport/MITextFileImport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MITextFileImport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		433FA8CD091A48670036B166 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MITextFileImport/MITextFileImport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MITextFileImport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		433FA8D5091A487D0036B166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MIHBN35Import/MIHBN35Import-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIHBN35Import;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		433FA8D6091A487D0036B166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MIHBN35Import/MIHBN35Import-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIHBN35Import;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		433FA8D7091A487D0036B166 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MIHBN35Import/MIHBN35Import-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIHBN35Import;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		43CBAF080855D6C70077C2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Basic Example Plugins/LifeCyclePluginExample/LifeCyclePluginExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = LifeCyclePluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		43CBAF090855D6C70077C2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Basic Example Plugins/LifeCyclePluginExample/LifeCyclePluginExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = LifeCyclePluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		43CBAF0A0855D6C70077C2AE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Basic Example Plugins/LifeCyclePluginExample/LifeCyclePluginExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = LifeCyclePluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		43CBAF0C0855D6C70077C2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Basic Example Plugins/UserInterfacePluginExample/UserInterfacePluginExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = UserInterfacePluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		43CBAF0D0855D6C70077C2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Basic Example Plugins/UserInterfacePluginExample/UserInterfacePluginExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = UserInterfacePluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		43CBAF0E0855D6C70077C2AE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Basic Example Plugins/UserInterfacePluginExample/UserInterfacePluginExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = UserInterfacePluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		43CBAF100855D6C70077C2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Clockwork Example Plugins/AlarmActionPluginExample/CWAlarmActionExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = CWAlarmActionExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		43CBAF110855D6C70077C2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Clockwork Example Plugins/AlarmActionPluginExample/CWAlarmActionExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = AlarmActionPluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		43CBAF120855D6C70077C2AE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Clockwork Example Plugins/AlarmActionPluginExample/CWAlarmActionExample-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = AlarmActionPluginExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		43CBAF140855D6C70077C2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Clockwork Example Plugins/CWTalkingTimer/CWTalkingTimer-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = CWTalkingTimer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		43CBAF150855D6C70077C2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Clockwork Example Plugins/CWTalkingTimer/CWTalkingTimer-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = CWTalkingTimer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		43CBAF160855D6C70077C2AE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 18;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Clockwork Example Plugins/CWTalkingTimer/CWTalkingTimer-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = CWTalkingTimer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		43CBAF180855D6C70077C2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Debug;
+		};
+		43CBAF190855D6C70077C2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		43CBAF1A0855D6C70077C2AE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		43CBAF7B0855D8740077C2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Build All";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		43CBAF7C0855D8740077C2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Build All";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		43CBAF7D0855D8740077C2AE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Build All";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		43E491CE0919579F00762E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MIOPMLSupport/MIOPMLSupport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIOPMLSupport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		43E491CF0919579F00762E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MIOPMLSupport/MIOPMLSupport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIOPMLSupport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		43E491D00919579F00762E21 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MIOPMLSupport/MIOPMLSupport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIOPMLSupport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		43E4923C09196BAC00762E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MIFolderSupport/MIFolderSupport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIFolderSupport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		43E4923D09196BAC00762E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MIFolderSupport/MIFolderSupport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIFolderSupport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		43E4923E09196BAC00762E21 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Mori Example Plugins/MIFolderSupport/MIFolderSupport-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MIFolderSupport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		433FA8CA091A48670036B166 /* Build configuration list for PBXNativeTarget "MITextFileImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433FA8CB091A48670036B166 /* Debug */,
+				433FA8CC091A48670036B166 /* Release */,
+				433FA8CD091A48670036B166 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		433FA8D4091A487D0036B166 /* Build configuration list for PBXNativeTarget "MIHBN35Import" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433FA8D5091A487D0036B166 /* Debug */,
+				433FA8D6091A487D0036B166 /* Release */,
+				433FA8D7091A487D0036B166 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		43CBAF070855D6C70077C2AE /* Build configuration list for PBXNativeTarget "LifeCyclePluginExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CBAF080855D6C70077C2AE /* Debug */,
+				43CBAF090855D6C70077C2AE /* Release */,
+				43CBAF0A0855D6C70077C2AE /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		43CBAF0B0855D6C70077C2AE /* Build configuration list for PBXNativeTarget "UserInterfacePluginExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CBAF0C0855D6C70077C2AE /* Debug */,
+				43CBAF0D0855D6C70077C2AE /* Release */,
+				43CBAF0E0855D6C70077C2AE /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		43CBAF0F0855D6C70077C2AE /* Build configuration list for PBXNativeTarget "CWAlarmActionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CBAF100855D6C70077C2AE /* Debug */,
+				43CBAF110855D6C70077C2AE /* Release */,
+				43CBAF120855D6C70077C2AE /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		43CBAF130855D6C70077C2AE /* Build configuration list for PBXNativeTarget "CWTalkingTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CBAF140855D6C70077C2AE /* Debug */,
+				43CBAF150855D6C70077C2AE /* Release */,
+				43CBAF160855D6C70077C2AE /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		43CBAF170855D6C70077C2AE /* Build configuration list for PBXProject "Blocks SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CBAF180855D6C70077C2AE /* Debug */,
+				43CBAF190855D6C70077C2AE /* Release */,
+				43CBAF1A0855D6C70077C2AE /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		43CBAF7A0855D8740077C2AE /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CBAF7B0855D8740077C2AE /* Debug */,
+				43CBAF7C0855D8740077C2AE /* Release */,
+				43CBAF7D0855D8740077C2AE /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		43E491CD0919579F00762E21 /* Build configuration list for PBXNativeTarget "MIOPMLSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E491CE0919579F00762E21 /* Debug */,
+				43E491CF0919579F00762E21 /* Release */,
+				43E491D00919579F00762E21 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		43E4923B09196BAC00762E21 /* Build configuration list for PBXNativeTarget "MIFolderSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E4923C09196BAC00762E21 /* Debug */,
+				43E4923D09196BAC00762E21 /* Release */,
+				43E4923E09196BAC00762E21 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4351D637083CC59D00D9607C /* Project object */;
+}

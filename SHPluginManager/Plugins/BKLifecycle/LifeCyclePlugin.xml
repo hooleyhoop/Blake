@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin 
+	id="uk.co.stevehooley.BKLifecycle" 
+	name="Lifecycle" 
+	version="1.0.0" 
+	provider-name="HooleyHoop">
+
+	<!-- We can only load ifSHPluginManager is found -->
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.SHPluginManager"/>
+	</requirements>
+
+	<!-- 
+		We are pluging into point 'main' of SHPluginManager.
+		Only we can do this as we are the designated 'main' plugin for the app.
+	-->
+	<plugIn type="uk.co.stevehooley.SHPluginManager.main" principleClass="BKLifecyleMainExtension"/>
+
+	<!--
+		Lifecycle plugin can also have plugins.. 
+		The principle class must extend BKLifecycleProtocol
+	-->
+	<extension-point id="lifecycle" protocol="BKLifecycleProtocol"/>
+	
+</plugin>

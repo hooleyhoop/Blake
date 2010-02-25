@@ -1,0 +1,4 @@
+#include "Target-Framework.xcconfig"
+
+WRAPPER_EXTENSION = octest
+OTHER_LDFLAGS = $(inherited) -framework Foundation -framework AppKit -framework SenTestingKit

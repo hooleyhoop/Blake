@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {predicateOperatorPopupButtonChanged = id; }; 
+            CLASS = BKBooleanRuleViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {predicateOperatorPopupButton = NSPopUpButton; view = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

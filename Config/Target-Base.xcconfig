@@ -1,0 +1,19 @@
+// Xcode seems to have some super-secret overrides that take place between the target and project settings, thus defining these settings at project level has no effect.
+SKIP_INSTALL = NO
+DEPLOYMENT_POSTPROCESSING = NO
+GCC_ENABLE_SYMBOL_SEPARATION = NO
+
+GCC_VERSION[sdk=macosx10.6][arch=i386] = com.apple.compilers.llvm.clang.1_0
+GCC_VERSION[sdk=macosx10.5][arch=ppc] = 4.2
+
+//ARCHS[arch=ppc] = ppc64
+//ARCHS[arch=i386] = x86_64
+//ARCHS = ppc64
+
+INFOPLIST_FILE = infoplist/$(PRODUCT_NAME)-Info.plist
+GCC_PREFIX_HEADER = pch/$(PRODUCT_NAME)_Prefix.pch
+
+RUN_CLANG_STATIC_ANALYZER = YES
+
+// linker flag to quiet symbol not found errors
+//-undefined dynamic_lookup

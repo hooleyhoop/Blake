@@ -1,0 +1,187 @@
+// ===========================================================
+// - connectOutput:
+// ===========================================================
+//- (BOOL)connectInModelAndViewOutput:(int)opN ofNode:(int)anode toInput:(int)ipN ofNode:(int)anotherNode
+//{
+//	BOOL flag = [self connectOutput:opN ofNode:anode toInput:ipN ofNode:anotherNode];
+//	if(flag){
+//		[theScriptControl connectOutputOfNodeInView:opN ofNode:anode toInput:ipN ofNode:anotherNode ];
+//	}
+//	return flag;
+//return NO;
+//}
+
+
+
+// ===========================================================
+// - reset_Frame_Value_Dictionary:
+// ===========================================================
+- (void) reset_Frame_Value_Dictionary  // call if object is edited - lose all stored values.
+{
+	[frame_Value_Dictionary removeAllObjects];
+}
+
+
+
+// default does nothing
+//- (void) deleteNode
+//{
+//}
+
+
+// ===========================================================
+// - hasBeenChanged:
+// ===========================================================
+- (BOOL) hasBeenChanged { return hasBeenChanged; }
+
+// ===========================================================
+// - setHasBeenChanged:
+// ===========================================================
+- (void) setHasBeenChanged: (BOOL) flag 
+{
+	if( flag!=hasBeenChanged)
+	{
+		hasBeenChanged = flag;
+		if( hasBeenChanged==YES){
+			[self reset_Frame_Value_Dictionary];
+		}
+	}
+}
+
+
+/***********************************************************/
+// - lastValue:
+/***********************************************************/
+- (id) lastValue
+{
+    return lastValue; 
+}
+
+
+/***********************************************************/
+// - setLastValue:
+/***********************************************************/
+- (void) setLastValue: (id) aLastValue
+{
+    if (lastValue != aLastValue) {
+        [aLastValue retain];
+        [lastValue release];
+        lastValue = aLastValue;
+    }
+}
+
+
+// ===========================================================
+// - category:
+// ===========================================================
+- (NSString *) category { return category; }
+
+// ===========================================================
+// - setCategory:
+// ===========================================================
+- (void) setCategory: (NSString *) aCategory {
+    if (category != aCategory) {
+        [aCategory retain];
+        [category release];
+        category = aCategory;
+    }
+}
+
+
+// you must set the current frame before you can use one of the methods
+// to get an input value
+// ===========================================================
+// - val:
+// ===========================================================
+- (id) val { return val; }
+
+
+// ===========================================================
+// - setVal:
+// ===========================================================
+- (void) setVal: (id) aVal {
+    if (val != aVal) {
+        [aVal retain];
+        [val release];
+        val = aVal;
+		[self setHasBeenChanged:YES];
+    }
+}
+
+
+// ===========================================================
+//  - setValWithInt:
+// ===========================================================
+//- (void) setValWithInt: (int) aVal
+//{
+//	NSNumber *newNumber = [NSNumber numberWithInt: aVal];
+//	[self setVal: newNumber];
+//}
+
+
+// ===========================================================
+//  - setValWithFloat:
+// ===========================================================
+//- (void) setValWithFloat: (float) aVal
+//{
+//	NSNumber *newNumber = [NSNumber numberWithFloat: aVal];
+//	[self setVal: newNumber];
+//}
+
+
+// ===========================================================
+//  - setValWithString:
+// ===========================================================
+//- (void) setValWithString: (NSString*) aVal
+//{
+//	[self setVal:(id)aVal];
+//}
+
+
+
+
+from connectlet
+/***********************************************************/
+// - respondsTo:
+/***********************************************************/
+- (NSArray *) respondsTo
+{
+	return respondsTo; 
+}
+
+/***********************************************************/
+// - setRespondsTo:
+/***********************************************************/
+- (void) setRespondsTo: (NSArray *) aRespondsTo
+{
+	if (respondsTo != aRespondsTo) {
+		[aRespondsTo retain];
+		[respondsTo release];
+		respondsTo = aRespondsTo;
+	}		
+}
+
+
+
+// ===========================================================
+//  - respondToSameSelector:
+// ===========================================================
+- (BOOL) respondToSameSelector: (Connectlet*) anotherConnectlet
+{
+//sh	int i,j;
+//sh	NSArray* secondArray = [anotherConnectlet respondsTo];
+//sh	int numberOfSelectors = [[self respondsTo] count];
+//sh	for( i=0; i<numberOfSelectors; i++ )
+//sh	{
+//sh		NSString *selOne = [[self respondsTo]objectAtIndex:i];
+//sh		for(j=0; j<[[anotherConnectlet respondsTo] count]; j++ )
+//sh		{
+//sh			NSString *selTwo = [secondArray objectAtIndex:j];
+//sh			if( [selOne compare: selTwo] == NSOrderedSame )
+//sh			{
+//sh				return true;
+//sh			}
+//sh		}
+//sh	}
+//sh	return false;
+}

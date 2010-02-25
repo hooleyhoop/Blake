@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin 
+	id="uk.co.stevehooley.SHFScript" 
+	name="SHFScript" 
+	version="1.0.0" 
+	provider-name="HooleyHoop">
+
+	<!-- We can only load BKLifecycle is found -->
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.BKLifecycle"/>
+	</requirements>
+
+	<!-- 
+		We are pluging into point 'lifecycle' of BKLifecycle plugin.
+		From BKLifecycle's xml we can see that extension-point lifecycle is protocol BKLifecycleProtocol.
+		Therefore SHFScriptExtension must implement BKLifecycleProtocol.
+	-->
+	<plugIn type="uk.co.stevehooley.BKLifecycle.lifecycle" principleClass="SHFScriptExtension"/>
+	
+</plugin>

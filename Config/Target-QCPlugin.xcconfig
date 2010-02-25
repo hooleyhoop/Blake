@@ -1,0 +1,5 @@
+#include "Target-Base.xcconfig"
+
+// Set up rpath so that we can drop BBUtilities into BBPlugins.plugin/Contents/Frameworks
+// This probably isn't used publicly, but is rather handy for use by a QC developer.
+LD_RUNPATH_SEARCH_PATHS = @loader_path/../Frameworks

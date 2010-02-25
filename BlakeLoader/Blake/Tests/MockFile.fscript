@@ -1,0 +1,47 @@
+"Pharm v1.1 fscript file. s.hooley"
+
+"building node.. rootNode"
+rootNode_227 := SHNode newNode .
+rootNode_227 setName:'rootNode' .
+
+	"building node.. level2_node1"
+	level2_node1_228 := SHNode newNode .
+	level2_node1_228 setName:'level2_node1' .
+	level2_node1_228 . 
+	rootNode_227 addChild:level2_node1_228 autoRename:NO .
+	
+	"building node.. level2_node2"
+	level2_node2_229 := SHNode newNode .
+	level2_node2_229 setName:'level2_node2' .
+
+		"building node.. level3_node3"
+		level3_node3_230 := SHNode newNode .
+		level3_node3_230 setName:'level3_node3' .
+		level3_node3_230 . 
+		level2_node2_229 addChild:level3_node3_230 autoRename:NO .
+		
+	level2_node2_229 . 
+	rootNode_227 addChild:level2_node2_229 autoRename:NO .
+	
+	"building attribute.. input"
+	input_231 := SHInputAttribute makeAttribute .
+	input_231 setName:'input' .
+	dataValue := ((mockDataType alloc) initWithObject:'<<NSNull>>') autorelease.
+	dataValue . 
+	input_231 setDataType:'mockDataType' withValue:dataValue .
+	input_231 . 
+	rootNode_227 addChild:input_231 autoRename:NO .
+	
+	"building attribute.. output"
+	output_232 := SHOutputAttribute makeAttribute .
+	output_232 setName:'output' .
+	output_232 setDataType:'mockDataType' .
+	output_232 . 
+	rootNode_227 addChild:output_232 autoRename:NO .
+	
+"add Interconnectors"
+ic := rootNode_227 connectOutletOfAttribute:input_231 toInletOfAttribute:output_232 .
+
+rootNode_227 . 
+
+"finito"

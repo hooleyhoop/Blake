@@ -1,0 +1,35 @@
+DEBUGGING GUIDE
+---------------
+
+
+To initiate a leak search in MallocDebug, do the following:
+
+Launch MallocDebug.
+Open a new window and select the executable you want to examine.
+Click the Launch button.
+Exercise the application features to build its memory profile.
+In MallocDebug, select “Leaks” from the analysis popup menu to display the memory leaks in your application.
+Use the call-graph data in the browser to find where the memory was allocated.
+
+
+
+In executable info you can set debbugging environment variables
+
+
+
+
+put these in main
+
+#import <Foundation/NSDebug.h>
+
+	NSDebugEnabled = YES;
+	NSZombieEnabled = YES;
+	NSDeallocateZombies = NO;
+//	NSHangOnMallocError = NO;	// This one seems broken!  The app crashes if its set!
+	NSHangOnUncaughtException = YES;
+
+
+freed objects are made into zombies so that you can still send messages to them
+
+
+you can then use 	BOOL isFreed = NSIsFreedObject (thing);

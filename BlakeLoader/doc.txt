@@ -1,0 +1,8 @@
+
+BlakeController is the plugin main class - created at startup by plugin manager
+
+BlakeGlobalCommandController is for shortcuts?
+
+1 BlakeDocumentController manages all documents
+
+each document has its own windowcontroller(s)

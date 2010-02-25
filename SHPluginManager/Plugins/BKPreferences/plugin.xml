@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.BKPreferences"
+	name="Preferences"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.BKApplication"/>
+		<requirement bundle="uk.co.stevehooley.BKUserInterface"/>
+	</requirements>
+
+	<extension-point id="preferencepane" protocol="BKPreferencePaneProtocol"/>
+	
+	<extension point="uk.co.stevehooley.BKUserInterface.mainmenu" class="BKPreferencesMenuExtension"/>
+</plugin>

@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {predicateOperatorPopupButtonChanged = id; }; 
+            CLASS = BKDateRuleViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                agoTextField = NSTextField; 
+                leftExpression1DatePicker = NSDatePicker; 
+                leftExpression2DatePicker = NSDatePicker; 
+                leftExpressionNumberPopupButton = NSPopUpButton; 
+                leftExpressionNumberTextField = NSTextField; 
+                predicateOperatorPopupButton = NSPopUpButton; 
+                toTextField = NSTextField; 
+                view = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

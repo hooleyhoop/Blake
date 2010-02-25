@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                extend = id; 
+                findScriptsAndPlugins = id; 
+                openPluginsFolder = id; 
+                revealInFinder = id; 
+                showMenuConfiguration = id; 
+                viewProtocols = id; 
+                viewXML = id; 
+            }; 
+            CLASS = BKPluginPreferencePaneExtension; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {messageTextField = NSTextField; outlineView = NSOutlineView; view = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

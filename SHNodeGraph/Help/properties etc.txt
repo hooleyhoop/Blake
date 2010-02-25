@@ -1,0 +1,21 @@
+	the words 'nodeGroups' and 'scripts' are used interchangeably
+	
+	
+	SHInputProperty & SHOutputProperty
+	----------------------------------
+
+	all SHInputProperties and SHOutputProperties are Nodes. Add them to scripts and then they
+	are visible as inputs and outputs when the scripts are nested
+	
+	
+	all operators extend 'script', but have a flag so that when opened cant be edited on a low level
+		( maybe you see somesort of 'blackbox' with properties connected )
+	
+	all SHInputProperty
+	all input and output properties have an <ID>value
+	all input and output properties have the appropriate inlet or outlet
+	
+	soâ only SHNodeGroups, and therefore 'Operators' have SHInputProperties and SHOutputProperties - they can be wired together
+	
+	
+	SHInputProperty > textfield > Operator   NOT   textfield > SHInputProperty > Operator

@@ -1,0 +1,3 @@
+Set up a sub graph then make instances of that.
+
+At the moment MutableBool, MutableFloat, MutableInt are not mutable!

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.BKRuleEditor"
+	name="Rule Editor"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.BKBlocks"/>
+		<requirement bundle="uk.co.stevehooley.BKFoundation"/>
+		<requirement bundle="uk.co.stevehooley.BKApplication"/>
+		<requirement bundle="uk.co.stevehooley.BKUserInterface"/>
+	</requirements>
+
+	<extension-point id="rulecontributer" protocol="BKRuleContributerProtocol"/>
+</plugin>

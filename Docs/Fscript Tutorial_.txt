@@ -1,0 +1,327 @@
+Valid FScript
+-------------
+
+sys identifiers // all user defined identifiers
+5 sin
+3.5
+sys browse
+sys log:'hello world'
+35 between:0 and:100
+2 sin negated
+window := NSWindow alloc initWithContentRect:(125<>513 extent:400<>200) styleMask:NSTitledWindowMask + NSClosableWindowMask + NSMiniaturizableWindowMask + NSResizableWindowMask backing:NSBackingStoreBuffered defer:NO.
+
+(NSSound soundNamed:'Submarine') play
+
+myArray := {}
+myArray add:99; add:100; add:101; count
+
+sys browse
+FSInterpreter -   Assigns an object to an identifier in the  workspace.   
+WHY is FSNSNumber a category of NSObject
+
+
+• Instructions are separated by "."
+• ":=" denotes an assignment.
+• Strings use simple quotes: 'A string'.
+• Comments use double quotes: "A comment"
+
+
+// Execute a Command with the interpreter
+NSString* command = @"hoolpoint := HooleyPoint alloc init";
+execResult = [theInterpreter execute: command];
+id result = [execResult result];
+
+
+// Getting an object made with FSCRIPT
+NSArray * whatIsThisArray = [theInterpreter identifiers];
+id item1 = [whatIsThisArray objectAtIndex:0];
+id item2 = [whatIsThisArray objectAtIndex:1];
+id obj = [theInterpreter objectForIdentifier: item2 found:NULL]; // found may be passed as NULL
+int intArg = [obj xPos];
+
+
+// A BLOCK Is code that can execute itself
+// Create a string containing the F-Script code.
+NSString *fscriptCode = @"[sys log:'hello world']";
+// Create a Block object from the string.
+Block *myBlock = [fscriptCode asBlock];
+//Execute the block
+[myBlock value];
+
+//It's possible to combine these instructions:
+[[@"[sys log:'hello world']" asBlock] value]		
+
+// For managing syntax errors we prefer the asBlock:onError: method to the asBlock method (see the F-Script guide).
+
+
+// FSCRIPT to enter into the window
+"Instantiate and configure a window"
+window := NSWindow alloc initWithContentRect:(125<>513 extent:400<>200) styleMask:NSTitledWindowMask + NSClosableWindowMask + NSMiniaturizableWindowMask + NSResizableWindowMask backing:NSBackingStoreBuffered defer:NO.
+
+"Put the window onscreen"
+window orderFront:nil.
+
+"Give a title to the window"
+window setTitle:'Currency Converter'.
+
+
+
+// working blocks
+NSString* testString = @"[sys log:'hello world']";
+NSString* testString = @"[5+3.55]";
+
+
+
+
+
+1 is an instance of the NSNumber class (or one of its subclasses)
+-3.14 is an instance of the NSNumber class (or one of its subclasses)
+1.23e-2 is an instance of the NSNumber class (or one of its subclasses)
+'hello' is an instance of the NSString class (or one of its subclasses)
+true is an instance of the True class
+false is an instance of the False class
+{1,2,'bill'} is an instance of the Array class (a subclass of NSMutableArray)
+[:a :b| a + b] is an instance of the Block class
+#+ is an instance of the Block class in compact form
+nil the nil object
+
+Examples of message sending:
+5 sin
+The unary message "sin" is sent to a number object with a value
+of 5 (the receiver). A number object with value of
+-0.95892427466313845 is returned.
+
+2+4
+The binary message "+" is sent to a number object with a value of
+2 with one argument, a number object with a value of 4. A number
+object with a value of 6 is returned.
+
+35 between:0 and:100
+The keyword message "between:and:" is sent to a number
+object with a value of 35, with two number objects as arguments
+whose values are 0 and 100. The FSBoolean object "true" is
+returned.
+
+
+2 sin negated 
+(2 sin) negated
+
+3 + 4 * 6 + 3 
+((3 + 4) * 6) + 3
+
+15 max: 32 / 3 
+15 max: (32 / 3)
+
+2 sin + 4 
+(2 sin) + 4
+
+5 between: 1 and: 3 sin + 4 
+5 between: 1 and: ((3sin) + 4)
+
+4 sin max: 4 * 6 
+(4 sin) max: (4*6)
+
+To get a list of user-defined identifiers in your workspace, send the identifiers message to a
+predefined object named sys.
+
+For example: "x := 3. y:= 5. x+y" evaluates to 8. The “.” symbol is also referred as
+the “instruction separation”.
+
+Comments are delimited by double quotes:
+"this is a comment"
+
+message cascade
+> myArray := {}
+> myArray add:99; add:100; add:101; count
+3
+> myArray
+{99,100,101}
+
+In this example, we use the Cocoa NSSound
+> (NSSound soundNamed:'Submarine') play
+
+Creates a NSWindow:
+> w := NSWindow alloc initWithContentRect:(100<>100 extent:300<>300)
+styleMask:NSTitledWindowMask+NSClosableWindowMask backing:NSBackingStoreBuffered defer:false
+Now, to put it on screen:
+> w orderFront:nil
+Setting its title is easy:
+> w setTitle:'this is a nice title'
+
+
+A Block may have parameters. For example [:a :b | a + b] is a block with two parameters
+named a and b. When executing it you have to supply the value for the arguments, using the relevant
+value… message. For example:
+> myBlock := [:a :b| a + b]
+> myBlock value:3 value:4
+7
+
+A Block may also have local variables and bindings to other objects. They can be executed recursively.
+Below is an example of a block with two arguments and one local variable:
+> [:a :b| |local| local := a + b. local * 2] value:3 value:4
+14
+
+7.6.2 Points
+From F-Script, you can create an NSValue containing an NSPoint by invoking the <> method on a
+number, with another number for argument. This method generates and returns a point whose xcoordinate
+is equal to the value of the receiver and whose y-coordinate is equal to the value of the
+argument. You can ask a point for its x and y coordinates with the messages x and y. For example:
+> myPoint := 100<>150 “generating and assigning a point to the variable myPoint“
+> myPoint “evaluating myPoint“
+(100<>150)
+> myPoint x “asking for the x coordinate“
+100
+> myPoint y “asking for the y coordinate“
+100
+> myPoint = (100<>150) “comparing myPoint with another point. Parenthesis must be
+used, otherwise the expression will be interpreted as
+(myPoint = 100) <> 150. “
+true
+
+
+8.1 Conditional
+The conditional selection is expressed by sending the message ifTrue:ifFalse: to a Boolean
+with, typically, two blocks as argument. The Boolean will respond to the message by evaluating the
+appropriate argument block. If the Boolean is true, it will evaluate the first block and ignore the
+second. On the other hand if the Boolean is false, it will evaluate the second block and ignore the
+first. Finally, the result of the evaluation of the selected block is returned.
+Below is a comparison of F-Script code and C code for the conditional:
+F-Script C
+number1 < number2 ifTrue:
+[
+maximum := number2.
+minimum := number1.
+]ifFalse:
+[
+maximum := number1.
+minimum := number2.
+]
+if (number1 < number2)
+{
+maximum = number2;
+minimum = number1;
+}else
+{
+maximum = number1;
+minimum = number2;
+}
+Boolean objects true and false also accept the single keyword message ifTrue:. The Boolean
+true responds to this message by returning the value of the block argument; false responds by
+returning the special object nil. There are also methods ifFalse: and ifFalse:ifTrue:
+
+
+8.2 Loop
+F-Script provides a conditional repetition equivalent to the C while statement. It is again based on
+blocks and makes use of the fact that blocks are objects and thus can support their own message
+protocol. Consider the following program fragments to compute the sum of the first 100 integers:
+F-Script C
+sum := 0.
+number := 1.
+[number <= 100] whileTrue:
+[
+sum := sum + number.
+number := number + 1.
+]
+sum = 0;
+number = 1;
+while (number <= 100)
+{
+sum = sum + number;
+number = number + 1;
+}
+The block that receives the whileTrue: message repeatedly evaluates itself and, if the termination
+condition is not yet met, evaluates the argument block. The whileTrue (without argument),
+whileFalse and whileFalse: methods also exist.
+
+F-Script also provide something like the for statement
+methods provided by the FSNSNumber category (a category
+F-Script
+sum := 0.
+1 to:100 do:
+[:i|
+sum := sum + i.
+]
+sum
+for
+{
+}
+
+
+
+14 Exceptions
+F-Script uses the Cocoa Exception model. You can raise and handle NSExceptions. To define an FScript
+exception handler, you use the onException: method of class Block. This method takes a block
+as argument (the exception handler). The method evaluates the receiver and, if an exception is raised
+across the receiver, the handler is evaluated. If the handler declares that is has an argument, then it is
+given the NSException as the argument.
+General notation:
+[block that may raise an NSException] onException: [:exception| exception handler code]
+Example:
+[1/0] onException:[:e| sys beep. sys log:e] “ Will play a beep and log the NSException
+raised by the division by zero “
+To explicitly raise an exception, use the NSException API. Example:
+(NSException exceptionWithName:'MyException' reason:'testing' userInfo:nil) raise
+
+
+
+
+
+	// NSString* errorString = @"[sys log:'ERROR MAKING BLOCK']";
+		// Block *errorBlock = [errorString asBlock];
+
+		// SEL errorMethod;
+		// errorMethod = @selector(test);
+		// id anObject = self;
+		// objc_msgSend( anObject, errorMethod );
+
+		NSString *doThisOnError = @"[:obj| [obj test]]";							// call 'test' when executed
+		Block *doOnErrorMotherBlock = [[doThisOnError asBlock] retain];
+		Block *executionErrorBlock = [[doOnErrorMotherBlock value:self] retain];	// why is the value returned from 'motherblock' also a block?
+	//	[executionErrorBlock inspect];
+
+		
+				//	[executionErrorBlock value];											// passed 3 arguments, error msg, startpos, end pos 
+	
+		NSString* testString1 = @"[5+5] onException:[:e| sys beep. sys log:e] ";
+		Block *testBlock = [testString1 asBlockOnError: executionErrorBlock ];		// 'executionErrorBlock' is passed 3 arguments, error msg, startpos, end pos
+		[testBlock inspect];
+		
+				// onException:[:e| sys beep. sys log:e]
+	//	[testBlock value];	
+		
+													
+								 
+// > myBlock := [:a :b| a + b]
+// > myBlock value:3 value:4
+
+//		Block *myBlock1 = [testString1 asBlock];
+//		[myBlock1 asBlockOnError: [errorString1 asBlock]];
+		
+
+
+
+	
+	//	NSString* testString2 = @"[5+myBlock1]";
+	//	Block *myBlock2 = [testString2 asBlock];
+		
+	//	NSObject* isThisANumber = [[NSNumber alloc]init];
+	//	NSNumber * newNum = [isThisANumber sqrt];
+	//	NSLog(@"newNum %@", [myBlock1 value] );
+		
+//	[1/0] onException:[:e| sys beep. sys log:e] // Will play a beep and log the NSException raised by the division by zero “
+
+
+// - (void)showError:(NSString*)errorMessage; 
+	//	[myBlock showError: [[NSString alloc]init] ];
+	//	NSLog(@"result fscript : " );
+		//id arg1 = [myBlock value];
+		//NSLog(@"result fscript : %@", [arg1 description] );
+		
+		
+		
+		
+interpreter tricks
+[myInterpreter setObject:[NSDate date] forIdentifier:@"myDate"];	// add variables
+BOOL found;
+id result = [myInterpreter objectForIdentifier:@"myDate" found:&found];
+NSArray *identifiers = [myInterpreter identifiers];

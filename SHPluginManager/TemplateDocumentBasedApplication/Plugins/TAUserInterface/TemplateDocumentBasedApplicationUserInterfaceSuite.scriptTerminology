@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>NSApplication</key>
+		<dict>
+			<key>Description</key>
+			<string>An application's top level scripting object.</string>
+			<key>Name</key>
+			<string>application</string>
+			<key>PluralName</key>
+			<string>applications</string>
+		</dict>
+		<key>TADocument</key>
+		<dict>
+			<key>Name</key>
+			<string>document</string>
+			<key>PluralName</key>
+			<string>documents</string>
+		</dict>
+		<key>TADocumentWindowController</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>name</key>
+				<dict>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+				<key>selection</key>
+				<dict>
+					<key>Description</key>
+					<string>List of selected objects.</string>
+					<key>Name</key>
+					<string>selection</string>
+				</dict>
+				<key>title</key>
+				<dict>
+					<key>Name</key>
+					<string>title</string>
+				</dict>
+				<key>uniqueID</key>
+				<dict>
+					<key>Name</key>
+					<string>id</string>
+				</dict>
+				<key>window</key>
+				<dict>
+					<key>Description</key>
+					<string>The window associated with this document viewer.</string>
+					<key>Name</key>
+					<string>window</string>
+				</dict>
+			</dict>
+			<key>Name</key>
+			<string>document viewer</string>
+			<key>PluralName</key>
+			<string>document viewers</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>TemplateDocumentBasedApplication User Interface Scripting Support.</string>
+	<key>Name</key>
+	<string>TemplateDocumentBasedApplication User Interface Suite</string>
+</dict>
+</plist>

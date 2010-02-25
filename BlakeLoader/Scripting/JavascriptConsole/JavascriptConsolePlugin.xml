@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.JavascriptConsole"
+    name="JavascriptConsole"
+    version="1.0.0"
+    provider-name="Hooley">
+
+	<requirements_disabled>
+		<!-- We can only load if uk.co.stevehooley.BlakeMain plugin is found. -->
+		<requirement bundle="uk.co.stevehooley.BlakeMain"/>
+	</requirements_disabled>
+	
+	<!-- 
+		We are pluging into point 'lifecycle' of BKLifecycle plugin.
+		From BKLifecycle's xml we can see that extension-point lifecycle is protocol BKLifecycleProtocol.
+		Therefore SKTGraphicViewController must implement BKLifecycleProtocol.
+	-->
+	<plugIn type="uk.co.stevehooley.BlakeMain.singletonView" principleClass="JavascriptConsole"/>
+	
+</plugin>

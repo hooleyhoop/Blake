@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'SHObjectPalette' target in the 'SHObjectPalette' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import <SHShared/SHShared.h>
+	#import <SHSharedUI/SHSharedUI.h>
+	#import <ProtoNodeGraph/ProtoNodeGraph.h>
+	#import <SHNodeGraph/SHNodeGraph.h>
+	#import <BlakeMain/BlakeMain.h>
+#endif

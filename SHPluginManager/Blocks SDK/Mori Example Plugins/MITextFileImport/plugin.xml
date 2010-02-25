@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.Hooley.mori.MITextFileImport"
+	name="Mori Text File Import"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.Hooley.mori.MIDocument"/>
+	</requirements>
+
+	<extension point="uk.co.Hooley.mori.MIDocument.entryImport" class="MITextFileImport"/>
+</plugin>

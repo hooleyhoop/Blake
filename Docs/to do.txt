@@ -1,0 +1,52 @@
+
+
+2 REMEMBER: WINDOW may or may not need a Delegate
+
+3 SWAPBALE VIEW probably needs to be a ScrollableView
+
+
+draw on inputs
+
+make geometry
+
+clicking on inputs
+
+are nodes drawn when they are off screen?
+
+do we need to depth sort? look at houdini
+
+draw three kinds of nodes/different colours
+
+implement save
+
+#define ICON_SIZE 		16.0	/* Our Icons are ICON_SIZE x ICON_SIZE */
+
+
+calling  '- (id) input1;' - 
+
+should it evaluate the input node or not
+or just return it's current value? One possible answer would be to disable inputs
+on duplicate variables - ? ehe?
+
+make sure default 'val' values are not modified
+
+add group and group selected
+
+
+1   Make the interpreter keep a valid reference of objects
+
+1   line/curve/graph object
+	MUST be able to be a driven key. not just against time. How do i do this????
+
+2   does being able to reference any object from a script compromise the loop thing. 
+
+
+1 make sure any view can be spawned in a window
+
+2. menu bar
+
+3. info bar at bottom
+
+2.  Lists. How objects pass lists etc
+
+10. Make sure variables are created with default values

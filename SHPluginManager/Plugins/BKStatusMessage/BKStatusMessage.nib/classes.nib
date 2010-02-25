@@ -1,0 +1,17 @@
+{
+    IBClasses = (
+        {
+            CLASS = BKStatusMessageController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                icon = NSImageView; 
+                informativeText = NSTextField; 
+                messageText = NSTextField; 
+                progressIndicator = NSProgressIndicator; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

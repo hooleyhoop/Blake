@@ -1,0 +1,7 @@
+
+	
+	• I want a forest like in the Adobe opensource thing
+	• It has a good Iterator over the nodes - visits each node twice - in and out
+	• if you execute the node on the way out you get a depth first traversal
+	• dont have to keep track of which nodes have no siblings
+	

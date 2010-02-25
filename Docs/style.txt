@@ -1,0 +1,62 @@
+• Instance methods that dont use Instance Variables Should be functions
+
+
+Constant global variables are good:  USE enum
+
+Instead of #define, try using a global variable. It is more Cocoa-y. In the .h file:
+
+extern NSString *BNRHandSizeAttributeKey;
+In the .m file:
+NSString *BNRHandSizeAttributeKey = @"BNRHandSizeAttribute";
+
+ USE enum instead
+ 
+
+#pragma mark class methods
+#pragma mark init methods
+#pragma mark dealloc methods
+#pragma mark NSCopyopying, hash, isEqual
+#pragma mark NSCoding
+#pragma mark awakeFromNib-like methods
+#pragma mark action methods
+#pragma mark mouse event methods
+#pragma mark drawing methods
+#pragma mark delegate/datasource methods
+#pragma mark private methods
+#pragma mark accessor methods
+
+
+
+init and dealloc shall match
+
+If you do direct assignments in init, use release in dealloc. If you use accessors to init, use them in dealloc. Reverse the order.
+
+Good:
+
+- (id)init
+{
+    [super init];
+    x = [[NSCalendarDate alloc] init];
+    y = [[NSNumber alloc] initWithFloat:1.0];
+    return self;
+}
+- (void)dealloc
+{
+    [y release];
+    [x release];
+    [super dealloc];
+}
+Also good:
+- (id)init
+{
+    [super init];
+    [self setX:[NSCalendarDate calendarDate]];
+    [self setY:[NSNumber numberWithFloat:1.0]];
+    return self;
+}
+- (void)dealloc
+{
+    [self setY:nil];
+    [self setX:nil];
+    [super dealloc];
+}

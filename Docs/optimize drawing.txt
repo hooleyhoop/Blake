@@ -1,0 +1,54 @@
+    BOOL ready;
+    BOOL isDirty;
+
+
+- (void)setDirty
+{
+    isDirty = YES;
+}
+
+
+- (void) animate
+{
+    static double lastDrawTime = 0.0;
+
+    if (ready) 
+	{
+	    //SKP - don't need to display all the time
+	    // don't draw more often than the specified maxFrameRate    
+	    struct timeval t;
+	    gettimeofday(&t, NULL);
+	    double currentTime = (double) t.tv_sec + (double) t.tv_usec / 1000000.0 ;
+
+		if ( (currentTime - lastDrawTime) > (1.0/MAX_FPS) ) 
+		{
+		    [glView setNeedsDisplay:YES];
+		    lastDrawTime = currentTime;
+		}
+    }
+}
+
+
+- (void)resize 
+{
+    //NSLog(@"[CelestiaController resize]");
+    [appCore resize:[glView frame]];
+    isDirty = NO;
+}
+
+
+- (void)display 
+{
+    if ( [startupCondition condition] != 1 )
+        return;
+    if (!ready) 
+       [self finishInitialization];
+    {
+        if (isDirty) 
+			[self resize];
+
+		[appCore draw];
+	    [[glView openGLContext] flushBuffer];
+    }
+
+}

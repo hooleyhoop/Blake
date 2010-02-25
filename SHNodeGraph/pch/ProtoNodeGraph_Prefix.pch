@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files of the 'SHNodeGraph' target in the 'SHNodeGraph' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
+	#import <SHShared/SHShared.h>
+
+#ifdef DEBUG
+#else 
+#warning RELEASE?
+#endif
+#endif

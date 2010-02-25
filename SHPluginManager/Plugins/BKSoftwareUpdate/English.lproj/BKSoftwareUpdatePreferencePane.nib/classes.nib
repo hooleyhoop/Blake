@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = BKSoftwareUpdatePreferencePaneExtension; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {messageTextField = NSTextField; view = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

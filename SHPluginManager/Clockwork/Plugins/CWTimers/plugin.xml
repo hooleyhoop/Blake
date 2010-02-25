@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.Hooley.CWTimers"
+	name="Timers"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.Hooley.blocks"/>
+		<requirement bundle="uk.co.Hooley.lifecycle"/>
+		<requirement bundle="uk.co.Hooley.scripts"/>
+	</requirements>
+	
+	<extension-point id="repeatRules" protocol="CWAlarmRepeatRuleProtocol"/>
+	<extension-point id="alarmActions" protocol="CWAlarmActionProtocol"/>
+
+	<extension point="uk.co.Hooley.lifecycle.lifecycle" class="CWTimersLifeCycleExtension"/>
+
+	<extension point="uk.co.Hooley.CWTimers.alarmActions" class="CWAlertAction"/>
+	<extension point="uk.co.Hooley.CWTimers.alarmActions" class="CWAlertWithSoundAction"/>
+	<extension point="uk.co.Hooley.CWTimers.alarmActions" class="CWAlertWithRepeatSoundAction"/>
+	
+	<extension point="uk.co.Hooley.CWTimers.repeatRules" class="CWTimerRepeatNone"/>
+	<extension point="uk.co.Hooley.CWTimers.repeatRules" class="CWTimerRepeatTimeInterval"/>
+	<extension point="uk.co.Hooley.CWTimers.repeatRules" class="CWTimerRepeatCalendarInterval"/>
+</plugin>

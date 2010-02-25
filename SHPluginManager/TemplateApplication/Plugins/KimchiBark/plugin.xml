@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.Hooley.kimchibark"
+	name="Kimchi Bark"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.Hooley.lifecycle"/>
+	</requirements>
+
+	<extension point="uk.co.Hooley.lifecycle.lifecycle" class="KimchiBark"/>
+</plugin>

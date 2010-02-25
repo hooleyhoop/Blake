@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.BKScripts"
+	name="Scripts"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.BKUserInterface"/>
+		<requirement bundle="uk.co.stevehooley.BKLifecycle"/>
+	</requirements>
+
+	<extension-point id="fileType" protocol="BKScriptsFileControllerProtocol"/>
+
+	<extension point="uk.co.stevehooley.BKLifecycle.lifecycle" class="BKScriptsLifecycleExtension"/>
+	<extension point="uk.co.stevehooley.BKUserInterface.mainmenu" class="BKScriptsMenuExtension"/>
+	<extension point="uk.co.stevehooley.BKUserInterface.alltoolbars" class="BKScriptsToolbarExtension"/>
+	<extension point="uk.co.stevehooley.BKScripts.fileType" class="BKScriptsAppleScriptFileControllerExtension"/>
+</plugin>

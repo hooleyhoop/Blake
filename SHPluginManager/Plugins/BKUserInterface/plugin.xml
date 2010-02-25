@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.BKUserInterface"
+	name="User Interface"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.BKBlocks"/>
+		<requirement bundle="uk.co.stevehooley.BKFoundation"/>
+		<requirement bundle="uk.co.stevehooley.BKApplication"/>
+		<requirement bundle="uk.co.stevehooley.BKLifecycle"/>
+	</requirements>
+
+	<extension-point id="mainmenu" protocol="BKMenuContributerProtocol"/>
+	<extension-point id="dockmenu" protocol="BKMenuContributerProtocol"/>
+	<extension-point id="maintoolbar" protocol="BKToolbarContributerProtocol"/>
+	<extension-point id="alltoolbars" protocol="BKToolbarContributerProtocol"/>
+	
+	<extension point="uk.co.stevehooley.BKLifecycle.lifecycle" class="BKUserInterfaceLifecycleExtension"/>
+</plugin>

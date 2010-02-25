@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.BKSoftwareUpdate"
+	name="Software Update"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.BKConfiguration"/>
+		<requirement bundle="uk.co.stevehooley.BKPreferences"/>
+	</requirements>
+
+	<extension point="uk.co.stevehooley.BKLifecycle.lifecycle" class="BKSoftwareUpdateLifecycleExtension"/>
+	<extension point="uk.co.stevehooley.BKPreferences.preferencepane" class="BKSoftwareUpdatePreferencePaneExtension"/>
+</plugin>

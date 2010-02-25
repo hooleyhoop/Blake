@@ -1,0 +1,14 @@
+"v1.0.0 24/01/2006 make a new root node. Steven Hooley"
+
+defaultRoot := SHEmptyGroupOperator alloc initWithParentNodeGroup:nil .
+defaultRoot setName:'defaultRoot' .
+defaultRoot setTemporaryID: SHObjectGraphModel getNewUniqueID .
+SHObjectGraphModel graphModel addRootNode:defaultRoot forKey:'defaultRoot' .
+		
+"set it as the current node"
+SHObjectGraphModel graphModel setTheCurrentNodeGroup:defaultRoot .
+
+"Always return a result.. return the node as result"
+defaultRoot
+
+"finito"

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.Hooley.CWUserInterface"
+	name="Clockwork User Interface"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.Hooley.blocks"/>
+		<requirement bundle="uk.co.Hooley.lifecycle"/>
+		<requirement bundle="uk.co.Hooley.ui"/>
+		<requirement bundle="uk.co.Hooley.scripts"/>
+		<requirement bundle="uk.co.Hooley.CWTimers"/>
+	</requirements>
+
+	<extension point="uk.co.Hooley.lifecycle.lifecycle" class="CWUserInterfaceLifecycleExtension"/>
+	<extension point="uk.co.Hooley.ui.mainmenu" class="CWUserInterfaceMenuExtension"/>
+	<extension point="uk.co.Hooley.CWTimers.alarmActions" class="CWUserInterfaceActionScript"/>
+</plugin>

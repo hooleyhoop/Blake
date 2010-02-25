@@ -1,0 +1,88 @@
+"Pharm v1.1 fscript file. s.hooley"
+
+"building node.. root"
+root_120 := SHNode newNode .
+root_120 setName:'root' .
+
+	"building node.. circle"
+	circle_121 := SHNode newNode .
+	circle_121 setName:'circle' .
+	circle_121 . 
+	root_120 addChild:circle_121 autoRename:NO .
+	
+	"building node.. square"
+	square_122 := SHNode newNode .
+	square_122 setName:'square' .
+	square_122 . 
+	root_120 addChild:square_122 autoRename:NO .
+	
+	"building node.. triangle"
+	triangle_123 := SHNode newNode .
+	triangle_123 setName:'triangle' .
+	triangle_123 . 
+	root_120 addChild:triangle_123 autoRename:NO .
+	
+	"building node.. testWriteToURL"
+	testWriteToURL_133 := SHNode newNode .
+	testWriteToURL_133 setName:'testWriteToURL' .
+	testWriteToURL_133 . 
+	root_120 addChild:testWriteToURL_133 autoRename:NO .
+	
+	"building attribute.. input"
+	input_124 := SHInputAttribute makeAttribute .
+	input_124 setName:'input' .
+	dataValue := ((mockDataType alloc) initWithObject:'<<NSNull>>') autorelease.
+	dataValue . 
+	input_124 setDataType:'mockDataType' withValue:dataValue .
+	input_124 . 
+	root_120 addChild:input_124 autoRename:NO .
+	
+	"building attribute.. input1"
+	input1_125 := SHInputAttribute makeAttribute .
+	input1_125 setName:'input1' .
+	dataValue := ((mockDataType alloc) initWithObject:'<<NSNull>>') autorelease.
+	dataValue . 
+	input1_125 setDataType:'mockDataType' withValue:dataValue .
+	input1_125 . 
+	root_120 addChild:input1_125 autoRename:NO .
+	
+	"building attribute.. input2"
+	input2_126 := SHInputAttribute makeAttribute .
+	input2_126 setName:'input2' .
+	dataValue := ((mockDataType alloc) initWithObject:'<<NSNull>>') autorelease.
+	dataValue . 
+	input2_126 setDataType:'mockDataType' withValue:dataValue .
+	input2_126 . 
+	root_120 addChild:input2_126 autoRename:NO .
+	
+	"building attribute.. attribute"
+	attribute_127 := SHOutputAttribute makeAttribute .
+	attribute_127 setName:'attribute' .
+	attribute_127 setDataType:'mockDataType' .
+	attribute_127 . 
+	root_120 addChild:attribute_127 autoRename:NO .
+	
+	"building attribute.. attribute1"
+	attribute1_128 := SHOutputAttribute makeAttribute .
+	attribute1_128 setName:'attribute1' .
+	attribute1_128 setDataType:'mockDataType' .
+	attribute1_128 . 
+	root_120 addChild:attribute1_128 autoRename:NO .
+	
+	"building attribute.. attribute2"
+	attribute2_129 := SHOutputAttribute makeAttribute .
+	attribute2_129 setName:'attribute2' .
+	attribute2_129 setDataType:'mockDataType' .
+	attribute2_129 . 
+	root_120 addChild:attribute2_129 autoRename:NO .
+	
+"add Interconnectors"
+ic := root_120 connectOutletOfAttribute:input_124 toInletOfAttribute:attribute_127 .
+
+ic := root_120 connectOutletOfAttribute:input1_125 toInletOfAttribute:attribute1_128 .
+
+ic := root_120 connectOutletOfAttribute:input2_126 toInletOfAttribute:attribute2_129 .
+
+root_120 . 
+
+"finito"

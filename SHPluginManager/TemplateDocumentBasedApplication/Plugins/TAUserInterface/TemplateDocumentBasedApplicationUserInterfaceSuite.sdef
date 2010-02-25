@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<dictionary title="TemplateDocumentBasedApplication User Interface Suite Terminology">
+    <suite name="TemplateDocumentBasedApplication User Interface Suite" code="TUsu" description="TemplateDocumentBasedApplication User Interface Scripting Support.">
+		<class name="application" inherits="BlocksSoftwareUpdateSuite.NSApplication" code="capp" description="An application's top level scripting object.">
+			<cocoa class="NSApplication"/>
+		    <element type="document viewer" access="r">
+				<cocoa key="documentViewers"/>
+			</element>
+		</class>
+		
+		<class name="document viewer" inherits="ASKApplicationSuite.AbstractObject" code="TUdv">
+			<cocoa class="TADocumentWindowController"/>
+		    <property name="id" code="ID  " type="integer" access="r">
+				<cocoa key="uniqueID"/>
+		    </property>
+		    <property name="name" code="pnam" type="string" access="r"/>
+		    <property name="title" code="TUtl" type="string" access="rw"/>
+		    <property name="window" code="cwin" type="ASKApplicationSuite.NSWindow" access="r" description="The window associated with this document viewer."/>
+		    <property name="selection" code="TUsl" access="r" type="list of any" description="List of selected objects."/>
+		</class>
+		
+		<class name="document" inherits="TemplateDocumentBasedApplicationDocumentSuite.TADocument" code="docu">
+			<cocoa class="TADocument"/>
+		    <element type="document viewer">
+				<cocoa key="documentViewers"/>
+		    </element>
+		</class>
+
+    </suite>
+</dictionary>

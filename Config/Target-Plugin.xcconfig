@@ -1,0 +1,14 @@
+#include "Target-Base.xcconfig"
+
+LD_DYLIB_INSTALL_NAME = @rpath/$(EXECUTABLE_PATH)
+
+// This is for the player plugin system, tho AFAICT it's not used at present. Steve?
+OTHER_LDFLAGS = $(inherited) -framework Foundation -framework AppKit
+WRAPPER_EXTENSION = plugin
+SKIP_INSTALL = YES
+
+//INFOPLIST_FILE = $(SRCROOT)/Plugins/$(PRODUCT_NAME)/$(PRODUCT_NAME)-Info.plist
+
+//DEPLOYMENT_LOCATION = NO
+//INFOPLIST_EXPAND_BUILD_SETTINGS = NO
+//INSTALL_PATH = @executable_path/../Frameworks

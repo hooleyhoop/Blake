@@ -1,0 +1,67 @@
+#import </usr/include/objc/objc-class.h>
+
+typedef struct objc_class*		ObjC_Class_Info;
+typedef struct objc_ivar_list*  ObjC_DataMemberList;
+
+
+// struct objc_ivar_list
+// {
+//   int ivar_count;
+//   struct objc_ivar ivar_list[1];
+// };
+
+// struct objc_ivar
+// {
+//    char *ivar_name;
+//   char *ivar_type;
+//   int ivar_offset;
+// };
+
+
+
+/*  Important!!!!
+	[p callWith:x and:y];
+	is really just the same as writing
+	objc_msgSend( p, @selector( callWith:and:), x, y);
+*/	
+		
+		
+//
++ (NSMutableArray*) getClassVariables 
+{
+	
+	NSMutableArray*		myVars  = [[NSMutableArray alloc] init];
+	ObjC_Class_Info		myClass = [self class];
+	NSString*			temp;
+	int					count = 0;
+	ObjC_DataMemberList ivars;
+
+	while (myClass)
+	{
+		count = 0;
+		ivars = myClass->ivars;
+
+		if( ivars ) 
+		{
+			while( count < ivars->ivar_count )
+			{
+				char* name = ivars->ivar_list[count].ivar_name;
+				
+				temp = [NSString stringWithCString: (const char*) name];
+				[myVars addObject: temp];
+				++count;
+			}
+		}
+		myClass = myClass->super_class;
+	}
+	return [myVars autorelease];
+}
+
+
+//
++ (NSString*) getClassName
+{
+	ObjC_Class_Info myClass = [self class];
+	NSString* className = [NSString stringWithCString: (const char*) myClass->name];
+	return className;
+}

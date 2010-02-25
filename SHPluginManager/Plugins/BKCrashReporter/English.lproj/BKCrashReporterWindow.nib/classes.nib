@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {check = id; ignore = id; sendReport = id; }; 
+            CLASS = BKCrashReporterController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                crashLogTextView = NSTextView; 
+                emailTextField = NSTextField; 
+                problemDescriptionTextView = NSTextView; 
+                sendReportButton = NSButton; 
+                statusMessageTextField = NSTextField; 
+                statusProgressIndicator = NSProgressIndicator; 
+                subTitleTextField = NSTextField; 
+                titleTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,17 @@
+{
+    IBClasses = (
+        {
+            CLASS = BKPreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                fSelectedPreferencePaneExtension = id; 
+                loadingTextField = NSTextField; 
+                loadingView = NSView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

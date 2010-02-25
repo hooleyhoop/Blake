@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {predicateOperatorPopupButtonChanged = id; }; 
+            CLASS = BKNumberRuleViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                predicateOperatorPopupButton = NSPopUpButton; 
+                rightExpression1Control = NSControl; 
+                rightExpression2Control = NSControl; 
+                toTextField = NSTextField; 
+                view = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

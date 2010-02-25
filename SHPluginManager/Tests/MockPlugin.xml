@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.Blake_main"
+    name="Blake_main"
+    version="1.0.0"
+    provider-name="Hooley">
+
+	<requirements_disabled>
+		<!-- We can only load if BKLifecycle plugin is found. BKLifecycle is the 'main' plugin for our app -->
+		<requirement bundle="uk.co.stevehooley.BKLifecycle"/>
+	</requirements_disabled>
+	
+	<!-- 
+		We are pluging into point 'lifecycle' of BKLifecycle plugin.
+		From BKLifecycle's xml we can see that extension-point lifecycle is protocol BKLifecycleProtocol.
+		Therefore SHBlakeController must implement BKLifecycleProtocol.
+	-->
+	<plugIn type="uk.co.stevehooley.BKLifecycle.lifecycle" principleClass="SHBlakeController"/>
+
+	<!-- Blake_main plugin can also have plugins.. These are just to demonstrate how to do it at the moment -->
+	<extension-point id="preference" protocol="SHPreferencesProtocol"/>
+	<extension-point id="customView" protocol="SHViewControllerProtocol"/>
+	
+</plugin>

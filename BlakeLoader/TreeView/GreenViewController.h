@@ -1,0 +1,6 @@
+
+@interface GreenViewController : NSViewController 
+{
+}
+
+@end

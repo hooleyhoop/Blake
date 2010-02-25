@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin id="uk.co.stevehooley.SHPluginManager"
+	name="SHPluginManager"
+	version="1.0.0"
+	provider-name="uk.co.stevehooley">
+
+	<extension-point id="main" protocol="NSObject"/>
+	<extension-point id="documentType" protocol="NSDocument"/>
+</plugin>

@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {add = id; remove = id; rulePopUpButtonChanged = id; }; 
+            CLASS = BKRuleContainerController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                placeholderRuleView = NSView; 
+                ruleContainerView = NSView; 
+                rulePopUpButton = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {selectedRuleChanged = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,8 @@
+#include "Target-Base.xcconfig"
+
+// we need the flat namespace for variables accessible from the plugins
+// see http://www.cocoadev.com/index.pl?PlugIns
+// there are some alternatives to it -undefined dynamic_lookup and DYLD_FORCE_FLAT_NAMESPACE dyld environment variable
+OTHER_LDFLAGS = $(inherited) -framework Foundation -framework AppKit
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited)

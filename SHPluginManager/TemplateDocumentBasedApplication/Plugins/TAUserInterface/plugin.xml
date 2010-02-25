@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.Hooley.templatedocumentbasedapplication.TAUserInterface"
+	name="TemplateDocumentBasedApplication User Interface"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.Hooley.blocks"/>
+		<requirement bundle="uk.co.Hooley.documents"/>
+		<requirement bundle="uk.co.Hooley.ui"/>
+		<requirement bundle="uk.co.Hooley.templatedocumentbasedapplication.TADocument"/>
+	</requirements>
+	
+	<extension point="uk.co.Hooley.documents.documentLifecycle" class="TADocumentUserInterfaceDocumentLifecycleExtension"/>
+</plugin>

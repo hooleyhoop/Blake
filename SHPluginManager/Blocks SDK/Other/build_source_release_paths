@@ -1,0 +1,10 @@
+Blocks SDK
+Blocks
+Clockwork/Plugins/CWTimers/CWTimersProtocols.h
+Clockwork/Plugins/CWTimers/plugin.xml
+Clockwork/Plugins/CWUserInterface/CWUserInterfaceProtocols.h
+Clockwork/Plugins/CWUserInterface/plugin.xml
+Mori/Plugins/MIDocument/MIDocumentProtocols.h
+Mori/Plugins/MIDocument/plugin.xml
+TemplateApplication
+TemplateDocumentBasedApplication

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="uk.co.stevehooley.examples.LifeCyclePluginExample"
+	name="Life Cycle Plugin Example"
+	version="1.0.0"
+	provider-name="Hog Bay Software">
+
+	<requirements>
+		<requirement bundle="uk.co.stevehooley.blocks"/>
+		<requirement bundle="uk.co.stevehooley.lifecycle"/>
+	</requirements>
+
+	<extension point="uk.co.stevehooley.lifecycle.lifecycle" class="LCPELifeCycleExtension"/>
+</plugin>

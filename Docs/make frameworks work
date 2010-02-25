@@ -1,0 +1,8 @@
+making a framework work
+
+
+turn off prebinding and position dependant code
+
+Installation path: @executable_path/../Frameworks
+
+Add copy files phase to executable, copy linked frmeworks into Frameworks folder

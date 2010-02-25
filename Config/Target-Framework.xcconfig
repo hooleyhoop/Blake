@@ -1,0 +1,11 @@
+#include "Target-Base.xcconfig"
+
+INSTALL_PATH = @executable_path/../Frameworks
+LD_DYLIB_INSTALL_NAME = @rpath/$(EXECUTABLE_PATH)
+
+GCC_DEBUGGING_SYMBOLS = full
+
+// -undefined dynamic_lookup can
+OTHER_LDFLAGS = $(inherited) -framework Foundation -framework AppKit
+
+SKIP_INSTALL = YES
