@@ -29,7 +29,8 @@
 
 @end
 
-static NSMutableDictionary *_mypools=nil;
+// static NSMutableDictionary *_mypools=nil;
+static CFMutableDictionaryRef _mypools=nil;
 
 @implementation SenTestRun (Hack)
 
@@ -57,18 +58,24 @@ static NSMutableDictionary *_mypools=nil;
 		Method replacementMethod3 = class_getInstanceMethod( targetClass2, replacementSEL3 );
 		method_exchangeImplementations( methodToReplace3, replacementMethod3 );
 		
-		_mypools = [[NSMutableDictionary dictionaryWithCapacity:3] retain];
+		// _mypools = [[NSMutableDictionary dictionaryWithCapacity:3] retain];
+		_mypools = CFDictionaryCreateMutable( kCFAllocatorDefault, 0, NULL, NULL );
 	}
 }
 
-// called before each test
+// called before each test - recursively?
 - (void)my_start {
 
-//	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	// SentestCase autoreleasePool doesn't cleanup before Hooley leak checker runs - i need to insert a pool here
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 //	[_mypools setObject:[NSValue valueWithNonretainedObject:pool] forKey:[NSValue valueWithNonretainedObject:self]];
+	CFDictionaryAddValue( _mypools, self, pool );
+		
 	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
 	[SHInstanceCounterClass performSelector:@selector(newMark)];
 	[self my_start];
+	
+	[pool release];
 }
 
 // called after each test
@@ -77,9 +84,13 @@ static NSMutableDictionary *_mypools=nil;
 	[self my_stop];
 	
 //	NSAutoreleasePool *pool = [[_mypools objectForKey:[NSValue valueWithNonretainedObject:self]] nonretainedObjectValue];
-//	NSAssert(pool, @"what?");
-//	[_mypools removeObjectForKey:[NSValue valueWithNonretainedObject:self]];	
+//	[_mypools removeObjectForKey:[NSValue valueWithNonretainedObject:self]];
 //	[pool release];
+	
+	NSAutoreleasePool *pool = (NSAutoreleasePool *)CFDictionaryGetValue( _mypools, self );
+	NSAssert( pool, @"what?");
+	CFDictionaryRemoveValue( _mypools, self );
+	pool = nil;
 
 	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
 	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )
@@ -127,15 +138,26 @@ OBJC_EXPORT void addDestructorCallback(  Class classValue, SEL callback ) __attr
 
 + (void)releasePoolCheck {
 	
-	NSCAssert( 0==[_mypools count], @"fuck!" );
-	[_mypools release];
+//	NSCAssert( 0==[_mypools count], @"fuck!" );
+//	[_mypools release];
+
+	NSCAssert( 0==CFDictionaryGetCount(_mypools), @"fuck!" );
+	CFRelease(_mypools);
 }
 
-// we already have a destructor in SHShared
+// we already have a destructor inSHShared
 //__attribute__((destructor)) void onExit(void) {	
 // [self releasePoolCheck];
 // [aaaaaSetUpAndTearDownTests teardown];
 //}
 
+	
+	
+	
+	
+	
+	
+	
+	
 @end
 

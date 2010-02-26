@@ -287,21 +287,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 734E94410F95EFE600248B4B /* ProtoNodeGraphTests */;
+			remoteGlobalIDString = 734E94410F95EFE600248B4B;
 			remoteInfo = ProtoNodeGraphTests;
 		};
 		73CC096811368CAC00B53CA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 731442830C09A7F1007F971A /* SHNodeGraphTests - (otest) */;
+			remoteGlobalIDString = 731442830C09A7F1007F971A;
 			remoteInfo = "SHNodeGraphTests - (otest)";
 		};
 		73CC097211368CCA00B53CA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 73CC082911368A3700B53CA9 /* TestUtilitiesTests.octest */;
+			remoteGlobalIDString = 73CC082911368A3700B53CA9;
 			remoteInfo = TestUtilitiesTests;
 		};
 		73D6EE7C10C7CA3D0072DC88 /* PBXContainerItemProxy */ = {
