@@ -17,7 +17,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					22,
 					300,
-					185,
+					184.58349609375,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXExecutablesDataSource_ActiveFlagID,
@@ -30,7 +30,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					611,
+					297,
 					20,
 					48,
 					43,
@@ -52,7 +52,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					560,
+					257,
 					60,
 					20,
 					48,
@@ -69,16 +69,15 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 288958953;
-			PBXWorkspaceStateSaveDate = 288958953;
+			PBXPerProjectTemplateStateSaveDate = 288997005;
+			PBXWorkspaceStateSaveDate = 288997005;
 		};
 		perUserProjectItems = {
 			73C74A3911392B1B0037B0BF /* PBXTextBookmark */ = 73C74A3911392B1B0037B0BF /* PBXTextBookmark */;
 			73C74A7F113944C10037B0BF /* PBXTextBookmark */ = 73C74A7F113944C10037B0BF /* PBXTextBookmark */;
-			73C74ACE113947310037B0BF /* PBXTextBookmark */ = 73C74ACE113947310037B0BF /* PBXTextBookmark */;
 			73C74B5111394B020037B0BF /* PBXTextBookmark */ = 73C74B5111394B020037B0BF /* PBXTextBookmark */;
-			73C74B5211394B020037B0BF /* PBXTextBookmark */ = 73C74B5211394B020037B0BF /* PBXTextBookmark */;
-			73C74B5811394B200037B0BF /* PBXTextBookmark */ = 73C74B5811394B200037B0BF /* PBXTextBookmark */;
+			73C839661139BEA200E0295E /* PBXTextBookmark */ = 73C839661139BEA200E0295E /* PBXTextBookmark */;
+			73C839681139BEF200E0295E /* PBXTextBookmark */ = 73C839681139BEF200E0295E /* PBXTextBookmark */;
 		};
 		sourceControlManager = 73C68FBE11388DAC00FA2613 /* Source Control */;
 		userBuildSettings = {
@@ -439,21 +438,6 @@
 		vrLen = 675;
 		vrLoc = 0;
 	};
-	73C74ACE113947310037B0BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73C74ACF113947310037B0BF /* BuildLog_2010-02-27_10-30-41.txt */;
-		name = "BuildLog_2010-02-27_10-30-41.txt: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 5030;
-		vrLoc = 0;
-	};
-	73C74ACF113947310037B0BF /* BuildLog_2010-02-27_10-30-41.txt */ = {
-		isa = PBXFileReference;
-		path = "BuildLog_2010-02-27_10-30-41.txt";
-		sourceTree = "<group>";
-	};
 	73C74B5111394B020037B0BF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 73831C5B10A848E300DDC7FB /* BBNibManagerTests.m */;
@@ -464,43 +448,42 @@
 		vrLen = 1148;
 		vrLoc = 1328;
 	};
-	73C74B5211394B020037B0BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73C74B5311394B020037B0BF /* runTests.sh */;
-		name = "runTests.sh: 2";
-		rLen = 0;
-		rLoc = 230;
-		rType = 0;
-		vrLen = 55;
-		vrLoc = 0;
-	};
-	73C74B5311394B020037B0BF /* runTests.sh */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.script.sh;
-		name = runTests.sh;
-		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/runTests.sh;
-		sourceTree = "<absolute>";
-	};
-	73C74B5811394B200037B0BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73C74B5911394B200037B0BF /* runTests.sh */;
-		name = "runTests.sh: 6";
-		rLen = 0;
-		rLoc = 177;
-		rType = 0;
-		vrLen = 275;
-		vrLoc = 0;
-	};
-	73C74B5911394B200037B0BF /* runTests.sh */ = {
+	73C8392F1139BD3B00E0295E /* runTests.sh */ = {
 		isa = PBXFileReference;
 		name = runTests.sh;
 		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/runTests.sh;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {475, 346}}";
-			sepNavSelRange = "{177, 0}";
-			sepNavVisRange = "{0, 275}";
+			sepNavIntBoundsRect = "{{0, 0}, {475, 259}}";
+			sepNavSelRange = "{302, 0}";
+			sepNavVisRange = "{0, 302}";
 		};
+	};
+	73C839661139BEA200E0295E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73C8392F1139BD3B00E0295E /* runTests.sh */;
+		name = "runTests.sh: 12";
+		rLen = 0;
+		rLoc = 389;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 0;
+	};
+	73C839681139BEF200E0295E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73C839691139BEF200E0295E /* runTests.sh */;
+		name = "runTests.sh: 12";
+		rLen = 0;
+		rLoc = 389;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 0;
+	};
+	73C839691139BEF200E0295E /* runTests.sh */ = {
+		isa = PBXFileReference;
+		name = runTests.sh;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/runTests.sh;
+		sourceTree = "<absolute>";
 	};
 	73CC082811368A3700B53CA9 /* TestUtilitiesTests */ = {
 		activeExec = 0;
