@@ -415,7 +415,6 @@
 		73CB02D010DBC93000AE25C8 /* SwappedInIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwappedInIvar.m; path = Tests/SwappedInIvar.m; sourceTree = "<group>"; };
 		73CB02D110DBC93000AE25C8 /* SwappedInIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwappedInIvar.h; path = Tests/SwappedInIvar.h; sourceTree = "<group>"; };
 		73CC082911368A3700B53CA9 /* TestUtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		73CC082A11368A3700B53CA9 /* TestUtilitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.mxml; path = "TestUtilitiesTests-Info.plist"; sourceTree = "<group>"; };
 		73D37DD510A88AD6000231A3 /* SHViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHViewTests.m; path = Tests/SHViewTests.m; sourceTree = "<group>"; };
 		73D37DE810A88B3D000231A3 /* SHPanelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHPanelTests.m; path = Tests/SHPanelTests.m; sourceTree = "<group>"; };
 		73D37DF810A88B6A000231A3 /* SHTableViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHTableViewTests.m; path = Tests/SHTableViewTests.m; sourceTree = "<group>"; };
@@ -608,7 +607,6 @@
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				73CC082A11368A3700B53CA9 /* TestUtilitiesTests-Info.plist */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -1400,7 +1398,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\nexport MallocStackLogging=YES\nexport MallocScribble=1\nexport MallocPreScribble=1\nexport NSDebugEnabled=YES\nexport NSZombieEnabled=YES\n\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n\n# Run gcov on the framework getting tested\n# (If lcov is installed, we'll use that instead, and get pretty html output)\n#if [ \"${CONFIGURATION}\" = 'Coverage' ]; then     \n#\tFRAMEWORK_NAME=SHShared\n#\tFRAMEWORK_TARGET=SHShared\n#     FRAMEWORK_OBJ_DIR=${OBJROOT}/${FRAMEWORK_NAME}.build/${CONFIGURATION}/${FRAMEWORK_TARGET}.build/Objects-normal/${NATIVE_ARCH}\n\t\n#\tmkdir -p coverage\n#\tcd coverage\n\t\n#\tif hash lcov 2>/dev/null; then\n#\t\tECHO ${FRAMEWORK_TARGET} STEVE\n#\t\tlcov --directory ${FRAMEWORK_OBJ_DIR} --capture --output-file ${FRAMEWORK_TARGET}.info\n#\t\tgenhtml ${FRAMEWORK_TARGET}.info\n#\telse\n#\t\techo \"***************\"\n#\t\techo \"lcov is not installed - using gcov instead\"\n#\t\techo \"***************\"\n#\t\tfind ${OBJROOT} -name *.gcda -exec gcov -o ${FRAMEWORK_OBJ_DIR} {} \\;\n#\tfi\n#\t\n#     cd ..\n#fi";
+			shellScript = "\"${SRCROOT}/../runTests.sh\"";
 		};
 		73CC082711368A3700B53CA9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1413,7 +1411,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SRCROOT}/../runTests.sh\"";
 		};
 		73FF8EC510A1FC680097E2A2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1426,7 +1424,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\nexport MallocStackLogging=YES\nexport MallocScribble=1\nexport MallocPreScribble=1\nexport NSDebugEnabled=YES\n\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "\"${SRCROOT}/../runTests.sh\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 

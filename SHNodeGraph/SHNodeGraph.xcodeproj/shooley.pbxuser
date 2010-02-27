@@ -1,0 +1,94 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 73A8BDC80E8CE1410037E99F /* SketchGraph */;
+		codeSenseManager = 73C690601138903B00FA2613 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					847,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					349,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 288967020;
+			PBXWorkspaceStateSaveDate = 288967020;
+		};
+		sourceControlManager = 73C6905F1138903B00FA2613 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	731442830C09A7F1007F971A /* SHNodeGraphTests - (otest) */ = {
+		activeExec = 0;
+	};
+	732DAE310E851082005E3CC4 /* SketchTests - (otest) */ = {
+		activeExec = 0;
+	};
+	734E94330F95EFB800248B4B /* ProtoNodeGraph */ = {
+		activeExec = 0;
+	};
+	734E94410F95EFE600248B4B /* ProtoNodeGraphTests */ = {
+		activeExec = 0;
+	};
+	73A8BDC80E8CE1410037E99F /* SketchGraph */ = {
+		activeExec = 0;
+	};
+	73C6905F1138903B00FA2613 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	73C690601138903B00FA2613 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	73CC095E11368C8E00B53CA9 /* Run All Tests */ = {
+		activeExec = 0;
+	};
+	8DC2EF4F0486A6940098B216 /* SHNodeGraph */ = {
+		activeExec = 0;
+	};
+}

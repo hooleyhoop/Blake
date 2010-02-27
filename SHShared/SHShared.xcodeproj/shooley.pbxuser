@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 73C74A66113944AB0037B0BF /* TestsUtilitiesTests */;
+		activeTarget = 732360B70C5E75BD0039CC7F /* SHSharedTests */;
+		codeSenseManager = 73C68FBF11388DAC00FA2613 /* Code sense */;
+		executables = (
+			73C74A5E113944750037B0BF /* SHSharedTests (Otest) */,
+			73C74A62113944920037B0BF /* SHSharedUITests (Otest) */,
+			73C74A66113944AB0037B0BF /* TestsUtilitiesTests */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					185,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					611,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					560,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 288958953;
+			PBXWorkspaceStateSaveDate = 288958953;
+		};
+		perUserProjectItems = {
+			73C74A3911392B1B0037B0BF /* PBXTextBookmark */ = 73C74A3911392B1B0037B0BF /* PBXTextBookmark */;
+			73C74A7F113944C10037B0BF /* PBXTextBookmark */ = 73C74A7F113944C10037B0BF /* PBXTextBookmark */;
+			73C74ACE113947310037B0BF /* PBXTextBookmark */ = 73C74ACE113947310037B0BF /* PBXTextBookmark */;
+			73C74B5111394B020037B0BF /* PBXTextBookmark */ = 73C74B5111394B020037B0BF /* PBXTextBookmark */;
+			73C74B5211394B020037B0BF /* PBXTextBookmark */ = 73C74B5211394B020037B0BF /* PBXTextBookmark */;
+			73C74B5811394B200037B0BF /* PBXTextBookmark */ = 73C74B5811394B200037B0BF /* PBXTextBookmark */;
+		};
+		sourceControlManager = 73C68FBE11388DAC00FA2613 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	732360B70C5E75BD0039CC7F /* SHSharedTests */ = {
+		activeExec = 0;
+	};
+	73831C5B10A848E300DDC7FB /* BBNibManagerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1405, 1079}}";
+			sepNavSelRange = "{2021, 15}";
+			sepNavVisRange = "{1854, 622}";
+		};
+	};
+	738C7C760C5CDC170096EF9D /* SHShared */ = {
+		activeExec = 0;
+	};
+	7398FB6310AC5C990035A762 /* FilteringArrayControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {789, 1469}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 507}";
+		};
+	};
+	73AC00F60F4037DF00FA9887 /* SHShared_static */ = {
+		activeExec = 0;
+	};
+	73AC016A0F4039D100FA9887 /* SHShared_iphone */ = {
+		activeExec = 0;
+	};
+	73C3F19D0E01BC0A00E1CFCB /* NSDocumentController_ExtensionsTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {789, 1417}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 675}";
+		};
+	};
+	73C68FBE11388DAC00FA2613 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	73C68FBF11388DAC00FA2613 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	73C74A3911392B1B0037B0BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7398FB6310AC5C990035A762 /* FilteringArrayControllerTests.m */;
+		name = "FilteringArrayControllerTests.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 507;
+		vrLoc = 0;
+	};
+	73C74A5E113944750037B0BF /* SHSharedTests (Otest) */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-SenTest Self",
+			"$(BUILT_PRODUCTS_DIR)/SHSharedTests.octest",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = DYLD_FRAMEWORK_PATH;
+				value = "$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = YES;
+				name = DYLD_LIBRARY_PATH;
+				value = "$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = YES;
+				name = OBJC_DISABLE_GC;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSAutoreleaseFreedObjectCheckEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocScribble;
+				value = 1;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 73C74A5F113944750037B0BF /* otest */;
+		libgmallocEnabled = 0;
+		name = "SHSharedTests (Otest)";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	73C74A5F113944750037B0BF /* otest */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = otest;
+		path = /Developer/Tools/otest;
+		sourceTree = "<absolute>";
+	};
+	73C74A62113944920037B0BF /* SHSharedUITests (Otest) */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-SenTest Self",
+			"$(BUILT_PRODUCTS_DIR)/SHSharedUITests.octest",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = DYLD_FRAMEWORK_PATH;
+				value = "$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = YES;
+				name = DYLD_LIBRARY_PATH;
+				value = "$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = YES;
+				name = OBJC_DISABLE_GC;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = NSHangOnUncaughtException;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSAutoreleaseFreedObjectCheckEnabled;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 73C74A63113944920037B0BF /* otest */;
+		libgmallocEnabled = 0;
+		name = "SHSharedUITests (Otest)";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	73C74A63113944920037B0BF /* otest */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = otest;
+		path = /Developer/Tools/otest;
+		sourceTree = "<absolute>";
+	};
+	73C74A66113944AB0037B0BF /* TestsUtilitiesTests */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-SenTest Self",
+			"$(BUILT_PRODUCTS_DIR)/TestUtilitiesTests.octest",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = DYLD_FRAMEWORK_PATH;
+				value = "$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = YES;
+				name = DYLD_LIBRARY_PATH;
+				value = "$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = YES;
+				name = OBJC_DISABLE_GC;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSHangOnUncaughtException;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSAutoreleaseFreedObjectCheckEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocScribble;
+				value = 1;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 73C74A67113944AB0037B0BF /* otest */;
+		libgmallocEnabled = 0;
+		name = TestsUtilitiesTests;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	73C74A67113944AB0037B0BF /* otest */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = otest;
+		path = /Developer/Tools/otest;
+		sourceTree = "<absolute>";
+	};
+	73C74A7F113944C10037B0BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73C3F19D0E01BC0A00E1CFCB /* NSDocumentController_ExtensionsTests.m */;
+		name = "NSDocumentController_ExtensionsTests.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 0;
+	};
+	73C74ACE113947310037B0BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73C74ACF113947310037B0BF /* BuildLog_2010-02-27_10-30-41.txt */;
+		name = "BuildLog_2010-02-27_10-30-41.txt: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 5030;
+		vrLoc = 0;
+	};
+	73C74ACF113947310037B0BF /* BuildLog_2010-02-27_10-30-41.txt */ = {
+		isa = PBXFileReference;
+		path = "BuildLog_2010-02-27_10-30-41.txt";
+		sourceTree = "<group>";
+	};
+	73C74B5111394B020037B0BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73831C5B10A848E300DDC7FB /* BBNibManagerTests.m */;
+		name = "BBNibManagerTests.m: 70";
+		rLen = 15;
+		rLoc = 2021;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 1328;
+	};
+	73C74B5211394B020037B0BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73C74B5311394B020037B0BF /* runTests.sh */;
+		name = "runTests.sh: 2";
+		rLen = 0;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 55;
+		vrLoc = 0;
+	};
+	73C74B5311394B020037B0BF /* runTests.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = runTests.sh;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/runTests.sh;
+		sourceTree = "<absolute>";
+	};
+	73C74B5811394B200037B0BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73C74B5911394B200037B0BF /* runTests.sh */;
+		name = "runTests.sh: 6";
+		rLen = 0;
+		rLoc = 177;
+		rType = 0;
+		vrLen = 275;
+		vrLoc = 0;
+	};
+	73C74B5911394B200037B0BF /* runTests.sh */ = {
+		isa = PBXFileReference;
+		name = runTests.sh;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/runTests.sh;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {475, 346}}";
+			sepNavSelRange = "{177, 0}";
+			sepNavVisRange = "{0, 275}";
+		};
+	};
+	73CC082811368A3700B53CA9 /* TestUtilitiesTests */ = {
+		activeExec = 0;
+	};
+	73CC08FF11368C0D00B53CA9 /* Run All Tests */ = {
+		activeExec = 0;
+	};
+	73D6ED9410C7C5BC0072DC88 /* SHTestUtilities */ = {
+		activeExec = 0;
+	};
+	73FF8EB910A1FC4E0097E2A2 /* SHSharedUI */ = {
+		activeExec = 0;
+	};
+	73FF8EC610A1FC680097E2A2 /* SHSharedUITests */ = {
+		activeExec = 0;
+	};
+}
