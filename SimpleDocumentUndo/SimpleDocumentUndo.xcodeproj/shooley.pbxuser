@@ -1,0 +1,138 @@
+// !$*UTF8*$!
+{
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 73B39AB610D13BD60065A70C /* SimpleDocumentUndo */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* SimpleDocumentUndo */;
+		breakpoints = (
+			73B39B6C10D13D250065A70C /* MyDocument.m:51 */,
+		);
+		codeSenseManager = 73B39AC910D13BD80065A70C /* Code sense */;
+		executables = (
+			73B39AB610D13BD60065A70C /* SimpleDocumentUndo */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					781,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 282147822;
+			PBXWorkspaceStateSaveDate = 282147822;
+		};
+		perUserProjectItems = {
+			73B39B7010D13EAE0065A70C /* PBXBookmark */ = 73B39B7010D13EAE0065A70C /* PBXBookmark */;
+			73B39B8710D13F200065A70C /* PBXTextBookmark */ = 73B39B8710D13F200065A70C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 73B39AC810D13BD80065A70C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {959, 1512}}";
+			sepNavSelRange = "{952, 37}";
+			sepNavVisRange = "{413, 1716}";
+		};
+	};
+	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1406, 852}}";
+			sepNavSelRange = "{266, 0}";
+			sepNavVisRange = "{0, 340}";
+		};
+	};
+	73B39AB610D13BD60065A70C /* SimpleDocumentUndo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SimpleDocumentUndo;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	73B39AC810D13BD80065A70C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	73B39AC910D13BD80065A70C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	73B39B6C10D13D250065A70C /* MyDocument.m:51 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		functionName = "-windowControllerDidLoadNib:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 51;
+		location = SimpleDocumentUndo;
+		modificationTime = 282148588.204699;
+		state = 1;
+	};
+	73B39B7010D13EAE0065A70C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+	};
+	73B39B8710D13F200065A70C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		name = "MyDocument.m: 39";
+		rLen = 37;
+		rLoc = 952;
+		rType = 0;
+		vrLen = 1716;
+		vrLoc = 413;
+	};
+	8D15AC270486D014006FF6A4 /* SimpleDocumentUndo */ = {
+		activeExec = 0;
+		executables = (
+			73B39AB610D13BD60065A70C /* SimpleDocumentUndo */,
+		);
+	};
+}

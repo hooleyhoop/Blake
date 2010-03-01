@@ -1,0 +1,5309 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 739141A7090E4513001ADDD4 /* Blake App */;
+		activeSDKPreference = macosx10.6;
+		activeTarget = 8D1107260486CEB800E47090 /* Blake App */;
+		addToTargets = (
+			7364E34F10F74363002B5E45 /* BlakeMainTests_inApp */,
+		);
+		breakpoints = (
+			7307152A0E016BDB002D3F81 /* SHDocument.m:178 */,
+			738A0BFA0E06768E00D58107 /* SHApplicationTests.m:49 */,
+			738A0BFC0E06769000D58107 /* SHApplicationTests.m:70 */,
+			738A0BFE0E06769200D58107 /* SHApplicationTests.m:77 */,
+			738A0C000E06769200D58107 /* SHApplicationTests.m:80 */,
+			738A0C020E06769400D58107 /* SHApplicationTests.m:80 */,
+			738A0C040E06769500D58107 /* SHApplicationTests.m:80 */,
+			738A0C060E06769600D58107 /* SHApplicationTests.m:80 */,
+			7336EA980E1A4DF500E77B2B /* [NSCFArray objectsAtIndexes:] */,
+			7336EC270E1A760B00E77B2B /* objc_exception_throw */,
+			7301B42D0E1B94D500D7C683 /* asm objc_exception_throw  0x96efd724:14 */,
+			73D04F050E266239003D81B3 /* SHBlakeControllerTests.m:2 */,
+			73FF456E0E26A31A0063287B /* SHGlobalCommandControllerTests.m:360 */,
+			739C47580E2B5BC70069443B /* SKTFilteringArrayControllerProviderTests.m:87 */,
+			739C47960E2B5F530069443B /* SKTFilteringArrayControllerProviderTests.m:55 */,
+			739C479F0E2B60120069443B /* SKTFilteringArrayControllerProviderTests.m:107 */,
+			739C47AC0E2B61730069443B /* SKTFilteringArrayControllerProviderTests.m:38 */,
+			73C996090E3269E4002B972D /* SKTDragReorderArrayController.m:91 */,
+			7392B2A60E3BD0F300460ECA /* SmallTestRunner_Main.m:131 */,
+			739897F10E3C84470003AA09 /* SKTZoomingScrollView.m:102 */,
+			739897FF0E3C85DD0003AA09 /* SKTDebugTableView.m:16 */,
+			739898010E3C85DE0003AA09 /* SKTDebugTableView.m:24 */,
+			736763A10E49A26500CD8509 /* SKTWindowController.m:220 */,
+			73DE23500E4C78B500FC1C47 /* SketchTests.m:16 */,
+			73A42DEE0E5EC6680022226C /* BlakeMainTests.m:31 */,
+			73A42DF00E5EC6690022226C /* BlakeMainTests.m:31 */,
+			73A4305F0E5ED2460022226C /* BlakeMainTests.m:40 */,
+			73A430D50E5ED9CB0022226C /* BlakeMainTests.m:49 */,
+			73A431330E5EE8BD0022226C /* BlakeMainTests.m:38 */,
+			73A431360E5EE90A0022226C /* BlakeMainTests.m:90 */,
+			73A431680E5EF2180022226C /* BlakeMainTests.m:93 */,
+			73A4316A0E5EF2190022226C /* BlakeMainTests.m:94 */,
+			736ED1E90E70078D00BF55F9 /* SKTToolPaletteController.m:138 */,
+			73EDC7E30E767A4E0051C74D /* SKTWindowController.m:213 */,
+			73EDC7EA0E767B0E0051C74D /* SKTWindowController.m:213 */,
+			73DE7CCB0E81297D00DA1807 /* SketchDebugTableTests.m:126 */,
+			73DE7D350E812DA300DA1807 /* SketchDebugTableTests.m:46 */,
+			73DE7FAE0E81408100DA1807 /* SketchDebugTableTests.m:88 */,
+			73B95A9A0E8265F200345C6F /* SKTGraphicView.m:249 */,
+			73B95E9B0E82965600345C6F /* SKTGraphicViewModelTests.m:258 */,
+			73B95E9D0E82967800345C6F /* SKTGraphicViewModelTests.m:76 */,
+			73B95EF40E829FE900345C6F /* SKTGraphicViewModelTests.m:324 */,
+			7347D8AB0E83A8BD009321C5 /* SKTSelectTool.m:73 */,
+			7347D9E40E83B2A0009321C5 /* SKTDragReorderArrayController.m:104 */,
+			7347D9E90E83B2ED009321C5 /* SKTDragReorderArrayController.m:83 */,
+			7347D9EE0E83B2F7009321C5 /* SKTDragReorderArrayController.m:185 */,
+			7347E0D00E83DF8D009321C5 /* SKTBezierTool.m:105 */,
+			73EA0A7D0E83E5CE0084C198 /* SKTBezierTool.m:104 */,
+			73B11C270E9AACE5009F0DEA /* BlakeDocumentTests.m:72 */,
+			73A462C30E9CFA7000D3DFE6 /* BlakeDocumentViewControllerTests.m:603 */,
+			73FBAA5E0E9F63F3001DC969 /* OutlineView1Controller.m:13 */,
+			733B01C10EA4B7CE009EAEA8 /* BlakeMainTests.m:74 */,
+			73DA59870EDB12A100D4F5F0 /* JavascriptConsole.m:23 */,
+			73CD26A40EE6A73200788A44 /* ObjectBrowserViewController.m:315 */,
+			73CD27740EE6B74800788A44 /* ObjectPalettePlugin.m:46 */,
+			73B26CAF0EE6C37900F55564 /* ObjectPalettePlugin.m:20 */,
+			738292540EE6D2B8005DB289 /* ObjectPalettePlugin.m:20 */,
+			738293300EE6EABD005DB289 /* TreeViewPlugin.m:41 */,
+			738293400EE6EB6D005DB289 /* TreeViewPlugin.m:27 */,
+			735C2CBD10A1B0F300C2DF56 /* SHAppControl.m:103 */,
+			73ACC96810B706B4002822FB /* BlakeDocumentViewController.m:119 */,
+			73ACCA1710B70A6A002822FB /* SHAppControl.m:67 */,
+			73ACCA7310B70E4B002822FB /* BlakeDocumentViewController.m:130 */,
+			73ACCA9510B70FF2002822FB /* BlakeDocumentViewController.m:126 */,
+			73B05D5110B713B300DEB545 /* HighLevelBlakeDocumentActions.m:333 */,
+			73B05D5310B713B900DEB545 /* BlakeDocument.m:102 */,
+			737B144D10B8054200F8E754 /* NodeProxy.m:333 */,
+			731DE5AE10CD1D7800C42727 /* zz_blakeTestsCleanup.m:21 */,
+			73ECA57A10D1180A00BC8785 /* SHNodeRegisterTests.m:50 */,
+			73BACE8E10D2BDE700E01D0C /* SHNodeRegister.m:131 */,
+			73BACED010D2C08400E01D0C /* ObjectPaletteWindowController.m:49 */,
+			73BACED210D2C09600E01D0C /* ObjectBrowserViewController.m:24 */,
+			73A202F710D42412009344DC /* SHRootNodeListTableView.m:61 */,
+			7352FE2C10D67A4F00871424 /* AllChildrenFilter.m:749 */,
+			7352FE2E10D67A5300871424 /* AllChildrenFilter.m:762 */,
+			7352FE3010D67A5A00871424 /* AllChildrenFilter.m:805 */,
+			7352FE3210D67A5B00871424 /* AllChildrenFilter.m:814 */,
+			7352FE3C10D67A6E00871424 /* AllChildrenFilter.m:473 */,
+			7352FE3E10D67A7000871424 /* AllChildrenFilter.m:461 */,
+			7352FE4010D67A7700871424 /* AllChildrenFilter.m:346 */,
+			736E0CCA10D808A700A80B0D /* SHOrderedDictionary.m:679 */,
+			73C3594310D910950000BAC5 /* HighLevelBlakeDocumentActionsTests.m:1439 */,
+			73C35F1D10DA44AE0000BAC5 /* HighLevelBlakeDocumentActions.m:485 */,
+			73E7209110DA776200FAA280 /* SHRootNodeListTableView.m:462 */,
+			73E724DF10DA9BFF00FAA280 /* BlakeNodeListViewController.m:530 */,
+			73E725D810DAA50700FAA280 /* BlakeDocumentTests.m:211 */,
+			73E725DA10DAA50800FAA280 /* BlakeDocumentTests.m:198 */,
+			73E725DC10DAA50F00FAA280 /* BlakeDocumentTests.m:25 */,
+			73E725F910DAA79300FAA280 /* BlakeDocumentTests.m:48 */,
+			73E7260010DAA84C00FAA280 /* BlakeDocumentTests.m:214 */,
+			73E7260210DAA85400FAA280 /* BlakeDocumentTests.m:135 */,
+			73E7260410DAA85700FAA280 /* BlakeDocumentTests.m:83 */,
+			73E7260610DAA85A00FAA280 /* BlakeDocumentTests.m:63 */,
+			73E7260810DAA8E000FAA280 /* BlakeDocument.m:129 */,
+			73CB048E10DBDA4200AE25C8 /* BlakeGlobalCommandControllerTests.m:45 */,
+			73CB049010DBDA4500AE25C8 /* BlakeGlobalCommandControllerTests.m:98 */,
+			73CB049210DBDA4E00AE25C8 /* BlakeGlobalCommandControllerTests.m:213 */,
+			73CB049410DBDA4F00AE25C8 /* BlakeGlobalCommandControllerTests.m:218 */,
+			73CB049610DBDA5000AE25C8 /* BlakeGlobalCommandControllerTests.m:222 */,
+			73CB049810DBDA5100AE25C8 /* BlakeGlobalCommandControllerTests.m:226 */,
+			73CB049A10DBDA5100AE25C8 /* BlakeGlobalCommandControllerTests.m:234 */,
+			73CB049C10DBDA5500AE25C8 /* BlakeGlobalCommandControllerTests.m:239 */,
+			73CB049E10DBDA5800AE25C8 /* BlakeGlobalCommandControllerTests.m:261 */,
+			73CB04A010DBDA5A00AE25C8 /* BlakeGlobalCommandControllerTests.m:267 */,
+			73CB04A210DBDA5B00AE25C8 /* BlakeGlobalCommandControllerTests.m:274 */,
+			73CB04A410DBDA5B00AE25C8 /* BlakeGlobalCommandControllerTests.m:279 */,
+			73CB04A610DBDA5E00AE25C8 /* BlakeGlobalCommandControllerTests.m:279 */,
+			73CB04A810DBDA6200AE25C8 /* BlakeGlobalCommandControllerTests.m:311 */,
+			73CB04AC10DBDA6600AE25C8 /* BlakeGlobalCommandControllerTests.m:381 */,
+			73CB04AE10DBDA6700AE25C8 /* BlakeGlobalCommandControllerTests.m:394 */,
+			73CB04B010DBDA6A00AE25C8 /* BlakeGlobalCommandControllerTests.m:411 */,
+			73CB04B210DBDA6B00AE25C8 /* BlakeGlobalCommandControllerTests.m:430 */,
+			73CB04B410DBDA6E00AE25C8 /* BlakeGlobalCommandControllerTests.m:444 */,
+			73CB04B610DBDA7400AE25C8 /* BlakeGlobalCommandControllerTests.m:609 */,
+			73CB04B810DBDA7500AE25C8 /* BlakeGlobalCommandControllerTests.m:629 */,
+			73CB04BA10DBDA7A00AE25C8 /* BlakeGlobalCommandControllerTests.m:781 */,
+			73D4A5C410DF91020091B586 /* BlakeGlobalCommandControllerTests.m:370 */,
+			73D4A5F610DF95B60091B586 /* BlakeGlobalCommandControllerTests.m:78 */,
+			738F253210EF67F400A35230 /* TemporaryRealViewStuff.m:46 */,
+			738F254710EF683000A35230 /* BlakeNodeListWindowController.m:163 */,
+			7364E70A10F76B3E002B5E45 /* BlakeController.m:120 */,
+			7364E71D10F76BA1002B5E45 /* SHShared.m:25 */,
+			73A29ABF10FF6B2E001A17F6 /* HooSenTestProbe.m:39 */,
+			73A29ACA10FF6B71001A17F6 /* HooSenTestProbe.m:49 */,
+			735B39D510FF715B00C9C4C5 /* UnknownEndToEndTest.m:29 */,
+			735B39D710FF716600C9C4C5 /* UnknownEndToEndTest.m:24 */,
+			735B39D910FF716700C9C4C5 /* UnknownEndToEndTest.m:19 */,
+			7352C96A1100A5700089DD4B /* UnknownEndToEndTest.m:30 */,
+		);
+		codeSenseManager = 739141C0090E4514001ADDD4 /* Code sense */;
+		executables = (
+			739141A7090E4513001ADDD4 /* Blake App */,
+			73B529600E07D8E200DA884B /* DumbSketch */,
+			73A42DC50E5EC3A90022226C /* BlakeMainTests - Runner (otest) */,
+			73BAADE50E2763DC000C686E /* SketchTests - Runner (otest) */,
+			73ECA58F10D1192400BC8785 /* NodeListViewTests - Otest */,
+			73ECA57D10D1183600BC8785 /* ObjectPaletteTests - Otest */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					205,
+					20,
+					214,
+					10,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					60,
+					20,
+					61,
+					61,
+					62,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					689.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					723,
+					402,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					701,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					928,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					366,
+					691,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					882,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					737,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXTargetDataSource_PrimaryAttribute;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					755,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 286713272;
+			PBXWorkspaceStateSaveDate = 286713272;
+		};
+		perUserProjectItems = {
+			73856D361110485700A3EEB8 /* PBXTextBookmark */ = 73856D361110485700A3EEB8 /* PBXTextBookmark */;
+			73856D381110485700A3EEB8 /* PBXTextBookmark */ = 73856D381110485700A3EEB8 /* PBXTextBookmark */;
+			7389E24E1111F397004D4B5D /* PBXTextBookmark */ = 7389E24E1111F397004D4B5D /* PBXTextBookmark */;
+			73A12E441111E218006F58FF /* PBXTextBookmark */ = 73A12E441111E218006F58FF /* PBXTextBookmark */;
+			73A12E461111E218006F58FF /* PBXTextBookmark */ = 73A12E461111E218006F58FF /* PBXTextBookmark */;
+			73A12F221111E57A006F58FF /* PBXTextBookmark */ = 73A12F221111E57A006F58FF /* PBXTextBookmark */;
+			73A12F231111E57A006F58FF /* PBXTextBookmark */ = 73A12F231111E57A006F58FF /* PBXTextBookmark */;
+			73B360F81116E1DC0064AF28 /* PBXTextBookmark */ = 73B360F81116E1DC0064AF28 /* PBXTextBookmark */;
+			73B360F91116E1DC0064AF28 /* PBXTextBookmark */ = 73B360F91116E1DC0064AF28 /* PBXTextBookmark */;
+			73B360FB1116E1DC0064AF28 /* PBXTextBookmark */ = 73B360FB1116E1DC0064AF28 /* PBXTextBookmark */;
+			73B360FC1116E1DC0064AF28 /* PBXTextBookmark */ = 73B360FC1116E1DC0064AF28 /* PBXTextBookmark */;
+			73B360FD1116E1DC0064AF28 /* PBXTextBookmark */ = 73B360FD1116E1DC0064AF28 /* PBXTextBookmark */;
+			73B361AA1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AA1116E5C60064AF28 /* PBXTextBookmark */;
+			73B361AB1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AB1116E5C60064AF28 /* PBXTextBookmark */;
+			73B361AC1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AC1116E5C60064AF28 /* PBXTextBookmark */;
+			73B361AD1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AD1116E5C60064AF28 /* PBXTextBookmark */;
+			73B361AE1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AE1116E5C60064AF28 /* PBXTextBookmark */;
+			73B361AF1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AF1116E5C60064AF28 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 739141BF090E4514001ADDD4 /* Source Control */;
+		userBuildSettings = {
+			SYMROOT = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/../build;
+		};
+	};
+	7300C8BC090E47BA00DEA624 /* SHMakeContextualMenu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {902, 433}}";
+			sepNavSelRange = "{251, 0}";
+			sepNavVisRange = "{0, 355}";
+			sepNavVisRect = "{{0, 0}, {663, 532}}";
+		};
+	};
+	7300C8BD090E47BA00DEA624 /* SHMakeContextualMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {981, 896}}";
+			sepNavSelRange = "{500, 13}";
+			sepNavVisRange = "{665, 1028}";
+			sepNavVisRect = "{{0, 0}, {708, 633}}";
+		};
+	};
+	7301B42B0E1B94D500D7C683 /* asm objc_exception_throw  0x96efd724 */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		path = "asm objc_exception_throw  0x96efd724";
+		sourceTree = "<group>";
+	};
+	7301B42D0E1B94D500D7C683 /* asm objc_exception_throw  0x96efd724:14 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7301B42B0E1B94D500D7C683 /* asm objc_exception_throw  0x96efd724 */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 14;
+		modificationTime = 286392898.442103;
+		state = 1;
+	};
+	7306A6F30D7750CB00BDFA6B /* DocWriteTestf.fscript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 1232}}";
+			sepNavSelRange = "{845, 13}";
+			sepNavVisRange = "{372, 1055}";
+		};
+	};
+	7307152A0E016BDB002D3F81 /* SHDocument.m:178 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 732CC8BB0D1BFA3A008F51AF /* SHDocument.m */;
+		functionName = "-makeWindowControllers";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 178;
+		modificationTime = 286392898.43661;
+		state = 1;
+	};
+	730716520E017E1C002D3F81 /* BlakeMain */ = {
+		activeExec = 0;
+	};
+	730A55A20E0685FF009458BA /* Sketch */ = {
+		activeExec = 0;
+	};
+	730A58990E069A55009458BA /* BlakeDocumentControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1106, 2086}}";
+			sepNavSelRange = "{2004, 0}";
+			sepNavVisRange = "{1391, 1293}";
+		};
+	};
+	730A58B10E069B37009458BA /* BlakeDocumentTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 3626}}";
+			sepNavSelRange = "{727, 253}";
+			sepNavVisRange = "{581, 721}";
+		};
+	};
+	731C0E280E0FFEC10056E799 /* DisabledSketchViewStuff.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{171, 0}";
+			sepNavVisRange = "{0, 348}";
+		};
+	};
+	731C0E290E0FFEC10056E799 /* DisabledSketchViewStuff.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 4018}}";
+			sepNavSelRange = "{3996, 0}";
+			sepNavVisRange = "{3247, 1212}";
+		};
+	};
+	731DE5AE10CD1D7800C42727 /* zz_blakeTestsCleanup.m:21 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 734E8B070E9D0805003330F8 /* zz_blakeTestsCleanup.m */;
+		functionName = "-testZZCleanupTests";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 21;
+		modificationTime = 286392898.503226;
+		state = 1;
+	};
+	7320470310CFF15700242B59 /* BlakeAboutBoxControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 490}}";
+			sepNavSelRange = "{525, 31}";
+			sepNavVisRange = "{55, 574}";
+		};
+	};
+	7320487F0E30F74900A5EFE6 /* StubSketchDoc.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{146, 0}";
+			sepNavVisRange = "{0, 384}";
+		};
+	};
+	732048800E30F74900A5EFE6 /* StubSketchDoc.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 546}}";
+			sepNavSelRange = "{399, 3}";
+			sepNavVisRange = "{338, 241}";
+		};
+	};
+	732048EF10D00D3B00242B59 /* NodeListView */ = {
+		activeExec = 0;
+	};
+	7320492310D00F1D00242B59 /* BlakeDocumentViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BlakeDocumentViewController.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/NodeListView/Src/BlakeDocumentViewController.m;
+		sourceTree = "<absolute>";
+	};
+	7320494310D0100700242B59 /* TemporarySwapableView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 339}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 287}";
+		};
+	};
+	7320494410D0100700242B59 /* TemporarySwapableView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1540, 826}}";
+			sepNavSelRange = "{456, 0}";
+			sepNavVisRange = "{3, 902}";
+		};
+	};
+	7320494D10D0101100242B59 /* SHRootNodeListTableView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1406, 852}}";
+			sepNavSelRange = "{443, 0}";
+			sepNavVisRange = "{0, 719}";
+		};
+	};
+	7320494E10D0101100242B59 /* SHRootNodeListTableView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 6664}}";
+			sepNavSelRange = "{909, 25}";
+			sepNavVisRange = "{605, 1219}";
+		};
+	};
+	7320496710D010DA00242B59 /* NodeListViewPlugin.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {951, 466}}";
+			sepNavSelRange = "{682, 17}";
+			sepNavVisRange = "{0, 1139}";
+		};
+	};
+	732049A510D013AF00242B59 /* BlakeNodeListView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 365}}";
+			sepNavSelRange = "{187, 17}";
+			sepNavVisRange = "{0, 266}";
+		};
+	};
+	732049A610D013AF00242B59 /* BlakeNodeListView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 459}}";
+			sepNavSelRange = "{328, 8}";
+			sepNavVisRange = "{0, 484}";
+		};
+	};
+	7328A93B0DD73995006CE23F /* SKTGraphicViewTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 910}}";
+			sepNavSelRange = "{1641, 16}";
+			sepNavVisRange = "{710, 1188}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	732A6B000DEAE4AB0043EA5B /* SKTGraphicViewControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 3570}}";
+			sepNavSelRange = "{318, 0}";
+			sepNavVisRange = "{0, 930}";
+		};
+	};
+	732CC8BB0D1BFA3A008F51AF /* SHDocument.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SHDocument.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/BlakeMain/Src/SHDocument.m;
+		sourceTree = "<absolute>";
+	};
+	7334C6DF0DAF6FED00B32D10 /* StubView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 728}}";
+			sepNavSelRange = "{600, 12}";
+			sepNavVisRange = "{378, 518}";
+		};
+	};
+	7334C6E00DAF6FED00B32D10 /* StubView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 372}}";
+			sepNavSelRange = "{275, 12}";
+			sepNavVisRange = "{0, 335}";
+		};
+	};
+	7334C6E20DAF6FFD00B32D10 /* MockSHDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 729}}";
+			sepNavSelRange = "{142, 0}";
+			sepNavVisRange = "{0, 246}";
+		};
+	};
+	7334C6E30DAF6FFD00B32D10 /* MockSHDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 938}}";
+			sepNavSelRange = "{1870, 0}";
+			sepNavVisRange = "{225, 1654}";
+		};
+	};
+	7336EA980E1A4DF500E77B2B /* [NSCFArray objectsAtIndexes:] */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = CoreFoundation;
+		modificationTime = 285255416.481647;
+		state = 1;
+		symbolName = "[NSCFArray objectsAtIndexes:]";
+	};
+	7336EC270E1A760B00E77B2B /* objc_exception_throw */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libobjc.A.dylib;
+		modificationTime = 285255139.171214;
+		state = 1;
+		symbolName = objc_exception_throw;
+	};
+	733B01C10EA4B7CE009EAEA8 /* BlakeMainTests.m:74 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A42DEB0E5EC6410022226C /* BlakeMainTests.m */;
+		functionName = "+setup";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 74;
+		modificationTime = 286392898.480016;
+		state = 1;
+	};
+	733BF7A10E02B6D2003AAE6A /* SHFSInterpreterView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {966, 308}}";
+			sepNavSelRange = "{142, 8}";
+			sepNavVisRange = "{0, 331}";
+		};
+	};
+	733BF7A20E02B6D2003AAE6A /* SHFSInterpreterView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1358, 1176}}";
+			sepNavSelRange = "{345, 8}";
+			sepNavVisRange = "{3, 364}";
+		};
+	};
+	733BF7A40E02B6E3003AAE6A /* SHFScriptView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 1560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 645}";
+		};
+	};
+	733BF7A50E02B6EF003AAE6A /* SHFScriptModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1229, 1442}}";
+			sepNavSelRange = "{1179, 104}";
+			sepNavVisRange = "{0, 1367}";
+		};
+	};
+	733BF7A60E02B6EF003AAE6A /* SHFScriptModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1008, 546}}";
+			sepNavSelRange = "{33, 1}";
+			sepNavVisRange = "{0, 788}";
+		};
+	};
+	733BF7A70E02B6FD003AAE6A /* SHFScriptControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 494}}";
+			sepNavSelRange = "{9, 7}";
+			sepNavVisRange = "{0, 609}";
+		};
+	};
+	733BF7A80E02B6FD003AAE6A /* SHFScriptControl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 966}}";
+			sepNavSelRange = "{229, 12}";
+			sepNavVisRange = "{0, 993}";
+		};
+	};
+	733C63A80E6EAF91002002EC /* SKTCircleTool.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{146, 0}";
+			sepNavVisRange = "{0, 214}";
+		};
+	};
+	733C63A90E6EAF91002002EC /* SKTCircleTool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 624}}";
+			sepNavSelRange = "{289, 0}";
+			sepNavVisRange = "{0, 1034}";
+		};
+	};
+	733C63AE0E6EAFAD002002EC /* SKTRectangleTool.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{149, 0}";
+			sepNavVisRange = "{0, 220}";
+		};
+	};
+	733C63AF0E6EAFAD002002EC /* SKTRectangleTool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 735}}";
+			sepNavSelRange = "{804, 35}";
+			sepNavVisRange = "{0, 1050}";
+		};
+	};
+	733C63B40E6EAFC7002002EC /* SKTImageTool.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 212}";
+		};
+	};
+	733C63B50E6EAFC7002002EC /* SKTImageTool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1207, 759}}";
+			sepNavSelRange = "{821, 0}";
+			sepNavVisRange = "{0, 1025}";
+		};
+	};
+	733C63BA0E6EAFDB002002EC /* SKTLineTool.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 210}";
+		};
+	};
+	733C63BB0E6EAFDB002002EC /* SKTLineTool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 735}}";
+			sepNavSelRange = "{813, 0}";
+			sepNavVisRange = "{0, 1016}";
+		};
+	};
+	733C63C00E6EAFFE002002EC /* SKTTextTool.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 210}";
+		};
+	};
+	733C63C10E6EAFFE002002EC /* SKTTextTool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 624}}";
+			sepNavSelRange = "{284, 0}";
+			sepNavVisRange = "{0, 1015}";
+		};
+	};
+	733D13F610C962EF00398A50 /* defs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 365}}";
+			sepNavSelRange = "{303, 0}";
+			sepNavVisRange = "{0, 391}";
+		};
+	};
+	733D13FD10C9642200398A50 /* SHApplication.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 438}}";
+			sepNavSelRange = "{294, 13}";
+			sepNavVisRange = "{0, 403}";
+		};
+	};
+	733D13FE10C9642200398A50 /* SHApplication.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 658}}";
+			sepNavSelRange = "{184, 0}";
+			sepNavVisRange = "{0, 573}";
+		};
+	};
+	733D156510CD13A700398A50 /* SHApplicationTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 1106}}";
+			sepNavSelRange = "{393, 274}";
+			sepNavVisRange = "{174, 1188}";
+		};
+	};
+	734571670DE1ABE6003AE18C /* TemporaryRealViewStuff.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{157, 0}";
+			sepNavVisRange = "{0, 615}";
+		};
+	};
+	734571680DE1ABE6003AE18C /* TemporaryRealViewStuff.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1510, 1742}}";
+			sepNavSelRange = "{1350, 7}";
+			sepNavVisRange = "{1010, 930}";
+		};
+	};
+	734572370DE1BE98003AE18C /* SKTGraphicViewModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 686}}";
+			sepNavSelRange = "{148, 9}";
+			sepNavVisRange = "{0, 1029}";
+		};
+	};
+	734572380DE1BE98003AE18C /* SKTGraphicViewModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 6328}}";
+			sepNavSelRange = "{284, 0}";
+			sepNavVisRange = "{3, 725}";
+			sepNavWindowFrame = "{{15, 39}, {1066, 834}}";
+		};
+	};
+	7347D8AB0E83A8BD009321C5 /* SKTSelectTool.m:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73F967AE0DD45E92003784B8 /* SKTSelectTool.m */;
+		functionName = "-selectAndTrackMouseWithEvent:inSketchView:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 73;
+		modificationTime = 286392909.700053;
+		state = 0;
+	};
+	7347D9E40E83B2A0009321C5 /* SKTDragReorderArrayController.m:104 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73FA1DE00E1BB3C10052D12C /* SKTDragReorderArrayController.m */;
+		functionName = "-tableView:writeRowsWithIndexes:toPasteboard:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 104;
+		modificationTime = 286392909.79927;
+		state = 0;
+	};
+	7347D9E90E83B2ED009321C5 /* SKTDragReorderArrayController.m:83 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73FA1DE00E1BB3C10052D12C /* SKTDragReorderArrayController.m */;
+		functionName = "-numberOfRowsInTableView:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 83;
+		modificationTime = 286392909.867915;
+		state = 0;
+	};
+	7347D9EE0E83B2F7009321C5 /* SKTDragReorderArrayController.m:185 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73FA1DE00E1BB3C10052D12C /* SKTDragReorderArrayController.m */;
+		functionName = "-tableView:acceptDrop:row:dropOperation:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 185;
+		modificationTime = 286392910.011444;
+		state = 0;
+	};
+	7347DACF0E83B7DC009321C5 /* SKTBezierTool.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{146, 0}";
+			sepNavVisRange = "{0, 297}";
+		};
+	};
+	7347DAD00E83B7DC009321C5 /* SKTBezierTool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 1820}}";
+			sepNavSelRange = "{1643, 24}";
+			sepNavVisRange = "{933, 1573}";
+		};
+	};
+	7347DB290E83BD98009321C5 /* SKTBezier.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{142, 0}";
+			sepNavVisRange = "{0, 471}";
+		};
+	};
+	7347DB2A0E83BD98009321C5 /* SKTBezier.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2058}}";
+			sepNavSelRange = "{3639, 0}";
+			sepNavVisRange = "{3539, 1009}";
+			sepNavWindowFrame = "{{15, 23}, {1184, 850}}";
+		};
+	};
+	7347E0D00E83DF8D009321C5 /* SKTBezierTool.m:105 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7347DAD00E83B7DC009321C5 /* SKTBezierTool.m */;
+		functionName = "-trackMouseWithEvent:inSketchView:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 105;
+		location = Sketch;
+		modificationTime = 286392898.472887;
+		state = 2;
+	};
+	734E8B070E9D0805003330F8 /* zz_blakeTestsCleanup.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = zz_blakeTestsCleanup.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/BlakeMain/Tests/zz_blakeTestsCleanup.m;
+		sourceTree = "<absolute>";
+	};
+	7352C96A1100A5700089DD4B /* UnknownEndToEndTest.m:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7388B04710FB33C00017A91A /* UnknownEndToEndTest.m */;
+		functionName = "-testATesr";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 30;
+		modificationTime = 286392919.195699;
+		state = 0;
+	};
+	7352FE2810D67A4700871424 /* AllChildrenFilter.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AllChildrenFilter.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/SHNodeGraph/Src/AllChildrenFilter.m;
+		sourceTree = "<group>";
+	};
+	7352FE2C10D67A4F00871424 /* AllChildrenFilter.m:749 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7352FE2810D67A4700871424 /* AllChildrenFilter.m */;
+		functionName = "-_willInsertSomethingIntoProxy:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 749;
+		modificationTime = 286392912.001915;
+		state = 0;
+	};
+	7352FE2E10D67A5300871424 /* AllChildrenFilter.m:762 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7352FE2810D67A4700871424 /* AllChildrenFilter.m */;
+		functionName = "-_didInsert:atIndexes:intoProxy:selector:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 762;
+		modificationTime = 286392912.0727931;
+		state = 0;
+	};
+	7352FE3010D67A5A00871424 /* AllChildrenFilter.m:805 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7352FE2810D67A4700871424 /* AllChildrenFilter.m */;
+		functionName = "-_willRemoveSomethingFromProxy:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 805;
+		modificationTime = 286392912.168548;
+		state = 0;
+	};
+	7352FE3210D67A5B00871424 /* AllChildrenFilter.m:814 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7352FE2810D67A4700871424 /* AllChildrenFilter.m */;
+		functionName = "-_didRemove:atIndexes:fromProxy:selector:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 814;
+		modificationTime = 286392912.243246;
+		state = 0;
+	};
+	7352FE3C10D67A6E00871424 /* AllChildrenFilter.m:473 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7352FE2810D67A4700871424 /* AllChildrenFilter.m */;
+		functionName = "-_doDelayedInsertionNotification";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 473;
+		modificationTime = 286392912.4111781;
+		state = 0;
+	};
+	7352FE3E10D67A7000871424 /* AllChildrenFilter.m:461 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7352FE2810D67A4700871424 /* AllChildrenFilter.m */;
+		functionName = "-_doPreInsertionNotification";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 461;
+		modificationTime = 286392912.4903;
+		state = 0;
+	};
+	7352FE4010D67A7700871424 /* AllChildrenFilter.m:346 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7352FE2810D67A4700871424 /* AllChildrenFilter.m */;
+		functionName = "-_doPreRemoveNotification";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 346;
+		modificationTime = 286392912.642417;
+		state = 0;
+	};
+	735B39D510FF715B00C9C4C5 /* UnknownEndToEndTest.m:29 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7388B04710FB33C00017A91A /* UnknownEndToEndTest.m */;
+		functionName = "-testATesr";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 29;
+		modificationTime = 286392918.91365;
+		state = 0;
+	};
+	735B39D710FF716600C9C4C5 /* UnknownEndToEndTest.m:24 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7388B04710FB33C00017A91A /* UnknownEndToEndTest.m */;
+		functionName = "-tearDown";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 24;
+		modificationTime = 286392919.000389;
+		state = 0;
+	};
+	735B39D910FF716700C9C4C5 /* UnknownEndToEndTest.m:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7388B04710FB33C00017A91A /* UnknownEndToEndTest.m */;
+		functionName = "-setUp";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 19;
+		modificationTime = 286392919.111356;
+		state = 0;
+	};
+	735C2CBD10A1B0F300C2DF56 /* SHAppControl.m:103 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73B529E70E07DA1C00DA884B /* SHAppControl.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 103;
+		modificationTime = 286392911.060697;
+		state = 0;
+	};
+	7364E34F10F74363002B5E45 /* BlakeMainTests_inApp */ = {
+		activeExec = 0;
+	};
+	7364E70A10F76B3E002B5E45 /* BlakeController.m:120 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 739F08D90E5DDA2C00EE17C7 /* BlakeController.m */;
+		functionName = "-applicationWillTerminate";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 120;
+		modificationTime = 286392918.547684;
+		state = 0;
+	};
+	7364E71B10F76BA1002B5E45 /* SHShared.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SHShared.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/SHShared/SHShared.m;
+		sourceTree = "<group>";
+	};
+	7364E71D10F76BA1002B5E45 /* SHShared.m:25 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7364E71B10F76BA1002B5E45 /* SHShared.m */;
+		functionName = "onExit()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 25;
+		modificationTime = 286392918.628242;
+		state = 0;
+	};
+	736560E20E34E9210088ADF4 /* SketchPanel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 391}}";
+			sepNavSelRange = "{144, 30}";
+			sepNavVisRange = "{0, 219}";
+		};
+	};
+	736560E30E34E9210088ADF4 /* SketchPanel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 630}}";
+			sepNavSelRange = "{645, 73}";
+			sepNavVisRange = "{495, 432}";
+		};
+	};
+	736763A10E49A26500CD8509 /* SKTWindowController.m:220 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73ACC2BF0DD2FA240085A301 /* SKTWindowController.m */;
+		functionName = "-validateMenuItem:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 220;
+		modificationTime = 286392908.436129;
+		state = 0;
+	};
+	736E0C9A10D802FD00A80B0D /* SHOrderedDictionary.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SHOrderedDictionary.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/SHShared/Src/Util/SHOrderedDictionary.m;
+		sourceTree = "<group>";
+	};
+	736E0CCA10D808A700A80B0D /* SHOrderedDictionary.m:679 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 736E0C9A10D802FD00A80B0D /* SHOrderedDictionary.m */;
+		functionName = "-count";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 679;
+		modificationTime = 286392912.721786;
+		state = 0;
+	};
+	736ED1E90E70078D00BF55F9 /* SKTToolPaletteController.m:138 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73ACC2DB0DD2FA240085A301 /* SKTToolPaletteController.m */;
+		functionName = "-validateToolbarItem:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 138;
+		modificationTime = 286392908.652024;
+		state = 0;
+	};
+	736EE64F0E26239400CD122C /* SmallTestRunner_Main.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SmallTestRunner_Main.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/SmallTestRunner/SmallTestRunner_Main.m;
+		sourceTree = "<absolute>";
+	};
+	7373009B0E028B4E00EBA987 /* BlakeDocumentController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 6678}}";
+			sepNavSelRange = "{11739, 4}";
+			sepNavVisRange = "{11203, 1139}";
+		};
+	};
+	7373009C0E028B4E00EBA987 /* BlakeDocumentController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 532}}";
+			sepNavSelRange = "{278, 0}";
+			sepNavVisRange = "{141, 725}";
+		};
+	};
+	7373009F0E028B5B00EBA987 /* BlakeDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1293, 3198}}";
+			sepNavSelRange = "{4836, 0}";
+			sepNavVisRange = "{4489, 901}";
+		};
+	};
+	737300A00E028B5B00EBA987 /* BlakeDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 434}}";
+			sepNavSelRange = "{507, 14}";
+			sepNavVisRange = "{0, 611}";
+			sepNavWindowFrame = "{{15, 23}, {1184, 850}}";
+		};
+	};
+	7373026D0E02961400EBA987 /* BlakeMainTests */ = {
+		activeExec = 0;
+	};
+	7373030F0E029C3700EBA987 /* BlakeLaunchTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 516}}";
+			sepNavSelRange = "{416, 0}";
+			sepNavVisRange = "{0, 741}";
+		};
+	};
+	737303250E029D7C00EBA987 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 1469}}";
+			sepNavSelRange = "{3286, 15}";
+			sepNavVisRange = "{2672, 1045}";
+		};
+	};
+	737854A10D1ABE170092E72C /* BKLifecycleProtocols.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 667}}";
+			sepNavSelRange = "{343, 9}";
+			sepNavVisRange = "{0, 361}";
+			sepNavVisRect = "{{0, 0}, {742, 320}}";
+		};
+	};
+	737B144D10B8054200F8E754 /* NodeProxy.m:333 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73ACC48B10B6E611002822FB /* NodeProxy.m */;
+		functionName = "-setFilteredContentSelectionIndexes:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 333;
+		location = SHNodeGraph;
+		modificationTime = 286392898.50225;
+		state = 1;
+	};
+	737ED33B10D6A0C500A68EF5 /* BlakeNodeListViewTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 390}}";
+			sepNavSelRange = "{214, 0}";
+			sepNavVisRange = "{0, 261}";
+		};
+	};
+	737ED34210D6A13500A68EF5 /* SHRootNodeListTableViewTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 390}}";
+			sepNavSelRange = "{279, 0}";
+			sepNavVisRange = "{0, 279}";
+		};
+	};
+	737FEFB10EE7EB840022EF35 /* VisualGraphViewWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{164, 0}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	737FEFB20EE7EB840022EF35 /* VisualGraphViewWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 1568}}";
+			sepNavSelRange = "{2750, 16}";
+			sepNavVisRange = "{2284, 1127}";
+		};
+	};
+	738292540EE6D2B8005DB289 /* ObjectPalettePlugin.m:20 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73BAD09710D2C85200E01D0C /* ObjectPalettePlugin.m */;
+		functionName = "+initialize";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 20;
+		modificationTime = 286392910.729492;
+		state = 0;
+	};
+	738293300EE6EABD005DB289 /* TreeViewPlugin.m:41 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73C6F9550EDD88A80067482D /* TreeViewPlugin.m */;
+		functionName = "-validateMenuItem:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 41;
+		modificationTime = 286392910.824966;
+		state = 0;
+	};
+	738293400EE6EB6D005DB289 /* TreeViewPlugin.m:27 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73C6F9550EDD88A80067482D /* TreeViewPlugin.m */;
+		functionName = "-showWindow:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 27;
+		modificationTime = 286392910.949269;
+		state = 0;
+	};
+	738294F50EE6F9DB005DB289 /* VisualGraphView */ = {
+		activeExec = 0;
+	};
+	7382951A0EE6FAA2005DB289 /* VisualGraphViewPlugin.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 492}}";
+			sepNavSelRange = "{565, 19}";
+			sepNavVisRange = "{0, 699}";
+		};
+	};
+	738295300EE6FB3B005DB289 /* VisualGraphViewPlugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{153, 0}";
+			sepNavVisRange = "{0, 249}";
+		};
+	};
+	738295310EE6FB3B005DB289 /* VisualGraphViewPlugin.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1091, 728}}";
+			sepNavSelRange = "{285, 19}";
+			sepNavVisRange = "{0, 1183}";
+		};
+	};
+	73856D361110485700A3EEB8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 739F08DD0E5DDA3E00EE17C7 /* BlakeGlobalCommandController.h */;
+		name = "BlakeGlobalCommandController.h: 30";
+		rLen = 19;
+		rLoc = 785;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 150;
+	};
+	73856D381110485700A3EEB8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 739F08DD0E5DDA3E00EE17C7 /* BlakeGlobalCommandController.h */;
+		name = "BlakeGlobalCommandController.h: 30";
+		rLen = 19;
+		rLoc = 785;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 150;
+	};
+	73876F520DE2E68300AD07F9 /* SKTTool.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 770}}";
+			sepNavSelRange = "{142, 0}";
+			sepNavVisRange = "{0, 1325}";
+		};
+	};
+	73876F530DE2E68300AD07F9 /* SKTTool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 2772}}";
+			sepNavSelRange = "{988, 15}";
+			sepNavVisRange = "{554, 883}";
+		};
+	};
+	7388B04710FB33C00017A91A /* UnknownEndToEndTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1540, 490}}";
+			sepNavSelRange = "{434, 0}";
+			sepNavVisRange = "{152, 422}";
+		};
+	};
+	7388B04910FB34020017A91A /* MenuTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 644}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 304}";
+		};
+	};
+	7389E24E1111F397004D4B5D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 732049A610D013AF00242B59 /* BlakeNodeListView.m */;
+		name = "BlakeNodeListView.m: 16";
+		rLen = 8;
+		rLoc = 328;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 0;
+	};
+	738A0BFA0E06768E00D58107 /* SHApplicationTests.m:49 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 733D156510CD13A700398A50 /* SHApplicationTests.m */;
+		functionName = "-setUp";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 49;
+		modificationTime = 286392907.4989589;
+		state = 0;
+	};
+	738A0BFC0E06769000D58107 /* SHApplicationTests.m:70 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 733D156510CD13A700398A50 /* SHApplicationTests.m */;
+		functionName = "-tearDown";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 70;
+		modificationTime = 286392907.573194;
+		state = 0;
+	};
+	738A0BFE0E06769200D58107 /* SHApplicationTests.m:77 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 733D156510CD13A700398A50 /* SHApplicationTests.m */;
+		functionName = "-testUndoManager";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 77;
+		modificationTime = 286392907.672057;
+		state = 0;
+	};
+	738A0C000E06769200D58107 /* SHApplicationTests.m:80 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 733D156510CD13A700398A50 /* SHApplicationTests.m */;
+		functionName = "-testOrderFrontStandardAboutPanel";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 80;
+		modificationTime = 286392907.802385;
+		state = 0;
+	};
+	738A0C020E06769400D58107 /* SHApplicationTests.m:80 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 733D156510CD13A700398A50 /* SHApplicationTests.m */;
+		functionName = "-testSetAboutPanelClass";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 80;
+		modificationTime = 286392907.9184;
+		state = 0;
+	};
+	738A0C040E06769500D58107 /* SHApplicationTests.m:80 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 733D156510CD13A700398A50 /* SHApplicationTests.m */;
+		functionName = "-testAltKeyDown";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 80;
+		modificationTime = 286392907.995208;
+		state = 0;
+	};
+	738A0C060E06769600D58107 /* SHApplicationTests.m:80 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 733D156510CD13A700398A50 /* SHApplicationTests.m */;
+		functionName = "-testOneShotOverideAltKeyDown";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 80;
+		modificationTime = 286392908.089577;
+		state = 0;
+	};
+	738B30B30DD5BDE200FBF58C /* SketchTests */ = {
+		activeExec = 0;
+	};
+	738D30230E865A22007CA351 /* SKTBezierTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 1904}}";
+			sepNavSelRange = "{143, 0}";
+			sepNavVisRange = "{0, 408}";
+		};
+	};
+	738D39760E752EE3000C0D02 /* SKTUserAdaptor.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{146, 0}";
+			sepNavVisRange = "{0, 666}";
+		};
+	};
+	738F253210EF67F400A35230 /* TemporaryRealViewStuff.m:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 734571680DE1ABE6003AE18C /* TemporaryRealViewStuff.m */;
+		functionName = "-keyDown:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		modificationTime = 286392918.372486;
+		state = 0;
+	};
+	738F254710EF683000A35230 /* BlakeNodeListWindowController.m:163 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73E71C0310DA5AB600FAA280 /* BlakeNodeListWindowController.m */;
+		functionName = "-keyDown:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 163;
+		modificationTime = 286392918.452342;
+		state = 0;
+	};
+	7390BA770DEF356E00F1FED2 /* SKTGraphicViewModelTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 5012}}";
+			sepNavSelRange = "{8959, 0}";
+			sepNavVisRange = "{8257, 1363}";
+			sepNavWindowFrame = "{{38, 18}, {1066, 834}}";
+		};
+	};
+	739141A7090E4513001ADDD4 /* Blake App */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+			NO,
+			NO,
+		);
+		argumentStrings = (
+			"-NSBindingDebugLogLevel 1",
+			"-MainWindowClass BlakeNodeListWindowController",
+			"-SenTest All",
+			"-BlakeMainTests_inApp.octest",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+			"PBXLSLaunchAction-1" = {
+				PBXLSLaunchAction = 1;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXGDB_LaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = GDB;
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.GDBMI_Config;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = DYLD_FALLBACK_FRAMEWORK_PATH;
+				value = "/Developer/Library/Frameworks:/Library/Frameworks:$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = NO;
+				name = DYLD_INSERT_LIBRARIES;
+				value = /Developer/Library/PrivateFrameworks/DevToolsBundleInjection.framework/DevToolsBundleInjection;
+			},
+			{
+				active = NO;
+				name = XCInjectBundle;
+				value = BlakeMainTests.octest;
+			},
+			{
+				active = NO;
+				name = XCInjectBundleInto;
+				value = Blake.app;
+			},
+			{
+				active = NO;
+				name = DYLD_FALLBACK_FRAMEWORK_PATH;
+				value = "$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = YES;
+				name = NSHangOnUncaughtException;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = NSAutoreleaseFreedObjectCheckEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = MallocScribble;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = DYLD_INSERT_LIBRARIES;
+				value = /usr/lib/libgmalloc.dylib;
+			},
+			{
+				active = NO;
+				name = MallocStackLogging;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = CFZombieLevel;
+				value = 3;
+			},
+			{
+				active = NO;
+				name = NSObjCMessageLoggingEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = NSDebugEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = DYLD_PRINT_BINDINGS;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = DYLD_PRINT_SEGMENTS;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = DYLD_PRINT_APIS;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = DYLD_PRINT_INITIALIZERS;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = DYLD_PRINT_STATISTICS;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = DYLD_PRINT_OPTS;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = DYLD_PRINT_LIBRARIES;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = DYLD_PRINT_ENV;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Blake App";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		startupPath = "<<ProductDirectory>>";
+		variableFormatDictionary = {
+			$cr = 1;
+			$cs = 1;
+			$ctr = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$gs = 1;
+			$lr = 1;
+			$mm0 = 1;
+			$mm1 = 1;
+			$mm2 = 1;
+			$mm3 = 1;
+			$mm4 = 1;
+			$mm5 = 1;
+			$mm6 = 1;
+			$mm7 = 1;
+			$mq = 1;
+			$mxcsr = 1;
+			$pc = 1;
+			$ps = 1;
+			$r0 = 1;
+			$r1 = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r13 = 1;
+			$r14 = 1;
+			$r15 = 1;
+			$r16 = 1;
+			$r17 = 1;
+			$r18 = 1;
+			$r19 = 1;
+			$r2 = 1;
+			$r20 = 1;
+			$r21 = 1;
+			$r22 = 1;
+			$r23 = 1;
+			$r24 = 1;
+			$r25 = 1;
+			$r26 = 1;
+			$r27 = 1;
+			$r28 = 1;
+			$r29 = 1;
+			$r3 = 1;
+			$r30 = 1;
+			$r31 = 1;
+			$r4 = 1;
+			$r5 = 1;
+			$r6 = 1;
+			$r7 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$ss = 1;
+			$v0 = 1;
+			$v1 = 1;
+			$v10 = 1;
+			$v11 = 1;
+			$v12 = 1;
+			$v13 = 1;
+			$v14 = 1;
+			$v15 = 1;
+			$v16 = 1;
+			$v17 = 1;
+			$v18 = 1;
+			$v19 = 1;
+			$v2 = 1;
+			$v20 = 1;
+			$v21 = 1;
+			$v22 = 1;
+			$v23 = 1;
+			$v24 = 1;
+			$v25 = 1;
+			$v26 = 1;
+			$v27 = 1;
+			$v28 = 1;
+			$v29 = 1;
+			$v3 = 1;
+			$v30 = 1;
+			$v31 = 1;
+			$v4 = 1;
+			$v5 = 1;
+			$v6 = 1;
+			$v7 = 1;
+			$v8 = 1;
+			$v9 = 1;
+			$vrsave = 1;
+			$vscr = 1;
+			$xer = 1;
+			$xmm0 = 1;
+			$xmm1 = 1;
+			$xmm2 = 1;
+			$xmm3 = 1;
+			$xmm4 = 1;
+			$xmm5 = 1;
+			$xmm6 = 1;
+			$xmm7 = 1;
+		};
+	};
+	739141BF090E4514001ADDD4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	739141C0090E4514001ADDD4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	739141DA090E45C7001ADDD4 /* kemistry.icns */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, -1}, {1152, 742}}";
+		};
+	};
+	73923C7510F49D660098E5B1 /* NodeListWindowMenuActions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {954, 477}}";
+			sepNavSelRange = "{237, 0}";
+			sepNavVisRange = "{0, 243}";
+		};
+	};
+	73923C7610F49D660098E5B1 /* NodeListWindowMenuActions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 518}}";
+			sepNavSelRange = "{750, 0}";
+			sepNavVisRange = "{98, 795}";
+		};
+	};
+	73923DEF10F4E7D30098E5B1 /* BlakeDocumentMenuActions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 812}}";
+			sepNavSelRange = "{912, 0}";
+			sepNavVisRange = "{297, 967}";
+		};
+	};
+	73923DF010F4E7D30098E5B1 /* BlakeDocumentMenuActions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 4480}}";
+			sepNavSelRange = "{1467, 4}";
+			sepNavVisRange = "{1055, 1236}";
+		};
+	};
+	73923FBF10F4EFB50098E5B1 /* untitled */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {948, 3783}}";
+			sepNavSelRange = "{266, 1}";
+			sepNavVisRange = "{1947, 1362}";
+		};
+	};
+	7392B2A60E3BD0F300460ECA /* SmallTestRunner_Main.m:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 736EE64F0E26239400CD122C /* SmallTestRunner_Main.m */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		modificationTime = 286392898.448255;
+		state = 1;
+	};
+	739620590DF0724700D5DB6C /* Run All Tests */ = {
+		activeExec = 0;
+	};
+	7398973F0E3C7E4F0003AA09 /* SKTDebugTableView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SKTDebugTableView.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/Sketch/SKTDebugTableView.m;
+		sourceTree = "<absolute>";
+	};
+	739897F10E3C84470003AA09 /* SKTZoomingScrollView.m:102 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73ACC2DF0DD2FA240085A301 /* SKTZoomingScrollView.m */;
+		functionName = "-bind:toObject:withKeyPath:options:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 102;
+		modificationTime = 286392908.34205;
+		state = 0;
+	};
+	739897FF0E3C85DD0003AA09 /* SKTDebugTableView.m:16 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7398973F0E3C7E4F0003AA09 /* SKTDebugTableView.m */;
+		functionName = "-initWithCoder:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 16;
+		modificationTime = 286392898.450017;
+		state = 1;
+	};
+	739898010E3C85DE0003AA09 /* SKTDebugTableView.m:24 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7398973F0E3C7E4F0003AA09 /* SKTDebugTableView.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 24;
+		modificationTime = 286392898.450841;
+		state = 1;
+	};
+	7399491B0DD8DA5D00FFEFB7 /* SketchNodeProtocol.h */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = methods;\n            r = \"{189, 11}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 208}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 537}}";
+			sepNavSelRange = "{189, 0}";
+			sepNavVisRange = "{0, 198}";
+		};
+	};
+	7399491E0DD8DACF00FFEFB7 /* SKTGraphicViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 700}}";
+			sepNavSelRange = "{151, 0}";
+			sepNavVisRange = "{0, 1060}";
+		};
+	};
+	7399491F0DD8DACF00FFEFB7 /* SKTGraphicViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {966, 2688}}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{189, 569}";
+		};
+	};
+	739972010DD0DFA8008D9FB6 /* SHJavascriptSupport.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{154, 0}";
+			sepNavVisRange = "{0, 213}";
+		};
+	};
+	739972020DD0DFA8008D9FB6 /* SHJavascriptSupport.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 924}}";
+			sepNavSelRange = "{179, 9}";
+			sepNavVisRange = "{0, 966}";
+		};
+	};
+	739BC9250E0ABB1900078679 /* BlakeMain.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 427}}";
+			sepNavSelRange = "{93, 0}";
+			sepNavVisRange = "{0, 418}";
+		};
+	};
+	739C47580E2B5BC70069443B /* SKTFilteringArrayControllerProviderTests.m:87 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73EB0FDD0E0BF59E00855CD5 /* SKTFilteringArrayControllerProviderTests.m */;
+		functionName = "-testRecieveNotificationWhenAddingToModel2";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 87;
+		modificationTime = 286392898.444322;
+		state = 1;
+	};
+	739C47960E2B5F530069443B /* SKTFilteringArrayControllerProviderTests.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73EB0FDD0E0BF59E00855CD5 /* SKTFilteringArrayControllerProviderTests.m */;
+		functionName = "-observeValueForKeyPath:ofObject:change:context:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		modificationTime = 286392898.445137;
+		state = 1;
+	};
+	739C479F0E2B60120069443B /* SKTFilteringArrayControllerProviderTests.m:107 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73EB0FDD0E0BF59E00855CD5 /* SKTFilteringArrayControllerProviderTests.m */;
+		functionName = "-testRecieveNotificationWhenAddingToModel2";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 107;
+		modificationTime = 286392898.4458219;
+		state = 1;
+	};
+	739C47AC0E2B61730069443B /* SKTFilteringArrayControllerProviderTests.m:38 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73EB0FDD0E0BF59E00855CD5 /* SKTFilteringArrayControllerProviderTests.m */;
+		functionName = "-setUp";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 38;
+		modificationTime = 286392898.44651;
+		state = 1;
+	};
+	739F08D80E5DDA2C00EE17C7 /* BlakeController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 427}}";
+			sepNavSelRange = "{387, 19}";
+			sepNavVisRange = "{0, 580}";
+		};
+	};
+	739F08D90E5DDA2C00EE17C7 /* BlakeController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1106, 1834}}";
+			sepNavSelRange = "{3550, 74}";
+			sepNavVisRange = "{3139, 873}";
+		};
+	};
+	739F08DC0E5DDA3E00EE17C7 /* BlakeGlobalCommandController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{665, 157}\";\n            s = 0;\n        },\n                {\n            r = \"{870, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{1295, 27}\";\n            s = 0;\n        },\n                {\n            r = \"{1430, 94}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 3063}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1470}}";
+			sepNavSelRange = "{1918, 0}";
+			sepNavVisRange = "{1346, 1360}";
+		};
+	};
+	739F08DD0E5DDA3E00EE17C7 /* BlakeGlobalCommandController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 616}}";
+			sepNavSelRange = "{785, 19}";
+			sepNavVisRange = "{150, 954}";
+		};
+	};
+	739F08E00E5DDA4B00EE17C7 /* HighLevelBlakeDocumentActions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1512, 1106}}";
+			sepNavSelRange = "{2456, 0}";
+			sepNavVisRange = "{268, 2498}";
+		};
+	};
+	739F08E10E5DDA4B00EE17C7 /* HighLevelBlakeDocumentActions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 7994}}";
+			sepNavSelRange = "{15192, 0}";
+			sepNavVisRange = "{14521, 1356}";
+		};
+	};
+	739F0AFE0E5DDDA700EE17C7 /* BlakeAboutBoxController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 378}}";
+			sepNavSelRange = "{328, 41}";
+			sepNavVisRange = "{0, 499}";
+		};
+	};
+	739F0AFF0E5DDDA700EE17C7 /* BlakeAboutBoxController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1406, 854}}";
+			sepNavSelRange = "{611, 0}";
+			sepNavVisRange = "{0, 1287}";
+		};
+	};
+	739F2D380E632601005DC9CD /* HighLevelBlakeDocumentActionsTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 20678}}";
+			sepNavSelRange = "{66978, 0}";
+			sepNavVisRange = "{66188, 1402}";
+		};
+	};
+	739F2D3F0E632DD8005DC9CD /* BlakeDocumentViewControllerTests.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BlakeDocumentViewControllerTests.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/BlakeMain/Tests/BlakeDocumentViewControllerTests.m;
+		sourceTree = "<absolute>";
+	};
+	73A12E441111E218006F58FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73FA1DE00E1BB3C10052D12C /* SKTDragReorderArrayController.m */;
+		name = "SKTDragReorderArrayController.m: 83";
+		rLen = 23;
+		rLoc = 3371;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 2716;
+	};
+	73A12E461111E218006F58FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 732049A610D013AF00242B59 /* BlakeNodeListView.m */;
+		name = "BlakeNodeListView.m: 16";
+		rLen = 8;
+		rLoc = 328;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 0;
+	};
+	73A12F221111E57A006F58FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7320494E10D0101100242B59 /* SHRootNodeListTableView.m */;
+		name = "SHRootNodeListTableView.m: 44";
+		rLen = 25;
+		rLoc = 909;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 605;
+	};
+	73A12F231111E57A006F58FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7320494E10D0101100242B59 /* SHRootNodeListTableView.m */;
+		name = "SHRootNodeListTableView.m: 44";
+		rLen = 25;
+		rLoc = 909;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 605;
+	};
+	73A202F710D42412009344DC /* SHRootNodeListTableView.m:61 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7320494E10D0101100242B59 /* SHRootNodeListTableView.m */;
+		functionName = "-addObserver:forKeyPath:options:context:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 61;
+		modificationTime = 286392911.8864;
+		state = 0;
+	};
+	73A29ABD10FF6B2E001A17F6 /* HooSenTestProbe.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HooSenTestProbe.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/SHShared/Src/HooSenTestProbe.m;
+		sourceTree = "<absolute>";
+	};
+	73A29ABF10FF6B2E001A17F6 /* HooSenTestProbe.m:39 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A29ABD10FF6B2E001A17F6 /* HooSenTestProbe.m */;
+		functionName = "+runTestsInBundle:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 39;
+		location = SHTestUtilities;
+		modificationTime = 286392898.655637;
+		state = 1;
+	};
+	73A29AC810FF6B71001A17F6 /* HooSenTestProbe.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HooSenTestProbe.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/SHShared/Src/HooSenTestProbe.m;
+		sourceTree = "<group>";
+	};
+	73A29ACA10FF6B71001A17F6 /* HooSenTestProbe.m:49 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A29AC810FF6B71001A17F6 /* HooSenTestProbe.m */;
+		functionName = "+runTestsInBundle:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 49;
+		modificationTime = 286392918.7360011;
+		state = 0;
+	};
+	73A42DC50E5EC3A90022226C /* BlakeMainTests - Runner (otest) */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-SenTest All",
+			"$(PROJECT_DIR)/../build/debug/BlakeMainTests.octest",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = DYLD_FRAMEWORK_PATH;
+				value = "$(PROJECT_DIR)/../build";
+			},
+			{
+				active = YES;
+				name = DYLD_LIBRARY_PATH;
+				value = "$(PROJECT_DIR)/../build";
+			},
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = NSHangOnUncaughtException;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSDebugEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = OBJC_DISABLE_GC;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = MallocStackLogging;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = NSObjCMessageLoggingEnabled;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 73A42DC60E5EC3A90022226C /* otest */;
+		libgmallocEnabled = 0;
+		name = "BlakeMainTests - Runner (otest)";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+		variableFormatDictionary = {
+		};
+	};
+	73A42DC60E5EC3A90022226C /* otest */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = otest;
+		path = Tools/otest;
+		sourceTree = DEVELOPER_DIR;
+	};
+	73A42DD30E5EC5260022226C /* BlakeControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 854}}";
+			sepNavSelRange = "{896, 0}";
+			sepNavVisRange = "{779, 620}";
+		};
+	};
+	73A42DEB0E5EC6410022226C /* BlakeMainTests.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BlakeMainTests.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/BlakeMain/Tests/BlakeMainTests.m;
+		sourceTree = "<absolute>";
+	};
+	73A42DEE0E5EC6680022226C /* BlakeMainTests.m:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A42DEB0E5EC6410022226C /* BlakeMainTests.m */;
+		functionName = "__InitializeSketchGlobalMemoryStuff()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		location = BlakeMainTests;
+		modificationTime = 286392898.4537169;
+		state = 2;
+	};
+	73A42DF00E5EC6690022226C /* BlakeMainTests.m:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A42DEB0E5EC6410022226C /* BlakeMainTests.m */;
+		functionName = "__InitializeSketchGlobalMemoryStuff()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		modificationTime = 286392898.454575;
+		state = 1;
+	};
+	73A4305F0E5ED2460022226C /* BlakeMainTests.m:40 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A42DEB0E5EC6410022226C /* BlakeMainTests.m */;
+		functionName = "replacementInitIMP()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 40;
+		modificationTime = 286392898.455513;
+		state = 1;
+	};
+	73A430D50E5ED9CB0022226C /* BlakeMainTests.m:49 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A42DEB0E5EC6410022226C /* BlakeMainTests.m */;
+		functionName = "replacementInitWithNameIMP()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 49;
+		modificationTime = 286392898.45627;
+		state = 1;
+	};
+	73A431330E5EE8BD0022226C /* BlakeMainTests.m:38 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A42DEB0E5EC6410022226C /* BlakeMainTests.m */;
+		functionName = "replacementIMP()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 38;
+		modificationTime = 286392898.457001;
+		state = 1;
+	};
+	73A431360E5EE90A0022226C /* BlakeMainTests.m:90 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A42DEB0E5EC6410022226C /* BlakeMainTests.m */;
+		functionName = "+initialize";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 90;
+		modificationTime = 286392898.457924;
+		state = 1;
+	};
+	73A431680E5EF2180022226C /* BlakeMainTests.m:93 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A42DEB0E5EC6410022226C /* BlakeMainTests.m */;
+		functionName = "+load";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 93;
+		modificationTime = 286392898.458694;
+		state = 1;
+	};
+	73A4316A0E5EF2190022226C /* BlakeMainTests.m:94 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A42DEB0E5EC6410022226C /* BlakeMainTests.m */;
+		functionName = "+load";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 94;
+		modificationTime = 286392898.459571;
+		state = 1;
+	};
+	73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1106, 11606}}";
+			sepNavSelRange = "{2953, 0}";
+			sepNavVisRange = "{2200, 1212}";
+		};
+	};
+	73A462C30E9CFA7000D3DFE6 /* BlakeDocumentViewControllerTests.m:603 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 739F2D3F0E632DD8005DC9CD /* BlakeDocumentViewControllerTests.m */;
+		functionName = "-test_acceptSameTableDrop";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 603;
+		modificationTime = 286392898.4754239;
+		state = 1;
+	};
+	73A4CDC30D4231EF0030D864 /* MockFile.fscript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 658}}";
+			sepNavSelRange = "{1106, 13}";
+			sepNavVisRange = "{394, 992}";
+		};
+	};
+	73A895460E1CD2580020BBD8 /* SketchDebugTableTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {937, 2156}}";
+			sepNavSelRange = "{2221, 0}";
+			sepNavVisRange = "{158, 457}";
+		};
+	};
+	73A9BD160E6D882900C2F0BB /* SKTGroup.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {966, 291}}";
+			sepNavSelRange = "{142, 8}";
+			sepNavVisRange = "{0, 331}";
+		};
+	};
+	73A9BD170E6D882900C2F0BB /* SKTGroup.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 1470}}";
+			sepNavSelRange = "{429, 0}";
+			sepNavVisRange = "{141, 702}";
+		};
+	};
+	73A9BD4D0E6D8E4300C2F0BB /* SKT_NodeGraphModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 365}}";
+			sepNavSelRange = "{151, 0}";
+			sepNavVisRange = "{0, 307}";
+		};
+	};
+	73A9BD4E0E6D8E4300C2F0BB /* SKT_NodeGraphModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 770}}";
+			sepNavSelRange = "{1532, 24}";
+			sepNavVisRange = "{835, 985}";
+		};
+	};
+	73AC31340D2FACE50023D191 /* doc.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 351}}";
+			sepNavSelRange = "{82, 28}";
+			sepNavVisRange = "{0, 224}";
+		};
+	};
+	73ACC2B10DD2FA240085A301 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {5066, 695}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1754}";
+		};
+	};
+	73ACC2B90DD2FA240085A301 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4514, 695}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 3934}";
+		};
+	};
+	73ACC2BF0DD2FA240085A301 /* SKTWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 3374}}";
+			sepNavSelRange = "{4644, 0}";
+			sepNavVisRange = "{4042, 784}";
+		};
+	};
+	73ACC2C10DD2FA240085A301 /* SKTText.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 686}}";
+			sepNavSelRange = "{120, 11}";
+			sepNavVisRange = "{46, 1052}";
+		};
+	};
+	73ACC2C40DD2FA240085A301 /* SKTInfo.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1670, 1596}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1941}";
+		};
+	};
+	73ACC2C50DD2FA240085A301 /* SKTLine.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 4088}}";
+			sepNavSelRange = "{313, 10}";
+			sepNavVisRange = "{14, 1327}";
+		};
+	};
+	73ACC2C80DD2FA240085A301 /* SKTRenderingView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 571}}";
+			sepNavSelRange = "{58, 0}";
+			sepNavVisRange = "{0, 748}";
+		};
+	};
+	73ACC2D00DD2FA240085A301 /* SKTRectangle.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 735}}";
+			sepNavSelRange = "{230, 0}";
+			sepNavVisRange = "{0, 255}";
+		};
+	};
+	73ACC2D10DD2FA240085A301 /* SKTCircle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1565, 459}}";
+			sepNavSelRange = "{61, 11}";
+			sepNavVisRange = "{0, 133}";
+		};
+	};
+	73ACC2D20DD2FA240085A301 /* SKTText.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 3500}}";
+			sepNavSelRange = "{8685, 0}";
+			sepNavVisRange = "{7666, 1254}";
+		};
+	};
+	73ACC2D50DD2FA240085A301 /* SKTGraphicView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {947, 7238}}";
+			sepNavSelRange = "{4932, 0}";
+			sepNavVisRange = "{3870, 2057}";
+			sepNavWindowFrame = "{{15, 22}, {1168, 851}}";
+		};
+	};
+	73ACC2D70DD2FA240085A301 /* SKTLine.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1565, 459}}";
+			sepNavSelRange = "{69, 0}";
+			sepNavVisRange = "{0, 1400}";
+		};
+	};
+	73ACC2D80DD2FA240085A301 /* SKTRenderingView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2814}}";
+			sepNavSelRange = "{3462, 0}";
+			sepNavVisRange = "{2944, 930}";
+		};
+	};
+	73ACC2D90DD2FA240085A301 /* SKTRectangle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1565, 459}}";
+			sepNavSelRange = "{75, 0}";
+			sepNavVisRange = "{0, 137}";
+		};
+	};
+	73ACC2DA0DD2FA240085A301 /* SKTZoomingScrollView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {947, 727}}";
+			sepNavSelRange = "{764, 0}";
+			sepNavVisRange = "{0, 1061}";
+		};
+	};
+	73ACC2DB0DD2FA240085A301 /* SKTToolPaletteController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 2716}}";
+			sepNavSelRange = "{2760, 21}";
+			sepNavVisRange = "{2307, 1884}";
+		};
+	};
+	73ACC2DC0DD2FA240085A301 /* SKTImage.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 3528}}";
+			sepNavSelRange = "{521, 0}";
+			sepNavVisRange = "{47, 747}";
+		};
+	};
+	73ACC2DF0DD2FA240085A301 /* SKTZoomingScrollView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2240}}";
+			sepNavSelRange = "{3038, 0}";
+			sepNavVisRange = "{2281, 1387}";
+		};
+	};
+	73ACC2E10DD2FA240085A301 /* SKTCircle.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 719}}";
+			sepNavSelRange = "{214, 13}";
+			sepNavVisRange = "{0, 370}";
+		};
+	};
+	73ACC2E30DD2FA240085A301 /* SKTWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 700}}";
+			sepNavSelRange = "{61, 0}";
+			sepNavVisRange = "{0, 932}";
+		};
+	};
+	73ACC2E40DD2FA240085A301 /* SKTToolPaletteController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{52, 0}";
+			sepNavVisRange = "{0, 578}";
+		};
+	};
+	73ACC2E90DD2FA240085A301 /* SKTGraphicView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 504}}";
+			sepNavSelRange = "{57, 0}";
+			sepNavVisRange = "{56, 1113}";
+		};
+	};
+	73ACC2EA0DD2FA240085A301 /* SKTImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 574}}";
+			sepNavSelRange = "{242, 0}";
+			sepNavVisRange = "{0, 626}";
+		};
+	};
+	73ACC48B10B6E611002822FB /* NodeProxy.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = NodeProxy.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/SHNodeGraph/SketchGraph/Src/NodeProxy.m;
+		sourceTree = "<absolute>";
+	};
+	73ACC96810B706B4002822FB /* BlakeDocumentViewController.m:119 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7320492310D00F1D00242B59 /* BlakeDocumentViewController.m */;
+		functionName = "-tearDown";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 119;
+		modificationTime = 286392898.496108;
+		state = 1;
+	};
+	73ACCA1710B70A6A002822FB /* SHAppControl.m:67 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73B529E70E07DA1C00DA884B /* SHAppControl.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 67;
+		modificationTime = 286392911.137866;
+		state = 0;
+	};
+	73ACCA7310B70E4B002822FB /* BlakeDocumentViewController.m:130 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7320492310D00F1D00242B59 /* BlakeDocumentViewController.m */;
+		functionName = "-tearDown";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 130;
+		modificationTime = 286392898.498229;
+		state = 1;
+	};
+	73ACCA9510B70FF2002822FB /* BlakeDocumentViewController.m:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7320492310D00F1D00242B59 /* BlakeDocumentViewController.m */;
+		functionName = "-tearDown";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 126;
+		modificationTime = 286392898.499166;
+		state = 1;
+	};
+	73B05D5110B713B300DEB545 /* HighLevelBlakeDocumentActions.m:333 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 739F08E10E5DDA4B00EE17C7 /* HighLevelBlakeDocumentActions.m */;
+		functionName = "-unGroupNode:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 333;
+		modificationTime = 286392911.225135;
+		state = 0;
+	};
+	73B05D5310B713B900DEB545 /* BlakeDocument.m:102 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7373009F0E028B5B00EBA987 /* BlakeDocument.m */;
+		functionName = "-readFromURL:ofType:error:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 102;
+		modificationTime = 286392911.296518;
+		state = 0;
+	};
+	73B09E690D2DA083004A782F /* SHGlobalCommandControllerTests.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SHGlobalCommandControllerTests.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/BlakeMain/Tests/SHGlobalCommandControllerTests.m;
+		sourceTree = "<absolute>";
+	};
+	73B09E780D2DA0E9004A782F /* SHBlakeControllerTests.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SHBlakeControllerTests.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/BlakeMain/Tests/SHBlakeControllerTests.m;
+		sourceTree = "<absolute>";
+	};
+	73B11C270E9AACE5009F0DEA /* BlakeDocumentTests.m:72 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 730A58B10E069B37009458BA /* BlakeDocumentTests.m */;
+		functionName = "-testReadFromURL";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 72;
+		modificationTime = 286392910.134269;
+		state = 0;
+	};
+	73B23FC80EA495B500CE3C8D /* DetailViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 365}}";
+			sepNavSelRange = "{94, 0}";
+			sepNavVisRange = "{0, 506}";
+		};
+	};
+	73B23FC90EA495B500CE3C8D /* DetailViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1680}}";
+			sepNavSelRange = "{2505, 0}";
+			sepNavVisRange = "{1990, 1061}";
+		};
+	};
+	73B23FCC0EA495C300CE3C8D /* TreeViewMainWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{0, 31}";
+			sepNavVisRange = "{0, 302}";
+		};
+	};
+	73B23FCD0EA495C300CE3C8D /* TreeViewMainWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 1512}}";
+			sepNavSelRange = "{127, 28}";
+			sepNavVisRange = "{2471, 904}";
+			sepNavWindowFrame = "{{1693, 76}, {1362, 969}}";
+		};
+	};
+	73B23FD00EA495D000CE3C8D /* OutlineView1Controller.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 448}}";
+			sepNavSelRange = "{582, 0}";
+			sepNavVisRange = "{0, 939}";
+			sepNavWindowFrame = "{{1717, 57}, {1362, 969}}";
+		};
+	};
+	73B23FD10EA495D000CE3C8D /* OutlineView1Controller.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1848}}";
+			sepNavSelRange = "{413, 15}";
+			sepNavVisRange = "{35, 981}";
+		};
+	};
+	73B23FD40EA495DD00CE3C8D /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 994}}";
+			sepNavSelRange = "{1862, 0}";
+			sepNavVisRange = "{1243, 1000}";
+		};
+	};
+	73B23FD50EA495DD00CE3C8D /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 145}";
+		};
+	};
+	73B23FD80EA495EA00CE3C8D /* BlueViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 61}";
+		};
+	};
+	73B23FD90EA495EB00CE3C8D /* BlueViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 443}}";
+			sepNavSelRange = "{97, 5}";
+			sepNavVisRange = "{0, 233}";
+		};
+	};
+	73B23FDC0EA495F800CE3C8D /* ColorView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 130}";
+		};
+	};
+	73B23FDD0EA495F800CE3C8D /* ColorView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 442}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 298}";
+		};
+	};
+	73B23FE00EA4960400CE3C8D /* GreenViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 443}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 236}";
+		};
+	};
+	73B23FE10EA4960400CE3C8D /* GreenViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 62}";
+		};
+	};
+	73B23FF70EA496D200CE3C8D /* JavascriptConsolePlugin.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 509}}";
+			sepNavSelRange = "{614, 41}";
+			sepNavVisRange = "{0, 705}";
+		};
+	};
+	73B23FFA0EA496F600CE3C8D /* JavascriptConsole.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{149, 0}";
+			sepNavVisRange = "{0, 243}";
+		};
+	};
+	73B23FFB0EA496F600CE3C8D /* JavascriptConsole.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 546}}";
+			sepNavSelRange = "{809, 16}";
+			sepNavVisRange = "{0, 1012}";
+		};
+	};
+	73B240030EA4974900CE3C8D /* JavascriptConsole */ = {
+		activeExec = 0;
+	};
+	73B240050EA4974900CE3C8D /* JavascriptConsole-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {948, 701}}";
+			sepNavSelRange = "{673, 17}";
+			sepNavVisRange = "{0, 705}";
+		};
+	};
+	73B26CAF0EE6C37900F55564 /* ObjectPalettePlugin.m:20 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73BAD09710D2C85200E01D0C /* ObjectPalettePlugin.m */;
+		functionName = "+initialize";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 20;
+		modificationTime = 286392910.613222;
+		state = 0;
+	};
+	73B360F81116E1DC0064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73B52A450E07DD7D00DA884B /* SHPlugInViewManager.m */;
+		name = "SHPlugInViewManager.m: 180";
+		rLen = 7;
+		rLoc = 4918;
+		rType = 0;
+		vrLen = 1069;
+		vrLoc = 4251;
+	};
+	73B360F91116E1DC0064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 730A58990E069A55009458BA /* BlakeDocumentControllerTests.m */;
+		name = "BlakeDocumentControllerTests.m: 68";
+		rLen = 0;
+		rLoc = 2004;
+		rType = 0;
+		vrLen = 1293;
+		vrLoc = 1391;
+	};
+	73B360FB1116E1DC0064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E71C0510DA5AB600FAA280 /* BlakeNodeListViewController.m */;
+		name = "BlakeNodeListViewController.m: 82";
+		rLen = 112;
+		rLoc = 2150;
+		rType = 0;
+		vrLen = 1373;
+		vrLoc = 1197;
+	};
+	73B360FC1116E1DC0064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73B52A450E07DD7D00DA884B /* SHPlugInViewManager.m */;
+		name = "SHPlugInViewManager.m: 180";
+		rLen = 7;
+		rLoc = 4918;
+		rType = 0;
+		vrLen = 1069;
+		vrLoc = 4251;
+	};
+	73B360FD1116E1DC0064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 730A58990E069A55009458BA /* BlakeDocumentControllerTests.m */;
+		name = "BlakeDocumentControllerTests.m: 68";
+		rLen = 0;
+		rLoc = 2004;
+		rType = 0;
+		vrLen = 1293;
+		vrLoc = 1391;
+	};
+	73B361AA1116E5C60064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		name = "BlakeGlobalCommandControllerTests.m: 80";
+		rLen = 0;
+		rLoc = 2953;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 2200;
+	};
+	73B361AB1116E5C60064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E71C0510DA5AB600FAA280 /* BlakeNodeListViewController.m */;
+		name = "BlakeNodeListViewController.m: 82";
+		rLen = 112;
+		rLoc = 2150;
+		rType = 0;
+		vrLen = 708;
+		vrLoc = 1862;
+	};
+	73B361AC1116E5C60064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 739F08D90E5DDA2C00EE17C7 /* BlakeController.m */;
+		rLen = 15;
+		rLoc = 3580;
+		rType = 0;
+	};
+	73B361AD1116E5C60064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		name = "BlakeGlobalCommandControllerTests.m: 80";
+		rLen = 0;
+		rLoc = 2953;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 2200;
+	};
+	73B361AE1116E5C60064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E71C0510DA5AB600FAA280 /* BlakeNodeListViewController.m */;
+		name = "BlakeNodeListViewController.m: 82";
+		rLen = 112;
+		rLoc = 2150;
+		rType = 0;
+		vrLen = 708;
+		vrLoc = 1862;
+	};
+	73B361AF1116E5C60064AF28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 739F08D90E5DDA2C00EE17C7 /* BlakeController.m */;
+		name = "BlakeController.m: 113";
+		rLen = 74;
+		rLoc = 3550;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 3139;
+	};
+	73B5284B0E07CD0500DA884B /* SketchPlugin.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1170, 294}}";
+			sepNavSelRange = "{511, 24}";
+			sepNavVisRange = "{48, 633}";
+		};
+	};
+	73B5295E0E07D8E200DA884B /* DumbSketch */ = {
+		activeExec = 0;
+		executables = (
+			73B529600E07D8E200DA884B /* DumbSketch */,
+		);
+	};
+	73B529600E07D8E200DA884B /* DumbSketch */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			NO,
+			YES,
+			NO,
+		);
+		argumentStrings = (
+			"-SenTest All",
+			"-NSBindingDebugLogLevel 1",
+			"-SketchTests.octest",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = NO;
+				name = DYLD_INSERT_LIBRARIES;
+				value = /Developer/Library/PrivateFrameworks/DevToolsBundleInjection.framework/DevToolsBundleInjection;
+			},
+			{
+				active = NO;
+				name = XCInjectBundle;
+				value = SketchTests.octest;
+			},
+			{
+				active = NO;
+				name = XCInjectBundleInto;
+				value = DumbSketch.app;
+			},
+			{
+				active = NO;
+				name = DYLD_FALLBACK_FRAMEWORK_PATH;
+				value = "$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSDebugEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSHangOnUncaughtException;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = NSObjCMessageLoggingEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = DYLD_PRINT_ENV;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocScribble;
+				value = 1;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DumbSketch;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cr = 1;
+			$ctr = 1;
+			$lr = 1;
+			$mq = 1;
+			$pc = 1;
+			$ps = 1;
+			$r0 = 1;
+			$r1 = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r13 = 1;
+			$r14 = 1;
+			$r15 = 1;
+			$r16 = 1;
+			$r17 = 1;
+			$r18 = 1;
+			$r19 = 1;
+			$r2 = 1;
+			$r20 = 1;
+			$r21 = 1;
+			$r22 = 1;
+			$r23 = 1;
+			$r24 = 1;
+			$r25 = 1;
+			$r26 = 1;
+			$r27 = 1;
+			$r28 = 1;
+			$r29 = 1;
+			$r3 = 1;
+			$r30 = 1;
+			$r31 = 1;
+			$r4 = 1;
+			$r5 = 1;
+			$r6 = 1;
+			$r7 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$xer = 1;
+		};
+	};
+	73B529E60E07DA1C00DA884B /* SHAppControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1358, 462}}";
+			sepNavSelRange = "{223, 0}";
+			sepNavVisRange = "{0, 487}";
+		};
+	};
+	73B529E70E07DA1C00DA884B /* SHAppControl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 1638}}";
+			sepNavSelRange = "{2471, 2}";
+			sepNavVisRange = "{1751, 829}";
+			sepNavWindowFrame = "{{15, 23}, {1184, 850}}";
+		};
+	};
+	73B52A440E07DD7D00DA884B /* SHPlugInViewManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 518}}";
+			sepNavSelRange = "{148, 0}";
+			sepNavVisRange = "{0, 684}";
+		};
+	};
+	73B52A450E07DD7D00DA884B /* SHPlugInViewManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1106, 3906}}";
+			sepNavSelRange = "{4918, 7}";
+			sepNavVisRange = "{4251, 1069}";
+		};
+	};
+	73B52A460E07DD8900DA884B /* SHFScriptLoader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 466}";
+		};
+	};
+	73B52A470E07DD8900DA884B /* SHFScriptLoader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 1105}}";
+			sepNavSelRange = "{1197, 10}";
+			sepNavVisRange = "{792, 1200}";
+		};
+	};
+	73B52A480E07DD9500DA884B /* SHAppView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 4394}}";
+			sepNavSelRange = "{1781, 0}";
+			sepNavVisRange = "{0, 382}";
+		};
+	};
+	73B52A490E07DD9500DA884B /* SHAppView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 1092}}";
+			sepNavSelRange = "{1442, 14}";
+			sepNavVisRange = "{1112, 515}";
+		};
+	};
+	73B52A4A0E07DD9F00DA884B /* SHAppModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 2212}}";
+			sepNavSelRange = "{726, 6}";
+			sepNavVisRange = "{430, 847}";
+		};
+	};
+	73B52A4B0E07DD9F00DA884B /* SHAppModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1127, 532}}";
+			sepNavSelRange = "{154, 12}";
+			sepNavVisRange = "{0, 709}";
+		};
+	};
+	73B52A4C0E07DDAA00DA884B /* SHAppControl_old.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 3094}}";
+			sepNavSelRange = "{5407, 1}";
+			sepNavVisRange = "{5011, 397}";
+		};
+	};
+	73B52A4D0E07DDAA00DA884B /* SHAppControl_old.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 1036}}";
+			sepNavSelRange = "{638, 0}";
+			sepNavVisRange = "{478, 380}";
+		};
+	};
+	73B52A4E0E07DDC700DA884B /* SHMainMenuDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 742}}";
+			sepNavSelRange = "{113, 0}";
+			sepNavVisRange = "{0, 341}";
+		};
+	};
+	73B52A4F0E07DDC700DA884B /* SHMainMenuDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 4494}}";
+			sepNavSelRange = "{289, 0}";
+			sepNavVisRange = "{136, 450}";
+		};
+	};
+	73B52A500E07DE1E00DA884B /* SHViewPlaceholder.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1561, 700}}";
+			sepNavSelRange = "{721, 15}";
+			sepNavVisRange = "{283, 779}";
+		};
+	};
+	73B52A520E07DE2A00DA884B /* SHMainWindowDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 812}}";
+			sepNavSelRange = "{849, 17}";
+			sepNavVisRange = "{457, 744}";
+		};
+	};
+	73B52A530E07DE2A00DA884B /* SHMainWindowDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 658}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{160, 895}";
+		};
+	};
+	73B52A540E07DE3400DA884B /* SHMainWindow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 812}}";
+			sepNavSelRange = "{1007, 5}";
+			sepNavVisRange = "{550, 668}";
+		};
+	};
+	73B52A550E07DE3400DA884B /* SHMainWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1207, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 185}";
+		};
+	};
+	73B52A580E07DE6A00DA884B /* SHAuxWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{140, 0}";
+			sepNavVisRange = "{0, 444}";
+		};
+	};
+	73B52A590E07DE6A00DA884B /* SHAuxWindowDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1170, 812}}";
+			sepNavSelRange = "{232, 0}";
+			sepNavVisRange = "{0, 962}";
+		};
+	};
+	73B52A5B0E07DE7700DA884B /* SHBottomLeftRightDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1170, 588}}";
+			sepNavSelRange = "{234, 0}";
+			sepNavVisRange = "{0, 434}";
+		};
+	};
+	73B52A5E0E07DE7700DA884B /* SHTopLeftRightDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1170, 588}}";
+			sepNavSelRange = "{228, 0}";
+			sepNavVisRange = "{0, 426}";
+		};
+	};
+	73B95A540E82649B00345C6F /* SKTDecorator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 435}";
+		};
+	};
+	73B95A550E82649B00345C6F /* SKTDecorator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 980}}";
+			sepNavSelRange = "{1567, 38}";
+			sepNavVisRange = "{612, 1257}";
+		};
+	};
+	73B95A9A0E8265F200345C6F /* SKTGraphicView.m:249 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73ACC2D50DD2FA240085A301 /* SKTGraphicView.m */;
+		functionName = "-observeValueForKeyPath:ofObject:change:context:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 249;
+		modificationTime = 286392909.270908;
+		state = 0;
+	};
+	73B95E9B0E82965600345C6F /* SKTGraphicViewModelTests.m:258 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7390BA770DEF356E00F1FED2 /* SKTGraphicViewModelTests.m */;
+		functionName = "-testSetSktSceneSelectionIndexes";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 258;
+		modificationTime = 286392909.361692;
+		state = 0;
+	};
+	73B95E9D0E82967800345C6F /* SKTGraphicViewModelTests.m:76 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7390BA770DEF356E00F1FED2 /* SKTGraphicViewModelTests.m */;
+		functionName = "-observeValueForKeyPath:ofObject:change:context:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 76;
+		modificationTime = 286392909.4378;
+		state = 0;
+	};
+	73B95EF40E829FE900345C6F /* SKTGraphicViewModelTests.m:324 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7390BA770DEF356E00F1FED2 /* SKTGraphicViewModelTests.m */;
+		functionName = "-testRemoveSktSceneItemsAtIndexes";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 324;
+		modificationTime = 286392909.628078;
+		state = 0;
+	};
+	73B962300E82B35E00345C6F /* SKTDecorator_Wireframe.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{155, 0}";
+			sepNavVisRange = "{0, 242}";
+		};
+	};
+	73B962310E82B35E00345C6F /* SKTDecorator_Wireframe.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 391}}";
+			sepNavSelRange = "{190, 0}";
+			sepNavVisRange = "{0, 450}";
+		};
+	};
+	73BAADE50E2763DC000C686E /* SketchTests - Runner (otest) */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-SenTest All",
+			/Users/shooley/Desktop/Programming/Cocoa/Blake/build/SketchTests.octest,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = DYLD_FRAMEWORK_PATH;
+				value = "$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = YES;
+				name = DYLD_LIBRARY_PATH;
+				value = "$(BUILT_PRODUCTS_DIR)";
+			},
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = NSHangOnUncaughtException;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSDebugEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = OBJC_DISABLE_GC;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = MallocStackLogging;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = NSObjCMessageLoggingEnabled;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 73BAADE60E2763DC000C686E /* otest */;
+		libgmallocEnabled = 0;
+		name = "SketchTests - Runner (otest)";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+		variableFormatDictionary = {
+		};
+	};
+	73BAADE60E2763DC000C686E /* otest */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = otest;
+		path = /Tools/otest;
+		sourceTree = "<absolute>";
+	};
+	73BACE8E10D2BDE700E01D0C /* SHNodeRegister.m:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73BAD0A110D2C87300E01D0C /* SHNodeRegister.m */;
+		functionName = "-registerOperatorClass:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		modificationTime = 286392911.543662;
+		state = 0;
+	};
+	73BACED010D2C08400E01D0C /* ObjectPaletteWindowController.m:49 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73BAD09B10D2C85D00E01D0C /* ObjectPaletteWindowController.m */;
+		functionName = "-windowDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 49;
+		modificationTime = 286392911.644066;
+		state = 0;
+	};
+	73BACED210D2C09600E01D0C /* ObjectBrowserViewController.m:24 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73BAD09E10D2C86800E01D0C /* ObjectBrowserViewController.m */;
+		functionName = "-setupViews";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 24;
+		modificationTime = 286392911.728982;
+		state = 0;
+	};
+	73BACF9D10D2C3C400E01D0C /* ObjectPaletterPluginTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 477}}";
+			sepNavSelRange = "{265, 66}";
+			sepNavVisRange = "{0, 338}";
+		};
+	};
+	73BACFA410D2C3DD00E01D0C /* ObjectBrowserViewControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 477}}";
+			sepNavSelRange = "{354, 0}";
+			sepNavVisRange = "{0, 360}";
+		};
+	};
+	73BACFAB10D2C42000E01D0C /* ObjectPaletteWindowControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 477}}";
+			sepNavSelRange = "{359, 0}";
+			sepNavVisRange = "{0, 365}";
+		};
+	};
+	73BACFB010D2C47200E01D0C /* FSNodeInfoTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 477}}";
+			sepNavSelRange = "{303, 0}";
+			sepNavVisRange = "{0, 309}";
+		};
+	};
+	73BACFB510D2C48600E01D0C /* FSBrowserCellTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 390}}";
+			sepNavSelRange = "{208, 1}";
+			sepNavVisRange = "{0, 313}";
+		};
+	};
+	73BAD09210D2C82900E01D0C /* SHObjPaletteControl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 5838}}";
+			sepNavSelRange = "{7705, 0}";
+			sepNavVisRange = "{7262, 993}";
+		};
+	};
+	73BAD09310D2C83600E01D0C /* SHObjPaletteView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 7112}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 700}";
+		};
+	};
+	73BAD09710D2C85200E01D0C /* ObjectPalettePlugin.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 1372}}";
+			sepNavSelRange = "{2439, 0}";
+			sepNavVisRange = "{1963, 967}";
+		};
+	};
+	73BAD09E10D2C86800E01D0C /* ObjectBrowserViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 4872}}";
+			sepNavSelRange = "{10661, 0}";
+			sepNavVisRange = "{10153, 1052}";
+		};
+	};
+	73BAD0A110D2C87300E01D0C /* SHNodeRegister.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {948, 2795}}";
+			sepNavSelRange = "{1283, 0}";
+			sepNavVisRange = "{1007, 508}";
+		};
+	};
+	73BAF4D00E0815EB00455F07 /* SketchExtension.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 560}}";
+			sepNavSelRange = "{157, 8}";
+			sepNavVisRange = "{0, 670}";
+		};
+	};
+	73BAF4D10E0815EB00455F07 /* SketchExtension.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {947, 2296}}";
+			sepNavSelRange = "{3976, 16}";
+			sepNavVisRange = "{3058, 2072}";
+		};
+	};
+	73BAF6B20E08261C00455F07 /* SketchExtensionTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 1344}}";
+			sepNavSelRange = "{248, 0}";
+			sepNavVisRange = "{222, 627}";
+		};
+	};
+	73BB359E10F52D6B000A7F01 /* HmmTests.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1073, 1799}}";
+			sepNavSelRange = "{677, 0}";
+			sepNavVisRange = "{2272, 1403}";
+		};
+	};
+	73BBC4F90DE46BFA00321618 /* StubGraphic.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 391}}";
+			sepNavSelRange = "{138, 0}";
+			sepNavVisRange = "{0, 209}";
+		};
+	};
+	73BBC4FA0DE46BFA00321618 /* StubGraphic.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 735}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 206}";
+		};
+	};
+	73BE6FBD09868161005D9DE4 /* startup.fscript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 711}}";
+			sepNavSelRange = "{480, 0}";
+			sepNavVisRange = "{0, 480}";
+			sepNavVisRect = "{{0, 0}, {694, 315}}";
+		};
+	};
+	73BE942D0E87AB8C004A0FF0 /* SKTBezierToolTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 443}}";
+			sepNavSelRange = "{206, 0}";
+			sepNavVisRange = "{0, 249}";
+		};
+	};
+	73BE98990E87E201004A0FF0 /* SKTDecorator_Bezier.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{152, 0}";
+			sepNavVisRange = "{0, 236}";
+		};
+	};
+	73BE989A0E87E201004A0FF0 /* SKTDecorator_Bezier.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 854}}";
+			sepNavSelRange = "{743, 0}";
+			sepNavVisRange = "{0, 917}";
+		};
+	};
+	73BEA41E10C6E26C00B72903 /* Project-Base.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 882}}";
+			sepNavSelRange = "{1149, 6}";
+			sepNavVisRange = "{738, 1755}";
+		};
+	};
+	73BEA41F10C6E26C00B72903 /* Project-Debug.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 283}}";
+			sepNavSelRange = "{49, 0}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	73BEA42010C6E26C00B72903 /* Project-Coverage.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 283}}";
+			sepNavSelRange = "{57, 0}";
+			sepNavVisRange = "{0, 325}";
+		};
+	};
+	73BEA42110C6E26C00B72903 /* Project-Release.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 465}}";
+			sepNavSelRange = "{326, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	73BEA42710C6E27400B72903 /* Target-TestBundle.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 465}}";
+			sepNavSelRange = "{158, 0}";
+			sepNavVisRange = "{0, 159}";
+		};
+	};
+	73BEA42810C6E27400B72903 /* Target-QCPlugin.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 283}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 261}";
+		};
+	};
+	73BEA42910C6E27400B72903 /* Target-Plugin.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 465}}";
+			sepNavSelRange = "{287, 0}";
+			sepNavVisRange = "{0, 480}";
+		};
+	};
+	73BEA42A10C6E27400B72903 /* Target-iPhone.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 312}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 602}";
+		};
+	};
+	73BEA42B10C6E27400B72903 /* Target-Framework.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 283}}";
+			sepNavSelRange = "{155, 0}";
+			sepNavVisRange = "{0, 281}";
+		};
+	};
+	73BEA42C10C6E27400B72903 /* Target-Executable.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 283}}";
+			sepNavSelRange = "{90, 0}";
+			sepNavVisRange = "{0, 445}";
+		};
+	};
+	73BEA42D10C6E27400B72903 /* Target-Base.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 254}}";
+			sepNavSelRange = "{583, 0}";
+			sepNavVisRange = "{0, 659}";
+		};
+	};
+	73C3594310D910950000BAC5 /* HighLevelBlakeDocumentActionsTests.m:1439 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 739F2D380E632601005DC9CD /* HighLevelBlakeDocumentActionsTests.m */;
+		functionName = "-testMoveChildrenToInsertionIndexShouldCopy";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1439;
+		modificationTime = 286392912.9242021;
+		state = 0;
+	};
+	73C35F1D10DA44AE0000BAC5 /* HighLevelBlakeDocumentActions.m:485 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 739F08E10E5DDA4B00EE17C7 /* HighLevelBlakeDocumentActions.m */;
+		functionName = "-moveChildren:toInsertionIndex:shouldCopy:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 485;
+		modificationTime = 286392913.797246;
+		state = 0;
+	};
+	73C6F9540EDD88A80067482D /* TreeViewPlugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{147, 0}";
+			sepNavVisRange = "{0, 236}";
+		};
+	};
+	73C6F9550EDD88A80067482D /* TreeViewPlugin.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 784}}";
+			sepNavSelRange = "{1217, 0}";
+			sepNavVisRange = "{553, 1112}";
+			sepNavWindowFrame = "{{1755, 43}, {1362, 969}}";
+		};
+	};
+	73C6FA9E0EDDA10B0067482D /* ObjectPalette */ = {
+		activeExec = 0;
+	};
+	73C6FB1E0EDDA36B0067482D /* ObjectPalettePlugin.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1212, 610}}";
+			sepNavSelRange = "{109, 0}";
+			sepNavVisRange = "{0, 696}";
+		};
+	};
+	73C996090E3269E4002B972D /* SKTDragReorderArrayController.m:91 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73FA1DE00E1BB3C10052D12C /* SKTDragReorderArrayController.m */;
+		functionName = "-tableView:objectValueForTableColumn:row:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 91;
+		modificationTime = 286392908.168091;
+		state = 0;
+	};
+	73C996ED0E327F5A002B972D /* DumbSketchDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {947, 727}}";
+			sepNavSelRange = "{120, 0}";
+			sepNavVisRange = "{0, 360}";
+			sepNavWindowFrame = "{{-1346, 91}, {1184, 850}}";
+		};
+	};
+	73C996EE0E327F5A002B972D /* DumbSketchDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 826}}";
+			sepNavSelRange = "{1136, 0}";
+			sepNavVisRange = "{651, 791}";
+		};
+	};
+	73CB048E10DBDA4200AE25C8 /* BlakeGlobalCommandControllerTests.m:45 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-setUp";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 45;
+		modificationTime = 286392915.4261519;
+		state = 0;
+	};
+	73CB049010DBDA4500AE25C8 /* BlakeGlobalCommandControllerTests.m:98 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testValidateUserInterfaceItem";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 98;
+		modificationTime = 286392915.535458;
+		state = 0;
+	};
+	73CB049210DBDA4E00AE25C8 /* BlakeGlobalCommandControllerTests.m:213 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-tesCanCut";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 213;
+		modificationTime = 286392915.683163;
+		state = 0;
+	};
+	73CB049410DBDA4F00AE25C8 /* BlakeGlobalCommandControllerTests.m:218 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testCut";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 218;
+		modificationTime = 286392915.8121549;
+		state = 0;
+	};
+	73CB049610DBDA5000AE25C8 /* BlakeGlobalCommandControllerTests.m:222 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-tesCanCopy";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 222;
+		modificationTime = 286392915.898414;
+		state = 0;
+	};
+	73CB049810DBDA5100AE25C8 /* BlakeGlobalCommandControllerTests.m:226 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testCopy";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 226;
+		modificationTime = 286392916.00358;
+		state = 0;
+	};
+	73CB049A10DBDA5100AE25C8 /* BlakeGlobalCommandControllerTests.m:234 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-tesCanPaste";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 234;
+		modificationTime = 286392916.110009;
+		state = 0;
+	};
+	73CB049C10DBDA5500AE25C8 /* BlakeGlobalCommandControllerTests.m:239 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testPaste";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 239;
+		modificationTime = 286392916.310496;
+		state = 0;
+	};
+	73CB049E10DBDA5800AE25C8 /* BlakeGlobalCommandControllerTests.m:261 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testDelete";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 261;
+		modificationTime = 286392916.393919;
+		state = 0;
+	};
+	73CB04A010DBDA5A00AE25C8 /* BlakeGlobalCommandControllerTests.m:267 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testCanSelectAll";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 267;
+		modificationTime = 286392916.505917;
+		state = 0;
+	};
+	73CB04A210DBDA5B00AE25C8 /* BlakeGlobalCommandControllerTests.m:274 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testCanDeselectAll";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 274;
+		modificationTime = 286392916.588984;
+		state = 0;
+	};
+	73CB04A410DBDA5B00AE25C8 /* BlakeGlobalCommandControllerTests.m:279 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testSendSelectorReturningBool";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 279;
+		modificationTime = 286392916.758666;
+		state = 0;
+	};
+	73CB04A610DBDA5E00AE25C8 /* BlakeGlobalCommandControllerTests.m:279 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testSendSelector";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 279;
+		modificationTime = 286392916.899599;
+		state = 0;
+	};
+	73CB04A810DBDA6200AE25C8 /* BlakeGlobalCommandControllerTests.m:311 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testDuplicate";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 311;
+		modificationTime = 286392916.981296;
+		state = 0;
+	};
+	73CB04AC10DBDA6600AE25C8 /* BlakeGlobalCommandControllerTests.m:381 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testNewEmptyGroup";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 381;
+		modificationTime = 286392917.095294;
+		state = 0;
+	};
+	73CB04AE10DBDA6700AE25C8 /* BlakeGlobalCommandControllerTests.m:394 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testNewInput";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 394;
+		modificationTime = 286392917.280346;
+		state = 0;
+	};
+	73CB04B010DBDA6A00AE25C8 /* BlakeGlobalCommandControllerTests.m:411 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testNewOutput";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 411;
+		modificationTime = 286392917.408016;
+		state = 0;
+	};
+	73CB04B210DBDA6B00AE25C8 /* BlakeGlobalCommandControllerTests.m:430 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testCanGroup";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 430;
+		modificationTime = 286392917.50011;
+		state = 0;
+	};
+	73CB04B410DBDA6E00AE25C8 /* BlakeGlobalCommandControllerTests.m:444 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testGroup";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 444;
+		modificationTime = 286392917.616726;
+		state = 0;
+	};
+	73CB04B610DBDA7400AE25C8 /* BlakeGlobalCommandControllerTests.m:609 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testCanUnGroup";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 609;
+		modificationTime = 286392917.702713;
+		state = 0;
+	};
+	73CB04B810DBDA7500AE25C8 /* BlakeGlobalCommandControllerTests.m:629 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testUnGroup";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 629;
+		modificationTime = 286392917.879917;
+		state = 0;
+	};
+	73CB04BA10DBDA7A00AE25C8 /* BlakeGlobalCommandControllerTests.m:781 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testPasteboardHasData";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 781;
+		modificationTime = 286392917.9720389;
+		state = 0;
+	};
+	73CD26A40EE6A73200788A44 /* ObjectBrowserViewController.m:315 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73BAD09E10D2C86800E01D0C /* ObjectBrowserViewController.m */;
+		functionName = "-attributedInspectorStringForFSNode:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 315;
+		modificationTime = 286392910.367033;
+		state = 0;
+	};
+	73CD27740EE6B74800788A44 /* ObjectPalettePlugin.m:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73BAD09710D2C85200E01D0C /* ObjectPalettePlugin.m */;
+		functionName = "-showWindow:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		modificationTime = 286392910.537755;
+		state = 0;
+	};
+	73D04F050E266239003D81B3 /* SHBlakeControllerTests.m:2 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73B09E780D2DA0E9004A782F /* SHBlakeControllerTests.m */;
+		functionName = "-setUp";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2;
+		modificationTime = 286392898.442788;
+		state = 1;
+	};
+	73D4A5C410DF91020091B586 /* BlakeGlobalCommandControllerTests.m:370 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-testCanAddNewEmptyGroup";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 370;
+		modificationTime = 286392918.082931;
+		state = 0;
+	};
+	73D4A5F610DF95B60091B586 /* BlakeGlobalCommandControllerTests.m:78 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
+		functionName = "-tearDown";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 78;
+		modificationTime = 286392918.165206;
+		state = 0;
+	};
+	73D4A60810DF989A0091B586 /* StubWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 591}}";
+			sepNavSelRange = "{155, 10}";
+			sepNavVisRange = "{0, 188}";
+		};
+	};
+	73D4A60910DF989A0091B586 /* StubWindow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 614}}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRange = "{0, 241}";
+		};
+	};
+	73D4A92C10DFE2920091B586 /* SHApplication_Extras.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1019, 424}}";
+			sepNavSelRange = "{260, 14}";
+			sepNavVisRange = "{0, 437}";
+		};
+	};
+	73D4A92D10DFE2920091B586 /* SHApplication_Extras.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 1176}}";
+			sepNavSelRange = "{2224, 5}";
+			sepNavVisRange = "{0, 1047}";
+		};
+	};
+	73D4A93310DFE2BF0091B586 /* SHApplication_ExtrasTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 518}}";
+			sepNavSelRange = "{1097, 0}";
+			sepNavVisRange = "{98, 871}";
+		};
+	};
+	73D96F660DD77C0C00C53D2D /* SKTWindowControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {966, 924}}";
+			sepNavSelRange = "{406, 0}";
+			sepNavVisRange = "{221, 582}";
+		};
+	};
+	73DA59870EDB12A100D4F5F0 /* JavascriptConsole.m:23 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73B23FFB0EA496F600CE3C8D /* JavascriptConsole.m */;
+		functionName = "-showWindow";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 23;
+		modificationTime = 286392910.293419;
+		state = 0;
+	};
+	73DA59EC0EDB1FC600D4F5F0 /* TreeViewPlugin.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1137, 588}}";
+			sepNavSelRange = "{621, 13}";
+			sepNavVisRange = "{0, 680}";
+			sepNavWindowFrame = "{{1718, 55}, {1362, 969}}";
+		};
+	};
+	73DA59FB0EDB208500D4F5F0 /* TreeView */ = {
+		activeExec = 0;
+	};
+	73DE234D0E4C789A00FC1C47 /* SketchTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 443}}";
+			sepNavSelRange = "{190, 0}";
+			sepNavVisRange = "{0, 225}";
+		};
+	};
+	73DE23500E4C78B500FC1C47 /* SketchTests.m:16 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73DE234D0E4C789A00FC1C47 /* SketchTests.m */;
+		functionName = "__InitializeSketchGlobalMemoryStuff()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 16;
+		modificationTime = 286392908.568235;
+		state = 0;
+	};
+	73DE7CCB0E81297D00DA1807 /* SketchDebugTableTests.m:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A895460E1CD2580020BBD8 /* SketchDebugTableTests.m */;
+		functionName = "-testDebugTableResponses";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 126;
+		modificationTime = 286392909.027343;
+		state = 0;
+	};
+	73DE7D350E812DA300DA1807 /* SketchDebugTableTests.m:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A895460E1CD2580020BBD8 /* SketchDebugTableTests.m */;
+		functionName = "-tearDown";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		modificationTime = 286392909.106495;
+		state = 0;
+	};
+	73DE7FAE0E81408100DA1807 /* SketchDebugTableTests.m:88 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73A895460E1CD2580020BBD8 /* SketchDebugTableTests.m */;
+		functionName = "-testDebugTableResponses";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 88;
+		modificationTime = 286392909.200227;
+		state = 0;
+	};
+	73DE81FA0E816D0D00DA1807 /* SKTDecorator_Selected.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 571}}";
+			sepNavSelRange = "{154, 0}";
+			sepNavVisRange = "{0, 239}";
+		};
+	};
+	73DE81FB0E816D0D00DA1807 /* SKTDecorator_Selected.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 770}}";
+			sepNavSelRange = "{587, 0}";
+			sepNavVisRange = "{0, 921}";
+		};
+	};
+	73E363F00DD34F0D007BB0E5 /* BlakeMainPlugin.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {951, 466}}";
+			sepNavSelRange = "{53, 27}";
+			sepNavVisRange = "{0, 1124}";
+			sepNavWindowFrame = "{{1741, 34}, {1362, 969}}";
+		};
+	};
+	73E3F2280A7ED04B00DC321C /* BlakeAppTests */ = {
+		activeExec = 0;
+	};
+	73E71C0210DA5AB600FAA280 /* BlakeNodeListViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1512, 1722}}";
+			sepNavSelRange = "{3375, 0}";
+			sepNavVisRange = "{2047, 2553}";
+		};
+	};
+	73E71C0310DA5AB600FAA280 /* BlakeNodeListWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1073, 3402}}";
+			sepNavSelRange = "{3575, 0}";
+			sepNavVisRange = "{3072, 1525}";
+		};
+	};
+	73E71C0410DA5AB600FAA280 /* BlakeNodeListWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 658}}";
+			sepNavSelRange = "{825, 13}";
+			sepNavVisRange = "{0, 926}";
+		};
+	};
+	73E71C0510DA5AB600FAA280 /* BlakeNodeListViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1106, 18158}}";
+			sepNavSelRange = "{2150, 112}";
+			sepNavVisRange = "{1862, 708}";
+		};
+	};
+	73E71C0A10DA5B8100FAA280 /* BlakeNodeListWindowControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 434}}";
+			sepNavSelRange = "{41, 0}";
+			sepNavVisRange = "{0, 702}";
+		};
+	};
+	73E71C0C10DA5B8700FAA280 /* BlakeNodeListViewControllerTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 17654}}";
+			sepNavSelRange = "{1859, 0}";
+			sepNavVisRange = "{1143, 1080}";
+		};
+	};
+	73E7209110DA776200FAA280 /* SHRootNodeListTableView.m:462 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7320494E10D0101100242B59 /* SHRootNodeListTableView.m */;
+		functionName = "-setController:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 462;
+		modificationTime = 286392913.968704;
+		state = 0;
+	};
+	73E724DF10DA9BFF00FAA280 /* BlakeNodeListViewController.m:530 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73E71C0510DA5AB600FAA280 /* BlakeNodeListViewController.m */;
+		functionName = "-nodesInCurrentNodeGroup_Array";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 530;
+		modificationTime = 286392914.215172;
+		state = 0;
+	};
+	73E725D810DAA50700FAA280 /* BlakeDocumentTests.m:211 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 730A58B10E069B37009458BA /* BlakeDocumentTests.m */;
+		functionName = "-testClose";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 211;
+		modificationTime = 286392914.371614;
+		state = 0;
+	};
+	73E725DA10DAA50800FAA280 /* BlakeDocumentTests.m:198 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 730A58B10E069B37009458BA /* BlakeDocumentTests.m */;
+		functionName = "-testMakeWindowControllers";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 198;
+		modificationTime = 286392914.482244;
+		state = 0;
+	};
+	73E725DC10DAA50F00FAA280 /* BlakeDocumentTests.m:25 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 730A58B10E069B37009458BA /* BlakeDocumentTests.m */;
+		functionName = "-setUp";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 25;
+		modificationTime = 286392914.578236;
+		state = 0;
+	};
+	73E725F910DAA79300FAA280 /* BlakeDocumentTests.m:48 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 730A58B10E069B37009458BA /* BlakeDocumentTests.m */;
+		functionName = "-tearDown";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 48;
+		modificationTime = 286392914.690956;
+		state = 0;
+	};
+	73E7260010DAA84C00FAA280 /* BlakeDocumentTests.m:214 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 730A58B10E069B37009458BA /* BlakeDocumentTests.m */;
+		functionName = "-testValidateUserInterfaceItem";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 214;
+		modificationTime = 286392914.782738;
+		state = 0;
+	};
+	73E7260210DAA85400FAA280 /* BlakeDocumentTests.m:135 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 730A58B10E069B37009458BA /* BlakeDocumentTests.m */;
+		functionName = "-testRevertToContentsOfURLofTypeError";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 135;
+		modificationTime = 286392914.8948861;
+		state = 0;
+	};
+	73E7260410DAA85700FAA280 /* BlakeDocumentTests.m:83 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 730A58B10E069B37009458BA /* BlakeDocumentTests.m */;
+		functionName = "-testWriteToURL";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 83;
+		modificationTime = 286392915.152029;
+		state = 0;
+	};
+	73E7260610DAA85A00FAA280 /* BlakeDocumentTests.m:63 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 730A58B10E069B37009458BA /* BlakeDocumentTests.m */;
+		functionName = "-testReadFromURL";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 63;
+		modificationTime = 286392915.236746;
+		state = 0;
+	};
+	73E7260810DAA8E000FAA280 /* BlakeDocument.m:129 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7373009F0E028B5B00EBA987 /* BlakeDocument.m */;
+		functionName = "-writeToURL:ofType:error:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 129;
+		modificationTime = 286392915.342647;
+		state = 0;
+	};
+	73EA0A7D0E83E5CE0084C198 /* SKTBezierTool.m:104 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7347DAD00E83B7DC009321C5 /* SKTBezierTool.m */;
+		functionName = "-trackMouseWithEvent:inSketchView:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 104;
+		location = Sketch;
+		modificationTime = 286392898.4736921;
+		state = 2;
+	};
+	73EB0FDD0E0BF59E00855CD5 /* SKTFilteringArrayControllerProviderTests.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SKTFilteringArrayControllerProviderTests.m;
+		path = /Users/shooley/Desktop/Programming/Cocoa/Blake/BlakeLoader/Sketch/Tests/SKTFilteringArrayControllerProviderTests.m;
+		sourceTree = "<absolute>";
+	};
+	73EB46E70DD49A8100683A19 /* SHDrawableOperatorProvidor.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 391}}";
+			sepNavSelRange = "{154, 92}";
+			sepNavVisRange = "{0, 346}";
+		};
+	};
+	73EB46E80DD49A8100683A19 /* SHDrawableOperatorProvidor.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 719}}";
+			sepNavSelRange = "{200, 1}";
+			sepNavVisRange = "{0, 308}";
+		};
+	};
+	73ECA3F310D1105D00BC8785 /* NodeListView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 342}}";
+			sepNavSelRange = "{41, 0}";
+			sepNavVisRange = "{0, 299}";
+		};
+	};
+	73ECA46610D1147000BC8785 /* NodeListViewTests */ = {
+		activeExec = 0;
+	};
+	73ECA48510D114A000BC8785 /* ObjectPaletteTests */ = {
+		activeExec = 0;
+	};
+	73ECA53E10D116C200BC8785 /* SHNodeRegisterTests.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 798}}";
+			sepNavSelRange = "{671, 64}";
+			sepNavVisRange = "{250, 591}";
+		};
+	};
+	73ECA57A10D1180A00BC8785 /* SHNodeRegisterTests.m:50 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73ECA53E10D116C200BC8785 /* SHNodeRegisterTests.m */;
+		functionName = "-testStuff";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 50;
+		modificationTime = 286392911.470634;
+		state = 0;
+	};
+	73ECA57D10D1183600BC8785 /* ObjectPaletteTests - Otest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-SenTest All",
+			"$(PROJECT_DIR)/../build/debug/ObjectPaletteTests.octest",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = DYLD_FRAMEWORK_PATH;
+				value = "$(PROJECT_DIR)/../build";
+			},
+			{
+				active = YES;
+				name = DYLD_LIBRARY_PATH;
+				value = "$(PROJECT_DIR)/../build";
+			},
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocStackLogging;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = OBJC_DISABLE_GC;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSDebugEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSHangOnUncaughtException;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 73ECA57E10D1183600BC8785 /* otest */;
+		libgmallocEnabled = 0;
+		name = "ObjectPaletteTests - Otest";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	73ECA57E10D1183600BC8785 /* otest */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = otest;
+		path = Tools/otest;
+		sourceTree = DEVELOPER_DIR;
+	};
+	73ECA58F10D1192400BC8785 /* NodeListViewTests - Otest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-SenTest All",
+			"$(PROJECT_DIR)/../build/debug/NodeListViewTests.octest",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = DYLD_FRAMEWORK_PATH;
+				value = "$(PROJECT_DIR)/../build";
+			},
+			{
+				active = YES;
+				name = DYLD_LIBRARY_PATH;
+				value = "$(PROJECT_DIR)/../build";
+			},
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocStackLogging;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = NSHangOnUncaughtException;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSDebugEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = OBJC_DISABLE_GC;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 73ECA59010D1192400BC8785 /* otest */;
+		libgmallocEnabled = 0;
+		name = "NodeListViewTests - Otest";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	73ECA59010D1192400BC8785 /* otest */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = otest;
+		path = /Developer/Tools/otest;
+		sourceTree = "<absolute>";
+	};
+	73EDC7E30E767A4E0051C74D /* SKTWindowController.m:213 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73ACC2BF0DD2FA240085A301 /* SKTWindowController.m */;
+		functionName = "-observeValueForKeyPath:ofObject:change:context:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 213;
+		modificationTime = 286392908.756798;
+		state = 0;
+	};
+	73EDC7EA0E767B0E0051C74D /* SKTWindowController.m:213 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73ACC2BF0DD2FA240085A301 /* SKTWindowController.m */;
+		functionName = "-observeValueForKeyPath:ofObject:change:context:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 213;
+		modificationTime = 286392908.8448671;
+		state = 0;
+	};
+	73F967890DD45D3C003784B8 /* SKTTransformTool.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{151, 0}";
+			sepNavVisRange = "{0, 433}";
+		};
+	};
+	73F9678A0DD45D3C003784B8 /* SKTTransformTool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 2646}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{0, 724}";
+		};
+	};
+	73F967AD0DD45E92003784B8 /* SKTSelectTool.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{148, 0}";
+			sepNavVisRange = "{0, 562}";
+		};
+	};
+	73F967AE0DD45E92003784B8 /* SKTSelectTool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 3836}}";
+			sepNavSelRange = "{7878, 0}";
+			sepNavVisRange = "{7155, 1476}";
+		};
+	};
+	73F969AE0DD47BA0003784B8 /* SHCircle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 516}}";
+			sepNavSelRange = "{166, 9}";
+			sepNavVisRange = "{0, 304}";
+		};
+	};
+	73F969AF0DD47BA0003784B8 /* SHCircle.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1596, 560}}";
+			sepNavSelRange = "{141, 1}";
+			sepNavVisRange = "{0, 1077}";
+		};
+	};
+	73FA1DDF0E1BB3C10052D12C /* SKTDragReorderArrayController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 1092}}";
+			sepNavSelRange = "{2793, 0}";
+			sepNavVisRange = "{1867, 1396}";
+		};
+	};
+	73FA1DE00E1BB3C10052D12C /* SKTDragReorderArrayController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 3514}}";
+			sepNavSelRange = "{3371, 23}";
+			sepNavVisRange = "{2716, 950}";
+		};
+	};
+	73FBAA5E0E9F63F3001DC969 /* OutlineView1Controller.m:13 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73B23FD10EA495D000CE3C8D /* OutlineView1Controller.m */;
+		functionName = "-setupOutlineView1";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 13;
+		modificationTime = 286392910.204634;
+		state = 0;
+	};
+	73FF456E0E26A31A0063287B /* SHGlobalCommandControllerTests.m:360 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 73B09E690D2DA083004A782F /* SHGlobalCommandControllerTests.m */;
+		functionName = "-testCanAddNewEmptyGroup";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 360;
+		modificationTime = 286392898.443599;
+		state = 1;
+	};
+	73FFDD5D0DD0CBFC003760E1 /* BBPythonProxy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 1050}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{477, 379}";
+		};
+	};
+	73FFDD5E0DD0CBFC003760E1 /* BBPythonProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 447}}";
+			sepNavSelRange = "{112, 0}";
+			sepNavVisRange = "{0, 407}";
+		};
+	};
+	73FFDD5F0DD0CBFC003760E1 /* SHPythonSupport.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 476}}";
+			sepNavSelRange = "{150, 0}";
+			sepNavVisRange = "{0, 543}";
+		};
+	};
+	73FFDD600DD0CBFC003760E1 /* SHPythonSupport.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1014, 3850}}";
+			sepNavSelRange = "{171, 9}";
+			sepNavVisRange = "{87, 479}";
+		};
+	};
+	73FFDD610DD0CBFC003760E1 /* pyobjc-api.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {965, 6986}}";
+			sepNavSelRange = "{1949, 9}";
+			sepNavVisRange = "{1418, 663}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Blake App */ = {
+		activeExec = 0;
+		executables = (
+			739141A7090E4513001ADDD4 /* Blake App */,
+		);
+	};
+}
