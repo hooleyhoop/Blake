@@ -332,8 +332,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 286713272;
-			PBXWorkspaceStateSaveDate = 286713272;
+			PBXPerProjectTemplateStateSaveDate = 289324418;
+			PBXWorkspaceStateSaveDate = 289324418;
 		};
 		perUserProjectItems = {
 			73856D361110485700A3EEB8 /* PBXTextBookmark */ = 73856D361110485700A3EEB8 /* PBXTextBookmark */;
@@ -350,10 +350,9 @@
 			73B360FD1116E1DC0064AF28 /* PBXTextBookmark */ = 73B360FD1116E1DC0064AF28 /* PBXTextBookmark */;
 			73B361AA1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AA1116E5C60064AF28 /* PBXTextBookmark */;
 			73B361AB1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AB1116E5C60064AF28 /* PBXTextBookmark */;
-			73B361AC1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AC1116E5C60064AF28 /* PBXTextBookmark */;
 			73B361AD1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AD1116E5C60064AF28 /* PBXTextBookmark */;
-			73B361AE1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AE1116E5C60064AF28 /* PBXTextBookmark */;
 			73B361AF1116E5C60064AF28 /* PBXTextBookmark */ = 73B361AF1116E5C60064AF28 /* PBXTextBookmark */;
+			73C20913113EBDB8006EF7C4 /* PBXTextBookmark */ = 73C20913113EBDB8006EF7C4 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 739141BF090E4514001ADDD4 /* Source Control */;
 		userBuildSettings = {
@@ -837,7 +836,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 73;
-		modificationTime = 286392909.700053;
+		modificationTime = 289324430.350833;
 		state = 0;
 	};
 	7347D9E40E83B2A0009321C5 /* SKTDragReorderArrayController.m:104 */ = {
@@ -853,7 +852,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 104;
-		modificationTime = 286392909.79927;
+		modificationTime = 289324430.468296;
 		state = 0;
 	};
 	7347D9E90E83B2ED009321C5 /* SKTDragReorderArrayController.m:83 */ = {
@@ -869,7 +868,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 83;
-		modificationTime = 286392909.867915;
+		modificationTime = 289324430.607753;
 		state = 0;
 	};
 	7347D9EE0E83B2F7009321C5 /* SKTDragReorderArrayController.m:185 */ = {
@@ -885,7 +884,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 185;
-		modificationTime = 286392910.011444;
+		modificationTime = 289324430.694216;
 		state = 0;
 	};
 	7347DACF0E83B7DC009321C5 /* SKTBezierTool.h */ = {
@@ -955,7 +954,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 30;
-		modificationTime = 286392919.195699;
+		modificationTime = 289324446.019667;
 		state = 0;
 	};
 	7352FE2810D67A4700871424 /* AllChildrenFilter.m */ = {
@@ -978,7 +977,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 749;
-		modificationTime = 286392912.001915;
+		modificationTime = 289324434.668518;
 		state = 0;
 	};
 	7352FE2E10D67A5300871424 /* AllChildrenFilter.m:762 */ = {
@@ -994,7 +993,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 762;
-		modificationTime = 286392912.0727931;
+		modificationTime = 289324434.903452;
 		state = 0;
 	};
 	7352FE3010D67A5A00871424 /* AllChildrenFilter.m:805 */ = {
@@ -1010,7 +1009,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 805;
-		modificationTime = 286392912.168548;
+		modificationTime = 289324435.195747;
 		state = 0;
 	};
 	7352FE3210D67A5B00871424 /* AllChildrenFilter.m:814 */ = {
@@ -1026,7 +1025,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 814;
-		modificationTime = 286392912.243246;
+		modificationTime = 289324435.288192;
 		state = 0;
 	};
 	7352FE3C10D67A6E00871424 /* AllChildrenFilter.m:473 */ = {
@@ -1042,7 +1041,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 473;
-		modificationTime = 286392912.4111781;
+		modificationTime = 289324435.484951;
 		state = 0;
 	};
 	7352FE3E10D67A7000871424 /* AllChildrenFilter.m:461 */ = {
@@ -1058,7 +1057,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 461;
-		modificationTime = 286392912.4903;
+		modificationTime = 289324435.635201;
 		state = 0;
 	};
 	7352FE4010D67A7700871424 /* AllChildrenFilter.m:346 */ = {
@@ -1074,7 +1073,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 346;
-		modificationTime = 286392912.642417;
+		modificationTime = 289324435.993696;
 		state = 0;
 	};
 	735B39D510FF715B00C9C4C5 /* UnknownEndToEndTest.m:29 */ = {
@@ -1090,7 +1089,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 29;
-		modificationTime = 286392918.91365;
+		modificationTime = 289324445.176444;
 		state = 0;
 	};
 	735B39D710FF716600C9C4C5 /* UnknownEndToEndTest.m:24 */ = {
@@ -1106,7 +1105,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 24;
-		modificationTime = 286392919.000389;
+		modificationTime = 289324445.421004;
 		state = 0;
 	};
 	735B39D910FF716700C9C4C5 /* UnknownEndToEndTest.m:19 */ = {
@@ -1122,7 +1121,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 19;
-		modificationTime = 286392919.111356;
+		modificationTime = 289324445.694587;
 		state = 0;
 	};
 	735C2CBD10A1B0F300C2DF56 /* SHAppControl.m:103 */ = {
@@ -1138,7 +1137,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 103;
-		modificationTime = 286392911.060697;
+		modificationTime = 289324432.412596;
 		state = 0;
 	};
 	7364E34F10F74363002B5E45 /* BlakeMainTests_inApp */ = {
@@ -1157,7 +1156,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 120;
-		modificationTime = 286392918.547684;
+		modificationTime = 289324444.759388;
 		state = 0;
 	};
 	7364E71B10F76BA1002B5E45 /* SHShared.m */ = {
@@ -1180,6 +1179,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 25;
+		location = SHShared;
 		modificationTime = 286392918.628242;
 		state = 0;
 	};
@@ -1210,7 +1210,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 220;
-		modificationTime = 286392908.436129;
+		modificationTime = 289324428.445093;
 		state = 0;
 	};
 	736E0C9A10D802FD00A80B0D /* SHOrderedDictionary.m */ = {
@@ -1233,6 +1233,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 679;
+		location = SHShared;
 		modificationTime = 286392912.721786;
 		state = 0;
 	};
@@ -1249,7 +1250,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 138;
-		modificationTime = 286392908.652024;
+		modificationTime = 289324428.811668;
 		state = 0;
 	};
 	736EE64F0E26239400CD122C /* SmallTestRunner_Main.m */ = {
@@ -1372,7 +1373,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 20;
-		modificationTime = 286392910.729492;
+		modificationTime = 289324431.713004;
 		state = 0;
 	};
 	738293300EE6EABD005DB289 /* TreeViewPlugin.m:41 */ = {
@@ -1388,7 +1389,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 41;
-		modificationTime = 286392910.824966;
+		modificationTime = 289324431.848346;
 		state = 0;
 	};
 	738293400EE6EB6D005DB289 /* TreeViewPlugin.m:27 */ = {
@@ -1404,7 +1405,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 27;
-		modificationTime = 286392910.949269;
+		modificationTime = 289324432.153794;
 		state = 0;
 	};
 	738294F50EE6F9DB005DB289 /* VisualGraphView */ = {
@@ -1502,7 +1503,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 49;
-		modificationTime = 286392907.4989589;
+		modificationTime = 289324427.353242;
 		state = 0;
 	};
 	738A0BFC0E06769000D58107 /* SHApplicationTests.m:70 */ = {
@@ -1518,7 +1519,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 70;
-		modificationTime = 286392907.573194;
+		modificationTime = 289324427.477361;
 		state = 0;
 	};
 	738A0BFE0E06769200D58107 /* SHApplicationTests.m:77 */ = {
@@ -1534,7 +1535,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 77;
-		modificationTime = 286392907.672057;
+		modificationTime = 289324427.557346;
 		state = 0;
 	};
 	738A0C000E06769200D58107 /* SHApplicationTests.m:80 */ = {
@@ -1550,7 +1551,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 80;
-		modificationTime = 286392907.802385;
+		modificationTime = 289324427.727522;
 		state = 0;
 	};
 	738A0C020E06769400D58107 /* SHApplicationTests.m:80 */ = {
@@ -1566,7 +1567,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 80;
-		modificationTime = 286392907.9184;
+		modificationTime = 289324427.796561;
 		state = 0;
 	};
 	738A0C040E06769500D58107 /* SHApplicationTests.m:80 */ = {
@@ -1582,7 +1583,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 80;
-		modificationTime = 286392907.995208;
+		modificationTime = 289324427.909031;
 		state = 0;
 	};
 	738A0C060E06769600D58107 /* SHApplicationTests.m:80 */ = {
@@ -1598,7 +1599,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 80;
-		modificationTime = 286392908.089577;
+		modificationTime = 289324428.009187;
 		state = 0;
 	};
 	738B30B30DD5BDE200FBF58C /* SketchTests */ = {
@@ -1631,7 +1632,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 46;
-		modificationTime = 286392918.372486;
+		modificationTime = 289324444.130833;
 		state = 0;
 	};
 	738F254710EF683000A35230 /* BlakeNodeListWindowController.m:163 */ = {
@@ -1647,7 +1648,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 163;
-		modificationTime = 286392918.452342;
+		modificationTime = 289324444.425234;
 		state = 0;
 	};
 	7390BA770DEF356E00F1FED2 /* SKTGraphicViewModelTests.m */ = {
@@ -2040,7 +2041,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 102;
-		modificationTime = 286392908.34205;
+		modificationTime = 289324428.31049;
 		state = 0;
 	};
 	739897FF0E3C85DD0003AA09 /* SKTDebugTableView.m:16 */ = {
@@ -2191,7 +2192,7 @@
 	};
 	739F08D90E5DDA2C00EE17C7 /* BlakeController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1106, 1834}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1106, 1750}}";
 			sepNavSelRange = "{3550, 74}";
 			sepNavVisRange = "{3139, 873}";
 		};
@@ -2307,7 +2308,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 61;
-		modificationTime = 286392911.8864;
+		modificationTime = 289324434.493274;
 		state = 0;
 	};
 	73A29ABD10FF6B2E001A17F6 /* HooSenTestProbe.m */ = {
@@ -2354,6 +2355,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 49;
+		location = SHTestUtilities;
 		modificationTime = 286392918.7360011;
 		state = 0;
 	};
@@ -2872,7 +2874,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 67;
-		modificationTime = 286392911.137866;
+		modificationTime = 289324432.80537;
 		state = 0;
 	};
 	73ACCA7310B70E4B002822FB /* BlakeDocumentViewController.m:130 */ = {
@@ -2920,7 +2922,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 333;
-		modificationTime = 286392911.225135;
+		modificationTime = 289324433.072454;
 		state = 0;
 	};
 	73B05D5310B713B900DEB545 /* BlakeDocument.m:102 */ = {
@@ -2936,7 +2938,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 102;
-		modificationTime = 286392911.296518;
+		modificationTime = 289324433.257917;
 		state = 0;
 	};
 	73B09E690D2DA083004A782F /* SHGlobalCommandControllerTests.m */ = {
@@ -2968,7 +2970,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 72;
-		modificationTime = 286392910.134269;
+		modificationTime = 289324430.904835;
 		state = 0;
 	};
 	73B23FC80EA495B500CE3C8D /* DetailViewController.h */ = {
@@ -3115,7 +3117,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 20;
-		modificationTime = 286392910.613222;
+		modificationTime = 289324431.586864;
 		state = 0;
 	};
 	73B360F81116E1DC0064AF28 /* PBXTextBookmark */ = {
@@ -3188,13 +3190,6 @@
 		vrLen = 708;
 		vrLoc = 1862;
 	};
-	73B361AC1116E5C60064AF28 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 739F08D90E5DDA2C00EE17C7 /* BlakeController.m */;
-		rLen = 15;
-		rLoc = 3580;
-		rType = 0;
-	};
 	73B361AD1116E5C60064AF28 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */;
@@ -3204,16 +3199,6 @@
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 2200;
-	};
-	73B361AE1116E5C60064AF28 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73E71C0510DA5AB600FAA280 /* BlakeNodeListViewController.m */;
-		name = "BlakeNodeListViewController.m: 82";
-		rLen = 112;
-		rLoc = 2150;
-		rType = 0;
-		vrLen = 708;
-		vrLoc = 1862;
 	};
 	73B361AF1116E5C60064AF28 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -3555,7 +3540,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 249;
-		modificationTime = 286392909.270908;
+		modificationTime = 289324429.59559;
 		state = 0;
 	};
 	73B95E9B0E82965600345C6F /* SKTGraphicViewModelTests.m:258 */ = {
@@ -3571,7 +3556,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 258;
-		modificationTime = 286392909.361692;
+		modificationTime = 289324429.746858;
 		state = 0;
 	};
 	73B95E9D0E82967800345C6F /* SKTGraphicViewModelTests.m:76 */ = {
@@ -3587,7 +3572,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 76;
-		modificationTime = 286392909.4378;
+		modificationTime = 289324429.918282;
 		state = 0;
 	};
 	73B95EF40E829FE900345C6F /* SKTGraphicViewModelTests.m:324 */ = {
@@ -3603,7 +3588,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 324;
-		modificationTime = 286392909.628078;
+		modificationTime = 289324430.04953;
 		state = 0;
 	};
 	73B962300E82B35E00345C6F /* SKTDecorator_Wireframe.h */ = {
@@ -3739,7 +3724,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 131;
-		modificationTime = 286392911.543662;
+		modificationTime = 289324433.705507;
 		state = 0;
 	};
 	73BACED010D2C08400E01D0C /* ObjectPaletteWindowController.m:49 */ = {
@@ -3755,7 +3740,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 49;
-		modificationTime = 286392911.644066;
+		modificationTime = 289324433.944498;
 		state = 0;
 	};
 	73BACED210D2C09600E01D0C /* ObjectBrowserViewController.m:24 */ = {
@@ -3771,7 +3756,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 24;
-		modificationTime = 286392911.728982;
+		modificationTime = 289324434.095364;
 		state = 0;
 	};
 	73BACF9D10D2C3C400E01D0C /* ObjectPaletterPluginTests.m */ = {
@@ -3992,6 +3977,16 @@
 			sepNavVisRange = "{0, 659}";
 		};
 	};
+	73C20913113EBDB8006EF7C4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 739F08D90E5DDA2C00EE17C7 /* BlakeController.m */;
+		name = "BlakeController.m: 113";
+		rLen = 74;
+		rLoc = 3550;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 3139;
+	};
 	73C3594310D910950000BAC5 /* HighLevelBlakeDocumentActionsTests.m:1439 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
@@ -4005,7 +4000,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 1439;
-		modificationTime = 286392912.9242021;
+		modificationTime = 289324436.177943;
 		state = 0;
 	};
 	73C35F1D10DA44AE0000BAC5 /* HighLevelBlakeDocumentActions.m:485 */ = {
@@ -4021,7 +4016,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 485;
-		modificationTime = 286392913.797246;
+		modificationTime = 289324436.313001;
 		state = 0;
 	};
 	73C6F9540EDD88A80067482D /* TreeViewPlugin.h */ = {
@@ -4062,7 +4057,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 91;
-		modificationTime = 286392908.168091;
+		modificationTime = 289324428.18671;
 		state = 0;
 	};
 	73C996ED0E327F5A002B972D /* DumbSketchDocument.h */ = {
@@ -4093,7 +4088,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 45;
-		modificationTime = 286392915.4261519;
+		modificationTime = 289324439.127675;
 		state = 0;
 	};
 	73CB049010DBDA4500AE25C8 /* BlakeGlobalCommandControllerTests.m:98 */ = {
@@ -4109,7 +4104,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 98;
-		modificationTime = 286392915.535458;
+		modificationTime = 289324439.336135;
 		state = 0;
 	};
 	73CB049210DBDA4E00AE25C8 /* BlakeGlobalCommandControllerTests.m:213 */ = {
@@ -4125,7 +4120,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 213;
-		modificationTime = 286392915.683163;
+		modificationTime = 289324439.572684;
 		state = 0;
 	};
 	73CB049410DBDA4F00AE25C8 /* BlakeGlobalCommandControllerTests.m:218 */ = {
@@ -4141,7 +4136,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 218;
-		modificationTime = 286392915.8121549;
+		modificationTime = 289324439.73472;
 		state = 0;
 	};
 	73CB049610DBDA5000AE25C8 /* BlakeGlobalCommandControllerTests.m:222 */ = {
@@ -4157,7 +4152,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 222;
-		modificationTime = 286392915.898414;
+		modificationTime = 289324439.87269;
 		state = 0;
 	};
 	73CB049810DBDA5100AE25C8 /* BlakeGlobalCommandControllerTests.m:226 */ = {
@@ -4173,7 +4168,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 226;
-		modificationTime = 286392916.00358;
+		modificationTime = 289324439.975226;
 		state = 0;
 	};
 	73CB049A10DBDA5100AE25C8 /* BlakeGlobalCommandControllerTests.m:234 */ = {
@@ -4189,7 +4184,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 234;
-		modificationTime = 286392916.110009;
+		modificationTime = 289324440.246591;
 		state = 0;
 	};
 	73CB049C10DBDA5500AE25C8 /* BlakeGlobalCommandControllerTests.m:239 */ = {
@@ -4205,7 +4200,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 239;
-		modificationTime = 286392916.310496;
+		modificationTime = 289324440.445789;
 		state = 0;
 	};
 	73CB049E10DBDA5800AE25C8 /* BlakeGlobalCommandControllerTests.m:261 */ = {
@@ -4221,7 +4216,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 261;
-		modificationTime = 286392916.393919;
+		modificationTime = 289324440.676177;
 		state = 0;
 	};
 	73CB04A010DBDA5A00AE25C8 /* BlakeGlobalCommandControllerTests.m:267 */ = {
@@ -4237,7 +4232,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 267;
-		modificationTime = 286392916.505917;
+		modificationTime = 289324440.989428;
 		state = 0;
 	};
 	73CB04A210DBDA5B00AE25C8 /* BlakeGlobalCommandControllerTests.m:274 */ = {
@@ -4253,7 +4248,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 274;
-		modificationTime = 286392916.588984;
+		modificationTime = 289324441.097528;
 		state = 0;
 	};
 	73CB04A410DBDA5B00AE25C8 /* BlakeGlobalCommandControllerTests.m:279 */ = {
@@ -4269,7 +4264,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 279;
-		modificationTime = 286392916.758666;
+		modificationTime = 289324441.397007;
 		state = 0;
 	};
 	73CB04A610DBDA5E00AE25C8 /* BlakeGlobalCommandControllerTests.m:279 */ = {
@@ -4285,7 +4280,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 279;
-		modificationTime = 286392916.899599;
+		modificationTime = 289324441.526908;
 		state = 0;
 	};
 	73CB04A810DBDA6200AE25C8 /* BlakeGlobalCommandControllerTests.m:311 */ = {
@@ -4301,7 +4296,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 311;
-		modificationTime = 286392916.981296;
+		modificationTime = 289324441.705639;
 		state = 0;
 	};
 	73CB04AC10DBDA6600AE25C8 /* BlakeGlobalCommandControllerTests.m:381 */ = {
@@ -4317,7 +4312,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 381;
-		modificationTime = 286392917.095294;
+		modificationTime = 289324442.046085;
 		state = 0;
 	};
 	73CB04AE10DBDA6700AE25C8 /* BlakeGlobalCommandControllerTests.m:394 */ = {
@@ -4333,7 +4328,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 394;
-		modificationTime = 286392917.280346;
+		modificationTime = 289324442.233247;
 		state = 0;
 	};
 	73CB04B010DBDA6A00AE25C8 /* BlakeGlobalCommandControllerTests.m:411 */ = {
@@ -4349,7 +4344,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 411;
-		modificationTime = 286392917.408016;
+		modificationTime = 289324442.371016;
 		state = 0;
 	};
 	73CB04B210DBDA6B00AE25C8 /* BlakeGlobalCommandControllerTests.m:430 */ = {
@@ -4365,7 +4360,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 430;
-		modificationTime = 286392917.50011;
+		modificationTime = 289324442.54993;
 		state = 0;
 	};
 	73CB04B410DBDA6E00AE25C8 /* BlakeGlobalCommandControllerTests.m:444 */ = {
@@ -4381,7 +4376,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 444;
-		modificationTime = 286392917.616726;
+		modificationTime = 289324442.652104;
 		state = 0;
 	};
 	73CB04B610DBDA7400AE25C8 /* BlakeGlobalCommandControllerTests.m:609 */ = {
@@ -4397,7 +4392,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 609;
-		modificationTime = 286392917.702713;
+		modificationTime = 289324442.987257;
 		state = 0;
 	};
 	73CB04B810DBDA7500AE25C8 /* BlakeGlobalCommandControllerTests.m:629 */ = {
@@ -4413,7 +4408,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 629;
-		modificationTime = 286392917.879917;
+		modificationTime = 289324443.177332;
 		state = 0;
 	};
 	73CB04BA10DBDA7A00AE25C8 /* BlakeGlobalCommandControllerTests.m:781 */ = {
@@ -4429,7 +4424,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 781;
-		modificationTime = 286392917.9720389;
+		modificationTime = 289324443.352708;
 		state = 0;
 	};
 	73CD26A40EE6A73200788A44 /* ObjectBrowserViewController.m:315 */ = {
@@ -4445,7 +4440,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 315;
-		modificationTime = 286392910.367033;
+		modificationTime = 289324431.347579;
 		state = 0;
 	};
 	73CD27740EE6B74800788A44 /* ObjectPalettePlugin.m:46 */ = {
@@ -4461,7 +4456,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 46;
-		modificationTime = 286392910.537755;
+		modificationTime = 289324431.480885;
 		state = 0;
 	};
 	73D04F050E266239003D81B3 /* SHBlakeControllerTests.m:2 */ = {
@@ -4493,7 +4488,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 370;
-		modificationTime = 286392918.082931;
+		modificationTime = 289324443.589851;
 		state = 0;
 	};
 	73D4A5F610DF95B60091B586 /* BlakeGlobalCommandControllerTests.m:78 */ = {
@@ -4509,7 +4504,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 78;
-		modificationTime = 286392918.165206;
+		modificationTime = 289324443.80744;
 		state = 0;
 	};
 	73D4A60810DF989A0091B586 /* StubWindow.h */ = {
@@ -4567,7 +4562,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 23;
-		modificationTime = 286392910.293419;
+		modificationTime = 289324431.131706;
 		state = 0;
 	};
 	73DA59EC0EDB1FC600D4F5F0 /* TreeViewPlugin.xml */ = {
@@ -4601,7 +4596,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 16;
-		modificationTime = 286392908.568235;
+		modificationTime = 289324428.667561;
 		state = 0;
 	};
 	73DE7CCB0E81297D00DA1807 /* SketchDebugTableTests.m:126 */ = {
@@ -4617,7 +4612,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 126;
-		modificationTime = 286392909.027343;
+		modificationTime = 289324429.12841;
 		state = 0;
 	};
 	73DE7D350E812DA300DA1807 /* SketchDebugTableTests.m:46 */ = {
@@ -4633,7 +4628,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 46;
-		modificationTime = 286392909.106495;
+		modificationTime = 289324429.347428;
 		state = 0;
 	};
 	73DE7FAE0E81408100DA1807 /* SketchDebugTableTests.m:88 */ = {
@@ -4649,7 +4644,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 88;
-		modificationTime = 286392909.200227;
+		modificationTime = 289324429.450459;
 		state = 0;
 	};
 	73DE81FA0E816D0D00DA1807 /* SKTDecorator_Selected.h */ = {
@@ -4732,7 +4727,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 462;
-		modificationTime = 286392913.968704;
+		modificationTime = 289324436.643461;
 		state = 0;
 	};
 	73E724DF10DA9BFF00FAA280 /* BlakeNodeListViewController.m:530 */ = {
@@ -4748,7 +4743,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 530;
-		modificationTime = 286392914.215172;
+		modificationTime = 289324436.81557;
 		state = 0;
 	};
 	73E725D810DAA50700FAA280 /* BlakeDocumentTests.m:211 */ = {
@@ -4764,7 +4759,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 211;
-		modificationTime = 286392914.371614;
+		modificationTime = 289324437.07711;
 		state = 0;
 	};
 	73E725DA10DAA50800FAA280 /* BlakeDocumentTests.m:198 */ = {
@@ -4780,7 +4775,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 198;
-		modificationTime = 286392914.482244;
+		modificationTime = 289324437.312603;
 		state = 0;
 	};
 	73E725DC10DAA50F00FAA280 /* BlakeDocumentTests.m:25 */ = {
@@ -4796,7 +4791,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 25;
-		modificationTime = 286392914.578236;
+		modificationTime = 289324437.501637;
 		state = 0;
 	};
 	73E725F910DAA79300FAA280 /* BlakeDocumentTests.m:48 */ = {
@@ -4812,7 +4807,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 48;
-		modificationTime = 286392914.690956;
+		modificationTime = 289324437.689223;
 		state = 0;
 	};
 	73E7260010DAA84C00FAA280 /* BlakeDocumentTests.m:214 */ = {
@@ -4828,7 +4823,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 214;
-		modificationTime = 286392914.782738;
+		modificationTime = 289324437.882188;
 		state = 0;
 	};
 	73E7260210DAA85400FAA280 /* BlakeDocumentTests.m:135 */ = {
@@ -4844,7 +4839,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 135;
-		modificationTime = 286392914.8948861;
+		modificationTime = 289324438.223031;
 		state = 0;
 	};
 	73E7260410DAA85700FAA280 /* BlakeDocumentTests.m:83 */ = {
@@ -4860,7 +4855,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 83;
-		modificationTime = 286392915.152029;
+		modificationTime = 289324438.360459;
 		state = 0;
 	};
 	73E7260610DAA85A00FAA280 /* BlakeDocumentTests.m:63 */ = {
@@ -4876,7 +4871,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 63;
-		modificationTime = 286392915.236746;
+		modificationTime = 289324438.557451;
 		state = 0;
 	};
 	73E7260810DAA8E000FAA280 /* BlakeDocument.m:129 */ = {
@@ -4892,7 +4887,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 129;
-		modificationTime = 286392915.342647;
+		modificationTime = 289324438.907103;
 		state = 0;
 	};
 	73EA0A7D0E83E5CE0084C198 /* SKTBezierTool.m:104 */ = {
@@ -4967,7 +4962,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 50;
-		modificationTime = 286392911.470634;
+		modificationTime = 289324433.397451;
 		state = 0;
 	};
 	73ECA57D10D1183600BC8785 /* ObjectPaletteTests - Otest */ = {
@@ -5158,7 +5153,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 213;
-		modificationTime = 286392908.756798;
+		modificationTime = 289324428.90201;
 		state = 0;
 	};
 	73EDC7EA0E767B0E0051C74D /* SKTWindowController.m:213 */ = {
@@ -5174,7 +5169,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 213;
-		modificationTime = 286392908.8448671;
+		modificationTime = 289324429.031177;
 		state = 0;
 	};
 	73F967890DD45D3C003784B8 /* SKTTransformTool.h */ = {
@@ -5246,7 +5241,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 13;
-		modificationTime = 286392910.204634;
+		modificationTime = 289324431.007828;
 		state = 0;
 	};
 	73FF456E0E26A31A0063287B /* SHGlobalCommandControllerTests.m:360 */ = {
