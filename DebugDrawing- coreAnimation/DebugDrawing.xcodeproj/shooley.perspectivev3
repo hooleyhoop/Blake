@@ -237,8 +237,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXBottomSmartGroupGIDs</key>
@@ -297,7 +295,7 @@
 										</array>
 									</array>
 									<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-									<string>{{0, 1074}, {346, 433}}</string>
+									<string>{{0, 968}, {346, 433}}</string>
 								</dict>
 								<key>PBXTopSmartGroupGIDs</key>
 								<array/>
@@ -418,12 +416,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>737BF54C10A0365F0033B3C3</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>EditingWindowControllerTests.m</string>
+								<string>ColourUtilities.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -431,11 +431,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>737BF54D10A0365F0033B3C3</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>EditingWindowControllerTests.m</string>
+										<string>ColourUtilities.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>73639B1C10E1119900F74307</string>
+										<string>735F7F4B1146603E000AC142</string>
 										<key>history</key>
 										<array>
 											<string>73B0397310BD51B00030550D</string>
@@ -521,7 +521,9 @@
 											<string>73E7235B10DA94B000FAA280</string>
 											<string>73E7235C10DA94B000FAA280</string>
 											<string>73CB032110DBD0A600AE25C8</string>
-											<string>73D4A4F210DF8FAE0091B586</string>
+											<string>735F7F461146603E000AC142</string>
+											<string>735F7F471146603E000AC142</string>
+											<string>735F7F481146603E000AC142</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -607,6 +609,8 @@
 											<string>73E71D6510DA5D8D00FAA280</string>
 											<string>73E71D6610DA5D8D00FAA280</string>
 											<string>73E7235D10DA94B000FAA280</string>
+											<string>735F7F491146603E000AC142</string>
+											<string>735F7F4A1146603E000AC142</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -646,8 +650,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1296, 335}}</string>
-										<key>RubberWindowFrame</key>
-										<string>1952 138 1664 904 1680 0 1680 1050 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -664,6 +666,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1296, 335}}</string>
+										<key>RubberWindowFrame</key>
+										<string>1952 138 1664 904 1680 0 1680 1050 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -690,7 +694,7 @@
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXBuildLogShowsTranscriptDefaultKey</key>
-										<string>{{0, 230}, {1296, 105}}</string>
+										<string>{{0, 199}, {1296, 136}}</string>
 										<key>PBXProjectModuleGUID</key>
 										<string>XCMainBuildResultsModuleGUID</string>
 										<key>PBXProjectModuleLabel</key>
@@ -733,13 +737,13 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>73639B0210E1117C00F74307</string>
-				<string>73639B0310E1117C00F74307</string>
+				<string>735F7F4C1146603E000AC142</string>
+				<string>735F7F4D1146603E000AC142</string>
 				<string>1CA23ED40692098700951B8B</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>73639B0410E1117C00F74307</string>
+				<string>735F7F4E1146603E000AC142</string>
 				<string>737BF54C10A0365F0033B3C3</string>
-				<string>73639B0510E1117C00F74307</string>
+				<string>735F7F4F1146603E000AC142</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>

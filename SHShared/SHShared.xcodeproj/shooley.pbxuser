@@ -117,7 +117,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					611,
+					297,
 					20,
 					48,
 					43,
@@ -139,7 +139,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					376,
-					135.20849609375,
+					135,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXFindDataSource_MessageID,
@@ -191,7 +191,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXTargetDataSource_PrimaryAttribute;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					495,
+					257,
 					60,
 					20,
 					48,
@@ -208,8 +208,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 289324393;
-			PBXWorkspaceStateSaveDate = 289324393;
+			PBXPerProjectTemplateStateSaveDate = 289829711;
+			PBXWorkspaceStateSaveDate = 289829711;
 		};
 		sourceControlManager = 734B8DA60C7071A4001A0BC4 /* Source Control */;
 		userBuildSettings = {
@@ -466,7 +466,7 @@
 		ignoreCount = 0;
 		lineNumber = 38;
 		location = SHTestUtilities;
-		modificationTime = 289325880.411606;
+		modificationTime = 289830094.669116;
 		state = 1;
 	};
 	735084E71137FB86005A4F05 /* HooSenTestProbe.m:105 */ = {
@@ -483,7 +483,7 @@
 		ignoreCount = 0;
 		lineNumber = 105;
 		location = SHTestUtilities;
-		modificationTime = 289325880.492154;
+		modificationTime = 289830094.77241;
 		state = 1;
 	};
 	7352BA390D61AFDA008F3C1F /* SHAppProtocol.h */ = {
@@ -1064,7 +1064,7 @@
 		ignoreCount = 0;
 		lineNumber = 74;
 		location = SHTestUtilities;
-		modificationTime = 289325880.296908;
+		modificationTime = 289830094.355352;
 		state = 1;
 	};
 	73B6175E0E34903300F90A9E /* SHWindowController.h */ = {
@@ -1201,8 +1201,8 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 47;
-		modificationTime = 289327417.218632;
-		state = 1;
+		modificationTime = 289830085.886999;
+		state = 0;
 	};
 	73CB02D010DBC93000AE25C8 /* SwappedInIvar.m */ = {
 		uiCtxt = {
@@ -1304,7 +1304,7 @@
 		ignoreCount = 0;
 		lineNumber = 96;
 		location = SHShared;
-		modificationTime = 289325880.344066;
+		modificationTime = 289830094.452644;
 		state = 1;
 	};
 	73E210041137E5E30092F736 /* SHInstanceCounter.m:105 */ = {
@@ -1321,7 +1321,7 @@
 		ignoreCount = 0;
 		lineNumber = 105;
 		location = SHShared;
-		modificationTime = 289325880.381466;
+		modificationTime = 289830094.532761;
 		state = 1;
 	};
 	73E506E80E23BB8300C077ED /* BBUtilities.h */ = {

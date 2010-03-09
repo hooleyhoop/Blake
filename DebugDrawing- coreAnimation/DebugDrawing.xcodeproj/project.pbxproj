@@ -216,6 +216,20 @@
 			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = SHNodeGraph;
 		};
+		735F7F3311465F78000AC142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73C360EA10DA4F240000BAC5 /* BlakeLoader2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7364E35010F74363002B5E45 /* BlakeMainTests_inApp.octest */;
+			remoteInfo = BlakeMainTests_inApp;
+		};
+		735F7F4011465F78000AC142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73D337A20FF8C16F00DAA6C4 /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73CC082911368A3700B53CA9 /* TestUtilitiesTests.octest */;
+			remoteInfo = TestUtilitiesTests;
+		};
 		736E596E1070BE5D00A2E6E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 73D337A20FF8C16F00DAA6C4 /* SHShared.xcodeproj */;
@@ -1375,6 +1389,7 @@
 				73C360FF10DA4F240000BAC5 /* BlakeAppTests.octest */,
 				73C3610110DA4F240000BAC5 /* BlakeMain.framework */,
 				73C3610310DA4F240000BAC5 /* BlakeMainTests.octest */,
+				735F7F3411465F78000AC142 /* BlakeMainTests_inApp.octest */,
 				73C3610510DA4F240000BAC5 /* NodeListView.framework */,
 				73C3610710DA4F240000BAC5 /* NodeListViewTests.octest */,
 				73C3610910DA4F240000BAC5 /* ObjectPalette.plugin */,
@@ -1592,6 +1607,7 @@
 				7387D95310A3663C003D6EFB /* SHSharedUI.framework */,
 				7387D95510A3663C003D6EFB /* SHSharedUITests.octest */,
 				731DE75F10CD24CA00C42727 /* SHTestUtilities.framework */,
+				735F7F4111465F78000AC142 /* TestUtilitiesTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1764,6 +1780,20 @@
 			fileType = wrapper.cfbundle;
 			path = SketchTests.octest;
 			remoteRef = 733C17E60EA4F52D00E031E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		735F7F3411465F78000AC142 /* BlakeMainTests_inApp.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BlakeMainTests_inApp.octest;
+			remoteRef = 735F7F3311465F78000AC142 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		735F7F4111465F78000AC142 /* TestUtilitiesTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TestUtilitiesTests.octest;
+			remoteRef = 735F7F4011465F78000AC142 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		7387D95310A3663C003D6EFB /* SHSharedUI.framework */ = {
