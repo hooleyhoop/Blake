@@ -117,7 +117,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					297,
+					364,
 					20,
 					48,
 					43,
@@ -208,8 +208,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 289829711;
-			PBXWorkspaceStateSaveDate = 289829711;
+			PBXPerProjectTemplateStateSaveDate = 290374172;
+			PBXWorkspaceStateSaveDate = 290374172;
+		};
+		perUserProjectItems = {
+			73DAE2D1114EC23500221BC8 /* PBXTextBookmark */ = 73DAE2D1114EC23500221BC8 /* PBXTextBookmark */;
+			73DAE2EF114EC43E00221BC8 /* PBXTextBookmark */ = 73DAE2EF114EC43E00221BC8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 734B8DA60C7071A4001A0BC4 /* Source Control */;
 		userBuildSettings = {
@@ -331,9 +335,9 @@
 	};
 	731DE7CA10CD274A00C42727 /* SwizzleList.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1016, 2198}}";
-			sepNavSelRange = "{3863, 28}";
-			sepNavVisRange = "{3152, 1815}";
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 2106}}";
+			sepNavSelRange = "{6027, 2}";
+			sepNavVisRange = "{5091, 1059}";
 		};
 	};
 	731DE7E910CD276500C42727 /* SwizzleList.h */ = {
@@ -467,6 +471,7 @@
 		lineNumber = 38;
 		location = SHTestUtilities;
 		modificationTime = 289830094.669116;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	735084E71137FB86005A4F05 /* HooSenTestProbe.m:105 */ = {
@@ -484,6 +489,7 @@
 		lineNumber = 105;
 		location = SHTestUtilities;
 		modificationTime = 289830094.77241;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7352BA390D61AFDA008F3C1F /* SHAppProtocol.h */ = {
@@ -945,6 +951,9 @@
 			};
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -1018,6 +1027,7 @@
 		name = "RunTests - otest";
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		startupPath = "<<ProductDirectory>>";
@@ -1065,6 +1075,7 @@
 		lineNumber = 74;
 		location = SHTestUtilities;
 		modificationTime = 289830094.355352;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B6175E0E34903300F90A9E /* SHWindowController.h */ = {
@@ -1202,6 +1213,7 @@
 		ignoreCount = 0;
 		lineNumber = 47;
 		modificationTime = 289830085.886999;
+		originalNumberOfMultipleMatches = 0;
 		state = 0;
 	};
 	73CB02D010DBC93000AE25C8 /* SwappedInIvar.m */ = {
@@ -1290,6 +1302,26 @@
 			sepNavVisRange = "{0, 362}";
 		};
 	};
+	73DAE2D1114EC23500221BC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 731DE7CA10CD274A00C42727 /* SwizzleList.m */;
+		name = "SwizzleList.m: 151";
+		rLen = 0;
+		rLoc = 6029;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 5097;
+	};
+	73DAE2EF114EC43E00221BC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 731DE7CA10CD274A00C42727 /* SwizzleList.m */;
+		name = "SwizzleList.m: 151";
+		rLen = 2;
+		rLoc = 6027;
+		rType = 0;
+		vrLen = 1059;
+		vrLoc = 5091;
+	};
 	73E210021137E5E00092F736 /* SHInstanceCounter.m:96 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
@@ -1305,6 +1337,7 @@
 		lineNumber = 96;
 		location = SHShared;
 		modificationTime = 289830094.452644;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E210041137E5E30092F736 /* SHInstanceCounter.m:105 */ = {
@@ -1322,6 +1355,7 @@
 		lineNumber = 105;
 		location = SHShared;
 		modificationTime = 289830094.532761;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E506E80E23BB8300C077ED /* BBUtilities.h */ = {
