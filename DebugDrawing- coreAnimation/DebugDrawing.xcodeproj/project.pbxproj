@@ -220,14 +220,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 73C360EA10DA4F240000BAC5 /* BlakeLoader2.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 7364E35010F74363002B5E45 /* BlakeMainTests_inApp.octest */;
+			remoteGlobalIDString = 7364E35010F74363002B5E45;
 			remoteInfo = BlakeMainTests_inApp;
 		};
 		735F7F4011465F78000AC142 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 73D337A20FF8C16F00DAA6C4 /* SHShared.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 73CC082911368A3700B53CA9 /* TestUtilitiesTests.octest */;
+			remoteGlobalIDString = 73CC082911368A3700B53CA9;
 			remoteInfo = TestUtilitiesTests;
 		};
 		736E596E1070BE5D00A2E6E0 /* PBXContainerItemProxy */ = {

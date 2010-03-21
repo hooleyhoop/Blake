@@ -135,11 +135,14 @@ static NSUInteger _instanceCount;
 + (void)newMark {
 	
 	if([_instancesSinceMark count]){
+		NSLog(@"	Killing Leak pool %p", _instancesSinceMark);
 		[_instancesSinceMark release];
 		_instancesSinceMark = nil;
 	}
-	if(!_instancesSinceMark)
+	if(!_instancesSinceMark) {
 		_instancesSinceMark = [[NSPointerArray pointerArrayWithWeakObjects] retain];
+		NSLog(@"Creating Leak pool %p", _instancesSinceMark);
+	}
 }
 
 + (NSUInteger)indexOfSinceMark:(id)value {

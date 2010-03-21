@@ -34,6 +34,16 @@ static CFMutableDictionaryRef _mypools=nil;
 
 @implementation SenTestRun (Hack)
 
+// no retain when we add the autoreleasepool (would throw an exception)
+const void *myPoolRetain( CFAllocatorRef allocator, const void *ptr ) {
+    return ptr;
+}
+
+// however we do release when we remove the pools (balances alloc)
+void myPoolRelease( CFAllocatorRef allocator, const void *ptr ) {
+	[(NSObject *)ptr release];
+}
+
 // +load may be a good place to do this. Interstingly +load is called on all classes AND all categories. 
 + (void)initialize {
 	
@@ -58,8 +68,11 @@ static CFMutableDictionaryRef _mypools=nil;
 		Method replacementMethod3 = class_getInstanceMethod( targetClass2, replacementSEL3 );
 		method_exchangeImplementations( methodToReplace3, replacementMethod3 );
 		
-		// _mypools = [[NSMutableDictionary dictionaryWithCapacity:3] retain];
-		_mypools = CFDictionaryCreateMutable( kCFAllocatorDefault, 0, NULL, NULL );
+		CFDictionaryValueCallBacks nonRetainingDictionaryValueCallbacks = kCFTypeDictionaryValueCallBacks;
+		nonRetainingDictionaryValueCallbacks.retain = myPoolRetain;
+		nonRetainingDictionaryValueCallbacks.release = myPoolRelease;
+		
+		_mypools = CFDictionaryCreateMutable( kCFAllocatorDefault, 0, NULL, &nonRetainingDictionaryValueCallbacks );
 	}
 }
 
@@ -68,25 +81,22 @@ static CFMutableDictionaryRef _mypools=nil;
 
 	// SentestCase autoreleasePool doesn't cleanup before Hooley leak checker runs - i need to insert a pool here
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-//	[_mypools setObject:[NSValue valueWithNonretainedObject:pool] forKey:[NSValue valueWithNonretainedObject:self]];
+	NSAssert( pool, @"what?");
+	
+	NSAssert( 0==CFDictionaryGetCountOfValue( _mypools, pool ), @"what, how? eh");
 	CFDictionaryAddValue( _mypools, self, pool );
 		
 	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
+	NSAssert( SHInstanceCounterClass, @"what?");
 	[SHInstanceCounterClass performSelector:@selector(newMark)];
 	[self my_start];
-	
-	[pool release];
 }
 
 // called after each test
 - (void)my_stop {
 	
 	[self my_stop];
-	
-//	NSAutoreleasePool *pool = [[_mypools objectForKey:[NSValue valueWithNonretainedObject:self]] nonretainedObjectValue];
-//	[_mypools removeObjectForKey:[NSValue valueWithNonretainedObject:self]];
-//	[pool release];
-	
+
 	NSAutoreleasePool *pool = (NSAutoreleasePool *)CFDictionaryGetValue( _mypools, self );
 	NSAssert( pool, @"what?");
 	CFDictionaryRemoveValue( _mypools, self );
@@ -95,7 +105,7 @@ static CFMutableDictionaryRef _mypools=nil;
 	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
 	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )
 	{
-		NSLog(@"%@", [test description]);
+		NSLog(@"LEAKING AT %@", [test description]);
 		[SHInstanceCounterClass performSelector:@selector(printSmallLeakingObjectInfoSinceMark)];
 
 		//		NSLog( @"%@", NSStringFromClass([test class]));
