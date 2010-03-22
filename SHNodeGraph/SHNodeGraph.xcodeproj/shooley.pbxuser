@@ -124,7 +124,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					340,
+					364,
 					20,
 					48,
 					43,
@@ -215,8 +215,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 289324238;
-			PBXWorkspaceStateSaveDate = 289324238;
+			PBXPerProjectTemplateStateSaveDate = 290991739;
+			PBXWorkspaceStateSaveDate = 290991739;
 		};
 		sourceControlManager = 73D2FF420C008671006CF2C6 /* Source Control */;
 		userBuildSettings = {
@@ -291,6 +291,9 @@
 			};
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -379,6 +382,7 @@
 		name = "nodegraphTests - otest";
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		startupPath = /Users/shooley/Desktop/Programming/Cocoa/Blake/build/;
@@ -469,6 +473,7 @@
 		ignoreCount = 0;
 		lineNumber = 48;
 		modificationTime = 289324242.61281;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	732DAE310E851082005E3CC4 /* SketchTests - (otest) */ = {
@@ -487,7 +492,8 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 137;
-		modificationTime = 289324242.388942;
+		modificationTime = 289324242.3889421;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	7334602610809E7E00103EA1 /* SHFScriptNodeGraphLoaderTests.m:87 */ = {
@@ -504,6 +510,7 @@
 		ignoreCount = 0;
 		lineNumber = 87;
 		modificationTime = 289324242.543314;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	7339619D10D7ABB0002D99FE /* SHParentTests.m:1638 */ = {
@@ -519,7 +526,9 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 1638;
+		location = ProtoNodeGraphTests;
 		modificationTime = 289324244.631979;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	733961B810D7AC2C002D99FE /* SHParentTests.m:1649 */ = {
@@ -535,7 +544,9 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 1649;
+		location = ProtoNodeGraphTests;
 		modificationTime = 289324244.824132;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	733961BD10D7AC66002D99FE /* SHParentTests.m:1640 */ = {
@@ -551,7 +562,9 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 1640;
+		location = ProtoNodeGraphTests;
 		modificationTime = 289324244.903393;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	7339656E10D7E493002D99FE /* SHChildContainerTests.m:463 */ = {
@@ -567,7 +580,9 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 463;
-		modificationTime = 289324245.044949;
+		location = ProtoNodeGraphTests;
+		modificationTime = 289324245.0449489;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	733DE6C90FCBF02D00A37E71 /* AllChildrenFilter.h */ = {
@@ -652,6 +667,9 @@
 			};
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -710,6 +728,7 @@
 		name = "ProtoNodeGraphTests - otest";
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		startupPath = /Users/shooley/Desktop/Programming/Cocoa/Blake/build/;
@@ -773,7 +792,8 @@
 		lineNumber = 29;
 		location = SHShared;
 		modificationTime = 284664394.7832389;
-		state = 1;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
 	};
 	7358BA2B0C956B8C00C0B872 /* FScriptSavingProtoNode.h */ = {
 		uiCtxt = {
@@ -823,7 +843,9 @@
 		hitCount = 1;
 		ignoreCount = 0;
 		lineNumber = 253;
+		location = SketchTests;
 		modificationTime = 289324245.101583;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	7378115F10C910CF003DC1AF /* SHAbstractOperatorTests.m */ = {
@@ -994,6 +1016,7 @@
 		ignoreCount = 0;
 		lineNumber = 1606;
 		modificationTime = 289324242.66382;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	73A2006810D403E5009344DC /* AllChildrenFilterTests.m:1632 */ = {
@@ -1010,6 +1033,7 @@
 		ignoreCount = 0;
 		lineNumber = 1632;
 		modificationTime = 289324242.997916;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	73A2006B10D403F8009344DC /* AllChildrenFilterTests.m:1631 */ = {
@@ -1026,6 +1050,7 @@
 		ignoreCount = 0;
 		lineNumber = 1631;
 		modificationTime = 289324243.064154;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	73A8766E0C8DE9080046A316 /* XMLSavingAttribute.h */ = {
@@ -1218,6 +1243,9 @@
 			};
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -1281,6 +1309,7 @@
 		name = "SketchGraphTests - otest";
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		startupPath = /Users/shooley/Desktop/Programming/Cocoa/Blake/build/;
@@ -2399,7 +2428,9 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 247;
+		location = ProtoNodeGraphTests;
 		modificationTime = 289324243.203062;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	73DEDAE30D9A5DCC00A1E02A /* SHCustomMutableArrayTests.m */ = {
@@ -2470,6 +2501,7 @@
 		ignoreCount = 0;
 		lineNumber = 1027;
 		modificationTime = 289324244.593838;
+		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	73EB304C0F585A6F005B8713 /* SHProtoOutputAttributeTests.m */ = {
