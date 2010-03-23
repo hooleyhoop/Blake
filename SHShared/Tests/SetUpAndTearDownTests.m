@@ -30,19 +30,19 @@
 @end
 
 // static NSMutableDictionary *_mypools=nil;
-static CFMutableDictionaryRef _mypools=nil;
+//static CFMutableDictionaryRef _mypools=nil;
 
-@implementation SenTestRun (Hack)
+@implementation SenTestCase (Hack)
 
 // no retain when we add the autoreleasepool (would throw an exception)
-const void *myPoolRetain( CFAllocatorRef allocator, const void *ptr ) {
-    return ptr;
-}
-
-// however we do release when we remove the pools (balances alloc)
-void myPoolRelease( CFAllocatorRef allocator, const void *ptr ) {
-	[(NSObject *)ptr release];
-}
+//const void *myPoolRetain( CFAllocatorRef allocator, const void *ptr ) {
+//    return ptr;
+//}
+//
+//// however we do release when we remove the pools (balances alloc)
+//void myPoolRelease( CFAllocatorRef allocator, const void *ptr ) {
+//	[(NSObject *)ptr release];
+//}
 
 // +load may be a good place to do this. Interstingly +load is called on all classes AND all categories. 
 + (void)initialize {
@@ -54,37 +54,37 @@ void myPoolRelease( CFAllocatorRef allocator, const void *ptr ) {
 		NSString *forceLoad = [SenTestRun description];
 		NSLog(@"we need this.. to force loading. %@", forceLoad );
 		
-		Class targetClass2 = NSClassFromString(@"SenTestRun");
-		SEL targetSEL2 = NSSelectorFromString(@"start");
-		SEL targetSEL3 = NSSelectorFromString(@"stop");
-		SEL replacementSEL2 = NSSelectorFromString(@"my_start");
-		SEL replacementSEL3 = NSSelectorFromString(@"my_stop");
+		Class targetClass2 = NSClassFromString(@"SenTestCase");
+		SEL targetSEL2 = NSSelectorFromString(@"performTest:");
+//		SEL targetSEL3 = NSSelectorFromString(@"stop");
+		SEL replacementSEL2 = NSSelectorFromString(@"my_performTest:");
+//		SEL replacementSEL3 = NSSelectorFromString(@"my_stop");
 
 		Method methodToReplace2 = class_getInstanceMethod( targetClass2, targetSEL2 );
 		Method replacementMethod2 = class_getInstanceMethod( targetClass2, replacementSEL2 );
 		method_exchangeImplementations( methodToReplace2, replacementMethod2 );
 		
-		Method methodToReplace3 = class_getInstanceMethod( targetClass2, targetSEL3 );
-		Method replacementMethod3 = class_getInstanceMethod( targetClass2, replacementSEL3 );
-		method_exchangeImplementations( methodToReplace3, replacementMethod3 );
+//		Method methodToReplace3 = class_getInstanceMethod( targetClass2, targetSEL3 );
+//		Method replacementMethod3 = class_getInstanceMethod( targetClass2, replacementSEL3 );
+//		method_exchangeImplementations( methodToReplace3, replacementMethod3 );
 		
-		CFDictionaryValueCallBacks nonRetainingDictionaryValueCallbacks = kCFTypeDictionaryValueCallBacks;
-		nonRetainingDictionaryValueCallbacks.retain = myPoolRetain;
-		nonRetainingDictionaryValueCallbacks.release = myPoolRelease;
-		
-		_mypools = CFDictionaryCreateMutable( kCFAllocatorDefault, 0, NULL, &nonRetainingDictionaryValueCallbacks );
+//		CFDictionaryValueCallBacks nonRetainingDictionaryValueCallbacks = kCFTypeDictionaryValueCallBacks;
+//		nonRetainingDictionaryValueCallbacks.retain = myPoolRetain;
+//		nonRetainingDictionaryValueCallbacks.release = myPoolRelease;
+//		
+//		_mypools = CFDictionaryCreateMutable( kCFAllocatorDefault, 0, NULL, &nonRetainingDictionaryValueCallbacks );
 	}
 }
 
 // called before each test - recursively?
-- (void)my_start {
+- (void)my_performTest:(SenTestRun *)aTestRun {
 
-	SenTest *theTest = [self test]; // SenTestSuite, SenTestCaseSuite,
-	if( [theTest class]==NSClassFromString(@"SenTestCaseSuite") )
-	{
-		int testCaseCount = [self testCaseCount];
-		NSLog(@"only test cases?");
-	}
+//	SenTest *theTest = [self test]; // SenTestSuite, SenTestCaseSuite,
+//	if( [theTest class]==NSClassFromString(@"SenTestCaseSuite") )
+//	{
+//		int testCaseCount = [self testCaseCount];
+//		NSLog(@"only test cases?");
+//	}
 	// SentestCase autoreleasePool doesn't cleanup before Hooley leak checker runs - i need to insert a pool here
 //	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 //	NSAssert( pool, @"what?");
@@ -92,10 +92,28 @@ void myPoolRelease( CFAllocatorRef allocator, const void *ptr ) {
 ////	NSAssert( 0==CFDictionaryGetCountOfValue( _mypools, pool ), @"what, how? eh");
 //	CFDictionaryAddValue( _mypools, self, pool );
 //		
-//	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
-//	NSAssert( SHInstanceCounterClass, @"what?");
-//	[SHInstanceCounterClass performSelector:@selector(newMark)];
-	[self my_start];
+	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
+	NSAssert( SHInstanceCounterClass, @"what?");
+	[SHInstanceCounterClass performSelector:@selector(newMark)];
+	
+	[self my_performTest:aTestRun];
+
+	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )
+	{
+		NSLog(@"LEAKING AT %@", [self description]);
+		[SHInstanceCounterClass performSelector:@selector(printSmallLeakingObjectInfoSinceMark)];
+		
+		NSException *woohoo = [NSException failureInFile:[NSString stringWithUTF8String:__FILE__] atLine:__LINE__ withDescription:@"%@", @"Leak!"];		
+	//	STFail(@"**Leak**");
+///Users/shooley/Desktop/Programming/Cocoa/Blake/SHShared/Tests/SHOrderedDictionaryTests.m:591: error: -[SHOrderedDictionaryTests testObjectForKey] : "NO" should be true. cheese		
+		
+	//	[run addException:woohoo];
+		[woohoo raise];
+//		[[NSNotificationCenter defaultCenter] postNotificationName:SenTestCaseDidFailNotification
+//															object:self
+//														  userInfo:[NSDictionary dictionaryWithObject:[NSException exceptionWithName:@"Leak" reason:@"der" userInfo:nil] forKey:@"exception"]];
+		
+	}
 }
 
 // called after each test
@@ -107,16 +125,6 @@ void myPoolRelease( CFAllocatorRef allocator, const void *ptr ) {
 //	NSAssert( pool, @"what?");
 //	CFDictionaryRemoveValue( _mypools, self );
 //	pool = nil;
-//
-//	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
-//	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )
-//	{
-//		NSLog(@"LEAKING AT %@", [test description]);
-//		[SHInstanceCounterClass performSelector:@selector(printSmallLeakingObjectInfoSinceMark)];
-//
-//		//		NSLog( @"%@", NSStringFromClass([test class]));
-//		//		[SHInstanceCounter printLeakingObjectInfo];
-//	}
 }
 @end
 
@@ -157,8 +165,8 @@ OBJC_EXPORT void addDestructorCallback(  Class classValue, SEL callback ) __attr
 //	NSCAssert( 0==[_mypools count], @"fuck!" );
 //	[_mypools release];
 
-	NSCAssert( 0==CFDictionaryGetCount(_mypools), @"fuck!" );
-	CFRelease(_mypools);
+//	NSCAssert( 0==CFDictionaryGetCount(_mypools), @"fuck!" );
+//	CFRelease(_mypools);
 }
 
 // we already have a destructor inSHShared

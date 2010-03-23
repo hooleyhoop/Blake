@@ -465,6 +465,7 @@ static int notificationsReceivedCount=0, arrayChangedCount=0, selectionChangedCo
 // - (void)moveObjects:(NSArray *)children toIndexes:(NSIndexSet)indexes
 
 	NSString *name1=@"1",*name2=@"2",*name3=@"3",*name4=@"4",*name5=@"5";
+
 	[_dict setObject:name1 forKey:@"name1"];
 	[_dict setObject:name2 forKey:@"name2"];
 	[_dict setObject:name3 forKey:@"name3"];
@@ -584,7 +585,10 @@ static int notificationsReceivedCount=0, arrayChangedCount=0, selectionChangedCo
 	id ob1 = [_dict objectForKey:@"name1"];
 	id ob2 = [_dict objectForKey:@"name2"];
 	STAssertTrue(ob1==name1, @"fail, is %@", ob1 );
-	STAssertTrue(ob2==name2, @"fail, is %@", ob2 );	
+	STAssertTrue(ob2==name2, @"fail, is %@", ob2 );
+	
+	[_dict retain];
+//	STAssertTrue(NO,@"cheese");
 }
 
 //- (void)testDeleteSelectedObjects {

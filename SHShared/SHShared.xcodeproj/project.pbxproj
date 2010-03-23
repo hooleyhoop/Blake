@@ -54,30 +54,7 @@
 		735C2DD310A1BC7B00C2DF56 /* SHBundleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 73021A330B26D737001A8D04 /* SHBundleLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7364E7A510F7710F002B5E45 /* HooSenTestProbe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7364E7A310F7710F002B5E45 /* HooSenTestProbe.m */; };
 		7364E7A610F7710F002B5E45 /* HooSenTestProbe.h in Headers */ = {isa = PBXBuildFile; fileRef = 7364E7A410F7710F002B5E45 /* HooSenTestProbe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7364E85710F77752002B5E45 /* SHInstanceCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A743390F988F1F0054F41D /* SHInstanceCounterTests.m */; };
-		7364E90A10F7856F002B5E45 /* MathUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735386D910B018E20035F6B5 /* MathUtilitiesTests.m */; };
-		7364E90B10F78570002B5E45 /* SHGlobalVarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7257410DAA01600FAA280 /* SHGlobalVarsTests.m */; };
-		7364E90C10F78571002B5E45 /* NSObject_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C622810B1950A003A6739 /* NSObject_ExtrasTests.m */; };
-		7364E90D10F78572002B5E45 /* MiscUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E9CB0410B021F100DBE683 /* MiscUtilitiesTests.m */; };
-		7364E90E10F78573002B5E45 /* LogControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731CD6260FA31F0900FC0FC5 /* LogControllerTests.m */; };
-		7364E90F10F78574002B5E45 /* SHSwizzlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739252E90E446C6800BEB704 /* SHSwizzlerTests.m */; };
-		7364E91010F78575002B5E45 /* NSString_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE560E0279C900EBA987 /* NSString_ExtrasTests.m */; };
-		7364E91110F78575002B5E45 /* SHooleyObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B137D70DC53EB300DE138C /* SHooleyObjectTests.m */; };
 		7364E91210F78576002B5E45 /* SHOrderedDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785B90D1BDC4500EE14BC /* SHOrderedDictionaryTests.m */; };
-		7364E91310F78577002B5E45 /* NSArray_ExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B208700F5EB655004C8012 /* NSArray_ExtensionsTests.m */; };
-		7364E91410F78578002B5E45 /* NSCHaracterSet_ExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A7433E0F988FAE0054F41D /* NSCHaracterSet_ExtensionsTests.m */; };
-		7364E91510F78579002B5E45 /* NSIndexSet_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 737EDADF0E19143E00F328EB /* NSIndexSet_ExtrasTests.m */; };
-		7364E91610F78579002B5E45 /* SHBundleLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785BA0D1BDC4500EE14BC /* SHBundleLoaderTests.m */; };
-		7364E91710F7857A002B5E45 /* SHDocumentControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739CD33B0E52F849006CCFA7 /* SHDocumentControllerTests.m */; };
-		7364E91810F7857B002B5E45 /* NSDocumentController_ExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C3F19D0E01BC0A00E1CFCB /* NSDocumentController_ExtensionsTests.m */; };
-		7364E91910F7857B002B5E45 /* NSResponder_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73831C5710A848D800DDC7FB /* NSResponder_ExtrasTests.m */; };
-		7364E91A10F7857C002B5E45 /* SHWindowControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73831C5810A848D800DDC7FB /* SHWindowControllerTests.m */; };
-		7364E91B10F7857D002B5E45 /* BBNibManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73831C5B10A848E300DDC7FB /* BBNibManagerTests.m */; };
-		7364E91D10F7858C002B5E45 /* SHDocumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739CD3360E52F833006CCFA7 /* SHDocumentTests.m */; };
-		7364E91E10F7858C002B5E45 /* NSSet_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BEA2B410C6DDAB00B72903 /* NSSet_ExtrasTests.m */; };
-		7364E92010F78594002B5E45 /* MockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785BD0D1BDC4500EE14BC /* MockTest.m */; };
-		7364E92210F7859A002B5E45 /* FilteringArrayControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7398FB6310AC5C990035A762 /* FilteringArrayControllerTests.m */; };
-		7364E92410F785A0002B5E45 /* NSApplication_ExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C3F1DA0E01C3A100E1CFCB /* NSApplication_ExtensionsTests.m */; };
 		73662D341121B3CB00E8DC9F /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
 		7385A5A810FCD9F600ED053F /* ApplescriptGUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7385A5A610FCD9F600ED053F /* ApplescriptGUI.m */; };
 		7385A5A910FCD9F600ED053F /* ApplescriptGUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7385A5A710FCD9F600ED053F /* ApplescriptGUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -111,7 +88,6 @@
 		73C8364110A99C160086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		73C836C810A99DEE0086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		73C886E8112C38AB00780805 /* NSInvocation(ForwardedConstruction).m in Sources */ = {isa = PBXBuildFile; fileRef = 73A295DA10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).m */; };
-		73C886ED112C38D700780805 /* NSInvocation_forwardConstructionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C886EC112C38D700780805 /* NSInvocation_forwardConstructionTests.m */; };
 		73CB02D210DBC93000AE25C8 /* SwappedInIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CB02D010DBC93000AE25C8 /* SwappedInIvar.m */; };
 		73CB02D310DBC93000AE25C8 /* SwappedInIvar.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CB02D110DBC93000AE25C8 /* SwappedInIvar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73CC088711368B1B00B53CA9 /* NSInvocation_testHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A2957110FF3C78001A17F6 /* NSInvocation_testHelpersTests.m */; };
@@ -1433,32 +1409,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7364E85710F77752002B5E45 /* SHInstanceCounterTests.m in Sources */,
-				7364E90A10F7856F002B5E45 /* MathUtilitiesTests.m in Sources */,
-				7364E90B10F78570002B5E45 /* SHGlobalVarsTests.m in Sources */,
-				7364E90C10F78571002B5E45 /* NSObject_ExtrasTests.m in Sources */,
-				7364E90D10F78572002B5E45 /* MiscUtilitiesTests.m in Sources */,
-				7364E90E10F78573002B5E45 /* LogControllerTests.m in Sources */,
-				7364E90F10F78574002B5E45 /* SHSwizzlerTests.m in Sources */,
-				7364E91010F78575002B5E45 /* NSString_ExtrasTests.m in Sources */,
-				7364E91110F78575002B5E45 /* SHooleyObjectTests.m in Sources */,
 				7364E91210F78576002B5E45 /* SHOrderedDictionaryTests.m in Sources */,
-				7364E91310F78577002B5E45 /* NSArray_ExtensionsTests.m in Sources */,
-				7364E91410F78578002B5E45 /* NSCHaracterSet_ExtensionsTests.m in Sources */,
-				7364E91510F78579002B5E45 /* NSIndexSet_ExtrasTests.m in Sources */,
-				7364E91610F78579002B5E45 /* SHBundleLoaderTests.m in Sources */,
-				7364E91710F7857A002B5E45 /* SHDocumentControllerTests.m in Sources */,
-				7364E91810F7857B002B5E45 /* NSDocumentController_ExtensionsTests.m in Sources */,
-				7364E91910F7857B002B5E45 /* NSResponder_ExtrasTests.m in Sources */,
-				7364E91A10F7857C002B5E45 /* SHWindowControllerTests.m in Sources */,
-				7364E91B10F7857D002B5E45 /* BBNibManagerTests.m in Sources */,
-				7364E91D10F7858C002B5E45 /* SHDocumentTests.m in Sources */,
-				7364E91E10F7858C002B5E45 /* NSSet_ExtrasTests.m in Sources */,
-				7364E92010F78594002B5E45 /* MockTest.m in Sources */,
-				7364E92210F7859A002B5E45 /* FilteringArrayControllerTests.m in Sources */,
-				7364E92410F785A0002B5E45 /* NSApplication_ExtensionsTests.m in Sources */,
 				73C886E8112C38AB00780805 /* NSInvocation(ForwardedConstruction).m in Sources */,
-				73C886ED112C38D700780805 /* NSInvocation_forwardConstructionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
