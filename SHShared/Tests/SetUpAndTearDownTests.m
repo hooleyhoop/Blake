@@ -79,16 +79,22 @@ void myPoolRelease( CFAllocatorRef allocator, const void *ptr ) {
 // called before each test - recursively?
 - (void)my_start {
 
+	SenTest *theTest = [self test]; // SenTestSuite, SenTestCaseSuite,
+	if( [theTest class]==NSClassFromString(@"SenTestCaseSuite") )
+	{
+		int testCaseCount = [self testCaseCount];
+		NSLog(@"only test cases?");
+	}
 	// SentestCase autoreleasePool doesn't cleanup before Hooley leak checker runs - i need to insert a pool here
-	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	NSAssert( pool, @"what?");
-	
-	NSAssert( 0==CFDictionaryGetCountOfValue( _mypools, pool ), @"what, how? eh");
-	CFDictionaryAddValue( _mypools, self, pool );
-		
-	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
-	NSAssert( SHInstanceCounterClass, @"what?");
-	[SHInstanceCounterClass performSelector:@selector(newMark)];
+//	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+//	NSAssert( pool, @"what?");
+//	
+////	NSAssert( 0==CFDictionaryGetCountOfValue( _mypools, pool ), @"what, how? eh");
+//	CFDictionaryAddValue( _mypools, self, pool );
+//		
+//	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
+//	NSAssert( SHInstanceCounterClass, @"what?");
+//	[SHInstanceCounterClass performSelector:@selector(newMark)];
 	[self my_start];
 }
 
@@ -97,20 +103,20 @@ void myPoolRelease( CFAllocatorRef allocator, const void *ptr ) {
 	
 	[self my_stop];
 
-	NSAutoreleasePool *pool = (NSAutoreleasePool *)CFDictionaryGetValue( _mypools, self );
-	NSAssert( pool, @"what?");
-	CFDictionaryRemoveValue( _mypools, self );
-	pool = nil;
-
-	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
-	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )
-	{
-		NSLog(@"LEAKING AT %@", [test description]);
-		[SHInstanceCounterClass performSelector:@selector(printSmallLeakingObjectInfoSinceMark)];
-
-		//		NSLog( @"%@", NSStringFromClass([test class]));
-		//		[SHInstanceCounter printLeakingObjectInfo];
-	}
+//	NSAutoreleasePool *pool = (NSAutoreleasePool *)CFDictionaryGetValue( _mypools, self );
+//	NSAssert( pool, @"what?");
+//	CFDictionaryRemoveValue( _mypools, self );
+//	pool = nil;
+//
+//	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
+//	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )
+//	{
+//		NSLog(@"LEAKING AT %@", [test description]);
+//		[SHInstanceCounterClass performSelector:@selector(printSmallLeakingObjectInfoSinceMark)];
+//
+//		//		NSLog( @"%@", NSStringFromClass([test class]));
+//		//		[SHInstanceCounter printLeakingObjectInfo];
+//	}
 }
 @end
 

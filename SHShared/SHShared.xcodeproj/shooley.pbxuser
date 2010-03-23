@@ -14,6 +14,7 @@
 			73C88734112C663A00780805 /* NSInvocation_testHelpersTests.m:47 */,
 			735084E51137FB78005A4F05 /* HooSenTestProbe.m:38 */,
 			735084E71137FB86005A4F05 /* HooSenTestProbe.m:105 */,
+			7370C6B611592EEE007187C5 /* SetUpAndTearDownTests.m:104 */,
 		);
 		codeSenseManager = 734B8DA70C7071A4001A0BC4 /* Code sense */;
 		executables = (
@@ -50,11 +51,11 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					20,
-					266,
+					346,
 					20,
-					166,
-					166,
-					97,
+					246,
+					246,
+					175,
 					20,
 				);
 				PBXFileTableDataSourceColumnsKey = (
@@ -115,7 +116,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					822,
+					340,
 					20,
 					48,
 					43,
@@ -206,8 +207,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 290770405;
-			PBXWorkspaceStateSaveDate = 290770405;
+			PBXPerProjectTemplateStateSaveDate = 291055789;
+			PBXWorkspaceStateSaveDate = 291055789;
 		};
 		sourceControlManager = 734B8DA60C7071A4001A0BC4 /* Source Control */;
 		userBuildSettings = {
@@ -460,12 +461,11 @@
 		delayBeforeContinue = 0;
 		fileReference = 7364E7A310F7710F002B5E45 /* HooSenTestProbe.m */;
 		functionName = "-performTest_begin:";
-		hitCount = 0;
+		hitCount = 2;
 		ignoreCount = 0;
 		lineNumber = 38;
 		location = SHTestUtilities;
-		modificationTime = 290543510.770227;
-		originalNumberOfMultipleMatches = 0;
+		modificationTime = 291061655.063839;
 		state = 1;
 	};
 	735084E71137FB86005A4F05 /* HooSenTestProbe.m:105 */ = {
@@ -482,8 +482,7 @@
 		ignoreCount = 0;
 		lineNumber = 105;
 		location = SHTestUtilities;
-		modificationTime = 290543510.815684;
-		originalNumberOfMultipleMatches = 0;
+		modificationTime = 291061604.553577;
 		state = 1;
 	};
 	7352BA390D61AFDA008F3C1F /* SHAppProtocol.h */ = {
@@ -583,6 +582,23 @@
 			sepNavSelRange = "{160, 0}";
 			sepNavVisRange = "{0, 377}";
 		};
+	};
+	7370C6B611592EEE007187C5 /* SetUpAndTearDownTests.m:104 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 731DE7A810CD267D00C42727 /* SetUpAndTearDownTests.m */;
+		functionName = "-my_stop";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 104;
+		location = SHTestUtilities;
+		modificationTime = 291061651.464235;
+		state = 1;
 	};
 	7373FDD80E0276A800EBA987 /* SHDocumentController.h */ = {
 		uiCtxt = {
@@ -945,9 +961,6 @@
 			};
 		};
 		customDataFormattersEnabled = 1;
-		dataTipCustomDataFormattersEnabled = 1;
-		dataTipShowTypeColumn = 1;
-		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -1021,7 +1034,6 @@
 		name = "RunTests - otest";
 		savedGlobals = {
 		};
-		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		startupPath = "<<ProductDirectory>>";
@@ -1068,8 +1080,7 @@
 		ignoreCount = 0;
 		lineNumber = 74;
 		location = SHTestUtilities;
-		modificationTime = 290543510.700153;
-		originalNumberOfMultipleMatches = 0;
+		modificationTime = 291061604.399424;
 		state = 1;
 	};
 	73B6175E0E34903300F90A9E /* SHWindowController.h */ = {
@@ -1206,9 +1217,8 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 47;
-		modificationTime = 290543505.64411;
-		originalNumberOfMultipleMatches = 0;
-		state = 0;
+		modificationTime = 291061671.959603;
+		state = 1;
 	};
 	73CB02D010DBC93000AE25C8 /* SwappedInIvar.m */ = {
 		uiCtxt = {
