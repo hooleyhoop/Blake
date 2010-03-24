@@ -29,3 +29,9 @@
 - (void)printHasSucceeded;
 
 @end
+
+@interface SenTestObserver (HooSenTestObserver)
+
++ (Class)currentObserverClass;
+
+@end

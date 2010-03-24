@@ -67,12 +67,7 @@
 //		Method methodToReplace3 = class_getInstanceMethod( targetClass2, targetSEL3 );
 //		Method replacementMethod3 = class_getInstanceMethod( targetClass2, replacementSEL3 );
 //		method_exchangeImplementations( methodToReplace3, replacementMethod3 );
-		
-//		CFDictionaryValueCallBacks nonRetainingDictionaryValueCallbacks = kCFTypeDictionaryValueCallBacks;
-//		nonRetainingDictionaryValueCallbacks.retain = myPoolRetain;
-//		nonRetainingDictionaryValueCallbacks.release = myPoolRelease;
-//		
-//		_mypools = CFDictionaryCreateMutable( kCFAllocatorDefault, 0, NULL, &nonRetainingDictionaryValueCallbacks );
+
 	}
 }
 
@@ -103,16 +98,8 @@
 		NSLog(@"LEAKING AT %@", [self description]);
 		[SHInstanceCounterClass performSelector:@selector(printSmallLeakingObjectInfoSinceMark)];
 		
-		NSException *woohoo = [NSException failureInFile:[NSString stringWithUTF8String:__FILE__] atLine:__LINE__ withDescription:@"%@", @"Leak!"];		
-	//	STFail(@"**Leak**");
-///Users/shooley/Desktop/Programming/Cocoa/Blake/SHShared/Tests/SHOrderedDictionaryTests.m:591: error: -[SHOrderedDictionaryTests testObjectForKey] : "NO" should be true. cheese		
-		
-	//	[run addException:woohoo];
-		[woohoo raise];
-//		[[NSNotificationCenter defaultCenter] postNotificationName:SenTestCaseDidFailNotification
-//															object:self
-//														  userInfo:[NSDictionary dictionaryWithObject:[NSException exceptionWithName:@"Leak" reason:@"der" userInfo:nil] forKey:@"exception"]];
-		
+		NSString *line = [NSString stringWithFormat:@"%s:%d: error: %@ : LEAK", __FILE__, __LINE__, [self name]];
+		[(NSFileHandle *)[NSFileHandle fileHandleWithStandardError] writeData:[line dataUsingEncoding:NSUTF8StringEncoding]];		
 	}
 }
 

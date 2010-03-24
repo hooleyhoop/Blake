@@ -23,6 +23,30 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		731BC99B115A1ACF005D3D38 /* MathUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735386D910B018E20035F6B5 /* MathUtilitiesTests.m */; };
+		731BC99C115A1AD0005D3D38 /* SHGlobalVarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7257410DAA01600FAA280 /* SHGlobalVarsTests.m */; };
+		731BC99D115A1AD0005D3D38 /* NSObject_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C622810B1950A003A6739 /* NSObject_ExtrasTests.m */; };
+		731BC99E115A1AD1005D3D38 /* MiscUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E9CB0410B021F100DBE683 /* MiscUtilitiesTests.m */; };
+		731BC99F115A1AD1005D3D38 /* LogControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731CD6260FA31F0900FC0FC5 /* LogControllerTests.m */; };
+		731BC9A0115A1AD2005D3D38 /* SHSwizzlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739252E90E446C6800BEB704 /* SHSwizzlerTests.m */; };
+		731BC9A1115A1AD2005D3D38 /* NSString_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE560E0279C900EBA987 /* NSString_ExtrasTests.m */; };
+		731BC9A2115A1AD5005D3D38 /* SHooleyObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B137D70DC53EB300DE138C /* SHooleyObjectTests.m */; };
+		731BC9B2115A1BF9005D3D38 /* NSArray_ExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B208700F5EB655004C8012 /* NSArray_ExtensionsTests.m */; };
+		731BC9B3115A1BF9005D3D38 /* SHInstanceCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A743390F988F1F0054F41D /* SHInstanceCounterTests.m */; };
+		731BC9B4115A1BFA005D3D38 /* NSCHaracterSet_ExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A7433E0F988FAE0054F41D /* NSCHaracterSet_ExtensionsTests.m */; };
+		731BC9B5115A1BFC005D3D38 /* NSIndexSet_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 737EDADF0E19143E00F328EB /* NSIndexSet_ExtrasTests.m */; };
+		731BC9B6115A1BFC005D3D38 /* SHBundleLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785BA0D1BDC4500EE14BC /* SHBundleLoaderTests.m */; };
+		731BC9B7115A1BFD005D3D38 /* SHDocumentControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739CD33B0E52F849006CCFA7 /* SHDocumentControllerTests.m */; };
+		731BC9B8115A1BFE005D3D38 /* NSDocumentController_ExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C3F19D0E01BC0A00E1CFCB /* NSDocumentController_ExtensionsTests.m */; };
+		731BC9B9115A1BFF005D3D38 /* NSResponder_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73831C5710A848D800DDC7FB /* NSResponder_ExtrasTests.m */; };
+		731BC9BA115A1BFF005D3D38 /* SHWindowControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73831C5810A848D800DDC7FB /* SHWindowControllerTests.m */; };
+		731BC9BB115A1C01005D3D38 /* BBNibManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73831C5B10A848E300DDC7FB /* BBNibManagerTests.m */; };
+		731BC9BC115A1C01005D3D38 /* SHDocumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739CD3360E52F833006CCFA7 /* SHDocumentTests.m */; };
+		731BC9BD115A1C02005D3D38 /* NSSet_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BEA2B410C6DDAB00B72903 /* NSSet_ExtrasTests.m */; };
+		731BC9CB115A1D76005D3D38 /* MockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785BD0D1BDC4500EE14BC /* MockTest.m */; };
+		731BC9CC115A1D76005D3D38 /* FilteringArrayControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7398FB6310AC5C990035A762 /* FilteringArrayControllerTests.m */; };
+		731BC9CD115A1D77005D3D38 /* NSApplication_ExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C3F1DA0E01C3A100E1CFCB /* NSApplication_ExtensionsTests.m */; };
+		731BC9CE115A1D78005D3D38 /* NSInvocation_forwardConstructionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C886EC112C38D700780805 /* NSInvocation_forwardConstructionTests.m */; };
 		731DE68E10CD244400C42727 /* SHShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 739253D50E447E1A00BEB704 /* SHShared.m */; };
 		731DE7A910CD267D00C42727 /* SetUpAndTearDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731DE7A810CD267D00C42727 /* SetUpAndTearDownTests.m */; };
 		731DE7CC10CD274A00C42727 /* SwizzleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 731DE7CA10CD274A00C42727 /* SwizzleList.m */; };
@@ -1411,6 +1435,30 @@
 			files = (
 				7364E91210F78576002B5E45 /* SHOrderedDictionaryTests.m in Sources */,
 				73C886E8112C38AB00780805 /* NSInvocation(ForwardedConstruction).m in Sources */,
+				731BC99B115A1ACF005D3D38 /* MathUtilitiesTests.m in Sources */,
+				731BC99C115A1AD0005D3D38 /* SHGlobalVarsTests.m in Sources */,
+				731BC99D115A1AD0005D3D38 /* NSObject_ExtrasTests.m in Sources */,
+				731BC99E115A1AD1005D3D38 /* MiscUtilitiesTests.m in Sources */,
+				731BC99F115A1AD1005D3D38 /* LogControllerTests.m in Sources */,
+				731BC9A0115A1AD2005D3D38 /* SHSwizzlerTests.m in Sources */,
+				731BC9A1115A1AD2005D3D38 /* NSString_ExtrasTests.m in Sources */,
+				731BC9A2115A1AD5005D3D38 /* SHooleyObjectTests.m in Sources */,
+				731BC9B2115A1BF9005D3D38 /* NSArray_ExtensionsTests.m in Sources */,
+				731BC9B3115A1BF9005D3D38 /* SHInstanceCounterTests.m in Sources */,
+				731BC9B4115A1BFA005D3D38 /* NSCHaracterSet_ExtensionsTests.m in Sources */,
+				731BC9B5115A1BFC005D3D38 /* NSIndexSet_ExtrasTests.m in Sources */,
+				731BC9B6115A1BFC005D3D38 /* SHBundleLoaderTests.m in Sources */,
+				731BC9B7115A1BFD005D3D38 /* SHDocumentControllerTests.m in Sources */,
+				731BC9B8115A1BFE005D3D38 /* NSDocumentController_ExtensionsTests.m in Sources */,
+				731BC9B9115A1BFF005D3D38 /* NSResponder_ExtrasTests.m in Sources */,
+				731BC9BA115A1BFF005D3D38 /* SHWindowControllerTests.m in Sources */,
+				731BC9BB115A1C01005D3D38 /* BBNibManagerTests.m in Sources */,
+				731BC9BC115A1C01005D3D38 /* SHDocumentTests.m in Sources */,
+				731BC9BD115A1C02005D3D38 /* NSSet_ExtrasTests.m in Sources */,
+				731BC9CB115A1D76005D3D38 /* MockTest.m in Sources */,
+				731BC9CC115A1D76005D3D38 /* FilteringArrayControllerTests.m in Sources */,
+				731BC9CD115A1D77005D3D38 /* NSApplication_ExtensionsTests.m in Sources */,
+				731BC9CE115A1D78005D3D38 /* NSInvocation_forwardConstructionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

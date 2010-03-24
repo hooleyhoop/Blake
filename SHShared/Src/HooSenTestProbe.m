@@ -32,24 +32,34 @@
 	}
 }
 
+static NSAutoreleasePool *_pool;
+
 - (void)performTest_begin:(SenTestRun *)testCaseRun {
 	
-//	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init]; 
+	_pool = [[NSAutoreleasePool alloc] init];
+	
 	NSException *exception = nil;
 	[self setRun:testCaseRun];
+	
+	// hooley leak test
+	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
+	NSAssert( SHInstanceCounterClass, @"what?");
+	[SHInstanceCounterClass performSelector:@selector(newMark)];
+	
 	[self setUp];
 	[testCaseRun start];
 	@try {
 		NSInvocation *actualTest = [self invocation];
-		//									id target  = [actualTest target];
-		//									NSString *targetSel = NSStringFromSelector([actualTest selector]);
+		SenTestCase *target  = (SenTestCase *)[actualTest target];
+		NSString *targetSel = NSStringFromSelector([actualTest selector]);
+		SEL failureAction = [target failureAction];
+		
 		[actualTest invoke];
 	}
 	@catch (NSException *anException) {
 		exception = [[anException retain] autorelease];
 	}
-//	[testCaseRun stop];
-//	[self tearDown];
+
 	if (exception != nil) {
 		[self logException:exception];
 	}
@@ -57,6 +67,7 @@
 }
 
 - (void)performTest_end:(SenTestRun *)testCaseRun {
+
 // the order has to be swapped around a bit because of exception
 	[testCaseRun stop];
 	[self tearDown];
@@ -64,7 +75,18 @@
 //		[self logException:exception];
 //	}
 	[self setRun:nil];
-	//	[pool release];
+	[_pool release];
+	
+	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
+	NSAssert( SHInstanceCounterClass, @"what?");
+	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )
+	{
+		NSLog(@"LEAKING AT %@", [self description]);
+		[SHInstanceCounterClass performSelector:@selector(printSmallLeakingObjectInfoSinceMark)];
+		
+		NSString *line = [NSString stringWithFormat:@"%s:%d: error: %@ : LEAK", __FILE__, __LINE__, [self name]];
+		[(NSFileHandle *)[NSFileHandle fileHandleWithStandardError] writeData:[line dataUsingEncoding:NSUTF8StringEncoding]];		
+	}
 }
 
 @end
@@ -75,6 +97,11 @@
 	
 	NSParameterAssert(aBundle);
 	BOOL shouldTerminate = YES;
+	
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	[defaults setObject:@"SenTestLog" forKey:@"SenTestObserverClass"];
+	
+	Class currentTestObserver = [SenTestObserver currentObserverClass];
 	
 	SenTestSuite *mySuiteOfTests = [SenTestSuite testSuiteForBundlePath:[aBundle bundlePath]];
 	SenTestSuiteRun *testSuiteRun = [SenTestSuiteRun testRunWithTest:mySuiteOfTests];
@@ -140,6 +167,8 @@
 	}
 	BOOL hasFailed = ![testSuiteRun hasSucceeded];
 	NSLog(@"Tests Failed? %@", hasFailed ? @"YES" : @"NO");
+//	NSString *line = [NSString stringWithFormat:@"%s:%d: error: %@ : LEAK", __FILE__, __LINE__, [self name]];
+//	[(NSFileHandle *)[NSFileHandle fileHandleWithStandardError] writeData:[line dataUsingEncoding:NSUTF8StringEncoding]];	
 	
 	if(shouldTerminate)
 		[[NSApplication sharedApplication] terminate:self];
@@ -191,5 +220,14 @@
 //	NSLog(@"forwardInvocation %@", forwardedInvocation);
 //}
 
+
+@end
+
+
+@implementation SenTestObserver (HooSenTestObserver)
+
++ (Class)currentObserverClass {
+	return nil;
+}
 
 @end

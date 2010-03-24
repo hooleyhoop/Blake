@@ -575,8 +575,8 @@ static int notificationsReceivedCount=0, arrayChangedCount=0, selectionChangedCo
 	STAssertTrue([dict objectForKey:@"name1"]==nil, @"fail");
 }
 
-- (void)testObjectForKey
-{
+- (void)testObjectForKey {
+
 	// - (id)objectForKey:(id)aKey;
 	NSString* name1 = @"steve";
 	NSString* name2 = @"hooley";
@@ -586,9 +586,6 @@ static int notificationsReceivedCount=0, arrayChangedCount=0, selectionChangedCo
 	id ob2 = [_dict objectForKey:@"name2"];
 	STAssertTrue(ob1==name1, @"fail, is %@", ob1 );
 	STAssertTrue(ob2==name2, @"fail, is %@", ob2 );
-	
-	[_dict retain];
-//	STAssertTrue(NO,@"cheese");
 }
 
 //- (void)testDeleteSelectedObjects {
