@@ -36,6 +36,7 @@ static NSAutoreleasePool *_pool;
 
 - (void)performTest_begin:(SenTestRun *)testCaseRun {
 	
+	NSAssert( !_pool, @"what???" );
 	_pool = [[NSAutoreleasePool alloc] init];
 	
 	NSException *exception = nil;
@@ -75,8 +76,15 @@ static NSAutoreleasePool *_pool;
 //		[self logException:exception];
 //	}
 	[self setRun:nil];
+		
+	[NSAutoreleasePool showPools];
+
+	NSAssert(_pool, @"where has my releasepool gone?");
 	[_pool release];
-	
+	_pool = nil;
+
+//	[NSAutoreleasePool showPools];
+
 	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
 	NSAssert( SHInstanceCounterClass, @"what?");
 	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )

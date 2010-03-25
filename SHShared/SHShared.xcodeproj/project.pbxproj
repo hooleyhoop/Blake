@@ -23,6 +23,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		7313AB61115BA25B00BA3522 /* NSInvocation_testHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A2957110FF3C78001A17F6 /* NSInvocation_testHelpersTests.m */; };
+		7313AB63115BA4E900BA3522 /* AutoreleasePoolFuckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313AB5E115BA24600BA3522 /* AutoreleasePoolFuckerTests.m */; };
+		7313ADAA115BDE2B00BA3522 /* AutoreleasePoolFucker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7313ADA8115BDE2B00BA3522 /* AutoreleasePoolFucker.h */; };
+		7313ADAB115BDE2B00BA3522 /* AutoreleasePoolFucker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313ADA9115BDE2B00BA3522 /* AutoreleasePoolFucker.m */; };
 		731BC99B115A1ACF005D3D38 /* MathUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735386D910B018E20035F6B5 /* MathUtilitiesTests.m */; };
 		731BC99C115A1AD0005D3D38 /* SHGlobalVarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7257410DAA01600FAA280 /* SHGlobalVarsTests.m */; };
 		731BC99D115A1AD0005D3D38 /* NSObject_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C622810B1950A003A6739 /* NSObject_ExtrasTests.m */; };
@@ -302,6 +306,9 @@
 		731253990E42122C0047C4A9 /* SHWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHWindow.m; sourceTree = "<group>"; };
 		731254410E4215830047C4A9 /* SHPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHPanel.h; sourceTree = "<group>"; };
 		731254420E4215830047C4A9 /* SHPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHPanel.m; sourceTree = "<group>"; };
+		7313AB5E115BA24600BA3522 /* AutoreleasePoolFuckerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoreleasePoolFuckerTests.m; path = Tests/AutoreleasePoolFuckerTests.m; sourceTree = "<group>"; };
+		7313ADA8115BDE2B00BA3522 /* AutoreleasePoolFucker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoreleasePoolFucker.h; path = Src/AutoreleasePoolFucker.h; sourceTree = "<group>"; };
+		7313ADA9115BDE2B00BA3522 /* AutoreleasePoolFucker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoreleasePoolFucker.m; path = Src/AutoreleasePoolFucker.m; sourceTree = "<group>"; };
 		731CD6260FA31F0900FC0FC5 /* LogControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogControllerTests.m; path = Tests/LogControllerTests.m; sourceTree = "<group>"; };
 		731DE7A810CD267D00C42727 /* SetUpAndTearDownTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetUpAndTearDownTests.m; path = Tests/SetUpAndTearDownTests.m; sourceTree = "<group>"; };
 		731DE7CA10CD274A00C42727 /* SwizzleList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwizzleList.m; path = Src/SwizzleList.m; sourceTree = "<group>"; };
@@ -894,6 +901,8 @@
 				7385A5A610FCD9F600ED053F /* ApplescriptGUI.m */,
 				73B9707510FE75480086B35E /* NSInvocation_testHelpers.h */,
 				73B9707610FE75480086B35E /* NSInvocation_testHelpers.m */,
+				7313ADA8115BDE2B00BA3522 /* AutoreleasePoolFucker.h */,
+				7313ADA9115BDE2B00BA3522 /* AutoreleasePoolFucker.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -902,6 +911,7 @@
 			isa = PBXGroup;
 			children = (
 				73A2957110FF3C78001A17F6 /* NSInvocation_testHelpersTests.m */,
+				7313AB5E115BA24600BA3522 /* AutoreleasePoolFuckerTests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -1133,6 +1143,7 @@
 				7385A5A910FCD9F600ED053F /* ApplescriptGUI.h in Headers */,
 				73B9707710FE75480086B35E /* NSInvocation_testHelpers.h in Headers */,
 				7343C806111AD73E005A2689 /* ApplescriptUtils.h in Headers */,
+				7313ADAA115BDE2B00BA3522 /* AutoreleasePoolFucker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1459,6 +1470,8 @@
 				731BC9CC115A1D76005D3D38 /* FilteringArrayControllerTests.m in Sources */,
 				731BC9CD115A1D77005D3D38 /* NSApplication_ExtensionsTests.m in Sources */,
 				731BC9CE115A1D78005D3D38 /* NSInvocation_forwardConstructionTests.m in Sources */,
+				7313AB61115BA25B00BA3522 /* NSInvocation_testHelpersTests.m in Sources */,
+				7313AB63115BA4E900BA3522 /* AutoreleasePoolFuckerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1544,6 +1557,7 @@
 				7385A5A810FCD9F600ED053F /* ApplescriptGUI.m in Sources */,
 				73B9707810FE75480086B35E /* NSInvocation_testHelpers.m in Sources */,
 				7343C807111AD73E005A2689 /* ApplescriptUtils.m in Sources */,
+				7313ADAB115BDE2B00BA3522 /* AutoreleasePoolFucker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
