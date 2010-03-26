@@ -8,6 +8,8 @@
 
 #import "HooSenTestProbe.h"
 #import <Appkit/NSApplication.h>
+#import <Foundation/NSDebug.h>
+
 @class SenTestCaseSuite;
 
 @interface SenTestCase (HooSenTestCase)
@@ -32,12 +34,12 @@
 	}
 }
 
-static NSAutoreleasePool *_pool;
+//static NSAutoreleasePool *_pool;
 
 - (void)performTest_begin:(SenTestRun *)testCaseRun {
 	
-	NSAssert( !_pool, @"what???" );
-	_pool = [[NSAutoreleasePool alloc] init];
+//	NSAssert( !_pool, @"what???" );
+//	_pool = [[NSAutoreleasePool alloc] init];
 	
 	NSException *exception = nil;
 	[self setRun:testCaseRun];
@@ -76,14 +78,12 @@ static NSAutoreleasePool *_pool;
 //		[self logException:exception];
 //	}
 	[self setRun:nil];
-		
-	[NSAutoreleasePool showPools];
+	
+	//	NSAssert(_pool, @"where has my releasepool gone?");
+//	[_pool release];
+//	_pool = nil;
 
-	NSAssert(_pool, @"where has my releasepool gone?");
-	[_pool release];
-	_pool = nil;
-
-//	[NSAutoreleasePool showPools];
+	[NSAutoreleasePool performSelector:@selector(releaseAllPools)];
 
 	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
 	NSAssert( SHInstanceCounterClass, @"what?");
