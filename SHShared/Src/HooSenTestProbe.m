@@ -84,7 +84,9 @@
 //	_pool = nil;
 
 	[NSAutoreleasePool performSelector:@selector(releaseAllPools)];
-
+	[NSAutoreleasePool releaseAllPools];
+	[NSAutoreleasePool showPools];
+	
 	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
 	NSAssert( SHInstanceCounterClass, @"what?");
 	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )
