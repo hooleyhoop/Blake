@@ -23,8 +23,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		7313ADAA115BDE2B00BA3522 /* AutoreleasePoolFucker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7313ADA8115BDE2B00BA3522 /* AutoreleasePoolFucker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7313ADAB115BDE2B00BA3522 /* AutoreleasePoolFucker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313ADA9115BDE2B00BA3522 /* AutoreleasePoolFucker.m */; };
 		731DE68E10CD244400C42727 /* SHShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 739253D50E447E1A00BEB704 /* SHShared.m */; };
 		731DE7CC10CD274A00C42727 /* SwizzleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 731DE7CA10CD274A00C42727 /* SwizzleList.m */; };
 		731DE7EA10CD277300C42727 /* SwizzleList.h in Headers */ = {isa = PBXBuildFile; fileRef = 731DE7E910CD276500C42727 /* SwizzleList.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,6 +50,9 @@
 		735C2DD210A1BC7A00C2DF56 /* SHBundleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 73021A340B26D737001A8D04 /* SHBundleLoader.m */; };
 		735C2DD310A1BC7B00C2DF56 /* SHBundleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 73021A330B26D737001A8D04 /* SHBundleLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73662D341121B3CB00E8DC9F /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
+		736D2E5711628AAE00F6DE21 /* AutoreleasePoolFucker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7313ADA8115BDE2B00BA3522 /* AutoreleasePoolFucker.h */; };
+		736D2E5811628AAE00F6DE21 /* AutoreleasePoolFucker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313ADA9115BDE2B00BA3522 /* AutoreleasePoolFucker.m */; };
+		736D2E5911628AEC00F6DE21 /* AutoreleasePoolFuckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313AB5E115BA24600BA3522 /* AutoreleasePoolFuckerTests.m */; };
 		7385A5C310FCDA4A00ED053F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7385A5C210FCDA4A00ED053F /* Carbon.framework */; };
 		7398FB5C10AC5C1D0035A762 /* FilteringArrayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E7856A0D1BD92F00EE14BC /* FilteringArrayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7398FB5D10AC5C1D0035A762 /* FilteringArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785690D1BD92F00EE14BC /* FilteringArrayController.m */; };
@@ -85,7 +86,6 @@
 		73CC08BE11368BD600B53CA9 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
 		73CC08C311368BD800B53CA9 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
 		73CC08C411368BD900B53CA9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735679AF0C5B57FB00FF5880 /* SenTestingKit.framework */; };
-		73D1065611620F37001C6946 /* AutoreleasePoolFuckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313AB5E115BA24600BA3522 /* AutoreleasePoolFuckerTests.m */; };
 		73D106F111621254001C6946 /* MathUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735386D910B018E20035F6B5 /* MathUtilitiesTests.m */; };
 		73D106FB11621255001C6946 /* SHGlobalVarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7257410DAA01600FAA280 /* SHGlobalVarsTests.m */; };
 		73D106FC11621255001C6946 /* NSObject_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C622810B1950A003A6739 /* NSObject_ExtrasTests.m */; };
@@ -248,7 +248,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 73D6ED9410C7C5BC0072DC88 /* SHTestUtilities */;
+			remoteGlobalIDString = 73D6ED9410C7C5BC0072DC88;
 			remoteInfo = SHTestUtilities;
 		};
 		73D37D4310A883E9000231A3 /* PBXContainerItemProxy */ = {
@@ -746,6 +746,8 @@
 		734B047209177C51003B2B17 /* Debug */ = {
 			isa = PBXGroup;
 			children = (
+				7313ADA8115BDE2B00BA3522 /* AutoreleasePoolFucker.h */,
+				7313ADA9115BDE2B00BA3522 /* AutoreleasePoolFucker.m */,
 				739252FB0E446CC700BEB704 /* SHSwizzler.h */,
 				739252F90E446CC700BEB704 /* SHSwizzler.m */,
 				731DE7E910CD276500C42727 /* SwizzleList.h */,
@@ -907,8 +909,6 @@
 				7385A5A610FCD9F600ED053F /* ApplescriptGUI.m */,
 				73B9707510FE75480086B35E /* NSInvocation_testHelpers.h */,
 				73B9707610FE75480086B35E /* NSInvocation_testHelpers.m */,
-				7313ADA8115BDE2B00BA3522 /* AutoreleasePoolFucker.h */,
-				7313ADA9115BDE2B00BA3522 /* AutoreleasePoolFucker.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -917,7 +917,6 @@
 			isa = PBXGroup;
 			children = (
 				73A2957110FF3C78001A17F6 /* NSInvocation_testHelpersTests.m */,
-				7313AB5E115BA24600BA3522 /* AutoreleasePoolFuckerTests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -1010,6 +1009,7 @@
 		73F4CD800A4ECDD800702011 /* Unit tests */ = {
 			isa = PBXGroup;
 			children = (
+				7313AB5E115BA24600BA3522 /* AutoreleasePoolFuckerTests.m */,
 				735386D910B018E20035F6B5 /* MathUtilitiesTests.m */,
 				73E7257410DAA01600FAA280 /* SHGlobalVarsTests.m */,
 				732C622810B1950A003A6739 /* NSObject_ExtrasTests.m */,
@@ -1120,6 +1120,7 @@
 				73ECA3C510D10CA600BC8785 /* SHAttributeProtocol.h in Headers */,
 				73E7214710DA832A00FAA280 /* SHGlobalVars.h in Headers */,
 				73A295DB10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).h in Headers */,
+				736D2E5711628AAE00F6DE21 /* AutoreleasePoolFucker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1142,7 +1143,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				73D6EE0810C7C8960072DC88 /* SHTestUtilities.h in Headers */,
-				7313ADAA115BDE2B00BA3522 /* AutoreleasePoolFucker.h in Headers */,
 				73D1074B1162144E001C6946 /* NSInvocation_testHelpers.h in Headers */,
 				73D1077211621503001C6946 /* OCMockRecorder_Extras.h in Headers */,
 				73D1077511621508001C6946 /* SwappedInIvar.h in Headers */,
@@ -1477,6 +1477,7 @@
 				73D1071111621264001C6946 /* SHOrderedDictionaryTests.m in Sources */,
 				73D1071211621265001C6946 /* SHooleyObjectTests.m in Sources */,
 				73D1071611621304001C6946 /* OCMockRecorder_Extras.m in Sources */,
+				736D2E5911628AEC00F6DE21 /* AutoreleasePoolFuckerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1512,6 +1513,7 @@
 				731DE7CC10CD274A00C42727 /* SwizzleList.m in Sources */,
 				73E7214810DA832A00FAA280 /* SHGlobalVars.m in Sources */,
 				73A295DC10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).m in Sources */,
+				736D2E5811628AAE00F6DE21 /* AutoreleasePoolFucker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1548,7 +1550,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				73CC088711368B1B00B53CA9 /* NSInvocation_testHelpersTests.m in Sources */,
-				73D1065611620F37001C6946 /* AutoreleasePoolFuckerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1556,7 +1557,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7313ADAB115BDE2B00BA3522 /* AutoreleasePoolFucker.m in Sources */,
 				73D1074A1162144D001C6946 /* NSInvocation_testHelpers.m in Sources */,
 				73D1077311621504001C6946 /* OCMockRecorder_Extras.m in Sources */,
 				73D1077411621508001C6946 /* SwappedInIvar.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "AutoreleasePoolFucker.h"
+#import "NSString_Extras.h"
 #import <Foundation/NSDebug.h>
 #include <sys/stat.h>
 
@@ -19,22 +20,31 @@
 
 + (NSString *)releasePoolsAsString {
 
-	fflush(stderr);
-	int o = dup(fileno(stderr));
+	NSString *dataAsString = @"";
 	
-	// pipe way
-	NSPipe *pipe = [NSPipe pipe];
-	NSFileHandle *fileHandleForWriting = [pipe fileHandleForWriting];
-	dup2( [fileHandleForWriting fileDescriptor], fileno(stderr) );
+
+//		setvbuf( stderr, NULL, _IONBF, 0 );
+//
+//		fflush(stderr);
+		int o = dup(fileno(stderr));
+		
+		// pipe way
+		NSPipe *pipe = [NSPipe pipe];
+		NSFileHandle *fileHandleForWriting = [pipe fileHandleForWriting];
+		dup2( [fileHandleForWriting fileDescriptor], fileno(stderr) );
 	
-	[NSAutoreleasePool showPools];
-	fflush(stderr);
-	NSFileHandle *readFileHandle = [pipe fileHandleForReading];
-	NSData *data = [readFileHandle availableData];
+		_CFAutoreleaePoolPrintPools
+		[NSAutoreleasePool showPools];
+		[fileHandleForWriting closeFile];
 	
-	dup2(o,fileno(stderr));
-	close(o);
-	NSString *dataAsString = [[[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding] autorelease];
+//		fflush(stderr);
+//		NSFileHandle *readFileHandle = [pipe fileHandleForReading];
+//		NSData *data = [readFileHandle availableData];
+//		
+		dup2(o,fileno(stderr));
+		close(o);
+//		dataAsString = [[[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding] autorelease];
+
 	return dataAsString;
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import "SHInstanceCounter.h"
+#import "AutoreleasePoolFucker.h"
 
 @implementation SHInstanceCounter
 
@@ -131,7 +132,7 @@ static NSUInteger _instanceCount;
 		return 0;
 
 	AutoreleasePoolFucker *poolFucker = [AutoreleasePoolFucker poolFucker];
-	NSUInteger objectsNotInReleasePoolCount;
+	NSUInteger objectsNotInReleasePoolCount = 0;
 	for( id eachPtr in _instancesSinceMark ) {
 		NSLog(@"will this work?");
 		if( [poolFucker mult_isLeaking_takingIntoAccountAutoReleases:eachPtr] )
