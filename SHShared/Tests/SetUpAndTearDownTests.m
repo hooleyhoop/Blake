@@ -57,7 +57,7 @@
 		Class targetClass2 = NSClassFromString(@"SenTestCase");
 		SEL targetSEL2 = NSSelectorFromString(@"performTest:");
 //		SEL targetSEL3 = NSSelectorFromString(@"stop");
-		SEL replacementSEL2 = NSSelectorFromString(@"my_performTest:");
+		SEL replacementSEL2 = NSSelectorFromString(@"my_performTest:"); // my_runTests
 //		SEL replacementSEL3 = NSSelectorFromString(@"my_stop");
 
 		Method methodToReplace2 = class_getInstanceMethod( targetClass2, targetSEL2 );
@@ -121,15 +121,20 @@
 // Called first. Entry point that will set up swizzles
 + (void)initialize {
 
-	BOOL isTesting = [SenTestProbe isTesting];
-	NSLog(@"we need this.. to force loading. %i", isTesting );
-	
-	Class targetClass = NSClassFromString(@"SenTestProbe");
-	SEL targetSEL = NSSelectorFromString(@"runTests:");
-	SEL replacementSEL = NSSelectorFromString(@"my_runTests:");
-	Method methodToReplace = class_getClassMethod( targetClass, targetSEL );
-	Method replacementMethod = class_getClassMethod( targetClass, replacementSEL );
-	method_exchangeImplementations( methodToReplace, replacementMethod );
+	static BOOL isInitialized = NO;
+    if( !isInitialized ) {
+        isInitialized = YES;	
+		
+		BOOL isTesting = [SenTestProbe isTesting];
+		NSLog(@"we need this.. to force loading. %i", isTesting );
+		
+		Class targetClass = NSClassFromString(@"SenTestProbe");
+		SEL targetSEL = NSSelectorFromString(@"runTests:");
+		SEL replacementSEL = NSSelectorFromString(@"my_runTests:");
+		Method methodToReplace = class_getClassMethod( targetClass, targetSEL );
+		Method replacementMethod = class_getClassMethod( targetClass, replacementSEL );
+		method_exchangeImplementations( methodToReplace, replacementMethod );
+	}
 }
 
 OBJC_EXPORT void addDestructorCallback(  Class classValue, SEL callback ) __attribute__((weak_import));

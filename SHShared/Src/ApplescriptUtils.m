@@ -14,8 +14,14 @@ static NSMutableDictionary *_applescriptFileCache;
 @implementation ApplescriptUtils
 
 + (void)initialize {
-	if(!_applescriptFileCache)
-		_applescriptFileCache = [[NSMutableDictionary alloc] init];
+
+	static BOOL isInitialized = NO;
+    if( !isInitialized ) {
+        isInitialized = YES;	
+			
+		if(!_applescriptFileCache)
+			_applescriptFileCache = [[NSMutableDictionary alloc] init];
+	}
 }
 
 void LoadScriptingAdditions(void) {

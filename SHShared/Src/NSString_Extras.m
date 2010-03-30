@@ -169,9 +169,10 @@ void sortIntoLines( NSString* fileContents, NSMutableArray* allLines ) {
 }
 
 // Count the number of occurrences of a given substring
-- (NSUInteger) occurrencesOfString:(NSString*)subString {
+- (NSUInteger)occurrencesOfString:(NSString*)subString {
+
 	NSUInteger total = 0;
-	NSScanner* scanner = [NSScanner scannerWithString:self];
+	NSScanner *scanner = [NSScanner scannerWithString:self];
 	[scanner setCaseSensitive:YES];
 	[scanner setCharactersToBeSkipped:[NSCharacterSet characterSetWithCharactersInString:@""]];
 	[scanner scanUpToString:subString intoString:NULL];

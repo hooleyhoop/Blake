@@ -19,8 +19,13 @@ static NSMutableDictionary *cachedNibs=nil;
 #pragma mark -
 #pragma mark class methods
 + (void)initialize  {
-    if(cachedNibs==nil)
-        cachedNibs = [[NSMutableDictionary alloc] init];
+	
+    static BOOL isInitialized = NO;
+    if( !isInitialized ) {
+        isInitialized = YES;	
+		if(cachedNibs==nil)
+			cachedNibs = [[NSMutableDictionary alloc] init];
+	}
 }
 
 + (id)instantiateNib:(NSString *)nibName withOwner:(id)owner {

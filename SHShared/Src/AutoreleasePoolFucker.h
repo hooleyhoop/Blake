@@ -11,9 +11,15 @@
 
 @interface AutoreleasePoolFucker : NSObject {
 	
+	NSString *_poolDataString;
 }
 
-+ (BOOL)isLeaking_takingIntoAccountAutoReleses:(NSObject *)arg;
+// single objects
++ (BOOL)isLeaking_takingIntoAccountAutoReleases:(NSObject *)arg;
 + (NSUInteger)autoreleaseCount:(NSObject *)arg;
+
+// multiple objects
++ (id)poolFucker;
+- (BOOL)mult_isLeaking_takingIntoAccountAutoReleases:(NSObject *)arg;
 
 @end

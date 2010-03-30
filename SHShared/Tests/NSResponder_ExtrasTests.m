@@ -7,6 +7,7 @@
 //
 #import <Appkit/NSView.h>
 #import "NSResponder_Extras.h"
+#import "TestingUtils.h"
 
 @interface NSResponder_ExtrasTests : SenTestCase {
 	

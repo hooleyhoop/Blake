@@ -129,7 +129,15 @@ static NSUInteger _instanceCount;
 	
 	if(_instancesSinceMark==nil)
 		return 0;
-	return [_instancesSinceMark count];
+
+	AutoreleasePoolFucker *poolFucker = [AutoreleasePoolFucker poolFucker];
+	NSUInteger objectsNotInReleasePoolCount;
+	for( id eachPtr in _instancesSinceMark ) {
+		NSLog(@"will this work?");
+		if( [poolFucker mult_isLeaking_takingIntoAccountAutoReleases:eachPtr] )
+			objectsNotInReleasePoolCount++;
+	}
+	return objectsNotInReleasePoolCount;
 }
 
 + (void)newMark {

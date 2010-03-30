@@ -34,12 +34,7 @@
 	}
 }
 
-//static NSAutoreleasePool *_pool;
-
 - (void)performTest_begin:(SenTestRun *)testCaseRun {
-	
-//	NSAssert( !_pool, @"what???" );
-//	_pool = [[NSAutoreleasePool alloc] init];
 	
 	NSException *exception = nil;
 	[self setRun:testCaseRun];
@@ -78,15 +73,7 @@
 //		[self logException:exception];
 //	}
 	[self setRun:nil];
-	
-	//	NSAssert(_pool, @"where has my releasepool gone?");
-//	[_pool release];
-//	_pool = nil;
-
-	[NSAutoreleasePool performSelector:@selector(releaseAllPools)];
-	[NSAutoreleasePool releaseAllPools];
-	[NSAutoreleasePool showPools];
-	
+		
 	Class SHInstanceCounterClass = NSClassFromString(@"SHInstanceCounter");
 	NSAssert( SHInstanceCounterClass, @"what?");
 	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )
@@ -97,6 +84,7 @@
 		NSString *line = [NSString stringWithFormat:@"%s:%d: error: %@ : LEAK", __FILE__, __LINE__, [self name]];
 		[(NSFileHandle *)[NSFileHandle fileHandleWithStandardError] writeData:[line dataUsingEncoding:NSUTF8StringEncoding]];		
 	}
+	
 }
 
 @end

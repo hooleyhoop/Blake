@@ -12,15 +12,13 @@
 
 @implementation AutoreleasePoolFucker
 
-+ (BOOL)isLeaking_takingIntoAccountAutoReleses:(NSObject *)arg {
-	
-	return [arg retainCount] - [self autoreleaseCount:arg]; 
++ (id)poolFucker {
+	AutoreleasePoolFucker *newPoolFucker = [[AutoreleasePoolFucker alloc] init];
+	return [newPoolFucker autorelease];
 }
 
-+ (NSUInteger)autoreleaseCount:(NSObject *)arg {
-	
-	NSUInteger count=0;
-	
++ (NSString *)releasePoolsAsString {
+
 	fflush(stderr);
 	int o = dup(fileno(stderr));
 	
@@ -36,16 +34,47 @@
 	
 	dup2(o,fileno(stderr));
 	close(o);
-	
 	NSString *dataAsString = [[[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding] autorelease];
+	return dataAsString;
+}
+
+// Single Objects
++ (BOOL)isLeaking_takingIntoAccountAutoReleases:(NSObject *)arg {
+	
+	return [arg retainCount] - [self autoreleaseCount:arg]; 
+}
+
++ (NSUInteger)autoreleaseCount:(NSObject *)arg {
+	
+	NSString *dataAsString = [AutoreleasePoolFucker releasePoolsAsString];
 	NSString *addressOfObject = [NSString stringWithFormat:@"%p", arg];
-	NSRange foundRange;
-	
-	while( foundRange=[dataAsString rangeOfString:addressOfObject options:NSLiteralSearch], foundRange.location!=NSNotFound ) {
-		dataAsString = [dataAsString substringFromIndex:foundRange.location + foundRange.length];
-		count++;
+	NSUInteger count=[dataAsString occurrencesOfString:addressOfObject];
+	return count;
+}
+
+// multiple objects
+- (id)init {
+	self = [super init];
+	if(self){
+		_poolDataString = [[AutoreleasePoolFucker releasePoolsAsString] retain];
 	}
+	return self;
+}
+
+- (void)dealloc {
+
+	NSAssert( _poolDataString!=nil, @"oops" );
+
+	[_poolDataString release];
+	_poolDataString = nil;
 	
+	[super dealloc];
+}
+
+- (BOOL)mult_isLeaking_takingIntoAccountAutoReleases:(NSObject *)arg {
+	
+	NSString *addressOfObject = [NSString stringWithFormat:@"%p", arg];
+	NSUInteger count=[_poolDataString occurrencesOfString:addressOfObject];
 	return count;
 }
 
