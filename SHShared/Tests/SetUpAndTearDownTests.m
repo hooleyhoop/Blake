@@ -67,9 +67,6 @@
 //		Method methodToReplace3 = class_getInstanceMethod( targetClass2, targetSEL3 );
 //		Method replacementMethod3 = class_getInstanceMethod( targetClass2, replacementSEL3 );
 //		method_exchangeImplementations( methodToReplace3, replacementMethod3 );
-		
-		// high water mark needs to be non zero to enable counting
-		[NSAutoreleasePool setPoolCountHighWaterMark:1000];
 	}
 }
 

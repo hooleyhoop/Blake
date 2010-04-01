@@ -32,8 +32,7 @@
 		NSPipe *pipe = [NSPipe pipe];
 		NSFileHandle *fileHandleForWriting = [pipe fileHandleForWriting];
 		dup2( [fileHandleForWriting fileDescriptor], fileno(stderr) );
-	
-		_CFAutoreleaePoolPrintPools
+
 		[NSAutoreleasePool showPools];
 		[fileHandleForWriting closeFile];
 	

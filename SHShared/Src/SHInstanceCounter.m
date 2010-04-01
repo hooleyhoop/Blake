@@ -7,7 +7,6 @@
 //
 
 #import "SHInstanceCounter.h"
-#import "AutoreleasePoolFucker.h"
 
 @implementation SHInstanceCounter
 
@@ -98,12 +97,15 @@ static NSUInteger _instanceCount;
 //		}
 	}
 }
+OBJC_EXPORT NSUInteger NSAutoreleasePoolCountForObject( id arg );
 
 + (void)printSmallLeakingObjectInfoSinceMark {
 
-	for( id each in _instancesSinceMark ){
+	for( id eachPtr in _instancesSinceMark ){
+		if( [eachPtr retainCount] - NSAutoreleasePoolCountForObject(eachPtr) )
+
 //		if (![each isKindOfClass:NSClassFromString(@"NSWindow")]) {
-			NSLog(@"LEAKING %@", [self instanceDescription: each] );
+				NSLog(@"LEAKING %@", [self instanceDescription: eachPtr] );
 //		}
 	}
 }
@@ -126,16 +128,15 @@ static NSUInteger _instanceCount;
 	return _instanceCount;
 }
 
+
 + (NSInteger)instanceCountSinceMark {
 	
 	if(_instancesSinceMark==nil)
 		return 0;
 
-	AutoreleasePoolFucker *poolFucker = [AutoreleasePoolFucker poolFucker];
 	NSUInteger objectsNotInReleasePoolCount = 0;
 	for( id eachPtr in _instancesSinceMark ) {
-		NSLog(@"will this work?");
-		if( [poolFucker mult_isLeaking_takingIntoAccountAutoReleases:eachPtr] )
+		if( [eachPtr retainCount] - NSAutoreleasePoolCountForObject(eachPtr) )
 			objectsNotInReleasePoolCount++;
 	}
 	return objectsNotInReleasePoolCount;

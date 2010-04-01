@@ -50,9 +50,6 @@
 		735C2DD210A1BC7A00C2DF56 /* SHBundleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 73021A340B26D737001A8D04 /* SHBundleLoader.m */; };
 		735C2DD310A1BC7B00C2DF56 /* SHBundleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 73021A330B26D737001A8D04 /* SHBundleLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73662D341121B3CB00E8DC9F /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
-		736D2E5711628AAE00F6DE21 /* AutoreleasePoolFucker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7313ADA8115BDE2B00BA3522 /* AutoreleasePoolFucker.h */; };
-		736D2E5811628AAE00F6DE21 /* AutoreleasePoolFucker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313ADA9115BDE2B00BA3522 /* AutoreleasePoolFucker.m */; };
-		736D2E5911628AEC00F6DE21 /* AutoreleasePoolFuckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7313AB5E115BA24600BA3522 /* AutoreleasePoolFuckerTests.m */; };
 		7385A5C310FCDA4A00ED053F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7385A5C210FCDA4A00ED053F /* Carbon.framework */; };
 		7398FB5C10AC5C1D0035A762 /* FilteringArrayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E7856A0D1BD92F00EE14BC /* FilteringArrayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7398FB5D10AC5C1D0035A762 /* FilteringArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785690D1BD92F00EE14BC /* FilteringArrayController.m */; };
@@ -1120,7 +1117,6 @@
 				73ECA3C510D10CA600BC8785 /* SHAttributeProtocol.h in Headers */,
 				73E7214710DA832A00FAA280 /* SHGlobalVars.h in Headers */,
 				73A295DB10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).h in Headers */,
-				736D2E5711628AAE00F6DE21 /* AutoreleasePoolFucker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1477,7 +1473,6 @@
 				73D1071111621264001C6946 /* SHOrderedDictionaryTests.m in Sources */,
 				73D1071211621265001C6946 /* SHooleyObjectTests.m in Sources */,
 				73D1071611621304001C6946 /* OCMockRecorder_Extras.m in Sources */,
-				736D2E5911628AEC00F6DE21 /* AutoreleasePoolFuckerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1513,7 +1508,6 @@
 				731DE7CC10CD274A00C42727 /* SwizzleList.m in Sources */,
 				73E7214810DA832A00FAA280 /* SHGlobalVars.m in Sources */,
 				73A295DC10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).m in Sources */,
-				736D2E5811628AAE00F6DE21 /* AutoreleasePoolFucker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
