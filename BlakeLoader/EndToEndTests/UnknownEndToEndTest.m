@@ -5,8 +5,9 @@
 //  Created by steve hooley on 08/01/2010.
 //  Copyright 2010 BestBefore Ltd. All rights reserved.
 //
+#import <SHTestUtilities/SHTestUtilities.h>
 
-@interface UnknownEndToEndTest : SenTestCase {
+@interface UnknownEndToEndTest : AsyncTests {
 	
 }
 

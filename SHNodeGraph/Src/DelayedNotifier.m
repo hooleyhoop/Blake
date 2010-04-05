@@ -9,6 +9,7 @@
 #import "DelayedNotifier.h"
 #import "AllChildrenFilter.h"
 #import "DelayedNotificationCoalescer.h"
+#import <objc/message.h>
 
 @implementation DelayedNotifier
 

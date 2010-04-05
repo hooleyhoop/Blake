@@ -97,12 +97,12 @@ static NSUInteger _instanceCount;
 //		}
 	}
 }
-OBJC_EXPORT NSUInteger NSAutoreleasePoolCountForObject( id arg );
+//OBJC_EXPORT NSUInteger NSAutoreleasePoolCountForObject( id arg );
 
 + (void)printSmallLeakingObjectInfoSinceMark {
 
 	for( id eachPtr in _instancesSinceMark ){
-		if( [eachPtr retainCount] - NSAutoreleasePoolCountForObject(eachPtr) )
+//		if( [eachPtr retainCount] - NSAutoreleasePoolCountForObject(eachPtr) )
 
 //		if (![each isKindOfClass:NSClassFromString(@"NSWindow")]) {
 				NSLog(@"LEAKING %@", [self instanceDescription: eachPtr] );
@@ -136,7 +136,7 @@ OBJC_EXPORT NSUInteger NSAutoreleasePoolCountForObject( id arg );
 
 	NSUInteger objectsNotInReleasePoolCount = 0;
 	for( id eachPtr in _instancesSinceMark ) {
-		if( [eachPtr retainCount] - NSAutoreleasePoolCountForObject(eachPtr) )
+//		if( [eachPtr retainCount] - NSAutoreleasePoolCountForObject(eachPtr) )
 			objectsNotInReleasePoolCount++;
 	}
 	return objectsNotInReleasePoolCount;

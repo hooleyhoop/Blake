@@ -92,7 +92,7 @@
 	[SHInstanceCounterClass performSelector:@selector(newMark)];
 	
 	[self my_performTest:aTestRun];
-
+	
 	if( [SHInstanceCounterClass performSelector:@selector(instanceCountSinceMark)]>0 )
 	{
 		NSLog(@"LEAKING AT %@", [self description]);

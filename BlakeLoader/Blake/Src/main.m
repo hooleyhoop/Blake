@@ -14,6 +14,9 @@ __attribute__((visibility("default"))) NSString *_UNITTEST_MODE = nil;
 __attribute__((visibility("default"))) NSString *_DOCUMENT_WINDOW_EXTENSIONCLASS = nil;
 //__attribute__((visibility("default"))) BOOL _AUTOLOAD_MAIN_PLUGIN = YES;
 
+/*
+ * End to End tests
+*/
 BOOL setupInAppTests(void) {
 		
 	NSString *mainBundlePath = [[[NSBundle mainBundle] bundlePath] stringByDeletingLastPathComponent];
@@ -30,7 +33,7 @@ BOOL setupInAppTests(void) {
 			// The bundle has been loaded, and it should be linked against SenTestingKit.
 			// so SenTestProbe should be available
 			// (but we do not want to link otest with SenTestingKit to be able to test the kit itself.)
-			id testProbeClass = NSClassFromString(@"HooSenTestProbe");
+			id testProbeClass = NSClassFromString(@"HooAsyncTestRunner");
 			if (testProbeClass != nil) {
 				[testProbeClass performSelector:@selector(runTestsInBundle:) withObject:testBundle afterDelay:1];
 			}

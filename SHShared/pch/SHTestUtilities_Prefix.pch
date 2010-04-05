@@ -4,4 +4,10 @@
 	#import <SenTestingKit/SenTestingKit.h>
 	#import <OCMock/OCMock.h>
 	#import <SHShared/SHShared.h>
+	#import <FScript/FScript.h>
+#endif
+
+// woah, this is repeated everywhere
+#ifndef _BLOCK
+	#define _BLOCK(x) [x asBlock]
 #endif

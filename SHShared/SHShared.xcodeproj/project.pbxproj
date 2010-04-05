@@ -66,9 +66,34 @@
 		73AC01760F403A2B00FA9887 /* SHInstanceCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 739252FA0E446CC700BEB704 /* SHInstanceCounter.m */; };
 		73AC02A20F403CC900FA9887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AC02A10F403CC900FA9887 /* Foundation.framework */; };
 		73AC03770F403DB500FA9887 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AC03760F403DB500FA9887 /* UIKit.framework */; };
+		73B052A21168F0610054CE44 /* GUIFiddler.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B050931168ECE90054CE44 /* GUIFiddler.m */; };
+		73B052A81168F0810054CE44 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */; };
 		73B208680F5EB60A004C8012 /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785970D1BDC0600EE14BC /* NSArray_Extensions.m */; };
 		73B208690F5EB60B004C8012 /* NSArray_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E785980D1BDC0600EE14BC /* NSArray_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73B2088D0F5EB80F004C8012 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
+		73BB912D1168A055008F3174 /* HooAsyncTestRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB912C1168A055008F3174 /* HooAsyncTestRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BB91301168A063008F3174 /* HooAsyncTestRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB912F1168A063008F3174 /* HooAsyncTestRunner.m */; };
+		73BB932A1168AB69008F3174 /* AsyncTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB93281168AB69008F3174 /* AsyncTests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BB932B1168AB69008F3174 /* AsyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93291168AB69008F3174 /* AsyncTests.m */; };
+		73BB93531168ABC9008F3174 /* AsyncTestProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB934F1168ABC9008F3174 /* AsyncTestProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BB93541168ABC9008F3174 /* AsyncTestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93501168ABC9008F3174 /* AsyncTestProxy.m */; };
+		73BB93551168ABC9008F3174 /* GuiTestProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB93511168ABC9008F3174 /* GuiTestProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BB93561168ABC9008F3174 /* GuiTestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93521168ABC9008F3174 /* GuiTestProxy.m */; };
+		73BB93921168ADDB008F3174 /* HooAsyncTestRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93911168ADDB008F3174 /* HooAsyncTestRunnerTests.m */; };
+		73BB93941168ADEA008F3174 /* TestAsyncTestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93931168ADEA008F3174 /* TestAsyncTestProxy.m */; };
+		73BB93961168ADF6008F3174 /* TestHelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93951168ADF6008F3174 /* TestHelpTests.m */; };
+		73BB93981168AE03008F3174 /* TestFSBlockConviences.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93971168AE03008F3174 /* TestFSBlockConviences.m */; };
+		73BB939A1168AE1A008F3174 /* TestNSInvocation_testFutures.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93991168AE1A008F3174 /* TestNSInvocation_testFutures.m */; };
+		73BB939C1168AE25008F3174 /* GuiTestProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB939B1168AE25008F3174 /* GuiTestProxyTests.m */; };
+		73BB939F1168AE43008F3174 /* TestHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB939D1168AE43008F3174 /* TestHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BB93A01168AE43008F3174 /* TestHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB939E1168AE43008F3174 /* TestHelp.m */; };
+		73BB93A31168AE4D008F3174 /* FSBlockConviences.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB93A11168AE4D008F3174 /* FSBlockConviences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BB93A41168AE4D008F3174 /* FSBlockConviences.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93A21168AE4D008F3174 /* FSBlockConviences.m */; };
+		73BB93A71168AE59008F3174 /* NSInvocation_testFutures.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB93A51168AE59008F3174 /* NSInvocation_testFutures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BB93A81168AE59008F3174 /* NSInvocation_testFutures.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93A61168AE59008F3174 /* NSInvocation_testFutures.m */; };
+		73BB93F91168AFF7008F3174 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
+		73BB944A1168B0FB008F3174 /* DelayedPerformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB94481168B0FB008F3174 /* DelayedPerformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BB944B1168B0FB008F3174 /* DelayedPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB94491168B0FB008F3174 /* DelayedPerformer.m */; };
 		73BEA2AF10C6DD8400B72903 /* NSSet_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BEA2AD10C6DD8400B72903 /* NSSet_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73BEA2B010C6DD8400B72903 /* NSSet_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BEA2AE10C6DD8400B72903 /* NSSet_Extras.m */; };
 		73C0F9640F554CC900DEEDFC /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE770E027B3C00EBA987 /* NSCharacterSet_Extensions.m */; };
@@ -212,6 +237,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
 			remoteInfo = SHShared;
+		};
+		73B052A61168F07B0054CE44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73D6ED9410C7C5BC0072DC88;
+			remoteInfo = SHTestUtilities;
 		};
 		73CC088F11368B4F00B53CA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -402,6 +434,8 @@
 		73AE781F0D436E2F00836A85 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
 		73AE78200D436E2F00836A85 /* ExceptionHandling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExceptionHandling.framework; path = /System/Library/Frameworks/ExceptionHandling.framework; sourceTree = "<absolute>"; };
 		73AE78210D436E2F00836A85 /* Message.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Message.framework; path = /System/Library/Frameworks/Message.framework; sourceTree = "<absolute>"; };
+		73B050931168ECE90054CE44 /* GUIFiddler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GUIFiddler.m; path = Src/GUIFiddler.m; sourceTree = "<group>"; };
+		73B051B81168EEF70054CE44 /* GUIFiddler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GUIFiddler; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B137D70DC53EB300DE138C /* SHooleyObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHooleyObjectTests.m; path = Tests/SHooleyObjectTests.m; sourceTree = "<group>"; };
 		73B208700F5EB655004C8012 /* NSArray_ExtensionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSArray_ExtensionsTests.m; path = Tests/NSArray_ExtensionsTests.m; sourceTree = "<group>"; };
 		73B2088C0F5EB80F004C8012 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = /Library/Frameworks/OCMock.framework; sourceTree = "<absolute>"; };
@@ -409,6 +443,28 @@
 		73B6175F0E34903300F90A9E /* SHWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHWindowController.m; path = Src/SHWindowController.m; sourceTree = "<group>"; };
 		73B9707510FE75480086B35E /* NSInvocation_testHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSInvocation_testHelpers.h; path = Src/NSInvocation_testHelpers.h; sourceTree = "<group>"; };
 		73B9707610FE75480086B35E /* NSInvocation_testHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSInvocation_testHelpers.m; path = Src/NSInvocation_testHelpers.m; sourceTree = "<group>"; };
+		73BB912C1168A055008F3174 /* HooAsyncTestRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HooAsyncTestRunner.h; path = Src/HooAsyncTestRunner.h; sourceTree = "<group>"; };
+		73BB912F1168A063008F3174 /* HooAsyncTestRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HooAsyncTestRunner.m; path = Src/HooAsyncTestRunner.m; sourceTree = "<group>"; };
+		73BB93281168AB69008F3174 /* AsyncTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncTests.h; path = Src/AsyncTests.h; sourceTree = "<group>"; };
+		73BB93291168AB69008F3174 /* AsyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncTests.m; path = Src/AsyncTests.m; sourceTree = "<group>"; };
+		73BB934F1168ABC9008F3174 /* AsyncTestProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncTestProxy.h; path = Src/AsyncTestProxy.h; sourceTree = "<group>"; };
+		73BB93501168ABC9008F3174 /* AsyncTestProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncTestProxy.m; path = Src/AsyncTestProxy.m; sourceTree = "<group>"; };
+		73BB93511168ABC9008F3174 /* GuiTestProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuiTestProxy.h; path = Src/GuiTestProxy.h; sourceTree = "<group>"; };
+		73BB93521168ABC9008F3174 /* GuiTestProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuiTestProxy.m; path = Src/GuiTestProxy.m; sourceTree = "<group>"; };
+		73BB93911168ADDB008F3174 /* HooAsyncTestRunnerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HooAsyncTestRunnerTests.m; path = Tests/HooAsyncTestRunnerTests.m; sourceTree = "<group>"; };
+		73BB93931168ADEA008F3174 /* TestAsyncTestProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAsyncTestProxy.m; path = Tests/TestAsyncTestProxy.m; sourceTree = "<group>"; };
+		73BB93951168ADF6008F3174 /* TestHelpTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestHelpTests.m; path = Tests/TestHelpTests.m; sourceTree = "<group>"; };
+		73BB93971168AE03008F3174 /* TestFSBlockConviences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestFSBlockConviences.m; path = Tests/TestFSBlockConviences.m; sourceTree = "<group>"; };
+		73BB93991168AE1A008F3174 /* TestNSInvocation_testFutures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestNSInvocation_testFutures.m; path = Tests/TestNSInvocation_testFutures.m; sourceTree = "<group>"; };
+		73BB939B1168AE25008F3174 /* GuiTestProxyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuiTestProxyTests.m; path = Tests/GuiTestProxyTests.m; sourceTree = "<group>"; };
+		73BB939D1168AE43008F3174 /* TestHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestHelp.h; path = Src/TestHelp.h; sourceTree = "<group>"; };
+		73BB939E1168AE43008F3174 /* TestHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestHelp.m; path = Src/TestHelp.m; sourceTree = "<group>"; };
+		73BB93A11168AE4D008F3174 /* FSBlockConviences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSBlockConviences.h; path = Src/FSBlockConviences.h; sourceTree = "<group>"; };
+		73BB93A21168AE4D008F3174 /* FSBlockConviences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSBlockConviences.m; path = Src/FSBlockConviences.m; sourceTree = "<group>"; };
+		73BB93A51168AE59008F3174 /* NSInvocation_testFutures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSInvocation_testFutures.h; path = Src/NSInvocation_testFutures.h; sourceTree = "<group>"; };
+		73BB93A61168AE59008F3174 /* NSInvocation_testFutures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSInvocation_testFutures.m; path = Src/NSInvocation_testFutures.m; sourceTree = "<group>"; };
+		73BB94481168B0FB008F3174 /* DelayedPerformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedPerformer.h; path = Src/DelayedPerformer.h; sourceTree = "<group>"; };
+		73BB94491168B0FB008F3174 /* DelayedPerformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DelayedPerformer.m; path = Src/DelayedPerformer.m; sourceTree = "<group>"; };
 		73BEA2AD10C6DD8400B72903 /* NSSet_Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSSet_Extras.h; path = Src/NSSet_Extras.h; sourceTree = "<group>"; };
 		73BEA2AE10C6DD8400B72903 /* NSSet_Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSet_Extras.m; path = Src/NSSet_Extras.m; sourceTree = "<group>"; };
 		73BEA2B410C6DDAB00B72903 /* NSSet_ExtrasTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSet_ExtrasTests.m; path = Tests/NSSet_ExtrasTests.m; sourceTree = "<group>"; };
@@ -544,6 +600,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73B051B61168EEF70054CE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B052A81168F0810054CE44 /* SHTestUtilities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		73CC082611368A3700B53CA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -564,6 +628,7 @@
 				73D6EDCE10C7C80B0072DC88 /* SenTestingKit.framework in Frameworks */,
 				7352FB4610D65E7800871424 /* SHShared.framework in Frameworks */,
 				7385A5C310FCDA4A00ED053F /* Carbon.framework in Frameworks */,
+				73BB93F91168AFF7008F3174 /* FScript.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +666,7 @@
 				73FF8EC710A1FC680097E2A2 /* SHSharedUITests.octest */,
 				73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */,
 				73CC082911368A3700B53CA9 /* TestUtilitiesTests.octest */,
+				73B051B81168EEF70054CE44 /* GUIFiddler */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -889,10 +955,43 @@
 			name = target;
 			sourceTree = "<group>";
 		};
+		73BB93591168ABD0008F3174 /* Async Test */ = {
+			isa = PBXGroup;
+			children = (
+				73B050931168ECE90054CE44 /* GUIFiddler.m */,
+				73BB912C1168A055008F3174 /* HooAsyncTestRunner.h */,
+				73BB912F1168A063008F3174 /* HooAsyncTestRunner.m */,
+				73BB93281168AB69008F3174 /* AsyncTests.h */,
+				73BB93291168AB69008F3174 /* AsyncTests.m */,
+				73BB934F1168ABC9008F3174 /* AsyncTestProxy.h */,
+				73BB93501168ABC9008F3174 /* AsyncTestProxy.m */,
+				73BB93511168ABC9008F3174 /* GuiTestProxy.h */,
+				73BB93521168ABC9008F3174 /* GuiTestProxy.m */,
+				73BB93631168ACC3008F3174 /* Async test helpers */,
+			);
+			name = "Async Test";
+			sourceTree = "<group>";
+		};
+		73BB93631168ACC3008F3174 /* Async test helpers */ = {
+			isa = PBXGroup;
+			children = (
+				73BB939D1168AE43008F3174 /* TestHelp.h */,
+				73BB939E1168AE43008F3174 /* TestHelp.m */,
+				73BB93A11168AE4D008F3174 /* FSBlockConviences.h */,
+				73BB93A21168AE4D008F3174 /* FSBlockConviences.m */,
+				73BB93A51168AE59008F3174 /* NSInvocation_testFutures.h */,
+				73BB93A61168AE59008F3174 /* NSInvocation_testFutures.m */,
+				73BB94481168B0FB008F3174 /* DelayedPerformer.h */,
+				73BB94491168B0FB008F3174 /* DelayedPerformer.m */,
+			);
+			name = "Async test helpers";
+			sourceTree = "<group>";
+		};
 		73CC088511368AF000B53CA9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				73D6EECE10C7CC1B0072DC88 /* TestingUtils.h */,
+				73BB93591168ABD0008F3174 /* Async Test */,
 				73CB02D110DBC93000AE25C8 /* SwappedInIvar.h */,
 				73CB02D010DBC93000AE25C8 /* SwappedInIvar.m */,
 				73D6EDBE10C7C7060072DC88 /* OCMockRecorder_Extras.h */,
@@ -913,7 +1012,13 @@
 		73CC088611368AF600B53CA9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				73BB93911168ADDB008F3174 /* HooAsyncTestRunnerTests.m */,
 				73A2957110FF3C78001A17F6 /* NSInvocation_testHelpersTests.m */,
+				73BB93931168ADEA008F3174 /* TestAsyncTestProxy.m */,
+				73BB93951168ADF6008F3174 /* TestHelpTests.m */,
+				73BB93971168AE03008F3174 /* TestFSBlockConviences.m */,
+				73BB93991168AE1A008F3174 /* TestNSInvocation_testFutures.m */,
+				73BB939B1168AE25008F3174 /* GuiTestProxyTests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -1146,6 +1251,14 @@
 				73D1077811621510001C6946 /* ApplescriptUtils.h in Headers */,
 				73D1077A11621511001C6946 /* ApplescriptGUI.h in Headers */,
 				73D1077C11621513001C6946 /* TestingUtils.h in Headers */,
+				73BB912D1168A055008F3174 /* HooAsyncTestRunner.h in Headers */,
+				73BB932A1168AB69008F3174 /* AsyncTests.h in Headers */,
+				73BB93531168ABC9008F3174 /* AsyncTestProxy.h in Headers */,
+				73BB93551168ABC9008F3174 /* GuiTestProxy.h in Headers */,
+				73BB939F1168AE43008F3174 /* TestHelp.h in Headers */,
+				73BB93A31168AE4D008F3174 /* FSBlockConviences.h in Headers */,
+				73BB93A71168AE59008F3174 /* NSInvocation_testFutures.h in Headers */,
+				73BB944A1168B0FB008F3174 /* DelayedPerformer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1234,6 +1347,23 @@
 			productName = SHShared_iphone;
 			productReference = 73AC016B0F4039D100FA9887 /* libSHShared_iphone.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		73B051B71168EEF70054CE44 /* GUIFiddler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B051BD1168EF160054CE44 /* Build configuration list for PBXNativeTarget "GUIFiddler" */;
+			buildPhases = (
+				73B051B51168EEF70054CE44 /* Sources */,
+				73B051B61168EEF70054CE44 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73B052A71168F07B0054CE44 /* PBXTargetDependency */,
+			);
+			name = GUIFiddler;
+			productName = GUIFiddler;
+			productReference = 73B051B81168EEF70054CE44 /* GUIFiddler */;
+			productType = "com.apple.product-type.tool";
 		};
 		73CC082811368A3700B53CA9 /* TestUtilitiesTests */ = {
 			isa = PBXNativeTarget;
@@ -1336,6 +1466,7 @@
 				73D6ED9410C7C5BC0072DC88 /* SHTestUtilities */,
 				73CC082811368A3700B53CA9 /* TestUtilitiesTests */,
 				73CC08FF11368C0D00B53CA9 /* Run All Tests */,
+				73B051B71168EEF70054CE44 /* GUIFiddler */,
 			);
 		};
 /* End PBXProject section */
@@ -1539,11 +1670,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73B051B51168EEF70054CE44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B052A21168F0610054CE44 /* GUIFiddler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		73CC082511368A3700B53CA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				73CC088711368B1B00B53CA9 /* NSInvocation_testHelpersTests.m in Sources */,
+				73BB93921168ADDB008F3174 /* HooAsyncTestRunnerTests.m in Sources */,
+				73BB93941168ADEA008F3174 /* TestAsyncTestProxy.m in Sources */,
+				73BB93961168ADF6008F3174 /* TestHelpTests.m in Sources */,
+				73BB93981168AE03008F3174 /* TestFSBlockConviences.m in Sources */,
+				73BB939A1168AE1A008F3174 /* TestNSInvocation_testFutures.m in Sources */,
+				73BB939C1168AE25008F3174 /* GuiTestProxyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1558,6 +1703,14 @@
 				73D1077911621510001C6946 /* ApplescriptUtils.m in Sources */,
 				73D1077B11621512001C6946 /* ApplescriptGUI.m in Sources */,
 				73D1077D11621514001C6946 /* SetUpAndTearDownTests.m in Sources */,
+				73BB91301168A063008F3174 /* HooAsyncTestRunner.m in Sources */,
+				73BB932B1168AB69008F3174 /* AsyncTests.m in Sources */,
+				73BB93541168ABC9008F3174 /* AsyncTestProxy.m in Sources */,
+				73BB93561168ABC9008F3174 /* GuiTestProxy.m in Sources */,
+				73BB93A01168AE43008F3174 /* TestHelp.m in Sources */,
+				73BB93A41168AE4D008F3174 /* FSBlockConviences.m in Sources */,
+				73BB93A81168AE59008F3174 /* NSInvocation_testFutures.m in Sources */,
+				73BB944B1168B0FB008F3174 /* DelayedPerformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1598,6 +1751,11 @@
 			isa = PBXTargetDependency;
 			target = 738C7C760C5CDC170096EF9D /* SHShared */;
 			targetProxy = 7352FB4410D65E7500871424 /* PBXContainerItemProxy */;
+		};
+		73B052A71168F07B0054CE44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73D6ED9410C7C5BC0072DC88 /* SHTestUtilities */;
+			targetProxy = 73B052A61168F07B0054CE44 /* PBXContainerItemProxy */;
 		};
 		73CC089011368B4F00B53CA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1869,6 +2027,30 @@
 			};
 			name = Release;
 		};
+		73B051BA1168EEF80054CE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBB510BFDA7F00BF3A27 /* Target-Executable.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = GUIFiddler;
+			};
+			name = Debug;
+		};
+		73B051BB1168EEF80054CE44 /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBB510BFDA7F00BF3A27 /* Target-Executable.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = GUIFiddler;
+			};
+			name = Coverage;
+		};
+		73B051BC1168EEF80054CE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7311CBB510BFDA7F00BF3A27 /* Target-Executable.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = GUIFiddler;
+			};
+			name = Release;
+		};
 		73CC082E11368A3B00B53CA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7311CBB010BFDA7F00BF3A27 /* Target-TestBundle.xcconfig */;
@@ -2094,6 +2276,16 @@
 				73AC016C0F4039D200FA9887 /* Debug */,
 				73AC016D0F4039D200FA9887 /* Coverage */,
 				73AC016E0F4039D200FA9887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73B051BD1168EF160054CE44 /* Build configuration list for PBXNativeTarget "GUIFiddler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B051BA1168EEF80054CE44 /* Debug */,
+				73B051BB1168EEF80054CE44 /* Coverage */,
+				73B051BC1168EEF80054CE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

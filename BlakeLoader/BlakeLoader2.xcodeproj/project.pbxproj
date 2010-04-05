@@ -221,7 +221,7 @@
 		73BAF5900E081DD900455F07 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AFF7410D96A9DD0089F0BC /* FScript.framework */; };
 		73BAF5F10E081EF900455F07 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AFF7410D96A9DD0089F0BC /* FScript.framework */; };
 		73BAF5FE0E081F6100455F07 /* FScript.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 73AFF7410D96A9DD0089F0BC /* FScript.framework */; };
-		73BB359F10F52D6B000A7F01 /* HmmTests.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 73BB359E10F52D6B000A7F01 /* HmmTests.applescript */; };
+		73BB96811168B910008F3174 /* Blake.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 73BB96801168B910008F3174 /* Blake.sdef */; };
 		73BE942E0E87AB8C004A0FF0 /* SKTBezierToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BE942D0E87AB8C004A0FF0 /* SKTBezierToolTests.m */; };
 		73BE989B0E87E201004A0FF0 /* SKTDecorator_Bezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BE98990E87E201004A0FF0 /* SKTDecorator_Bezier.h */; };
 		73BE989C0E87E201004A0FF0 /* SKTDecorator_Bezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BE989A0E87E201004A0FF0 /* SKTDecorator_Bezier.m */; };
@@ -688,6 +688,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 73A8BDC90E8CE1410037E99F;
 			remoteInfo = SketchGraph;
+		};
+		73B051BF1168EF160054CE44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734B046509177C13003B2B17 /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73B051B81168EEF70054CE44;
+			remoteInfo = GUIFiddler;
 		};
 		73B529B90E07D96700DA884B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1317,7 +1324,7 @@
 		73BAF4D00E0815EB00455F07 /* SketchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SketchExtension.h; path = Sketch/SketchExtension.h; sourceTree = "<group>"; };
 		73BAF4D10E0815EB00455F07 /* SketchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SketchExtension.m; path = Sketch/SketchExtension.m; sourceTree = "<group>"; };
 		73BAF6B20E08261C00455F07 /* SketchExtensionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SketchExtensionTests.m; path = Sketch/Tests/SketchExtensionTests.m; sourceTree = "<group>"; };
-		73BB359E10F52D6B000A7F01 /* HmmTests.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = HmmTests.applescript; path = ../HmmTests.applescript; sourceTree = SOURCE_ROOT; };
+		73BB96801168B910008F3174 /* Blake.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; name = Blake.sdef; path = Blake/Blake.sdef; sourceTree = "<group>"; };
 		73BBC4F90DE46BFA00321618 /* StubGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StubGraphic.h; path = Sketch/Tests/StubGraphic.h; sourceTree = "<group>"; };
 		73BBC4FA0DE46BFA00321618 /* StubGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StubGraphic.m; path = Sketch/Tests/StubGraphic.m; sourceTree = "<group>"; };
 		73BE6FBD09868161005D9DE4 /* startup.fscript */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = startup.fscript; path = ../scripts/startup.fscript; sourceTree = SOURCE_ROOT; };
@@ -1665,6 +1672,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				73BB96801168B910008F3174 /* Blake.sdef */,
 				739141DA090E45C7001ADDD4 /* kemistry.icns */,
 			);
 			name = Resources;
@@ -1751,7 +1759,6 @@
 				733D13FD10C9642200398A50 /* SHApplication.h */,
 				733D13FE10C9642200398A50 /* SHApplication.m */,
 				733D140110C9647300398A50 /* BlakeMainMenu.xib */,
-				73BB359E10F52D6B000A7F01 /* HmmTests.applescript */,
 			);
 			name = "Blake App";
 			sourceTree = "<group>";
@@ -2073,6 +2080,7 @@
 				73FF8ED810A1FC880097E2A2 /* SHSharedUITests.octest */,
 				7378124710C916EB003DC1AF /* SHTestUtilities.framework */,
 				73C20912113EBD88006EF7C4 /* TestUtilitiesTests.octest */,
+				73B051C01168EF160054CE44 /* GUIFiddler */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3278,6 +3286,13 @@
 			remoteRef = 73A8BE830E8CE5720037E99F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		73B051C01168EF160054CE44 /* GUIFiddler */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = GUIFiddler;
+			remoteRef = 73B051BF1168EF160054CE44 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		73C20912113EBD88006EF7C4 /* TestUtilitiesTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
@@ -3494,6 +3509,7 @@
 			files = (
 				739141DB090E45C7001ADDD4 /* kemistry.icns in Resources */,
 				733D140310C9647300398A50 /* BlakeMainMenu.xib in Resources */,
+				73BB96811168B910008F3174 /* Blake.sdef in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3772,7 +3788,6 @@
 			files = (
 				737303260E029D7C00EBA987 /* main.m in Sources */,
 				733D13FF10C9642200398A50 /* SHApplication.m in Sources */,
-				73BB359F10F52D6B000A7F01 /* HmmTests.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

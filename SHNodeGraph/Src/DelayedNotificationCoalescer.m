@@ -10,6 +10,7 @@
 #import "NodeProxy.h"
 #import "AllChildrenFilter.h"
 #import "DelayedNotifier.h"
+#import <objc/message.h>
 
 @implementation DelayedNotificationCoalescer
 

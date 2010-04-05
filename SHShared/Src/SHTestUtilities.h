@@ -13,6 +13,14 @@
 #import <SHTestUtilities/ApplescriptGUI.h>
 #import <SHTestUtilities/NSInvocation_testHelpers.h>
 #import <SHTestUtilities/ApplescriptUtils.h>
+#import <SHTestUtilities/HooAsyncTestRunner.h>
+#import <SHTestUtilities/AsyncTests.h>
+#import <SHTestUtilities/AsyncTestProxy.h>
+#import <SHTestUtilities/GUITestProxy.h>
+#import <SHTestUtilities/TestHelp.h>
+#import <SHTestUtilities/FSBlockConviences.h>
+#import <SHTestUtilities/NSInvocation_testFutures.h>
+#import <SHTestUtilities/DelayedPerformer.h>
 
 #ifndef _BLOCK
 	#define _BLOCK(x) [x asBlock]

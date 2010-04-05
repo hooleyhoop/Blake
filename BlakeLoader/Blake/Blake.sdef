@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary xmlns:xi="http://www.w3.org/2003/XInclude">
+<xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/>
+
+<!-- add your own suite definitions here -->
+<suite name="Blake" code="shBk" description="What?">
+
+	<!-- application is defined in the standard suite which we have imported -->
+	<!-- If you would like to include textsuite stuff you still have to copy and paste -->
+	<class name="application" code="capp" description="Our simple application class." inherits="application">
+	<!-- the following names the Objective-C class where Cocoa will look for the property accessor methods for the properties we define for this AppleScript class. -->
+		<cocoa class="NSApplication"/>
+             
+		<command name="close" code="coreclos" description="Close a document.">
+			<cocoa class="NSCloseCommand"/>
+			<direct-parameter type="specifier" description="the document(s) or window(s) to close."/>
+		</command>
+				<class name="document" inherits="ASKDocumentSuite.NSDocument" code="docu">
+				<cocoa class="TADocument"/>
+				<responds-to name="test command">
+					<cocoa key="handleTestCommandScriptCommand:"/>
+				</responds-to>
+			</class>
+		
+			<command name="test command" code="TEstCMnd" description="">
+				<direct-parameter type="document"/>
+				<result type="string" description=""/>
+			</command> 
+		
+   			<!-- the 'special version' property.
+				The term 'version' already has a four letter code defined for
+				it in the AppleScript Terminology and Apple Event Codes listings.
+				See: http://developer.apple.com/releasenotes/AppleScript/ASTerminology_AppleEventCodes/TermsAndCodes.html
+				Because 'version' already has a code, we use that code here.
+				Also, notice we have defined 'version' as a read-only property.
+			-->
+
+		   <class>
+	
+
+	
+
+	</suite>
+</dictionary>

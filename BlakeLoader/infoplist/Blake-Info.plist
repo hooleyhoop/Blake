@@ -51,5 +51,9 @@
 	<string>SHApplication</string>
 	<key>QuartzGLEnable</key>
 	<string>true</string>
+    <key>NSAppleScriptEnabled</key>
+    <string>YES</string>
+   <key>OSAScriptingDefinition</key>
+    <string>${PRODUCT_NAME}.sdef</string>
 </dict>
 </plist>

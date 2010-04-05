@@ -13,7 +13,7 @@
 #import "AllChildProxy.h"
 #import "SHCustomMutableArray.h"
 #import "DelayedNotificationCoalescer.h"
-//#import "AllChildrenProxyFactory.h"
+#import <objc/message.h>
 
 @implementation AllChildrenFilter
 
