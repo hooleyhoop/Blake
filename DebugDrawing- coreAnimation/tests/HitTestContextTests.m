@@ -119,19 +119,19 @@
 	UInt8 green = pixelColours[1];
 	UInt8 blue = pixelColours[2];
 	UInt8 alpha = pixelColours[3];
-	
+
 	// -- draw something
 	CGColorRef redCol = CGColorCreateGenericRGB( 1.0f, 0.0f, 0.0f, 1.0f );
 	CGContextSetFillColorWithColor( [_hitTest offScreenCntx], redCol );
 	CGContextFillRect( [_hitTest offScreenCntx], CGRectMake( -1, -1, 2, 2 ) );
-	
+
 	[_hitTest getColourAtPixelAndClean:pixelColours];
-	
+
 	 red = pixelColours[0];
 	 green = pixelColours[1];
 	 blue = pixelColours[2];
 	 alpha = pixelColours[3];
-	
+
 	STAssertTrue( red==255, @"doh %i",  red );
 	STAssertTrue( green==0, @"doh %i", green );
 	STAssertTrue( blue==0, @"doh %i", blue );
