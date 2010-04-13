@@ -4,8 +4,10 @@
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
+
 	#import <SHShared/SHShared.h>
 	#import <SHSharedUI/SHSharedUI.h>
+
 	#import <ProtoNodeGraph/ProtoNodeGraph.h>
 	#import <SHNodeGraph/SHNodeGraph.h>
 	#import <BlakeMain/BlakeMain.h>
