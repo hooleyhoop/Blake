@@ -238,18 +238,15 @@ static BOOL _locked;
 	id tearDownUpSuite = [FF target:mySuiteOfTests selector:@selector(tearDown) args:nil];
 	[self pushAction:tearDownUpSuite];
 
-	
-	
-	
 	/* Launch the background App */
 	NSBundle *mainBundle = [NSBundle bundleForClass:[self class]];
 	NSString *guiFiddler = [mainBundle pathForResource:@"GUIFiddler" ofType:nil];
 	NSCAssert(guiFiddler, @"cant find guiFiddler");
-	
-	???
-	pid_t child_pid = vfork();
-	execve(const char *path, char *const argv[], char *const envp[]);
-	
+
+//	???
+//	pid_t child_pid = vfork();
+//	execve(const char *path, char *const argv[], char *const envp[]);
+
 	/* is GUIFiddler already running? */
 	BOOL alreadyRunning = NO;
 
@@ -264,12 +261,12 @@ static BOOL _locked;
 	}
 	_timer = [[NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(timerFire:) userInfo:nil repeats:YES] retain];
 }
-
+ 
 - (OSStatus)quitApplicationWithPSN:(ProcessSerialNumber)processPSN {
-	
+
     OSStatus err;
     AppleEvent event, reply;
-	
+
 //    err = AEBuildAppleEvent(kCoreEventClass, kAEQuitApplication,
 //                            typeApplicationBundleID, 
 //                            bundleIDString, strlen(bundleIDString),
