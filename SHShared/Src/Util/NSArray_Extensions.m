@@ -72,8 +72,8 @@
 }
 
 // This works!
-NSPredicate *elePred1 = [NSPredicate predicateWithFormat:@"self isKindOfClass: %@", ec];
-NSArray *elephants2 = [array filteredArrayUsingPredicate:elePred1];
+//NSPredicate *elePred1 = [NSPredicate predicateWithFormat:@"self isKindOfClass: %@", ec];
+//NSArray *elephants2 = [array filteredArrayUsingPredicate:elePred1];
 
 // aSelector must return an NSNumber
 - (NSMutableArray *)itemsThatResultOfSelectorIsTrue:(SEL)aSelector withObject:(id)value {

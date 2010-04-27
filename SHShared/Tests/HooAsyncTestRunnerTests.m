@@ -9,7 +9,7 @@
 
 @interface HooAsyncTestRunner : SenTestCase {
 	
-	RunTests *_testRunner;
+	HooAsyncTestRunner *_testRunner;
 }
 
 @end
@@ -17,7 +17,7 @@
 @implementation HooAsyncTestRunner
 
 - (void)setUp {
-	_testRunner = [[RunTests alloc] init];
+	_testRunner = [[HooAsyncTestRunner alloc] init];
 }
 
 - (void)tearDown {

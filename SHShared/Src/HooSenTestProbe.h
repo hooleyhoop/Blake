@@ -5,8 +5,7 @@
 //  Created by steve hooley on 07/01/2010.
 //  Copyright 2010 BestBefore Ltd. All rights reserved.
 //
-#import <SenTestingKit/SenTestSuite.h>
-#import <SenTestingKit/SenTestSuiteRun.h>
+#import <SenTestingKit/SenTestingKit.h>
 
 @interface HooSenTestProbe : NSObject {
 

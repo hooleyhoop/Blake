@@ -12,19 +12,28 @@
 
 @class SenTestCaseSuite;
 
-@interface SenTestCase (HooSenTestCase)
-
-- (void)logException:(NSException *)anException;
-
-@end
+//@interface SenTestCase (HooSenTestCase)
+//
+//- (void)logException:(NSException *)anException;
+//
+//@end
 
 @interface SenTestCase (HooSenTestCase2)
 
 - (void)setRun:(id)value;
+- (void)performTest_begin:(SenTestRun *)testCaseRun;
 
 @end
 
 @implementation SenTestCase (HooSenTestCase2)
+
++ (void)initialize {
+	
+	static BOOL isInitialized = NO;
+    if( !isInitialized ) {
+        isInitialized = YES;	
+	}
+}
 
 - (void)setRun:(id)value {
 

@@ -99,6 +99,7 @@
 		73C0F9640F554CC900DEEDFC /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE770E027B3C00EBA987 /* NSCharacterSet_Extensions.m */; };
 		73C0F9700F554D0500DEEDFC /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE770E027B3C00EBA987 /* NSCharacterSet_Extensions.m */; };
 		73C0F9710F554D0500DEEDFC /* NSCharacterSet_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7373FE760E027B3C00EBA987 /* NSCharacterSet_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C8293511873DFA00451EF9 /* GUIFiddler in Resources */ = {isa = PBXBuildFile; fileRef = 73B051B81168EEF70054CE44 /* GUIFiddler */; };
 		73C8363A10A99BD10086F928 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73C8364110A99C160086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		73C836C810A99DEE0086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
@@ -1499,6 +1500,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C8293511873DFA00451EF9 /* GUIFiddler in Resources */,
 				73E0CC4A11203A2600261F28 /* doMenuItem.scpt in Resources */,
 				73E0CC30112039E600261F28 /* TableView.scpt in Resources */,
 				73E0CC31112039E600261F28 /* SendFinderMessage.scpt in Resources */,

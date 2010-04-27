@@ -18,7 +18,7 @@
 @implementation GuiTestProxyTests
 
 // move to subclass? when working
-//[RunTests lock];
+//[HooAsyncTestRunner lock];
 //[_testHelper aSync:[GUITestProxy unlockTestRunner]];
 
 // Better form of expectation?

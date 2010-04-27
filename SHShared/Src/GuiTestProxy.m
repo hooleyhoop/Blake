@@ -51,7 +51,7 @@
 	GUITestProxy *aRemoteTestProxy = [[[GUITestProxy alloc] init] autorelease];
 	aRemoteTestProxy->_debugName = @"lockTestRunner";
 
-	NSString *exprString = @"[RunTests lock]";
+	NSString *exprString = @"[HooAsyncTestRunner lock]";
 	FSBlock *exprBlock = _BLOCK(exprString);
 	aRemoteTestProxy.boolExpressionBlock = exprBlock;
 
@@ -64,7 +64,7 @@
 	GUITestProxy *aRemoteTestProxy = [[[GUITestProxy alloc] init] autorelease];
 	aRemoteTestProxy->_debugName = @"unlockTestRunner";
 
-	NSString *exprString = @"[RunTests unlock]";
+	NSString *exprString = @"[HooAsyncTestRunner unlock]";
 	FSBlock *exprBlock = _BLOCK(exprString);
 	aRemoteTestProxy.boolExpressionBlock = exprBlock;
 

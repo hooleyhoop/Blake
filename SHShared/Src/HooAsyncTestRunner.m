@@ -34,6 +34,15 @@ NSArray *_args;
 
 + (id)target:(id)target selector:(SEL)selector args:(NSArray *)vals {
 
+	NSString *selAsString = NSStringFromSelector(selector);
+
+	NSParameterAssert(target);
+	NSParameterAssert(selAsString);
+	if( [target isKindOfClass:NSClassFromString(@"AunitTest")]==YES )
+		NSLog(@"Fuck!");
+	if( [target isKindOfClass:[NSString class]]==NO )
+		NSAssert2( [target respondsToSelector:selector], @"Fuck!, %@ - %@", target, selAsString );
+	
 	FF *stub = [[[FF alloc] init] autorelease];
 	[stub setTarget:target];
 	[stub setSelector:selector];
@@ -64,7 +73,7 @@ NSArray *_args;
 
 #pragma mark -
 @interface HooAsyncTestRunner ()
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification;
+- (void)runTestsInBundle:(NSBundle *)bundle;
 @end
 	
 #pragma mark -
@@ -74,10 +83,11 @@ NSArray *_args;
 @synthesize var2=_var2;
 
 + (void)runTestsInBundle:(NSBundle *)aBundle {
-	
+
+	NSParameterAssert(aBundle);
 //	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidFinishLaunching:) name:NSApplicationDidFinishLaunchingNotification object:nil];
 
-	[[HooAsyncTestRunner shared] applicationDidFinishLaunching:nil];
+	[[HooAsyncTestRunner shared] runTestsInBundle:aBundle];
 	
 }
 
@@ -142,8 +152,10 @@ static BOOL _locked;
 	return([val stringByAppendingFormat:@"chicken"]);
 }
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+- (void)runTestsInBundle:(NSBundle *)bundle {
 
+	NSParameterAssert(bundle);
+	
 	[NSClassFromString(@"SenTestObserver") performSelector:@selector(setCurrentObserver:) withObject:NSClassFromString(@"SenTestLog")];
 	
 	/* Test cases */	
@@ -158,7 +170,16 @@ static BOOL _locked;
 	/* End test cases */
 
 	// Just this one test suite for now
-	SenTestSuite *mySuiteOfTests = [SenTestSuite testSuiteForBundlePath:[[NSBundle bundleForClass:[self class]] bundlePath]];
+	[bundle load];
+	SenTestSuite *mySuiteOfTests = [SenTestSuite testSuiteForBundlePath:[bundle bundlePath]];
+	NSArray *testsInSuite = [mySuiteOfTests valueForKey:@"tests"];
+	NSAssert([testsInSuite count]==1, @"No Tests found");
+	
+//	if([mySuiteOfTests count]>1){
+//		mySuiteOfTests = [mySuiteOfTests objectAtIndex:0];
+//		mySuiteOfTests testSuiteWithName
+//	}
+	
 	testSuiteRun = [[SenTestSuiteRun testRunWithTest:mySuiteOfTests] retain];
 
 	// mySuiteOfTests setUp
@@ -170,7 +191,7 @@ static BOOL _locked;
 	[self pushAction:startSuiteRun];
 	
 	NSArray *allTests = [mySuiteOfTests performSelector:@selector(tests)];
-	for( id eachTestCaseSuite in allTests ) 
+	for( SenTestSuite *eachTestCaseSuite in allTests ) 
 	{
 		id testRunWithTest = [FF target:NSClassFromString(@"SenTestSuiteRun") selector:@selector(testRunWithTest:) args:[NSArray arrayWithObject:eachTestCaseSuite]];
 		[self pushAction:testRunWithTest];
@@ -191,6 +212,7 @@ static BOOL _locked;
 		for( SenTestCase *eachTestCase in tests2 ) 
 		{
 			// SenTestCaseRun *testCaseRun = [SenTestCaseRun testRunWithTest:eachTestCase];
+			
 			id testCaseRun = [FF target:NSClassFromString(@"SenTestCaseRun") selector:@selector(testRunWithTest:) args:[NSArray arrayWithObjects:eachTestCase, nil]];
 			[self pushAction:testCaseRun];
 
@@ -239,7 +261,7 @@ static BOOL _locked;
 	[self pushAction:tearDownUpSuite];
 
 	/* Launch the background App */
-	NSBundle *mainBundle = [NSBundle bundleForClass:[self class]];
+	NSBundle *mainBundle = [NSBundle bundleForClass:NSClassFromString(@"ApplescriptUtils")];
 	NSString *guiFiddler = [mainBundle pathForResource:@"GUIFiddler" ofType:nil];
 	NSCAssert(guiFiddler, @"cant find guiFiddler");
 
@@ -337,6 +359,8 @@ static BOOL _locked;
 			}
 
 			methodSig = [storedTarget methodSignatureForSelector:nextActionPrototype.selector];
+			NSAssert1( methodSig, @"How can this happen? %@", NSStringFromSelector(nextActionPrototype.selector));
+			
 			NSInvocation *customInv = [NSInvocation invocationWithMethodSignature:methodSig];
 			[customInv setTarget:storedTarget];
 			[customInv setSelector:nextActionPrototype.selector];

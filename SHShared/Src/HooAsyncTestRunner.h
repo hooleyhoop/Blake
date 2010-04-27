@@ -1,5 +1,5 @@
 //
-//  RunTests.h
+//  HooAsyncTestRunner.h
 //  InAppTests
 //
 //  Created by Steven Hooley on 06/01/2010.
