@@ -114,6 +114,24 @@ static int						_parentPID;
 																	   object:@"doMenuItem_callback" 
 																	 userInfo:resultDictionary
 														   deliverImmediately:NO];
+		
+	}
+	else if( [[eh object] isEqualToString:@"dropDownMenuButtonText"] ) { 
+
+		NSDictionary *dict = [eh userInfo];
+		NSString *processName = [dict objectForKey:@"ProcessName"];
+
+		//-- call applescript
+		id result = objc_msgSend( [ApplescriptGUI class], @selector(getTextOfDropDownMenuItemOfApp:), processName );
+		
+		// -- construct result dictionary
+		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+												 result, @"resultValue",
+												 nil];
+		[[NSDistributedNotificationCenter defaultCenter] postNotificationName:@"hooley_distrbuted_notification_callback" 
+																	   object:@"dropDownMenuButtonText_callback" 
+																	 userInfo:resultDictionary
+														   deliverImmediately:NO];		
 	}else {
 		[NSException raise:@"sheeet" format:@"d"];
 	}

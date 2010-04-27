@@ -12,8 +12,8 @@
 #pragma mark -
 @interface GUITestProxy : AsyncTestProxy {
 	
-//	NSString	*_resultMessage;
-//	BOOL		_failCondition;
+	//	NSString	*_resultMessage;
+	//	BOOL		_failCondition;
 }
 
 // @property (retain, readwrite) NSObject *blockResult;
@@ -22,10 +22,13 @@
 
 + (GUITestProxy *)wait;
 + (GUITestProxy *)doTo:(id)object selector:(SEL)method;
+
 + (GUITestProxy *)openMainMenuItem:(NSString *)menuName;
 + (GUITestProxy *)statusOfMenuItem:(NSString *)val1 ofMenu:(NSString *)val2;
 + (GUITestProxy *)doMenu:(NSString *)val1 item:(NSString *)val2;
 + (GUITestProxy *)documentCountIs:(NSUInteger)intValue;
+
++ (GUITestProxy *)dropDownMenuButtonText;
 
 //- (void)setFailMSg:(NSString *)msg;
 //- (void)setFailCondition:(BOOL)value;

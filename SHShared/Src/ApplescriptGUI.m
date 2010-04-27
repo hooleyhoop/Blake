@@ -11,6 +11,45 @@
 
 @implementation ApplescriptGUI
 
++ (NSString *)getTextOfDropDownMenuItemOfApp:(NSString *)appName {
+
+	NSParameterAssert(appName);
+	
+	NSString *result = nil;
+	NSAppleScript *appleScript = [ApplescriptUtils applescript:@"popupButtonActions"];
+	NSAssert(appleScript, @"could not find script");
+	NSDictionary *errors = [NSDictionary dictionary];
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, nil];
+	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:@"getMenuButtonText" arguments:parameters];
+	
+	// call the event in AppleScript
+	NSAppleEventDescriptor *resultEvent = [appleScript executeAppleEvent:event error:&errors];
+	if(!resultEvent)
+	{
+		// report any errors from 'errors'
+		[NSException raise:@"statusOfMenuItem: Fucked up applescript" format:@""];
+	}
+	// successful execution
+	if (kAENullEvent != [resultEvent descriptorType])
+	{
+		// script returned an AppleScript result
+		if (cAEList == [resultEvent descriptorType])
+		{
+			// result is a list of other descriptors
+			NSLog(@"who?");
+		}
+		else
+		{
+			// coerce the result to the appropriate ObjC type
+			NSLog(@"doobie doo? %@", resultEvent);
+			result = [resultEvent stringValue];
+			NSLog(@"Applescript result is doobie doo? %@", result);
+		}
+	}
+	
+	return result;
+}
+
 #pragma mark -
 + (void)openMainMenuItem:(NSString *)menuName ofApp:(NSString *)appName {
 

@@ -9,6 +9,7 @@
 @interface ApplescriptGUI : NSObject {
 
 }
++ (NSString *)getTextOfDropDownMenuItemOfApp:(NSString *)appName;
 
 + (void)openMainMenuItem:(NSString *)menuName ofApp:(NSString *)appName;
 + (void)doMainMenuItem:(NSString *)itemName ofMenu:(NSString *)menuName ofApp:(NSString *)appName;

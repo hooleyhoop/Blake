@@ -30,7 +30,7 @@ NSArray *_args;
 #pragma mark -
 @implementation FF
 
-@synthesize target=_target, selector=_selector, args=_args;
+//@synthesize target=_target, selector=_selector, args=_args;
 
 + (id)target:(id)target selector:(SEL)selector args:(NSArray *)vals {
 
@@ -60,15 +60,21 @@ NSArray *_args;
 - (void)setTarget:(id)value {
 	_target = [value retain];
 }
-
+- (id)target {
+	return _target;
+}
 - (void)setSelector:(SEL)value {
 	_selector = value;
 }
-
+- (SEL)selector {
+	return _selector;
+}
 - (void)setArgs:(NSArray *)value {
 	_args = [value retain];
 }
-
+- (NSArray *)args {
+	return _args;
+}
 @end
 
 #pragma mark -

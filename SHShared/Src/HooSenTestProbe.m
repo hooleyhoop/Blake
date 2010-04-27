@@ -12,11 +12,11 @@
 
 @class SenTestCaseSuite;
 
-//@interface SenTestCase (HooSenTestCase)
-//
-//- (void)logException:(NSException *)anException;
-//
-//@end
+@interface SenTestCase (HooSenTestCase)
+
+- (void)logException:(NSException *)anException;
+
+@end
 
 @interface SenTestCase (HooSenTestCase2)
 

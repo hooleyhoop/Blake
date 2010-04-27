@@ -336,17 +336,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 292863819;
-			PBXWorkspaceStateSaveDate = 292863819;
+			PBXPerProjectTemplateStateSaveDate = 294085936;
+			PBXWorkspaceStateSaveDate = 294085936;
 		};
 		perUserProjectItems = {
 			735967C51174BFB30045323A /* PBXTextBookmark */ = 735967C51174BFB30045323A /* PBXTextBookmark */;
 			735967C61174BFB30045323A /* PBXTextBookmark */ = 735967C61174BFB30045323A /* PBXTextBookmark */;
 			735967C71174BFB30045323A /* PBXTextBookmark */ = 735967C71174BFB30045323A /* PBXTextBookmark */;
-			735967C81174BFB30045323A /* PBXBookmark */ = 735967C81174BFB30045323A /* PBXBookmark */;
-			735967C91174BFB30045323A /* PBXTextBookmark */ = 735967C91174BFB30045323A /* PBXTextBookmark */;
-			735967CA1174BFB30045323A /* PBXTextBookmark */ = 735967CA1174BFB30045323A /* PBXTextBookmark */;
-			735967CB1174BFB30045323A /* PBXTextBookmark */ = 735967CB1174BFB30045323A /* PBXTextBookmark */;
 			735967CC1174BFB30045323A /* PBXTextBookmark */ = 735967CC1174BFB30045323A /* PBXTextBookmark */;
 			73856D361110485700A3EEB8 /* PBXTextBookmark */ = 73856D361110485700A3EEB8 /* PBXTextBookmark */;
 			7389E24E1111F397004D4B5D /* PBXTextBookmark */ = 7389E24E1111F397004D4B5D /* PBXTextBookmark */;
@@ -363,6 +359,7 @@
 			73BB91531168A20F008F3174 /* PBXTextBookmark */ = 73BB91531168A20F008F3174 /* PBXTextBookmark */;
 			73BB95501168B2DE008F3174 /* PBXTextBookmark */ = 73BB95501168B2DE008F3174 /* PBXTextBookmark */;
 			73BB95681168B332008F3174 /* PBXTextBookmark */ = 73BB95681168B332008F3174 /* PBXTextBookmark */;
+			73DC4F851187654A00912E5B /* PBXTextBookmark */ = 73DC4F851187654A00912E5B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 739141BF090E4514001ADDD4 /* Source Control */;
 		userBuildSettings = {
@@ -404,6 +401,7 @@
 		ignoreCount = 0;
 		lineNumber = 14;
 		modificationTime = 292089406.033302;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7306A6F30D7750CB00BDFA6B /* DocWriteTestf.fscript */ = {
@@ -427,6 +425,7 @@
 		ignoreCount = 0;
 		lineNumber = 178;
 		modificationTime = 292089628.85287;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	730716520E017E1C002D3F81 /* BlakeMain */ = {
@@ -477,6 +476,7 @@
 		ignoreCount = 0;
 		lineNumber = 21;
 		modificationTime = 292089628.885753;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7320470310CFF15700242B59 /* BlakeAboutBoxControllerTests.m */ = {
@@ -623,6 +623,7 @@
 		ignoreCount = 0;
 		location = CoreFoundation;
 		modificationTime = 292089628.860463;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 		symbolName = "[NSCFArray objectsAtIndexes:]";
 	};
@@ -638,6 +639,7 @@
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
 		modificationTime = 292089423.4684969;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 		symbolName = objc_exception_throw;
 	};
@@ -655,6 +657,7 @@
 		ignoreCount = 0;
 		lineNumber = 74;
 		modificationTime = 292089628.879437;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	733BF7A10E02B6D2003AAE6A /* SHFSInterpreterView.h */ = {
@@ -848,6 +851,7 @@
 		lineNumber = 73;
 		location = Sketch;
 		modificationTime = 292089628.868584;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7347D9E40E83B2A0009321C5 /* SKTDragReorderArrayController.m:104 */ = {
@@ -865,6 +869,7 @@
 		lineNumber = 104;
 		location = Sketch;
 		modificationTime = 292089628.81343;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7347D9E90E83B2ED009321C5 /* SKTDragReorderArrayController.m:83 */ = {
@@ -882,6 +887,7 @@
 		lineNumber = 83;
 		location = Sketch;
 		modificationTime = 292089628.856993;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7347D9EE0E83B2F7009321C5 /* SKTDragReorderArrayController.m:185 */ = {
@@ -899,6 +905,7 @@
 		lineNumber = 185;
 		location = Sketch;
 		modificationTime = 292089628.870737;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7347DACF0E83B7DC009321C5 /* SKTBezierTool.h */ = {
@@ -945,6 +952,7 @@
 		lineNumber = 105;
 		location = Sketch;
 		modificationTime = 292089406.050366;
+		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
 	734E8B070E9D0805003330F8 /* zz_blakeTestsCleanup.m */ = {
@@ -970,6 +978,7 @@
 		lineNumber = 31;
 		location = BlakeMainTests_inApp;
 		modificationTime = 292089406.097068;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7352FE2810D67A4700871424 /* AllChildrenFilter.m */ = {
@@ -994,6 +1003,7 @@
 		lineNumber = 749;
 		location = SHNodeGraph;
 		modificationTime = 292089406.062617;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7352FE2E10D67A5300871424 /* AllChildrenFilter.m:762 */ = {
@@ -1011,6 +1021,7 @@
 		lineNumber = 762;
 		location = SHNodeGraph;
 		modificationTime = 292089406.063054;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7352FE3010D67A5A00871424 /* AllChildrenFilter.m:805 */ = {
@@ -1028,6 +1039,7 @@
 		lineNumber = 805;
 		location = SHNodeGraph;
 		modificationTime = 292089406.063494;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7352FE3210D67A5B00871424 /* AllChildrenFilter.m:814 */ = {
@@ -1045,6 +1057,7 @@
 		lineNumber = 814;
 		location = SHNodeGraph;
 		modificationTime = 292089406.064102;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7352FE3C10D67A6E00871424 /* AllChildrenFilter.m:473 */ = {
@@ -1062,6 +1075,7 @@
 		lineNumber = 473;
 		location = SHNodeGraph;
 		modificationTime = 292089406.064587;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7352FE3E10D67A7000871424 /* AllChildrenFilter.m:461 */ = {
@@ -1079,6 +1093,7 @@
 		lineNumber = 461;
 		location = SHNodeGraph;
 		modificationTime = 292089406.0650319;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7352FE4010D67A7700871424 /* AllChildrenFilter.m:346 */ = {
@@ -1096,6 +1111,7 @@
 		lineNumber = 346;
 		location = SHNodeGraph;
 		modificationTime = 292089406.0655761;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	735967C51174BFB30045323A /* PBXTextBookmark */ = {
@@ -1119,40 +1135,6 @@
 		vrLoc = 3139;
 	};
 	735967C71174BFB30045323A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7373009C0E028B4E00EBA987 /* BlakeDocumentController.h */;
-		name = "BlakeDocumentController.h: 15";
-		rLen = 0;
-		rLoc = 278;
-		rType = 0;
-		vrLen = 647;
-		vrLoc = 141;
-	};
-	735967C81174BFB30045323A /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 73D4A92C10DFE2920091B586 /* SHApplication_Extras.h */;
-	};
-	735967C91174BFB30045323A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 737303250E029D7C00EBA987 /* main.m */;
-		name = "main.m: 36";
-		rLen = 203;
-		rLoc = 1417;
-		rType = 0;
-		vrLen = 958;
-		vrLoc = 711;
-	};
-	735967CA1174BFB30045323A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 739F08D90E5DDA2C00EE17C7 /* BlakeController.m */;
-		name = "BlakeController.m: 120";
-		rLen = 0;
-		rLoc = 3725;
-		rType = 0;
-		vrLen = 873;
-		vrLoc = 3139;
-	};
-	735967CB1174BFB30045323A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7373009C0E028B4E00EBA987 /* BlakeDocumentController.h */;
 		name = "BlakeDocumentController.h: 15";
@@ -1187,6 +1169,7 @@
 		lineNumber = 30;
 		location = BlakeMainTests_inApp;
 		modificationTime = 292089406.095271;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	735B39D710FF716600C9C4C5 /* UnknownEndToEndTest.m:25 */ = {
@@ -1204,6 +1187,7 @@
 		lineNumber = 25;
 		location = BlakeMainTests_inApp;
 		modificationTime = 292089406.095962;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	735B39D910FF716700C9C4C5 /* UnknownEndToEndTest.m:20 */ = {
@@ -1221,6 +1205,7 @@
 		lineNumber = 20;
 		location = BlakeMainTests_inApp;
 		modificationTime = 292089406.0965611;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	735C2CBD10A1B0F300C2DF56 /* SHAppControl.m:103 */ = {
@@ -1237,6 +1222,7 @@
 		ignoreCount = 0;
 		lineNumber = 103;
 		modificationTime = 292089628.866532;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7364E34F10F74363002B5E45 /* BlakeMainTests_inApp */ = {
@@ -1257,6 +1243,7 @@
 		lineNumber = 120;
 		location = BlakeMain;
 		modificationTime = 292089406.093048;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7364E71B10F76BA1002B5E45 /* SHShared.m */ = {
@@ -1281,6 +1268,7 @@
 		lineNumber = 25;
 		location = SHShared;
 		modificationTime = 292089406.093568;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	736560E20E34E9210088ADF4 /* SketchPanel.h */ = {
@@ -1312,6 +1300,7 @@
 		lineNumber = 220;
 		location = Sketch;
 		modificationTime = 292089628.85849;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	736E0C9A10D802FD00A80B0D /* SHOrderedDictionary.m */ = {
@@ -1336,6 +1325,7 @@
 		lineNumber = 679;
 		location = SHShared;
 		modificationTime = 292089406.066052;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	736ED1E90E70078D00BF55F9 /* SKTToolPaletteController.m:138 */ = {
@@ -1353,6 +1343,7 @@
 		lineNumber = 138;
 		location = Sketch;
 		modificationTime = 292089628.872774;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	736EE64F0E26239400CD122C /* SmallTestRunner_Main.m */ = {
@@ -1432,6 +1423,7 @@
 		lineNumber = 333;
 		location = SHNodeGraph;
 		modificationTime = 292089406.059405;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	737ED33B10D6A0C500A68EF5 /* BlakeNodeListViewTests.m */ = {
@@ -1477,6 +1469,7 @@
 		lineNumber = 20;
 		location = ObjectPalette;
 		modificationTime = 292089406.054819;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738293300EE6EABD005DB289 /* TreeViewPlugin.m:41 */ = {
@@ -1494,6 +1487,7 @@
 		lineNumber = 41;
 		location = TreeView;
 		modificationTime = 292089628.891405;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738293400EE6EB6D005DB289 /* TreeViewPlugin.m:27 */ = {
@@ -1511,6 +1505,7 @@
 		lineNumber = 27;
 		location = TreeView;
 		modificationTime = 292089628.8126811;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738294F50EE6F9DB005DB289 /* VisualGraphView */ = {
@@ -1599,6 +1594,7 @@
 		ignoreCount = 0;
 		lineNumber = 49;
 		modificationTime = 292089628.811132;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738A0BFC0E06769000D58107 /* SHApplicationTests.m:70 */ = {
@@ -1615,6 +1611,7 @@
 		ignoreCount = 0;
 		lineNumber = 70;
 		modificationTime = 292089628.8074411;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738A0BFE0E06769200D58107 /* SHApplicationTests.m:77 */ = {
@@ -1631,6 +1628,7 @@
 		ignoreCount = 0;
 		lineNumber = 77;
 		modificationTime = 292089628.892116;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738A0C000E06769200D58107 /* SHApplicationTests.m:80 */ = {
@@ -1647,6 +1645,7 @@
 		ignoreCount = 0;
 		lineNumber = 80;
 		modificationTime = 292089628.899198;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738A0C020E06769400D58107 /* SHApplicationTests.m:80 */ = {
@@ -1663,6 +1662,7 @@
 		ignoreCount = 0;
 		lineNumber = 80;
 		modificationTime = 292089628.8276;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738A0C040E06769500D58107 /* SHApplicationTests.m:80 */ = {
@@ -1679,6 +1679,7 @@
 		ignoreCount = 0;
 		lineNumber = 80;
 		modificationTime = 292089628.8772851;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738A0C060E06769600D58107 /* SHApplicationTests.m:80 */ = {
@@ -1695,6 +1696,7 @@
 		ignoreCount = 0;
 		lineNumber = 80;
 		modificationTime = 292089628.904197;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738B30B30DD5BDE200FBF58C /* SketchTests */ = {
@@ -1729,6 +1731,7 @@
 		lineNumber = 46;
 		location = Sketch;
 		modificationTime = 292089628.897081;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	738F254710EF683000A35230 /* BlakeNodeListWindowController.m:163 */ = {
@@ -1746,6 +1749,7 @@
 		lineNumber = 163;
 		location = NodeListView;
 		modificationTime = 292089406.09255;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7390BA770DEF356E00F1FED2 /* SKTGraphicViewModelTests.m */ = {
@@ -1805,6 +1809,9 @@
 			};
 		};
 		customDataFormattersEnabled = 0;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -1932,6 +1939,7 @@
 		name = "Blake App";
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		startupPath = "<<ProductDirectory>>";
@@ -2112,6 +2120,7 @@
 		ignoreCount = 0;
 		lineNumber = 131;
 		modificationTime = 292089628.803261;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	739620590DF0724700D5DB6C /* Run All Tests */ = {
@@ -2140,6 +2149,7 @@
 		lineNumber = 102;
 		location = Sketch;
 		modificationTime = 292089628.859868;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	739897FF0E3C85DD0003AA09 /* SKTDebugTableView.m:16 */ = {
@@ -2156,6 +2166,7 @@
 		ignoreCount = 0;
 		lineNumber = 16;
 		modificationTime = 292089628.810315;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	739898010E3C85DE0003AA09 /* SKTDebugTableView.m:24 */ = {
@@ -2172,6 +2183,7 @@
 		ignoreCount = 0;
 		lineNumber = 24;
 		modificationTime = 292089628.900448;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	7399491B0DD8DA5D00FFEFB7 /* SketchNodeProtocol.h */ = {
@@ -2231,6 +2243,7 @@
 		ignoreCount = 0;
 		lineNumber = 87;
 		modificationTime = 292089628.9068;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	739C47960E2B5F530069443B /* SKTFilteringArrayControllerProviderTests.m:55 */ = {
@@ -2247,6 +2260,7 @@
 		ignoreCount = 0;
 		lineNumber = 55;
 		modificationTime = 292089628.850109;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	739C479F0E2B60120069443B /* SKTFilteringArrayControllerProviderTests.m:107 */ = {
@@ -2263,6 +2277,7 @@
 		ignoreCount = 0;
 		lineNumber = 107;
 		modificationTime = 292089628.8066939;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	739C47AC0E2B61730069443B /* SKTFilteringArrayControllerProviderTests.m:38 */ = {
@@ -2279,6 +2294,7 @@
 		ignoreCount = 0;
 		lineNumber = 38;
 		modificationTime = 292089628.898607;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	739F08D80E5DDA2C00EE17C7 /* BlakeController.h */ = {
@@ -2388,6 +2404,7 @@
 		lineNumber = 61;
 		location = NodeListView;
 		modificationTime = 292089406.062178;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A29ABD10FF6B2E001A17F6 /* HooSenTestProbe.m */ = {
@@ -2412,6 +2429,7 @@
 		lineNumber = 39;
 		location = SHTestUtilities;
 		modificationTime = 292089406.094084;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A29AC810FF6B71001A17F6 /* HooSenTestProbe.m */ = {
@@ -2436,6 +2454,7 @@
 		lineNumber = 49;
 		location = SHTestUtilities;
 		modificationTime = 292089406.094679;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A42DC50E5EC3A90022226C /* BlakeMainTests - Runner (otest) */ = {
@@ -2468,6 +2487,9 @@
 			};
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -2526,6 +2548,7 @@
 		name = "BlakeMainTests - Runner (otest)";
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		startupPath = "<<ProjectDirectory>>";
@@ -2569,6 +2592,7 @@
 		lineNumber = 31;
 		location = BlakeMainTests;
 		modificationTime = 292089406.038892;
+		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
 	73A42DF00E5EC6690022226C /* BlakeMainTests.m:31 */ = {
@@ -2585,6 +2609,7 @@
 		ignoreCount = 0;
 		lineNumber = 31;
 		modificationTime = 292089628.871424;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A4305F0E5ED2460022226C /* BlakeMainTests.m:40 */ = {
@@ -2601,6 +2626,7 @@
 		ignoreCount = 0;
 		lineNumber = 40;
 		modificationTime = 292089628.85342;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A430D50E5ED9CB0022226C /* BlakeMainTests.m:49 */ = {
@@ -2617,6 +2643,7 @@
 		ignoreCount = 0;
 		lineNumber = 49;
 		modificationTime = 292089628.824414;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A431330E5EE8BD0022226C /* BlakeMainTests.m:38 */ = {
@@ -2633,6 +2660,7 @@
 		ignoreCount = 0;
 		lineNumber = 38;
 		modificationTime = 292089628.852188;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A431360E5EE90A0022226C /* BlakeMainTests.m:90 */ = {
@@ -2649,6 +2677,7 @@
 		ignoreCount = 0;
 		lineNumber = 90;
 		modificationTime = 292089628.829023;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A431680E5EF2180022226C /* BlakeMainTests.m:93 */ = {
@@ -2665,6 +2694,7 @@
 		ignoreCount = 0;
 		lineNumber = 93;
 		modificationTime = 292089628.899762;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A4316A0E5EF2190022226C /* BlakeMainTests.m:94 */ = {
@@ -2681,6 +2711,7 @@
 		ignoreCount = 0;
 		lineNumber = 94;
 		modificationTime = 292089628.859243;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A434130E5F01330022226C /* BlakeGlobalCommandControllerTests.m */ = {
@@ -2704,6 +2735,7 @@
 		ignoreCount = 0;
 		lineNumber = 603;
 		modificationTime = 292089628.828256;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73A4CDC30D4231EF0030D864 /* MockFile.fscript */ = {
@@ -2938,6 +2970,7 @@
 		ignoreCount = 0;
 		lineNumber = 119;
 		modificationTime = 292089628.8720561;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73ACCA1710B70A6A002822FB /* SHAppControl.m:67 */ = {
@@ -2954,6 +2987,7 @@
 		ignoreCount = 0;
 		lineNumber = 67;
 		modificationTime = 292089628.805119;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73ACCA7310B70E4B002822FB /* BlakeDocumentViewController.m:130 */ = {
@@ -2970,6 +3004,7 @@
 		ignoreCount = 0;
 		lineNumber = 130;
 		modificationTime = 292089628.870032;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73ACCA9510B70FF2002822FB /* BlakeDocumentViewController.m:126 */ = {
@@ -2986,6 +3021,7 @@
 		ignoreCount = 0;
 		lineNumber = 126;
 		modificationTime = 292089628.830675;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B050211168E4A90054CE44 /* MenuTests.m:22 */ = {
@@ -3003,6 +3039,7 @@
 		lineNumber = 22;
 		location = BlakeMainTests_inApp;
 		modificationTime = 292089406.098993;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B050261168E4AE0054CE44 /* PBXTextBookmark */ = {
@@ -3047,6 +3084,7 @@
 		lineNumber = 239;
 		location = SHTestUtilities;
 		modificationTime = 292089422.400482;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B051841168EE440054CE44 /* PBXTextBookmark */ = {
@@ -3074,6 +3112,7 @@
 		lineNumber = 333;
 		location = BlakeMain;
 		modificationTime = 292089406.058555;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B05D5310B713B900DEB545 /* BlakeDocument.m:102 */ = {
@@ -3091,6 +3130,7 @@
 		lineNumber = 102;
 		location = BlakeMain;
 		modificationTime = 292089406.05898;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B09E690D2DA083004A782F /* SHGlobalCommandControllerTests.m */ = {
@@ -3123,6 +3163,7 @@
 		ignoreCount = 0;
 		lineNumber = 72;
 		modificationTime = 292089628.822037;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B23FC80EA495B500CE3C8D /* DetailViewController.h */ = {
@@ -3271,6 +3312,7 @@
 		lineNumber = 20;
 		location = ObjectPalette;
 		modificationTime = 292089406.054269;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B360F81116E1DC0064AF28 /* PBXTextBookmark */ = {
@@ -3333,6 +3375,9 @@
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 0;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -3400,6 +3445,7 @@
 		name = DumbSketch;
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		variableFormatDictionary = {
@@ -3635,6 +3681,7 @@
 		lineNumber = 249;
 		location = Sketch;
 		modificationTime = 292089628.804407;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B95E9B0E82965600345C6F /* SKTGraphicViewModelTests.m:258 */ = {
@@ -3651,6 +3698,7 @@
 		ignoreCount = 0;
 		lineNumber = 258;
 		modificationTime = 292089628.9047669;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B95E9D0E82967800345C6F /* SKTGraphicViewModelTests.m:76 */ = {
@@ -3667,6 +3715,7 @@
 		ignoreCount = 0;
 		lineNumber = 76;
 		modificationTime = 292089628.854029;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B95EF40E829FE900345C6F /* SKTGraphicViewModelTests.m:324 */ = {
@@ -3683,6 +3732,7 @@
 		ignoreCount = 0;
 		lineNumber = 324;
 		modificationTime = 292089628.893885;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73B962300E82B35E00345C6F /* SKTDecorator_Wireframe.h */ = {
@@ -3729,6 +3779,9 @@
 			};
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -3792,6 +3845,7 @@
 		name = "SketchTests - Runner (otest)";
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		startupPath = "<<ProjectDirectory>>";
@@ -3820,6 +3874,7 @@
 		lineNumber = 131;
 		location = ObjectPalette;
 		modificationTime = 292089406.06077;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73BACED010D2C08400E01D0C /* ObjectPaletteWindowController.m:49 */ = {
@@ -3837,6 +3892,7 @@
 		lineNumber = 49;
 		location = ObjectPalette;
 		modificationTime = 292089406.061303;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73BACED210D2C09600E01D0C /* ObjectBrowserViewController.m:24 */ = {
@@ -3854,6 +3910,7 @@
 		lineNumber = 24;
 		location = ObjectPalette;
 		modificationTime = 292089406.061739;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73BACF9D10D2C3C400E01D0C /* ObjectPaletterPluginTests.m */ = {
@@ -4009,6 +4066,7 @@
 		lineNumber = 22;
 		location = Blake;
 		modificationTime = 292089413.874409;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73BB95681168B332008F3174 /* PBXTextBookmark */ = {
@@ -4036,6 +4094,7 @@
 		lineNumber = 95;
 		location = Blake;
 		modificationTime = 292089408.582303;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73BBC4F90DE46BFA00321618 /* StubGraphic.h */ = {
@@ -4172,6 +4231,7 @@
 		ignoreCount = 0;
 		lineNumber = 1439;
 		modificationTime = 292089628.895066;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73C35F1D10DA44AE0000BAC5 /* HighLevelBlakeDocumentActions.m:485 */ = {
@@ -4189,6 +4249,7 @@
 		lineNumber = 485;
 		location = BlakeMain;
 		modificationTime = 292089406.066946;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73C6F9540EDD88A80067482D /* TreeViewPlugin.h */ = {
@@ -4231,6 +4292,7 @@
 		lineNumber = 91;
 		location = Sketch;
 		modificationTime = 292089628.847837;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73C996ED0E327F5A002B972D /* DumbSketchDocument.h */ = {
@@ -4262,6 +4324,7 @@
 		ignoreCount = 0;
 		lineNumber = 45;
 		modificationTime = 292089628.88839;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB049010DBDA4500AE25C8 /* BlakeGlobalCommandControllerTests.m:98 */ = {
@@ -4278,6 +4341,7 @@
 		ignoreCount = 0;
 		lineNumber = 98;
 		modificationTime = 292089628.81612;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB049210DBDA4E00AE25C8 /* BlakeGlobalCommandControllerTests.m:213 */ = {
@@ -4294,6 +4358,7 @@
 		ignoreCount = 0;
 		lineNumber = 213;
 		modificationTime = 292089628.861029;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB049410DBDA4F00AE25C8 /* BlakeGlobalCommandControllerTests.m:218 */ = {
@@ -4310,6 +4375,7 @@
 		ignoreCount = 0;
 		lineNumber = 218;
 		modificationTime = 292089628.857685;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB049610DBDA5000AE25C8 /* BlakeGlobalCommandControllerTests.m:222 */ = {
@@ -4326,6 +4392,7 @@
 		ignoreCount = 0;
 		lineNumber = 222;
 		modificationTime = 292089628.889932;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB049810DBDA5100AE25C8 /* BlakeGlobalCommandControllerTests.m:226 */ = {
@@ -4342,6 +4409,7 @@
 		ignoreCount = 0;
 		lineNumber = 226;
 		modificationTime = 292089628.865727;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB049A10DBDA5100AE25C8 /* BlakeGlobalCommandControllerTests.m:234 */ = {
@@ -4358,6 +4426,7 @@
 		ignoreCount = 0;
 		lineNumber = 234;
 		modificationTime = 292089628.867237;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB049C10DBDA5500AE25C8 /* BlakeGlobalCommandControllerTests.m:239 */ = {
@@ -4374,6 +4443,7 @@
 		ignoreCount = 0;
 		lineNumber = 239;
 		modificationTime = 292089628.84913;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB049E10DBDA5800AE25C8 /* BlakeGlobalCommandControllerTests.m:261 */ = {
@@ -4390,6 +4460,7 @@
 		ignoreCount = 0;
 		lineNumber = 261;
 		modificationTime = 292089628.821196;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04A010DBDA5A00AE25C8 /* BlakeGlobalCommandControllerTests.m:267 */ = {
@@ -4406,6 +4477,7 @@
 		ignoreCount = 0;
 		lineNumber = 267;
 		modificationTime = 292089628.8778499;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04A210DBDA5B00AE25C8 /* BlakeGlobalCommandControllerTests.m:274 */ = {
@@ -4422,6 +4494,7 @@
 		ignoreCount = 0;
 		lineNumber = 274;
 		modificationTime = 292089628.802077;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04A410DBDA5B00AE25C8 /* BlakeGlobalCommandControllerTests.m:279 */ = {
@@ -4438,6 +4511,7 @@
 		ignoreCount = 0;
 		lineNumber = 279;
 		modificationTime = 292089628.9026681;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04A610DBDA5E00AE25C8 /* BlakeGlobalCommandControllerTests.m:279 */ = {
@@ -4454,6 +4528,7 @@
 		ignoreCount = 0;
 		lineNumber = 279;
 		modificationTime = 292089628.881795;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04A810DBDA6200AE25C8 /* BlakeGlobalCommandControllerTests.m:311 */ = {
@@ -4470,6 +4545,7 @@
 		ignoreCount = 0;
 		lineNumber = 311;
 		modificationTime = 292089628.816942;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04AC10DBDA6600AE25C8 /* BlakeGlobalCommandControllerTests.m:381 */ = {
@@ -4486,6 +4562,7 @@
 		ignoreCount = 0;
 		lineNumber = 381;
 		modificationTime = 292089628.901065;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04AE10DBDA6700AE25C8 /* BlakeGlobalCommandControllerTests.m:394 */ = {
@@ -4502,6 +4579,7 @@
 		ignoreCount = 0;
 		lineNumber = 394;
 		modificationTime = 292089628.855328;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04B010DBDA6A00AE25C8 /* BlakeGlobalCommandControllerTests.m:411 */ = {
@@ -4518,6 +4596,7 @@
 		ignoreCount = 0;
 		lineNumber = 411;
 		modificationTime = 292089628.856158;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04B210DBDA6B00AE25C8 /* BlakeGlobalCommandControllerTests.m:430 */ = {
@@ -4534,6 +4613,7 @@
 		ignoreCount = 0;
 		lineNumber = 430;
 		modificationTime = 292089628.863506;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04B410DBDA6E00AE25C8 /* BlakeGlobalCommandControllerTests.m:444 */ = {
@@ -4550,6 +4630,7 @@
 		ignoreCount = 0;
 		lineNumber = 444;
 		modificationTime = 292089628.862656;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04B610DBDA7400AE25C8 /* BlakeGlobalCommandControllerTests.m:609 */ = {
@@ -4566,6 +4647,7 @@
 		ignoreCount = 0;
 		lineNumber = 609;
 		modificationTime = 292089628.8764201;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04B810DBDA7500AE25C8 /* BlakeGlobalCommandControllerTests.m:629 */ = {
@@ -4582,6 +4664,7 @@
 		ignoreCount = 0;
 		lineNumber = 629;
 		modificationTime = 292089628.861815;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CB04BA10DBDA7A00AE25C8 /* BlakeGlobalCommandControllerTests.m:781 */ = {
@@ -4598,6 +4681,7 @@
 		ignoreCount = 0;
 		lineNumber = 781;
 		modificationTime = 292089628.884047;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CD26A40EE6A73200788A44 /* ObjectBrowserViewController.m:315 */ = {
@@ -4615,6 +4699,7 @@
 		lineNumber = 315;
 		location = ObjectPalette;
 		modificationTime = 292089406.053369;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73CD27740EE6B74800788A44 /* ObjectPalettePlugin.m:46 */ = {
@@ -4632,6 +4717,7 @@
 		lineNumber = 46;
 		location = ObjectPalette;
 		modificationTime = 292089406.053827;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73D04F050E266239003D81B3 /* SHBlakeControllerTests.m:2 */ = {
@@ -4648,6 +4734,7 @@
 		ignoreCount = 0;
 		lineNumber = 2;
 		modificationTime = 292089628.7935489;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73D4A5C410DF91020091B586 /* BlakeGlobalCommandControllerTests.m:370 */ = {
@@ -4664,6 +4751,7 @@
 		ignoreCount = 0;
 		lineNumber = 370;
 		modificationTime = 292089628.811724;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73D4A5F610DF95B60091B586 /* BlakeGlobalCommandControllerTests.m:78 */ = {
@@ -4680,6 +4768,7 @@
 		ignoreCount = 0;
 		lineNumber = 78;
 		modificationTime = 292089628.880111;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73D4A60810DF989A0091B586 /* StubWindow.h */ = {
@@ -4698,7 +4787,7 @@
 	};
 	73D4A92C10DFE2920091B586 /* SHApplication_Extras.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {596, 391}}";
+			sepNavIntBoundsRect = "{{0, 0}, {596, 366}}";
 			sepNavSelRange = "{260, 14}";
 			sepNavVisRange = "{0, 437}";
 		};
@@ -4739,6 +4828,7 @@
 		lineNumber = 23;
 		location = JavascriptConsole;
 		modificationTime = 292089628.903509;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73DA59EC0EDB1FC600D4F5F0 /* TreeViewPlugin.xml */ = {
@@ -4751,6 +4841,16 @@
 	};
 	73DA59FB0EDB208500D4F5F0 /* TreeView */ = {
 		activeExec = 0;
+	};
+	73DC4F851187654A00912E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73D4A92C10DFE2920091B586 /* SHApplication_Extras.h */;
+		name = "SHApplication_Extras.h: 13";
+		rLen = 14;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 437;
+		vrLoc = 0;
 	};
 	73DE234D0E4C789A00FC1C47 /* SketchTests.m */ = {
 		uiCtxt = {
@@ -4774,6 +4874,7 @@
 		lineNumber = 16;
 		location = SketchTests;
 		modificationTime = 292089628.8809569;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73DE7CCB0E81297D00DA1807 /* SketchDebugTableTests.m:126 */ = {
@@ -4790,6 +4891,7 @@
 		ignoreCount = 0;
 		lineNumber = 126;
 		modificationTime = 292089628.897957;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73DE7D350E812DA300DA1807 /* SketchDebugTableTests.m:46 */ = {
@@ -4806,6 +4908,7 @@
 		ignoreCount = 0;
 		lineNumber = 46;
 		modificationTime = 292089628.909655;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73DE7FAE0E81408100DA1807 /* SketchDebugTableTests.m:88 */ = {
@@ -4822,6 +4925,7 @@
 		ignoreCount = 0;
 		lineNumber = 88;
 		modificationTime = 292089628.8227469;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73DE81FA0E816D0D00DA1807 /* SKTDecorator_Selected.h */ = {
@@ -4906,6 +5010,7 @@
 		lineNumber = 462;
 		location = NodeListView;
 		modificationTime = 292089628.889175;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E724DF10DA9BFF00FAA280 /* BlakeNodeListViewController.m:530 */ = {
@@ -4923,6 +5028,7 @@
 		lineNumber = 530;
 		location = NodeListView;
 		modificationTime = 292089406.0679311;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E725D810DAA50700FAA280 /* BlakeDocumentTests.m:211 */ = {
@@ -4939,6 +5045,7 @@
 		ignoreCount = 0;
 		lineNumber = 211;
 		modificationTime = 292089628.901908;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E725DA10DAA50800FAA280 /* BlakeDocumentTests.m:198 */ = {
@@ -4955,6 +5062,7 @@
 		ignoreCount = 0;
 		lineNumber = 198;
 		modificationTime = 292089628.823616;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E725DC10DAA50F00FAA280 /* BlakeDocumentTests.m:25 */ = {
@@ -4971,6 +5079,7 @@
 		ignoreCount = 0;
 		lineNumber = 25;
 		modificationTime = 292089628.864329;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E725F910DAA79300FAA280 /* BlakeDocumentTests.m:48 */ = {
@@ -4987,6 +5096,7 @@
 		ignoreCount = 0;
 		lineNumber = 48;
 		modificationTime = 292089628.851328;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E7260010DAA84C00FAA280 /* BlakeDocumentTests.m:214 */ = {
@@ -5003,6 +5113,7 @@
 		ignoreCount = 0;
 		lineNumber = 214;
 		modificationTime = 292089628.88492;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E7260210DAA85400FAA280 /* BlakeDocumentTests.m:135 */ = {
@@ -5019,6 +5130,7 @@
 		ignoreCount = 0;
 		lineNumber = 135;
 		modificationTime = 292089628.908117;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E7260410DAA85700FAA280 /* BlakeDocumentTests.m:83 */ = {
@@ -5035,6 +5147,7 @@
 		ignoreCount = 0;
 		lineNumber = 83;
 		modificationTime = 292089628.878655;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E7260610DAA85A00FAA280 /* BlakeDocumentTests.m:63 */ = {
@@ -5051,6 +5164,7 @@
 		ignoreCount = 0;
 		lineNumber = 63;
 		modificationTime = 292089628.869239;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73E7260810DAA8E000FAA280 /* BlakeDocument.m:129 */ = {
@@ -5068,6 +5182,7 @@
 		lineNumber = 129;
 		location = BlakeMain;
 		modificationTime = 292089406.072453;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73EA0A7D0E83E5CE0084C198 /* SKTBezierTool.m:104 */ = {
@@ -5085,6 +5200,7 @@
 		lineNumber = 104;
 		location = Sketch;
 		modificationTime = 292089406.0508639;
+		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
 	73EB0FDD0E0BF59E00855CD5 /* SKTFilteringArrayControllerProviderTests.m */ = {
@@ -5144,6 +5260,7 @@
 		lineNumber = 50;
 		location = ObjectPaletteTests;
 		modificationTime = 292089628.829846;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73ECA57D10D1183600BC8785 /* ObjectPaletteTests - Otest */ = {
@@ -5176,6 +5293,9 @@
 			};
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -5229,6 +5349,7 @@
 		name = "ObjectPaletteTests - Otest";
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		variableFormatDictionary = {
@@ -5256,6 +5377,9 @@
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -5309,6 +5433,7 @@
 		name = "NodeListViewTests - Otest";
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		variableFormatDictionary = {
@@ -5336,6 +5461,7 @@
 		lineNumber = 213;
 		location = Sketch;
 		modificationTime = 292089628.86509;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73EDC7EA0E767B0E0051C74D /* SKTWindowController.m:213 */ = {
@@ -5353,6 +5479,7 @@
 		lineNumber = 213;
 		location = Sketch;
 		modificationTime = 292089628.854688;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73F967890DD45D3C003784B8 /* SKTTransformTool.h */ = {
@@ -5426,6 +5553,7 @@
 		lineNumber = 13;
 		location = TreeView;
 		modificationTime = 292089628.9054149;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73FF456E0E26A31A0063287B /* SHGlobalCommandControllerTests.m:360 */ = {
@@ -5442,6 +5570,7 @@
 		ignoreCount = 0;
 		lineNumber = 360;
 		modificationTime = 292089628.887802;
+		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
 	73FFDD5D0DD0CBFC003760E1 /* BBPythonProxy.m */ = {

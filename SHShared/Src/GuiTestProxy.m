@@ -102,6 +102,39 @@
 	self.postAction = _BLOCK(@"[:arg1 | (NSDistributedNotificationCenter defaultCenter) removeObserver:arg1 name:'hooley_distrbuted_notification_callback' object:nil]");
 }
 
+#pragma mark PopUp
+do script doPopUpButton
+
++ (GUITestProxy *)dropDownMenuButtonText {
+	
+	GUITestProxy *aRemoteTestProxy = [[[GUITestProxy alloc] init] autorelease];
+	aRemoteTestProxy->_debugName = @"dropDownMenuButtonTextIs";
+	
+	/* User info to pass to remote process */
+	NSString *currentAppName = [[NSProcessInfo processInfo] processName];
+	NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+								 currentAppName, @"ProcessName",
+								 nil];
+	
+	/* Construct an Invocation for the Notification - we aren't going to send it till we have a callback set */
+	[[NSInvocation makeRetainedInvocationWithTarget: [NSDistributedNotificationCenter defaultCenter]
+									  invocationOut:&(aRemoteTestProxy->_remoteInvocation)] 
+	 postNotificationName:@"hooley_distrbuted_notification"
+	 object:@"dropDownMenuButtonText"
+	 userInfo:dict
+	 deliverImmediately:NO
+	 ];
+	[aRemoteTestProxy->_remoteInvocation retain];
+	
+	/* IPC callback - Every async action must have a callback */
+	aRemoteTestProxy->_recievesAsyncCallback = YES;
+	
+	[aRemoteTestProxy _setUpDistributedNotificationStuff];
+	
+	return aRemoteTestProxy;	
+}
+
+#pragma mark Menu
 + (GUITestProxy *)openMainMenuItem:(NSString *)menuName {
 
 	GUITestProxy *aRemoteTestProxy = [[[GUITestProxy alloc] init] autorelease];
@@ -237,7 +270,14 @@
 	NSAssert(_recievesAsyncCallback, @"Needs to be _recievesAsyncCallback");
 
 	NSDictionary *dict = [eh userInfo];
-	if( [[eh object] isEqualToString:@"statusOfMenuItem_callback"] )
+	
+	if( [[eh object] isEqualToString:@"dropDownMenuButtonText_callback"] )
+	{
+		NSString *resultStringValue = [dict valueForKey:@"resultValue"];
+		NSAssert([resultStringValue isEqualToString:@"Steve"], @"Remove this when popup applescript is working");
+		_blockResult = [resultStringValue retain];
+		
+	} else if( [[eh object] isEqualToString:@"statusOfMenuItem_callback"] )
 	{
 		NSString *resultStringValue = [dict valueForKey:@"resultValue"];
 		BOOL result = NO;
@@ -262,7 +302,7 @@
 //		[_callbackOb _callBackForASync:self];
 //	
 	} else {
-		[NSException raise:@"unknown IPC callback" format:@"%@", [eh object] ];
+		[NSException raise:@"unknown IPC callback from gui fiddler" format:@"%@", [eh object] ];
 	}
 	
 //	[_resultMessage release];
