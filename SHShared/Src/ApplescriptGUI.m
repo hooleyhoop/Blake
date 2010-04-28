@@ -11,16 +11,136 @@
 
 @implementation ApplescriptGUI
 
-+ (NSString *)getTextOfDropDownMenuItemOfApp:(NSString *)appName {
+#pragma mark TextField
++ (NSString *)getValueOfTextField:(NSUInteger)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName {
 
 	NSParameterAssert(appName);
+	NSParameterAssert(windowName);
+
+	NSString *result = nil;
+	NSAppleScript *appleScript = [ApplescriptUtils applescript:@"TextField"];
+	NSAssert(appleScript, @"could not find script");
+	
+	NSDictionary *errors = [NSDictionary dictionary];
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, windowName, [NSString stringWithFormat:@"%i", txtFieldIndex], nil];
+	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:@"selectPopUpButtonItem" arguments:parameters];
+	
+	NSAppleEventDescriptor *resultEvent = [appleScript executeAppleEvent:event error:&errors];
+	if(!resultEvent)
+	{
+		// report any errors from 'errors'
+		[NSException raise:@"statusOfMenuItem: Fucked up applescript" format:@""];
+	}
+	// successful execution
+	if (kAENullEvent != [resultEvent descriptorType])
+	{
+		// script returned an AppleScript result
+		if (cAEList == [resultEvent descriptorType])
+		{
+			// result is a list of other descriptors
+			NSLog(@"who?");
+		}
+		else
+		{
+			// coerce the result to the appropriate ObjC type
+			NSLog(@"doobie doo getValueOfTextField? %@", resultEvent);
+			result = [resultEvent stringValue];
+			NSLog(@"Applescript result is doobie doo? %@", result);
+		}
+	}
+	return result;
+}
+
++ (NSString *)setValueOfTextfield:(NSUInteger)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName toString:(NSString *)newValue {
+	
+	NSParameterAssert(appName);
+	NSParameterAssert(windowName);
+	NSParameterAssert(newValue);
+
+	NSString *result = nil;
+	NSAppleScript *appleScript = [ApplescriptUtils applescript:@"TextField"];
+	NSAssert(appleScript, @"could not find script");
+	
+	NSDictionary *errors = [NSDictionary dictionary];
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, windowName, [NSString stringWithFormat:@"%i", txtFieldIndex], newValue, nil];
+	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:@"selectPopUpButtonItem" arguments:parameters];
+	
+	NSAppleEventDescriptor *resultEvent = [appleScript executeAppleEvent:event error:&errors];
+	if(!resultEvent)
+	{
+		// report any errors from 'errors'
+		[NSException raise:@"statusOfMenuItem: Fucked up applescript" format:@""];
+	}
+	// successful execution
+	if (kAENullEvent != [resultEvent descriptorType])
+	{
+		// script returned an AppleScript result
+		if (cAEList == [resultEvent descriptorType])
+		{
+			// result is a list of other descriptors
+			NSLog(@"who?");
+		}
+		else
+		{
+			// coerce the result to the appropriate ObjC type
+			NSLog(@"doobie doo setValueOfTextfield? %@", resultEvent);
+			result = [resultEvent stringValue];
+			NSLog(@"Applescript result is doobie doo? %@", result);
+		}
+	}
+	return result;
+}
+
+#pragma mark PopUpButton
++ (NSString *)selectPopUpButtonItem:(NSString *)itemName ofApp:(NSString *)appName windowName:(NSString *)windowName {
+
+	NSParameterAssert(appName);
+	NSParameterAssert(itemName);
+	NSParameterAssert(windowName);
+
+	NSString *result = nil;
+	NSAppleScript *appleScript = [ApplescriptUtils applescript:@"popupButtonActions"];
+	NSAssert(appleScript, @"could not find script");
+	NSDictionary *errors = [NSDictionary dictionary];
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, windowName, itemName, nil];
+	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:@"selectPopUpButtonItem" arguments:parameters];
+	NSAppleEventDescriptor *resultEvent = [appleScript executeAppleEvent:event error:&errors];
+	if(!resultEvent)
+	{
+		// report any errors from 'errors'
+		[NSException raise:@"statusOfMenuItem: Fucked up applescript" format:@""];
+	}
+	// successful execution
+	if (kAENullEvent != [resultEvent descriptorType])
+	{
+		// script returned an AppleScript result
+		if (cAEList == [resultEvent descriptorType])
+		{
+			// result is a list of other descriptors
+			NSLog(@"who?");
+		}
+		else
+		{
+			// coerce the result to the appropriate ObjC type
+			NSLog(@"doobie doo selectPopUpButtonItem? %@", resultEvent);
+			result = [resultEvent stringValue];
+			NSLog(@"Applescript result is doobie doo? %@", result);
+		}
+	}
+	return result;
+}
+carry on refactoring these
++ (NSString *)getTextOfDropDownMenuItemOfApp:(NSString *)appName windowName:(NSString *)windowName {
+	
+	NSParameterAssert(appName);
+	NSParameterAssert(windowName);
 	
 	NSString *result = nil;
 	NSAppleScript *appleScript = [ApplescriptUtils applescript:@"popupButtonActions"];
 	NSAssert(appleScript, @"could not find script");
 	NSDictionary *errors = [NSDictionary dictionary];
-	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, nil];
-	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:@"getMenuButtonText" arguments:parameters];
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, windowName, nil];
+	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:@"getPopUpMenuButtonText" arguments:parameters];
 	
 	// call the event in AppleScript
 	NSAppleEventDescriptor *resultEvent = [appleScript executeAppleEvent:event error:&errors];
@@ -41,7 +161,7 @@
 		else
 		{
 			// coerce the result to the appropriate ObjC type
-			NSLog(@"doobie doo? %@", resultEvent);
+			NSLog(@"doobie doo getTextOfDropDownMenuItemOfApp? %@", resultEvent);
 			result = [resultEvent stringValue];
 			NSLog(@"Applescript result is doobie doo? %@", result);
 		}
@@ -51,98 +171,50 @@
 }
 
 #pragma mark -
-+ (void)openMainMenuItem:(NSString *)menuName ofApp:(NSString *)appName {
+#pragma mark Main Menu
++ (NSString *)openMainMenuItem:(NSString *)menuName ofApp:(NSString *)appName {
 
-	NSAppleScript *appleScript = [ApplescriptUtils applescript:@"openMenu"];
-	NSDictionary *errors = [NSDictionary dictionary];
+	NSString *scriptFileName = @"openMenu";
+	NSString *scriptMethodName = @"open_mainmenu_item";
 	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, menuName, nil];
-	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:@"open_mainmenu_item" arguments:parameters];
 	
-	// call the event in AppleScript
-	NSAppleEventDescriptor *resultEvent = [appleScript executeAppleEvent:event error:&errors];
-	if( !resultEvent ) {
-		// report any errors from 'errors'
-		[NSException raise:@"openMainMenuItem: Fucked up applescript" format:@""];
-	}
-	// successful execution
-	if( kAENullEvent!=[resultEvent descriptorType] )
-	{
-		// script returned an AppleScript result
-		if( cAEList == [resultEvent descriptorType] ) {
-			// result is a list of other descriptors
-			NSLog(@"who?");
-		} else {
-			NSLog(@"doobie doo? %@", resultEvent);
-		}
-	}
-	
+	return [ApplescriptUtils executeScript:scriptFileName method:scriptMethodName params:parameters];
 }
++ (NSString *)doMainMenuItem:(NSString *)itemName ofMenu:(NSString *)menuName ofApp:(NSString *)appName {
 
-+ (void)doMainMenuItem:(NSString *)itemName ofMenu:(NSString *)menuName ofApp:(NSString *)appName {
-
-	NSAppleScript *appleScript = [ApplescriptUtils applescript:@"doMenuItem"];
-	NSDictionary *errors = [NSDictionary dictionary];
+	NSString *scriptFileName = @"doMenuItem";
+	NSString *scriptMethodName = @"do_mainmenu_item";
 	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, menuName, itemName, nil];
-	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:@"do_mainmenu_item" arguments:parameters];
-	
-	// call the event in AppleScript
-	NSAppleEventDescriptor *resultEvent = [appleScript executeAppleEvent:event error:&errors];
-	if( !resultEvent ) {
-		// report any errors from 'errors'
-		[NSException raise:@"doMainMenuItem: Fucked up applescript" format:@""];
-	}
-	// successful execution
-	if( kAENullEvent!=[resultEvent descriptorType] )
-	{
-		// script returned an AppleScript result
-		if( cAEList == [resultEvent descriptorType] ) {
-			// result is a list of other descriptors
-			NSLog(@"who?");
-		} else {
-			NSLog(@"doobie doo? %@", resultEvent);
-		}
-	}	
+
+	return [ApplescriptUtils executeScript:scriptFileName method:scriptMethodName params:parameters];
 }
 
-+ (id)statusOfMenuItem:(NSString *)itemName ofMenu:(NSString *)menuName ofApp:(NSString *)appName {
++ (NSString *)statusOfMenuItem:(NSString *)itemName ofMenu:(NSString *)menuName ofApp:(NSString *)appName {
 
 	NSParameterAssert(itemName);
 	NSParameterAssert(menuName);
 	NSParameterAssert(appName);
 
-	BOOL result = NO;
-	NSAppleScript *appleScript = [ApplescriptUtils applescript:@"openMenu"];
-	NSAssert(appleScript, @"could not find script");
-	NSDictionary *errors = [NSDictionary dictionary];
+	NSString *scriptFileName = @"openMenu";
+	NSString *scriptMethodName = @"is_menu_enabled";
 	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, menuName, itemName, nil];
-	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:@"is_menu_enabled" arguments:parameters];
+	return [ApplescriptUtils executeScript:scriptFileName method:scriptMethodName params:parameters];	
+}
 
-	// call the event in AppleScript
-	NSLog(@"about to call is_menu_enabled");
-	NSAppleEventDescriptor *resultEvent = [appleScript executeAppleEvent:event error:&errors];
-	if(!resultEvent)
-	{
-		// report any errors from 'errors'
-		[NSException raise:@"statusOfMenuItem: Fucked up applescript" format:@""];
-	}
-	// successful execution
-	if (kAENullEvent != [resultEvent descriptorType])
-	{
-		// script returned an AppleScript result
-		if (cAEList == [resultEvent descriptorType])
-		{
-			// result is a list of other descriptors
-			NSLog(@"who?");
-		}
-		else
-		{
-			// coerce the result to the appropriate ObjC type
-			NSLog(@"doobie doo? %@", resultEvent);
-			result = [resultEvent booleanValue];
-		}
-	}
+#pragma mark Test Utility
++ (NSString *)attachGDBToTask:(int)pid file:(NSString *)fileName {
+		
+	NSString *scriptFileName = @"AttachToGDB";
+	NSString *scriptMethodName = @"attachDebugger";
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:[NSString stringWithFormat:@"%i",pid], fileName, nil];
+	
+	return [ApplescriptUtils executeScript:scriptFileName method:scriptMethodName params:parameters];	
+}
 
-	return [NSString stringWithBOOL:result];
++ (NSString *)doScript:(NSString *)scriptFileName method:(NSString *)scriptMethodName {
+	
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:@"steve", nil];
+	return [ApplescriptUtils executeScript:scriptFileName method:scriptMethodName params:parameters];	
 }
 
 #pragma mark -
@@ -184,6 +256,5 @@
         // no script result, handle error here
     }
 }
-
 
 @end

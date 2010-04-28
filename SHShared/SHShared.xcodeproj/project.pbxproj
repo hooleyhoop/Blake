@@ -39,6 +39,9 @@
 		732C622110B1946F003A6739 /* NSObject_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 732C621F10B1946F003A6739 /* NSObject_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		732C622210B1946F003A6739 /* NSObject_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C622010B1946F003A6739 /* NSObject_Extras.m */; };
 		733674F50F40AEFE00E40357 /* SHooleyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7858E0D1BDBE300EE14BC /* SHooleyObject.m */; };
+		7338DB051188A21500B5D536 /* ApplescriptGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338DB041188A21500B5D536 /* ApplescriptGUITests.m */; };
+		7338DB0F1188A33500B5D536 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		7338DB431188A7F600B5D536 /* TestScript.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 7338DB421188A7D700B5D536 /* TestScript.scpt */; };
 		734F322810A36D2500B33AB7 /* SHViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E5D305090E357E00B63D4F /* SHViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		734F324110A36D8A00B33AB7 /* NSResponder_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE110E02781600EBA987 /* NSResponder_Extras.m */; };
 		734F324210A36D8B00B33AB7 /* NSResponder_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 7373FE120E02781600EBA987 /* NSResponder_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,7 +84,6 @@
 		73BB93561168ABC9008F3174 /* GuiTestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93521168ABC9008F3174 /* GuiTestProxy.m */; };
 		73BB93921168ADDB008F3174 /* HooAsyncTestRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93911168ADDB008F3174 /* HooAsyncTestRunnerTests.m */; };
 		73BB93941168ADEA008F3174 /* TestAsyncTestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93931168ADEA008F3174 /* TestAsyncTestProxy.m */; };
-		73BB93961168ADF6008F3174 /* TestHelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93951168ADF6008F3174 /* TestHelpTests.m */; };
 		73BB93981168AE03008F3174 /* TestFSBlockConviences.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93971168AE03008F3174 /* TestFSBlockConviences.m */; };
 		73BB939A1168AE1A008F3174 /* TestNSInvocation_testFutures.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93991168AE1A008F3174 /* TestNSInvocation_testFutures.m */; };
 		73BB939C1168AE25008F3174 /* GuiTestProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB939B1168AE25008F3174 /* GuiTestProxyTests.m */; };
@@ -103,6 +105,7 @@
 		73C8363A10A99BD10086F928 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73C8364110A99C160086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		73C836C810A99DEE0086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		73C8C3A8118849E300211347 /* AttachToGDB.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73C8C39B118849CF00211347 /* AttachToGDB.scpt */; };
 		73CC088711368B1B00B53CA9 /* NSInvocation_testHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A2957110FF3C78001A17F6 /* NSInvocation_testHelpersTests.m */; };
 		73CC089111368B5C00B53CA9 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73CC089211368B5C00B53CA9 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */; };
@@ -361,6 +364,8 @@
 		733136CA090F7F8B006B6711 /* SHClipView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHClipView.m; sourceTree = "<group>"; };
 		7338CBD209164B3300A86517 /* SHGlobalVars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHGlobalVars.h; sourceTree = "<group>"; };
 		7338CBD309164B3300A86517 /* SHGlobalVars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHGlobalVars.m; sourceTree = "<group>"; };
+		7338DB041188A21500B5D536 /* ApplescriptGUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplescriptGUITests.m; path = Tests/ApplescriptGUITests.m; sourceTree = "<group>"; };
+		7338DB421188A7D700B5D536 /* TestScript.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; name = TestScript.scpt; path = Applescripts/TestScript.scpt; sourceTree = "<group>"; };
 		7343C804111AD73E005A2689 /* ApplescriptUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplescriptUtils.h; path = Src/ApplescriptUtils.h; sourceTree = "<group>"; };
 		7343C805111AD73E005A2689 /* ApplescriptUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplescriptUtils.m; path = Src/ApplescriptUtils.m; sourceTree = "<group>"; };
 		7352BA390D61AFDA008F3C1F /* SHAppProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAppProtocol.h; sourceTree = "<group>"; };
@@ -479,6 +484,7 @@
 		73C3F2950E01D10600E1CFCB /* SHDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHDocument.m; path = Src/SHDocument.m; sourceTree = "<group>"; };
 		73C43A2D0E4B0216000AE339 /* SHWindowTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHWindowTests.m; path = Tests/SHWindowTests.m; sourceTree = "<group>"; };
 		73C886EC112C38D700780805 /* NSInvocation_forwardConstructionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSInvocation_forwardConstructionTests.m; path = Tests/NSInvocation_forwardConstructionTests.m; sourceTree = "<group>"; };
+		73C8C39B118849CF00211347 /* AttachToGDB.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; name = AttachToGDB.scpt; path = Applescripts/AttachToGDB.scpt; sourceTree = "<group>"; };
 		73CB02D010DBC93000AE25C8 /* SwappedInIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwappedInIvar.m; path = Tests/SwappedInIvar.m; sourceTree = "<group>"; };
 		73CB02D110DBC93000AE25C8 /* SwappedInIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwappedInIvar.h; path = Tests/SwappedInIvar.h; sourceTree = "<group>"; };
 		73CC082911368A3700B53CA9 /* TestUtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -618,6 +624,7 @@
 				73CC08BE11368BD600B53CA9 /* FScript.framework in Frameworks */,
 				73CC08C311368BD800B53CA9 /* OCMock.framework in Frameworks */,
 				73CC08C411368BD900B53CA9 /* SenTestingKit.framework in Frameworks */,
+				7338DB0F1188A33500B5D536 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,6 +840,7 @@
 		738E743B1104FA1F00A9D837 /* Applescripts */ = {
 			isa = PBXGroup;
 			children = (
+				73C8C39B118849CF00211347 /* AttachToGDB.scpt */,
 				73E0CC231120396400261F28 /* openMenu.scpt */,
 				73E0CC4911203A1B00261F28 /* doMenuItem.scpt */,
 				73E0CC211120396400261F28 /* TableView.scpt */,
@@ -846,6 +854,7 @@
 				73E0CC2A1120396400261F28 /* menu.scpt */,
 				73E0CC2B1120396400261F28 /* HmmTests.applescript */,
 				73E0CC2C1120396400261F28 /* desktopFile.scpt */,
+				7338DB421188A7D700B5D536 /* TestScript.scpt */,
 			);
 			name = Applescripts;
 			sourceTree = "<group>";
@@ -1020,6 +1029,7 @@
 				73BB93971168AE03008F3174 /* TestFSBlockConviences.m */,
 				73BB93991168AE1A008F3174 /* TestNSInvocation_testFutures.m */,
 				73BB939B1168AE25008F3174 /* GuiTestProxyTests.m */,
+				7338DB041188A21500B5D536 /* ApplescriptGUITests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -1501,6 +1511,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C8293511873DFA00451EF9 /* GUIFiddler in Resources */,
+				7338DB431188A7F600B5D536 /* TestScript.scpt in Resources */,
+				73C8C3A8118849E300211347 /* AttachToGDB.scpt in Resources */,
 				73E0CC4A11203A2600261F28 /* doMenuItem.scpt in Resources */,
 				73E0CC30112039E600261F28 /* TableView.scpt in Resources */,
 				73E0CC31112039E600261F28 /* SendFinderMessage.scpt in Resources */,
@@ -1687,10 +1699,10 @@
 				73CC088711368B1B00B53CA9 /* NSInvocation_testHelpersTests.m in Sources */,
 				73BB93921168ADDB008F3174 /* HooAsyncTestRunnerTests.m in Sources */,
 				73BB93941168ADEA008F3174 /* TestAsyncTestProxy.m in Sources */,
-				73BB93961168ADF6008F3174 /* TestHelpTests.m in Sources */,
 				73BB93981168AE03008F3174 /* TestFSBlockConviences.m in Sources */,
 				73BB939A1168AE1A008F3174 /* TestNSInvocation_testFutures.m in Sources */,
 				73BB939C1168AE25008F3174 /* GuiTestProxyTests.m in Sources */,
+				7338DB051188A21500B5D536 /* ApplescriptGUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

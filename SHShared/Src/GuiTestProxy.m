@@ -96,14 +96,63 @@
 //	return [super autorelease];
 //}
 
+// set pre and post notification actioons to setup and cleanup
 - (void)_setUpDistributedNotificationStuff {
 
 	self.preAction = _BLOCK(@"[:arg1 | (NSDistributedNotificationCenter defaultCenter) addObserver:arg1 selector:#getNotifiedBack: name:'hooley_distrbuted_notification_callback' object:nil]");
 	self.postAction = _BLOCK(@"[:arg1 | (NSDistributedNotificationCenter defaultCenter) removeObserver:arg1 name:'hooley_distrbuted_notification_callback' object:nil]");
 }
 
-#pragma mark PopUp
-do script doPopUpButton
+#pragma mark TextField
+//getValueOfTextField
+//{
+//	NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+//								 currentAppName, @"ProcessName",
+//								 val1, @"WindowName",
+//								 val1, @"txtFieldIndex",
+//								 nil];
+//}
+//
+//setValueOfTextfield
+//{
+//	NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+//								 currentAppName, @"ProcessName",
+//								 val1, @"WindowName",
+//								 val1, @"txtFieldIndex",
+//								 val1, @"newValue",
+//								 nil];	
+//}
+
+#pragma mark PopUp Button
++ (GUITestProxy *)selectPopUpButtonItem:(NSString *)val1 {
+	
+	GUITestProxy *aRemoteTestProxy = [[[GUITestProxy alloc] init] autorelease];
+	aRemoteTestProxy->_debugName = @"doPopUpButton";
+	
+	/* User info to pass to remote process */
+	NSString *currentAppName = [[NSProcessInfo processInfo] processName];
+	NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+								 currentAppName, @"ProcessName",
+								 val1, @"ItemName",
+								 nil];
+	
+	/* Construct an Invocation for the Notification - we aren't going to send it till we have a callback set */
+	[[NSInvocation makeRetainedInvocationWithTarget: [NSDistributedNotificationCenter defaultCenter]
+									  invocationOut:&(aRemoteTestProxy->_remoteInvocation)] 
+	 postNotificationName:@"hooley_distrbuted_notification"
+	 object:@"selectPopUpButtonItem"
+	 userInfo:dict
+	 deliverImmediately:NO
+	 ];
+	[aRemoteTestProxy->_remoteInvocation retain];
+	
+	/* IPC callback - Every async action must have a callback */
+	aRemoteTestProxy->_recievesAsyncCallback = YES;
+	
+	[aRemoteTestProxy _setUpDistributedNotificationStuff];
+	
+	return aRemoteTestProxy;	
+}
 
 + (GUITestProxy *)dropDownMenuButtonText {
 	
@@ -271,12 +320,15 @@ do script doPopUpButton
 
 	NSDictionary *dict = [eh userInfo];
 	
+	/* PopUp Button */
 	if( [[eh object] isEqualToString:@"dropDownMenuButtonText_callback"] )
 	{
 		NSString *resultStringValue = [dict valueForKey:@"resultValue"];
-		NSAssert([resultStringValue isEqualToString:@"Steve"], @"Remove this when popup applescript is working");
 		_blockResult = [resultStringValue retain];
-		
+
+	} else if( [[eh object] isEqualToString:@"selectPopUpButtonItem_callback"] ){
+
+	/* Main Menu */
 	} else if( [[eh object] isEqualToString:@"statusOfMenuItem_callback"] )
 	{
 		NSString *resultStringValue = [dict valueForKey:@"resultValue"];

@@ -75,6 +75,13 @@
 //NSPredicate *elePred1 = [NSPredicate predicateWithFormat:@"self isKindOfClass: %@", ec];
 //NSArray *elephants2 = [array filteredArrayUsingPredicate:elePred1];
 
+// Or Blocks! Compare speed!
+//NSMutableArray *results = [NSMutableArray array];
+//[array enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop){
+//	if([obj isKindOfClass:[Elephant class]])
+//		[results addObject:obj];
+//}];
+
 // aSelector must return an NSNumber
 - (NSMutableArray *)itemsThatResultOfSelectorIsTrue:(SEL)aSelector withObject:(id)value {
 

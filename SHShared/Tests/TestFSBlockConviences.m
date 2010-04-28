@@ -6,6 +6,7 @@
 //  Copyright 2010 BestBefore Ltd. All rights reserved.
 //
 #import "FSBlockConviences.h"
+#import <FScript/FScript.h>
 
 @interface TestFSBlockConviences : SenTestCase {
 	

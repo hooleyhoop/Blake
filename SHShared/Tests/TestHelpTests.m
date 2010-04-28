@@ -8,6 +8,7 @@
 #import "AsyncTests.h"
 #import "TestHelp.h"
 #import "AsyncTestProxy.h"
+#import <FScript/FScript.h>
 
 @interface TestHelpTests : AsyncTests {
 	

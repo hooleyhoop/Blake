@@ -7,6 +7,7 @@
 //
 
 #import "HooAsyncTestRunner.h"
+#import "ApplescriptGUI.h"
 #import <SenTestingKit/SenTestSuite.h>
 #import <SenTestingKit/SenTestSuiteRun.h>
 #import <SHShared/NSInvocation(ForwardedConstruction).h>
@@ -38,8 +39,9 @@ NSArray *_args;
 
 	NSParameterAssert(target);
 	NSParameterAssert(selAsString);
-	if( [target isKindOfClass:NSClassFromString(@"AunitTest")]==YES )
-		NSLog(@"Fuck!");
+	if( [target isKindOfClass:NSClassFromString(@"AunitTest")]==YES ){
+	//	NSLog(@"Fuck!");
+	}
 	if( [target isKindOfClass:[NSString class]]==NO )
 		NSAssert2( [target respondsToSelector:selector], @"Fuck!, %@ - %@", target, selAsString );
 	

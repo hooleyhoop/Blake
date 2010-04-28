@@ -147,4 +147,38 @@ void LoadScriptingAdditions(void) {
 	return parameters;	
 }
 
++ (NSString *)executeScript:(NSString *)scriptFileName method:(NSString *)scriptMethodName params:(NSAppleEventDescriptor *)parameters {
+	
+	NSString *returnVal = nil;
+	NSDictionary *errors = [NSDictionary dictionary];
+	
+	NSAppleScript *appleScript = [ApplescriptUtils applescript:scriptFileName];
+	NSAssert(appleScript, @"could not find script");
+	
+	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:scriptMethodName arguments:parameters];
+	
+	// call the event in AppleScript
+	NSAppleEventDescriptor *resultEvent = [appleScript executeAppleEvent:event error:&errors];
+	if( !resultEvent ) {
+		// report any errors from 'errors'
+		[NSException raise:@"Fucked up applescript" format:@"%@ - %@", scriptFileName, scriptMethodName];
+	}
+	
+	// successful execution
+	if( kAENullEvent!=[resultEvent descriptorType] )
+	{
+		// script returned an AppleScript result
+		if( cAEList == [resultEvent descriptorType] ) {
+			// result is a list of other descriptors
+			logError(@"result is a list of other descriptors");
+		} else {
+			DescType desc = [resultEvent descriptorType];
+			NSData *data = [resultEvent data];
+			returnVal = [resultEvent stringValue];
+			logInfo(@"%@ Script returned - %@, %@", scriptMethodName, resultEvent, returnVal );
+		}
+	}
+	return returnVal;
+}
+
 @end

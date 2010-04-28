@@ -60,8 +60,9 @@ static int						_parentPID;
 //}
 - (oneway void)receivedRemoteRequest:(NSNotification *)eh {
 	
-	if( [[eh object] isEqualToString:@"statusOfMenuItem"] )
-	{
+	if( [[eh object] isEqualToString:@"statusOfMenuItem"] ) {
+		// + (id)statusOfMenuItem:(NSString *)itemName ofMenu:(NSString *)menuName ofApp:(NSString *)appName
+
 		NSDictionary *dict = [eh userInfo];
 		NSString *processName = [dict objectForKey:@"ProcessName"];
 		NSString *menuItemName = [dict objectForKey:@"MenuItemName"];
@@ -85,7 +86,8 @@ static int						_parentPID;
 														   deliverImmediately:NO];
 	} 
 	else if( [[eh object] isEqualToString:@"openMenuItem"] ) {
-	
+		// + (void)openMainMenuItem:(NSString *)menuName ofApp:(NSString *)appName
+
 		NSDictionary *dict = [eh userInfo];
 		NSString *processName = [dict objectForKey:@"ProcessName"];
 		NSString *menuName = [dict objectForKey:@"MenuName"];
@@ -100,7 +102,8 @@ static int						_parentPID;
 														   deliverImmediately:NO];
 	}
 	else if( [[eh object] isEqualToString:@"doMenuItem"] ) { 
-	
+		// + (void)doMainMenuItem:(NSString *)itemName ofMenu:(NSString *)menuName ofApp:(NSString *)appName
+
 		NSDictionary *dict = [eh userInfo];
 		NSString *processName = [dict objectForKey:@"ProcessName"];
 		NSString *menuName = [dict objectForKey:@"MenuName"];
@@ -115,14 +118,14 @@ static int						_parentPID;
 																	 userInfo:resultDictionary
 														   deliverImmediately:NO];
 		
-	}
-	else if( [[eh object] isEqualToString:@"dropDownMenuButtonText"] ) { 
+	} else if( [[eh object] isEqualToString:@"dropDownMenuButtonText"] ) { 
+		// + (NSString *)getTextOfDropDownMenuItemOfApp:(NSString *)appName windowName:(NSString *)windowName
 
 		NSDictionary *dict = [eh userInfo];
 		NSString *processName = [dict objectForKey:@"ProcessName"];
 
 		//-- call applescript
-		id result = objc_msgSend( [ApplescriptGUI class], @selector(getTextOfDropDownMenuItemOfApp:), processName );
+		id result = objc_msgSend( [ApplescriptGUI class], @selector(getTextOfDropDownMenuItemOfApp:windowName:), processName, @"Untitled" );
 		
 		// -- construct result dictionary
 		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionaryWithObjectsAndKeys:
@@ -132,12 +135,66 @@ static int						_parentPID;
 																	   object:@"dropDownMenuButtonText_callback" 
 																	 userInfo:resultDictionary
 														   deliverImmediately:NO];		
-	}else {
+		
+		
+		
+	} else if( [[eh object] isEqualToString:@"selectPopUpButtonItem"] ) {
+		// + (NSString *)selectPopUpButtonItem:(NSString *)itemName ofApp:(NSString *)appName windowName:(NSString *)windowName
+
+		NSDictionary *dict = [eh userInfo];
+		NSString *processName = [dict objectForKey:@"ProcessName"];
+		NSString *itemName = [dict objectForKey:@"ItemName"];
+	
+		//-- call applescript
+		id result = objc_msgSend( [ApplescriptGUI class], @selector(selectPopUpButtonItem:ofApp:windowName:), itemName, processName, @"Untitled" );
+		
+		// callback
+		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionary];
+		[[NSDistributedNotificationCenter defaultCenter] postNotificationName:@"hooley_distrbuted_notification_callback" 
+																	   object:@"selectPopUpButtonItem_callback" 
+																	 userInfo:resultDictionary
+														   deliverImmediately:NO];
+
+		
+	} else if( [[eh object] isEqualToString:@"getValueOfTextField"] ) {
+		// + (NSString *)getValueOfTextField:(NSUInteger)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName
+		
+		NSDictionary *dict = [eh userInfo];
+		NSString *processName = [dict objectForKey:@"ProcessName"];
+		NSString *windowName = [dict objectForKey:@"WindowName"];
+		NSUInteger *txtFieldIndex = [[dict objectForKey:@"txtFieldIndex"] intValue];
+		//-- call applescript
+		id result = objc_msgSend( [ApplescriptGUI class], @selector(getValueOfTextField:windowName:app:), txtFieldIndex, windowName, processName );
+		// -- construct result dictionary
+		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionaryWithObjectsAndKeys:result, @"resultValue", nil];		
+		// callback
+		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionary];
+		[[NSDistributedNotificationCenter defaultCenter] postNotificationName:@"hooley_distrbuted_notification_callback" object:@"selectPopUpButtonItem_callback" userInfo:resultDictionary deliverImmediately:NO];
+		
+	} else if( [[eh object] isEqualToString:@"setValueOfTextfield"] ) {
+		// + (NSString *)setValueOfTextfield:(NSUInteger)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName toString:(NSString *)newValue	
+		
+		NSDictionary *dict = [eh userInfo];
+		NSString *processName = [dict objectForKey:@"ProcessName"];
+		NSString *windowName = [dict objectForKey:@"WindowName"];
+		NSUInteger *txtFieldIndex = [[dict objectForKey:@"txtFieldIndex"] intValue];
+		NSString *newValue = [dict objectForKey:@"newValue"];
+		
+		//-- call applescript
+		id result = objc_msgSend( [ApplescriptGUI class], @selector(setValueOfTextfield:windowName:app:toString:), txtFieldIndex, windowName, processName, newValue );
+		// -- construct result dictionary
+		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionaryWithObjectsAndKeys:result, @"resultValue", nil];		
+		// callback
+		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionary];
+		[[NSDistributedNotificationCenter defaultCenter] postNotificationName:@"hooley_distrbuted_notification_callback" object:@"selectPopUpButtonItem_callback" userInfo:resultDictionary deliverImmediately:NO];
+		
+	} else {
 		[NSException raise:@"sheeet" format:@"d"];
 	}
 }
 		
 - (void)timerFire:(id)value {
+
 	ProcessSerialNumber theProcessSerialNumber;
 	if( GetProcessForPID( _parentPID, &theProcessSerialNumber)!=noErr ){
 		[[NSApplication sharedApplication] terminate:self];

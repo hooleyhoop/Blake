@@ -148,7 +148,10 @@
 		}
 //		[SHInstanceCounter performSelector:@selector(cleanUpInstanceCounter) withObject:nil afterDelay:0.33];
         [pool release];
-//	sleep(100);
+		
+		if( getenv("SLEEP_ON_EXIT")!= NULL )
+			sleep(100);
+	
         printf("done");
 #endif
     } else {

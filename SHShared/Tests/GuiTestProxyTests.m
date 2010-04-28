@@ -8,6 +8,7 @@
 
 #import "GUITestProxy.h"
 #import "DelayedPerformer.h"
+#import <FScript/FScript.h>
 
 @interface GuiTestProxyTests : SenTestCase {
 	

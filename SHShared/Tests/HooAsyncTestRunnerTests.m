@@ -7,14 +7,14 @@
 //
 #import "HooAsyncTestRunner.h"
 
-@interface HooAsyncTestRunner : SenTestCase {
+@interface HooAsyncTestRunnerTests : SenTestCase {
 	
 	HooAsyncTestRunner *_testRunner;
 }
 
 @end
 
-@implementation HooAsyncTestRunner
+@implementation HooAsyncTestRunnerTests
 
 - (void)setUp {
 	_testRunner = [[HooAsyncTestRunner alloc] init];
