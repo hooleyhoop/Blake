@@ -162,13 +162,12 @@ static int						_parentPID;
 		NSDictionary *dict = [eh userInfo];
 		NSString *processName = [dict objectForKey:@"ProcessName"];
 		NSString *windowName = [dict objectForKey:@"WindowName"];
-		NSUInteger *txtFieldIndex = [[dict objectForKey:@"txtFieldIndex"] intValue];
+		NSUInteger txtFieldIndex = [[dict objectForKey:@"txtFieldIndex"] intValue];
 		//-- call applescript
 		id result = objc_msgSend( [ApplescriptGUI class], @selector(getValueOfTextField:windowName:app:), txtFieldIndex, windowName, processName );
 		// -- construct result dictionary
 		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionaryWithObjectsAndKeys:result, @"resultValue", nil];		
 		// callback
-		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionary];
 		[[NSDistributedNotificationCenter defaultCenter] postNotificationName:@"hooley_distrbuted_notification_callback" object:@"selectPopUpButtonItem_callback" userInfo:resultDictionary deliverImmediately:NO];
 		
 	} else if( [[eh object] isEqualToString:@"setValueOfTextfield"] ) {
@@ -177,7 +176,7 @@ static int						_parentPID;
 		NSDictionary *dict = [eh userInfo];
 		NSString *processName = [dict objectForKey:@"ProcessName"];
 		NSString *windowName = [dict objectForKey:@"WindowName"];
-		NSUInteger *txtFieldIndex = [[dict objectForKey:@"txtFieldIndex"] intValue];
+		NSUInteger txtFieldIndex = [[dict objectForKey:@"txtFieldIndex"] intValue];
 		NSString *newValue = [dict objectForKey:@"newValue"];
 		
 		//-- call applescript
@@ -185,7 +184,6 @@ static int						_parentPID;
 		// -- construct result dictionary
 		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionaryWithObjectsAndKeys:result, @"resultValue", nil];		
 		// callback
-		NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionary];
 		[[NSDistributedNotificationCenter defaultCenter] postNotificationName:@"hooley_distrbuted_notification_callback" object:@"selectPopUpButtonItem_callback" userInfo:resultDictionary deliverImmediately:NO];
 		
 	} else {
