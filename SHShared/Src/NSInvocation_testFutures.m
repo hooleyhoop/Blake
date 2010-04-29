@@ -27,6 +27,18 @@
 	return outInv;
 }
 
++ (NSInvocation *)_assertNotEqualObjectsInvocation:(AsyncTests *)tests expectedResult:(id)ob2 {
+	
+	NSParameterAssert( tests );
+	
+	NSInvocation *outInv;
+	
+	// of course, result isn't available at this stage
+	id result = nil;
+	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result arg2:ob2 ofBlock:[FSBlockConviences _assertNotEqualObjectsBlock] failMsg:nil];
+	return outInv;
+}
+
 /* Construct an Invocation for the Notification - we aren't going to send it till we have a callback set */
 + (NSInvocation *)_assertFailInvocation:(AsyncTests *)tests {
 	

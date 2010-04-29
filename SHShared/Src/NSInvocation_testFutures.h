@@ -13,6 +13,7 @@
 
 // These just pospone calling the actual assert methods in AsyncTests
 + (NSInvocation *)_assertEqualObjectsInvocation:(AsyncTests *)tests expectedResult:(id)ob2;
++ (NSInvocation *)_assertNotEqualObjectsInvocation:(AsyncTests *)tests expectedResult:(id)ob2;
 + (NSInvocation *)_assertFailInvocation:(AsyncTests *)tests;
 + (NSInvocation *)_assertTrueInvocation:(AsyncTests *)tests;
 + (NSInvocation *)_assertResultNilInvocation:(AsyncTests *)tests;

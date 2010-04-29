@@ -11,6 +11,7 @@
 }
 
 + (FSBlock *)_assertEqualObjectsBlock;
++ (FSBlock *)_assertNotEqualObjectsBlock;
 + (FSBlock *)_assertFailBlock;
 + (FSBlock *)_assertTrueBlock;
 + (FSBlock *)_assertNilBlock;

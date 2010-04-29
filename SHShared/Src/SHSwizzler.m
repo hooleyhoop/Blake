@@ -15,7 +15,8 @@
 #define myva_arg(ap, sizeOfType) (ap += (sizeOfType+3)&~3)
 
 
-@implementation SHSwizzler (Private)
+
+@implementation SHSwizzler
 
 NSInvocation* buildInvocationForSelector( id self, SEL _cmd ) {
 	
@@ -36,10 +37,6 @@ NSInvocation* buildInvocationForSelector( id self, SEL _cmd ) {
 	}
 	return invocation;
 }
-
-@end
-
-@implementation SHSwizzler
 
 
 //- (void)trashME:(id)firstObject, ... {

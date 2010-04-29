@@ -16,6 +16,10 @@
 	return _BLOCK(@"[:arg1 :arg2 | arg2 isEqualTo: arg1]");	
 }
 
++ (FSBlock *)_assertNotEqualObjectsBlock {
+	return _BLOCK(@"[:arg1 :arg2 | arg2 isEqualTo: arg1] == NO");	
+}
+
 + (FSBlock *)_assertFailBlock {
 	return _BLOCK(@"[:arg1 | arg1 isEqual: (FSBoolean fsFalse)]");	
 }

@@ -90,8 +90,8 @@ void LoadScriptingAdditions(void) {
 	NSDictionary *errors = [NSDictionary dictionary];
 	appleScript = [[[NSAppleScript alloc] initWithContentsOfURL:url error:&errors] autorelease];
 	if(!appleScript){
-		// what is in erros?
-		[NSException raise:@"Fucked up applescript" format:@""];
+		// what is in errors?
+		[NSException raise:@"Could not make NSAppleScript" format:@"%@, %@", url, errors];
 	}
 	NSAssert( [appleScript isCompiled], @"why not compiled?" );
 	
@@ -153,7 +153,7 @@ void LoadScriptingAdditions(void) {
 	NSDictionary *errors = [NSDictionary dictionary];
 	
 	NSAppleScript *appleScript = [ApplescriptUtils applescript:scriptFileName];
-	NSAssert(appleScript, @"could not find script");
+	NSAssert1( appleScript, @"could not find script %@", scriptFileName);
 	
 	NSAppleEventDescriptor* event = [ApplescriptUtils eventForApplescriptMethod:scriptMethodName arguments:parameters];
 	
@@ -161,7 +161,7 @@ void LoadScriptingAdditions(void) {
 	NSAppleEventDescriptor *resultEvent = [appleScript executeAppleEvent:event error:&errors];
 	if( !resultEvent ) {
 		// report any errors from 'errors'
-		[NSException raise:@"Fucked up applescript" format:@"%@ - %@", scriptFileName, scriptMethodName];
+		[NSException raise:@"Error in applescript" format:@"%@ - %@", scriptFileName, scriptMethodName];
 	}
 	
 	// successful execution

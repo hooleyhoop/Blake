@@ -38,6 +38,9 @@
 		7329463510A43594001FFE74 /* NSApplication_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C3F1D40E01C38500E1CFCB /* NSApplication_Extensions.m */; };
 		732C622110B1946F003A6739 /* NSObject_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 732C621F10B1946F003A6739 /* NSObject_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		732C622210B1946F003A6739 /* NSObject_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C622010B1946F003A6739 /* NSObject_Extras.m */; };
+		732E92641189A37300DD3435 /* GUI_ApplescriptTestProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E92621189A37300DD3435 /* GUI_ApplescriptTestProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732E92651189A37300DD3435 /* GUI_ApplescriptTestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E92631189A37300DD3435 /* GUI_ApplescriptTestProxy.m */; };
+		732E92C61189A5E400DD3435 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		733674F50F40AEFE00E40357 /* SHooleyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7858E0D1BDBE300EE14BC /* SHooleyObject.m */; };
 		7338DB051188A21500B5D536 /* ApplescriptGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338DB041188A21500B5D536 /* ApplescriptGUITests.m */; };
 		7338DB0F1188A33500B5D536 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
@@ -228,6 +231,13 @@
 			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
 			remoteInfo = SHShared;
 		};
+		732E929A1189A5A100DD3435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738C7C760C5CDC170096EF9D /* SHShared */;
+			remoteInfo = SHShared;
+		};
 		7352FB4210D65E6800871424 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
@@ -356,6 +366,8 @@
 		732C621F10B1946F003A6739 /* NSObject_Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSObject_Extras.h; path = Src/NSObject_Extras.h; sourceTree = "<group>"; };
 		732C622010B1946F003A6739 /* NSObject_Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSObject_Extras.m; path = Src/NSObject_Extras.m; sourceTree = "<group>"; };
 		732C622810B1950A003A6739 /* NSObject_ExtrasTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSObject_ExtrasTests.m; path = Tests/NSObject_ExtrasTests.m; sourceTree = "<group>"; };
+		732E92621189A37300DD3435 /* GUI_ApplescriptTestProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GUI_ApplescriptTestProxy.h; path = Src/GUI_ApplescriptTestProxy.h; sourceTree = "<group>"; };
+		732E92631189A37300DD3435 /* GUI_ApplescriptTestProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GUI_ApplescriptTestProxy.m; path = Src/GUI_ApplescriptTestProxy.m; sourceTree = "<group>"; };
 		733136C5090F7F8B006B6711 /* SHSplitView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHSplitView.m; sourceTree = "<group>"; };
 		733136C6090F7F8B006B6711 /* SHSplitView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHSplitView.h; sourceTree = "<group>"; };
 		733136C7090F7F8B006B6711 /* SHClipView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHClipView.h; sourceTree = "<group>"; };
@@ -612,6 +624,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B052A81168F0810054CE44 /* SHTestUtilities.framework in Frameworks */,
+				732E92C61189A5E400DD3435 /* SHShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,6 +990,8 @@
 				73BB93501168ABC9008F3174 /* AsyncTestProxy.m */,
 				73BB93511168ABC9008F3174 /* GuiTestProxy.h */,
 				73BB93521168ABC9008F3174 /* GuiTestProxy.m */,
+				732E92621189A37300DD3435 /* GUI_ApplescriptTestProxy.h */,
+				732E92631189A37300DD3435 /* GUI_ApplescriptTestProxy.m */,
 				73BB93631168ACC3008F3174 /* Async test helpers */,
 			);
 			name = "Async Test";
@@ -1270,6 +1285,7 @@
 				73BB93A31168AE4D008F3174 /* FSBlockConviences.h in Headers */,
 				73BB93A71168AE59008F3174 /* NSInvocation_testFutures.h in Headers */,
 				73BB944A1168B0FB008F3174 /* DelayedPerformer.h in Headers */,
+				732E92641189A37300DD3435 /* GUI_ApplescriptTestProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1370,6 +1386,7 @@
 			);
 			dependencies = (
 				73B052A71168F07B0054CE44 /* PBXTargetDependency */,
+				732E929B1189A5A100DD3435 /* PBXTargetDependency */,
 			);
 			name = GUIFiddler;
 			productName = GUIFiddler;
@@ -1725,6 +1742,7 @@
 				73BB93A41168AE4D008F3174 /* FSBlockConviences.m in Sources */,
 				73BB93A81168AE59008F3174 /* NSInvocation_testFutures.m in Sources */,
 				73BB944B1168B0FB008F3174 /* DelayedPerformer.m in Sources */,
+				732E92651189A37300DD3435 /* GUI_ApplescriptTestProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1755,6 +1773,11 @@
 			isa = PBXTargetDependency;
 			target = 738C7C760C5CDC170096EF9D /* SHShared */;
 			targetProxy = 732360B90C5E75C70039CC7F /* PBXContainerItemProxy */;
+		};
+		732E929B1189A5A100DD3435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738C7C760C5CDC170096EF9D /* SHShared */;
+			targetProxy = 732E929A1189A5A100DD3435 /* PBXContainerItemProxy */;
 		};
 		7352FB4310D65E6800871424 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

@@ -12,8 +12,6 @@
 
 + (void)insertDebugCodeForInitMethod:(NSString *)selString ofClass:(NSString *)classString;
 
-@end
+NSInvocation *buildInvocationForSelector( id self, SEL _cmd );
 
-@interface SHSwizzler (Private)
-	NSInvocation *buildInvocationForSelector( id self, SEL _cmd );
 @end

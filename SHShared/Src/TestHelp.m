@@ -235,5 +235,21 @@
 	[self _pushWaitingAsyncTest:testProxyFuture];
 }
 
+- (void)aSyncAssertNotEqual:(AsyncTestProxy *)testProxyFuture :(id)someOtherObject {
+	
+	NSParameterAssert(testProxyFuture);
+	NSParameterAssert(someOtherObject);
+	
+	// make a block to be executed on callback
+	// Dont keep state here - pass the callback object into testProxyFuture for storage
+	
+	// Build the inv to call whe the callback is reached. this needs to retain inv
+	testProxyFuture.resultProcessObject = [NSInvocation_testFutures _assertNotEqualObjectsInvocation:_tests expectedResult:someOtherObject];
+	
+	//	-queue
+	//	-fire
+	[self _pushWaitingAsyncTest:testProxyFuture];
+}
+
 @end
 

@@ -17,6 +17,7 @@
 #import <SHTestUtilities/AsyncTests.h>
 #import <SHTestUtilities/AsyncTestProxy.h>
 #import <SHTestUtilities/GUITestProxy.h>
+#import <SHTestUtilities/GUI_ApplescriptTestProxy.h>
 #import <SHTestUtilities/TestHelp.h>
 #import <SHTestUtilities/FSBlockConviences.h>
 #import <SHTestUtilities/NSInvocation_testFutures.h>

@@ -37,6 +37,7 @@
 - (void)aSyncAssertTrue:(AsyncTestProxy *)testProxy;
 - (void)aSyncAssertFalse:(AsyncTestProxy *)testProxy;
 - (void)aSyncAssertEqual:(AsyncTestProxy *)testProxy :(id)someOtherObject;
+- (void)aSyncAssertNotEqual:(AsyncTestProxy *)testProxyFuture :(id)someOtherObject;
 - (void)aSyncAssertResultNil:(AsyncTestProxy *)testProxy;
 - (void)aSyncAssertResultNotNil:(AsyncTestProxy *)testProxy;
 
