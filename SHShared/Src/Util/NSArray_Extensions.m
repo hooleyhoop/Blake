@@ -85,7 +85,7 @@
 // aSelector must return an NSNumber
 - (NSMutableArray *)itemsThatResultOfSelectorIsTrue:(SEL)aSelector withObject:(id)value {
 
-	NSMutableArray* returnedItems = [NSMutableArray array];
+	NSMutableArray *returnedItems = [NSMutableArray array];
 	for( id ob in self ) 
 	{
 		if([ob respondsToSelector:aSelector]){

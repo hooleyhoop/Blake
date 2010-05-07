@@ -3,6 +3,8 @@ SKIP_INSTALL = NO
 DEPLOYMENT_POSTPROCESSING = NO
 GCC_ENABLE_SYMBOL_SEPARATION = NO
 
+GCC_VERSION = 4.0
+GCC_VERSION[sdk=macosx10.6][arch=x86_64] = com.apple.compilers.llvm.clang.1_0
 GCC_VERSION[sdk=macosx10.6][arch=i386] = com.apple.compilers.llvm.clang.1_0
 GCC_VERSION[sdk=macosx10.5][arch=ppc] = com.apple.compilers.llvmgcc42 
 //GCC_VERSION[sdk=macosx10.5][arch=ppc] = 4.2

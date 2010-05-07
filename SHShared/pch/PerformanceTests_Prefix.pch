@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'Shared' target in the 'Shared' project.
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <SenTestingKit/SenTestingKit.h>
+	#import <OCMock/OCMock.h>
+	
+	#import <SHShared/SHShared.h>
+	#import <SHTestUtilities/SHTestUtilities.h>
+#endif

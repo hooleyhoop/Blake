@@ -163,6 +163,7 @@
 		73D37DF910A88B6A000231A3 /* SHTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D37DF810A88B6A000231A3 /* SHTableViewTests.m */; };
 		73D37E0A10A88BA1000231A3 /* NSIndexSet_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D37E0810A88BA1000231A3 /* NSIndexSet_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D37E0B10A88BA1000231A3 /* NSIndexSet_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D37E0910A88BA1000231A3 /* NSIndexSet_Extras.m */; };
+		73D699B111946B7B005DAA84 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73D6EDC510C7C7C60072DC88 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
 		73D6EDCE10C7C80B0072DC88 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735679AF0C5B57FB00FF5880 /* SenTestingKit.framework */; };
 		73D6EE0810C7C8960072DC88 /* SHTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D6EE0710C7C8960072DC88 /* SHTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -309,6 +310,13 @@
 			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
 			remoteInfo = SHShared;
 		};
+		73D699AF11946B74005DAA84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
+			remoteInfo = SHShared;
+		};
 		73D6EE3410C7C94A0072DC88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
@@ -370,7 +378,6 @@
 		732E92621189A37300DD3435 /* GUI_ApplescriptTestProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GUI_ApplescriptTestProxy.h; path = Src/GUI_ApplescriptTestProxy.h; sourceTree = "<group>"; };
 		732E92631189A37300DD3435 /* GUI_ApplescriptTestProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GUI_ApplescriptTestProxy.m; path = Src/GUI_ApplescriptTestProxy.m; sourceTree = "<group>"; };
 		732E93681189AFEA00DD3435 /* PerformanceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		732E93691189AFEA00DD3435 /* PerformanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.mxml; path = "PerformanceTests-Info.plist"; sourceTree = "<group>"; };
 		732E93801189B06400DD3435 /* SimpleBlocksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleBlocksTests.m; path = Tests/SimpleBlocksTests.m; sourceTree = "<group>"; };
 		733136C5090F7F8B006B6711 /* SHSplitView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SHSplitView.m; sourceTree = "<group>"; };
 		733136C6090F7F8B006B6711 /* SHSplitView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHSplitView.h; sourceTree = "<group>"; };
@@ -603,6 +610,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73D699B111946B7B005DAA84 /* SHShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,7 +724,6 @@
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				732E93691189AFEA00DD3435 /* PerformanceTests-Info.plist */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -1357,6 +1364,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				73D699B011946B74005DAA84 /* PBXTargetDependency */,
 			);
 			name = PerformanceTests;
 			productName = PerformanceTests;
@@ -1898,6 +1906,11 @@
 			target = 738C7C760C5CDC170096EF9D /* SHShared */;
 			targetProxy = 73D37DC610A88A56000231A3 /* PBXContainerItemProxy */;
 		};
+		73D699B011946B74005DAA84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738C7C760C5CDC170096EF9D /* SHShared */;
+			targetProxy = 73D699AF11946B74005DAA84 /* PBXContainerItemProxy */;
+		};
 		73D6EE3510C7C94A0072DC88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 73D6ED9410C7C5BC0072DC88 /* SHTestUtilities */;
@@ -1978,27 +1991,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7311CBB010BFDA7F00BF3A27 /* Target-TestBundle.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
-				INFOPLIST_FILE = "PerformanceTests-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Cocoa,
-					"-framework",
-					SenTestingKit,
-				);
-				PREBINDING = NO;
 				PRODUCT_NAME = PerformanceTests;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -2006,24 +1999,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7311CBB010BFDA7F00BF3A27 /* Target-TestBundle.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
-				INFOPLIST_FILE = "PerformanceTests-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Cocoa,
-					"-framework",
-					SenTestingKit,
-				);
-				PREBINDING = NO;
 				PRODUCT_NAME = PerformanceTests;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Coverage;
 		};
@@ -2031,27 +2007,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7311CBB010BFDA7F00BF3A27 /* Target-TestBundle.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
-				INFOPLIST_FILE = "PerformanceTests-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Cocoa,
-					"-framework",
-					SenTestingKit,
-				);
-				PREBINDING = NO;
 				PRODUCT_NAME = PerformanceTests;
-				WRAPPER_EXTENSION = octest;
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
