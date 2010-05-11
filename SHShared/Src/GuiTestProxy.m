@@ -82,7 +82,7 @@
 	aRemoteTestProxy.debugName = @"assert Document Count Is";
 	
 	// As this doesnt need to capture any arguments i am going to use the FScript block instead of the invocation
-	NSString *exprString = [NSString stringWithFormat:@"[(((NSDocumentController sharedDocumentController) documents) count) isEqualToNumber: (NSNumber numberWithInt: %i)]", intValue];
+	NSString *exprString = [NSString stringWithFormat:@"[(((NSDocumentController sharedDocumentController) documents) count) isEqualToNumber: (NSNumber numberWithUnsignedLong: %i)]", intValue];
 	FSBlock *exprBlock = _BLOCK(exprString);
 
 	aRemoteTestProxy.boolExpressionBlock = exprBlock;

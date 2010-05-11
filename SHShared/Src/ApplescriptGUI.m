@@ -14,6 +14,7 @@
 #pragma mark TextField
 + (NSString *)getValueOfTextField:(NSNumber *)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName {
 
+	NSParameterAssert(txtFieldIndex);
 	NSParameterAssert(appName);
 	NSParameterAssert(windowName);
 
@@ -26,6 +27,7 @@
 
 + (NSString *)setValueOfTextfield:(NSNumber *)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName toString:(NSString *)newValue {
 	
+	NSParameterAssert(txtFieldIndex);
 	NSParameterAssert(appName);
 	NSParameterAssert(windowName);
 	NSParameterAssert(newValue);

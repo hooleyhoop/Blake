@@ -20,9 +20,9 @@
 
 - (void)dealloc {
 
-	NSAssert(_remoteInvocation==nil, @"This shouldn't happen");
-	NSAssert(_callbackOb==nil, @"This shouldn't happen");
-	NSAssert(_resultProcessObject==nil, @"This shouldn't happen");
+	NSAssert( _remoteInvocation==nil, @"This shouldn't happen - clean up _remoteInvocation (%@)", _debugName );
+	NSAssert( _callbackOb==nil, @"This shouldn't happen - clean up _callbackOb (%@)", _debugName );
+	NSAssert( _resultProcessObject==nil, @"This shouldn't happen - clean up _resultProcessObject (%@)", _debugName );
 
 	[super dealloc];
 }
@@ -30,8 +30,8 @@
 #pragma mark ONE OF These must be called when action is finished - i dont care how you do it
 - (void)cleanup {
 	
-	NSAssert(_boolExpressionBlock==nil, @"doh");
-	NSAssert(_remoteInvocation==nil, @"doh");
+	NSAssert( _boolExpressionBlock==nil, @"doh - _boolExpressionBlock should be nil (%@)", _debugName );
+	NSAssert( _remoteInvocation==nil, @"doh - _remoteInvocation should be nil (%@)", _debugName );
 
 	// -- do post action
 	[_postAction value:self];
@@ -47,6 +47,8 @@
 
 	[_blockResult release];
 	_blockResult = nil;
+
+	logInfo(@"cleaned up %@", _debugName);
 
 	[_debugName release];
 	_debugName = nil;
@@ -65,7 +67,9 @@
 	
 	if(_remoteInvocation)
 	{
+		logInfo(@"firing.. %@", _debugName );
 		[_remoteInvocation invoke];
+		logInfo(@"returned.. %@", _debugName );
 		if( [[_remoteInvocation methodSignature] methodReturnLength] ) {
 			[_remoteInvocation getReturnValue:&_blockResult];
 			[_blockResult retain];
@@ -74,7 +78,9 @@
 		_remoteInvocation = nil;
 	} else {
 		NSAssert(_boolExpressionBlock, @"must have a block if we dont have an invocation?");
+		logInfo(@"firing.. %@", _debugName );
 		_blockResult = [_boolExpressionBlock value];
+		logInfo(@"returned.. %@", _blockResult );
 		[_blockResult retain];
 		[_boolExpressionBlock release];
 		_boolExpressionBlock = nil;
