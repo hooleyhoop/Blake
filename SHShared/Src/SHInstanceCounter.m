@@ -110,9 +110,10 @@ static NSUInteger _instanceCount;
 	}
 }
 
+//http://developer.apple.com/mac/library/documentation/cocoa/conceptual/Strings/Articles/formatSpecifiers.html
 + (void)printLeakingObjectInfo {
 	
-	NSLog(@"***** %i UNCLEAN OBJECTS ***** Thread %@ - is main %i", _instanceCount, [NSThread currentThread], [NSThread isMainThread]);
+	NSLog(@"***** %lu UNCLEAN OBJECTS ***** Thread %@ - is main %d", _instanceCount, [NSThread currentThread], [NSThread isMainThread]);
 	
 	for( id each in _allInstances ){
 		NSLog(@"%@", [self instanceDescription: each] );

@@ -246,7 +246,7 @@
 
     NSParameterAssert([objects count]==[keys count]);
 	NSAssert([_dict count]==[_array count], @"ordered dict got out of whack!");
-	int dictCount = [_dict count];
+	NSUInteger dictCount = [_dict count];
 
     NSDictionary *tempDict = [NSDictionary dictionaryWithObjects:objects forKeys:keys];
     [_dict addEntriesFromDictionary:tempDict];

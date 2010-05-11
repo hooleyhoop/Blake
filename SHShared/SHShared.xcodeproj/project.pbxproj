@@ -23,6 +23,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		7301382F11996161002AFF89 /* GUIFiddler in Copy GUIFiddler */ = {isa = PBXBuildFile; fileRef = 73B051B81168EEF70054CE44 /* GUIFiddler */; };
 		731DE68E10CD244400C42727 /* SHShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 739253D50E447E1A00BEB704 /* SHShared.m */; };
 		731DE7CC10CD274A00C42727 /* SwizzleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 731DE7CA10CD274A00C42727 /* SwizzleList.m */; };
 		731DE7EA10CD277300C42727 /* SwizzleList.h in Headers */ = {isa = PBXBuildFile; fileRef = 731DE7E910CD276500C42727 /* SwizzleList.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,7 +75,6 @@
 		73AC02A20F403CC900FA9887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AC02A10F403CC900FA9887 /* Foundation.framework */; };
 		73AC03770F403DB500FA9887 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AC03760F403DB500FA9887 /* UIKit.framework */; };
 		73B052A21168F0610054CE44 /* GUIFiddler.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B050931168ECE90054CE44 /* GUIFiddler.m */; };
-		73B052A81168F0810054CE44 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */; };
 		73B208680F5EB60A004C8012 /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785970D1BDC0600EE14BC /* NSArray_Extensions.m */; };
 		73B208690F5EB60B004C8012 /* NSArray_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E785980D1BDC0600EE14BC /* NSArray_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73B2088D0F5EB80F004C8012 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
@@ -105,7 +105,6 @@
 		73C0F9640F554CC900DEEDFC /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE770E027B3C00EBA987 /* NSCharacterSet_Extensions.m */; };
 		73C0F9700F554D0500DEEDFC /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE770E027B3C00EBA987 /* NSCharacterSet_Extensions.m */; };
 		73C0F9710F554D0500DEEDFC /* NSCharacterSet_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7373FE760E027B3C00EBA987 /* NSCharacterSet_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73C8293511873DFA00451EF9 /* GUIFiddler in Resources */ = {isa = PBXBuildFile; fileRef = 73B051B81168EEF70054CE44 /* GUIFiddler */; };
 		73C8363A10A99BD10086F928 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73C8364110A99C160086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		73C836C810A99DEE0086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
@@ -254,13 +253,6 @@
 			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
 			remoteInfo = SHShared;
 		};
-		73B052A61168F07B0054CE44 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73D6ED9410C7C5BC0072DC88;
-			remoteInfo = SHTestUtilities;
-		};
 		73CC088F11368B4F00B53CA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
@@ -332,6 +324,20 @@
 			remoteInfo = SHTestUtilities;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7301382D11996159002AFF89 /* Copy GUIFiddler */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				7301382F11996161002AFF89 /* GUIFiddler in Copy GUIFiddler */,
+			);
+			name = "Copy GUIFiddler";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -642,7 +648,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B052A81168F0810054CE44 /* SHTestUtilities.framework in Frameworks */,
 				732E92C61189A5E400DD3435 /* SHShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1433,7 +1438,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				73B052A71168F07B0054CE44 /* PBXTargetDependency */,
 				732E929B1189A5A100DD3435 /* PBXTargetDependency */,
 			);
 			name = GUIFiddler;
@@ -1469,6 +1473,8 @@
 				73D6ED9110C7C5BC0072DC88 /* Resources */,
 				73D6ED9210C7C5BC0072DC88 /* Sources */,
 				73D6ED9310C7C5BC0072DC88 /* Frameworks */,
+				7301362011995448002AFF89 /* Build GUIFiddler */,
+				7301382D11996159002AFF89 /* Copy GUIFiddler */,
 			);
 			buildRules = (
 			);
@@ -1583,7 +1589,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73C8293511873DFA00451EF9 /* GUIFiddler in Resources */,
 				7338DB431188A7F600B5D536 /* TestScript.scpt in Resources */,
 				73C8C3A8118849E300211347 /* AttachToGDB.scpt in Resources */,
 				73E0CC4A11203A2600261F28 /* doMenuItem.scpt in Resources */,
@@ -1619,6 +1624,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7301362011995448002AFF89 /* Build GUIFiddler */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Src/GUIFiddler.m",
+			);
+			name = "Build GUIFiddler";
+			outputPaths = (
+				"$(CONFIGURATION_BUILD_DIR)/GUIFiddler",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#! /bin/bash\n\nBuild_the_Fiddler() {\n\techo '===== Building GUIFiddler ====='\n\tprojectName=SHShared.xcodeproj\n\ttargetName=GUIFiddler\n\txcodebuild -project $projectName -target $targetName -activeconfiguration\n}\n\n#build guifiddler\nMain() {\n\tfilePath=$SRCROOT/Src/GUIFiddler.m\n\n\tif [ -f $filePath ]; then\n\t\tBuild_the_Fiddler\n\telse\n  \t  echo \"Failed to find GUIFiddler.m\"\n   \t exit 1\n\tfi\n}\n\nMain";
+		};
 		732360D50C5E76760039CC7F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1865,11 +1886,6 @@
 			isa = PBXTargetDependency;
 			target = 738C7C760C5CDC170096EF9D /* SHShared */;
 			targetProxy = 7352FB4410D65E7500871424 /* PBXContainerItemProxy */;
-		};
-		73B052A71168F07B0054CE44 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 73D6ED9410C7C5BC0072DC88 /* SHTestUtilities */;
-			targetProxy = 73B052A61168F07B0054CE44 /* PBXContainerItemProxy */;
 		};
 		73CC089011368B4F00B53CA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2265,6 +2281,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"$(GTM_GENERAL_OTHER_CFLAGS)",
+					"$(GTM_PLATFORM_OTHER_CFLAGS)",
+					"$(GTM_CONFIGURATION_OTHER_CFLAGS)",
+					"-v",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,

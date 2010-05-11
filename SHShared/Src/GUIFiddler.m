@@ -1,7 +1,6 @@
 #import <Foundation/Foundation.h>
 #import <Foundation/NSObjCRuntime.h>
 #import <objc/message.h>
-#import <SHTestUtilities/ApplescriptGUI.h>
 #import <SHShared/SHSwizzler.h>
 
 #define RUNLOOPMODE kCFRunLoopDefaultMode

@@ -66,7 +66,7 @@ NSString *_processName;
 	val.name			= @"getValueOfTextField";
 	val.className		= @"ApplescriptGUI";
 	val.selector		= @"getValueOfTextField:windowName:app:";
-	val.args			= [NSArray arrayWithObjects:[NSNumber numberWithInt:txtFieldIndex], windowName, _processName, nil];
+	val.args			= [NSArray arrayWithObjects:[NSNumber numberWithUnsignedLong:txtFieldIndex], windowName, _processName, nil];
 	val.recievesAsync	= YES;
 	return [GUITestProxy guiTestProxyForApplescriptAction:val];
 }
@@ -78,7 +78,7 @@ NSString *_processName;
 	val.name			= @"setValueOfTextfield";
 	val.className		= @"ApplescriptGUI";
 	val.selector		= @"setValueOfTextfield:windowName:app:toString:";
-	val.args			= [NSArray arrayWithObjects:[NSNumber numberWithInt:txtFieldIndex], windowName, _processName, newValue, nil];
+	val.args			= [NSArray arrayWithObjects:[NSNumber numberWithUnsignedLong:txtFieldIndex], windowName, _processName, newValue, nil];
 	val.recievesAsync	= YES;
 	return [GUITestProxy guiTestProxyForApplescriptAction:val];
 }

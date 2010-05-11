@@ -233,7 +233,7 @@ static LogController *sharedInstance;
 		NSInteger lineCount = 1 + [message occurrencesOfString:@"\n"];
 		NSNumber* timestamp = [NSNumber numberWithDouble:[NSDate timeIntervalSinceReferenceDate]];
 		NSDictionary* newLogObject = [NSDictionary dictionaryWithObjectsAndKeys:timestamp, @"timestamp", location, @"location", path, @"filePath", message, @"message",
-																				[NSNumber numberWithInt:lineCount], @"lineCount",
+																				[NSNumber numberWithLong:lineCount], @"lineCount",
 																				[NSNumber numberWithInt:lineNumber], @"lineNumber",
 																				[NSNumber numberWithInt:errorLevel], @"logLevel", nil];
 		[bufferedLogs addObject:newLogObject];

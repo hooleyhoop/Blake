@@ -173,7 +173,13 @@ void LoadScriptingAdditions(void) {
 			logError(@"result is a list of other descriptors");
 		} else {
 			DescType desc = [resultEvent descriptorType];
+			if(desc){
+				
+			}
 			NSData *data = [resultEvent data];
+			if(data){
+				
+			}
 			returnVal = [resultEvent stringValue];
 			logInfo(@"%@ Script returned - %@, %@", scriptMethodName, resultEvent, returnVal );
 		}

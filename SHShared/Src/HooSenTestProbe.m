@@ -37,10 +37,11 @@
 
 - (void)setRun:(id)value {
 
-	if(run!=value){
-		[run release];
-		run = [value retain];
-	}
+	NSAssert(NO, @"WHAT WAS THIS!");
+//	if(run!=value){
+//		[run release];
+//		run = [value retain];
+//	}
 }
 
 - (void)performTest_begin:(SenTestRun *)testCaseRun {
@@ -187,7 +188,10 @@
 @implementation SenTestSuite (HooSenTestSuite)
 
 - (NSMutableArray *)tests {
-	return tests;
+	
+	NSAssert(NO, @"What is this for?");
+	return nil;
+	// return tests;
 }
 
 @end

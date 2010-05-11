@@ -55,7 +55,7 @@ void sortIntoLines( NSString* fileContents, NSMutableArray* allLines ) {
 	// break the string into lines
 	NSString *string = fileContents;
 	NSString *aLine;
-	unsigned numberOfLines, cindex, stringLength = [string length], startOfNextLine;
+	NSUInteger numberOfLines, cindex, stringLength = [string length], startOfNextLine;
 	for(cindex = 0, numberOfLines = 0; cindex < stringLength; numberOfLines++)
 	{
 		startOfNextLine = NSMaxRange([string lineRangeForRange:NSMakeRange(cindex, 0)]);
