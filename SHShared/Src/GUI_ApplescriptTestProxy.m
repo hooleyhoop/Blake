@@ -9,7 +9,7 @@
 #import "GUI_ApplescriptTestProxy.h"
 
 #pragma mark -
-@interface GUITestProxy ()
+@interface GUI_ApplescriptTestProxy ()
 + (id)guiTestProxyForApplescriptAction:(struct HooAppleScriptFactory)val;
 - (void)_setUpDistributedNotificationStuff;
 @end
@@ -23,20 +23,20 @@ NSString *_processName;
     if( !isInitialized ) {
         isInitialized = YES;	
 		_processName = [[[NSProcessInfo processInfo] processName] retain];
+		NSLog(@"Proess name is %@", _processName);
 	}
 }
 
 // Construct The proxy needed for the applescript stuff
 + (id)guiTestProxyForApplescriptAction:(struct HooAppleScriptFactory)val {
 	
-	GUITestProxy *aRemoteTestProxy = [[[GUITestProxy alloc] init] autorelease];
+	GUI_ApplescriptTestProxy *aRemoteTestProxy = [[[GUI_ApplescriptTestProxy alloc] init] autorelease];
 	aRemoteTestProxy->_debugName = val.name;
 	
 	NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithObjectsAndKeys: val.className, @"TargetClass", val.selector, @"SelectorName", val.args, @"Arguments", nil];
 	
 	/* Construct an Invocation for the Notification - we aren't going to send it till we have a callback set */
-	[[NSInvocation makeRetainedInvocationWithTarget: [NSDistributedNotificationCenter defaultCenter]
-									  invocationOut:&(aRemoteTestProxy->_remoteInvocation)] 
+	[[NSInvocation makeRetainedInvocationWithTarget: [NSDistributedNotificationCenter defaultCenter] invocationOut:&(aRemoteTestProxy->_remoteInvocation)] 
 	 postNotificationName:@"hooley_distrbuted_notification"
 	 object:val.name
 	 userInfo:dict
@@ -61,6 +61,9 @@ NSString *_processName;
 #pragma mark TextField
 + (GUITestProxy *)getValueOfTextField:(NSUInteger)txtFieldIndex ofWindow:(NSString *)windowName {
 	
+	NSParameterAssert(txtFieldIndex);
+	NSParameterAssert(windowName);
+
 	struct HooAppleScriptFactory val;
 	
 	val.name			= @"getValueOfTextField";
@@ -68,11 +71,15 @@ NSString *_processName;
 	val.selector		= @"getValueOfTextField:windowName:app:";
 	val.args			= [NSArray arrayWithObjects:[NSNumber numberWithUnsignedLong:txtFieldIndex], windowName, _processName, nil];
 	val.recievesAsync	= YES;
-	return [GUITestProxy guiTestProxyForApplescriptAction:val];
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
 }
 
 + (GUITestProxy *)setValueOfTextfield:(NSUInteger)txtFieldIndex ofWindow:(NSString *)windowName toValue:(NSString *)newValue {
 	
+	NSParameterAssert(txtFieldIndex);
+	NSParameterAssert(windowName);
+	NSParameterAssert(newValue);
+
 	struct HooAppleScriptFactory val;
 	
 	val.name			= @"setValueOfTextfield";
@@ -80,12 +87,15 @@ NSString *_processName;
 	val.selector		= @"setValueOfTextfield:windowName:app:toString:";
 	val.args			= [NSArray arrayWithObjects:[NSNumber numberWithUnsignedLong:txtFieldIndex], windowName, _processName, newValue, nil];
 	val.recievesAsync	= YES;
-	return [GUITestProxy guiTestProxyForApplescriptAction:val];
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
 }
 
 #pragma mark PopUp Button
 + (GUITestProxy *)selectPopUpButtonItem:(NSString *)itemName window:(NSString *)windowName {
 	
+	NSParameterAssert(itemName);
+	NSParameterAssert(windowName);
+
 	struct HooAppleScriptFactory val;
 	
 	val.name			= @"doPopUpButton";
@@ -93,11 +103,13 @@ NSString *_processName;
 	val.selector		= @"selectPopUpButtonItem:ofApp:windowName:";
 	val.args			= [NSArray arrayWithObjects:itemName, _processName, windowName, nil];
 	val.recievesAsync	= YES;
-	return [GUITestProxy guiTestProxyForApplescriptAction:val];
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
 }
 
 + (GUITestProxy *)dropDownMenuButtonText:(NSString *)windowName {
 	
+	NSParameterAssert(windowName);
+
 	struct HooAppleScriptFactory val;
 	
 	val.name			= @"dropDownMenuButtonTextIs";
@@ -105,12 +117,14 @@ NSString *_processName;
 	val.selector		= @"getTextOfDropDownMenuItemOfApp:windowName:";
 	val.args			= [NSArray arrayWithObjects:_processName, windowName, nil];
 	val.recievesAsync	= YES;
-	return [GUITestProxy guiTestProxyForApplescriptAction:val];
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
 }
 
 #pragma mark Menu
 + (GUITestProxy *)openMainMenuItem:(NSString *)menuName {
 	
+	NSParameterAssert(menuName);
+
 	struct HooAppleScriptFactory val;
 	
 	val.name			= @"openMainMenuItem";
@@ -118,11 +132,15 @@ NSString *_processName;
 	val.selector		= @"openMainMenuItem:ofApp:";
 	val.args			= [NSArray arrayWithObjects:menuName, _processName, nil];
 	val.recievesAsync	= YES;
-	return [GUITestProxy guiTestProxyForApplescriptAction:val];
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
 }
 
 + (GUITestProxy *)statusOfMenuItem:(NSString *)menuItemName ofMenu:(NSString *)menuName {
 	
+	NSParameterAssert(menuItemName);
+	NSParameterAssert(menuName);
+	NSParameterAssert(_processName);
+
 	struct HooAppleScriptFactory val;
 	
 	val.name			= @"status of menu item";
@@ -130,10 +148,13 @@ NSString *_processName;
 	val.selector		= @"statusOfMenuItem:ofMenu:ofApp:";
 	val.args			= [NSArray arrayWithObjects:menuItemName, menuName, _processName, nil];
 	val.recievesAsync	= YES;
-	return [GUITestProxy guiTestProxyForApplescriptAction:val];
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
 }
 
 + (GUITestProxy *)doMenu:(NSString *)menuName item:(NSString *)menuItemName {
+	
+	NSParameterAssert(menuItemName);
+	NSParameterAssert(menuName);
 	
 	struct HooAppleScriptFactory val;
 	
@@ -142,7 +163,7 @@ NSString *_processName;
 	val.selector		= @"doMainMenuItem:ofMenu:ofApp:";
 	val.args			= [NSArray arrayWithObjects:menuItemName, menuName, _processName, nil];
 	val.recievesAsync	= YES;
-	return [GUITestProxy guiTestProxyForApplescriptAction:val];
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
 }
 
 - (oneway void)getNotifiedBack:(NSNotification *)eh {

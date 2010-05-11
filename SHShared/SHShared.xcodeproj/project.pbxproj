@@ -24,6 +24,9 @@
 
 /* Begin PBXBuildFile section */
 		7301382F11996161002AFF89 /* GUIFiddler in Copy GUIFiddler */ = {isa = PBXBuildFile; fileRef = 73B051B81168EEF70054CE44 /* GUIFiddler */; };
+		7301396511996E21002AFF89 /* ApplescriptGUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7385A5A610FCD9F600ED053F /* ApplescriptGUI.m */; };
+		7301396A11996E2C002AFF89 /* ApplescriptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343C805111AD73E005A2689 /* ApplescriptUtils.m */; };
+		7301397511996EAB002AFF89 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7385A5C210FCDA4A00ED053F /* Carbon.framework */; };
 		731DE68E10CD244400C42727 /* SHShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 739253D50E447E1A00BEB704 /* SHShared.m */; };
 		731DE7CC10CD274A00C42727 /* SwizzleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 731DE7CA10CD274A00C42727 /* SwizzleList.m */; };
 		731DE7EA10CD277300C42727 /* SwizzleList.h in Headers */ = {isa = PBXBuildFile; fileRef = 731DE7E910CD276500C42727 /* SwizzleList.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,7 +61,6 @@
 		735C2DD210A1BC7A00C2DF56 /* SHBundleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 73021A340B26D737001A8D04 /* SHBundleLoader.m */; };
 		735C2DD310A1BC7B00C2DF56 /* SHBundleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 73021A330B26D737001A8D04 /* SHBundleLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73662D341121B3CB00E8DC9F /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
-		7385A5C310FCDA4A00ED053F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7385A5C210FCDA4A00ED053F /* Carbon.framework */; };
 		7398FB5C10AC5C1D0035A762 /* FilteringArrayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E7856A0D1BD92F00EE14BC /* FilteringArrayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7398FB5D10AC5C1D0035A762 /* FilteringArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785690D1BD92F00EE14BC /* FilteringArrayController.m */; };
 		73A295DB10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).h in Headers */ = {isa = PBXBuildFile; fileRef = 73A295D910FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -149,10 +151,6 @@
 		73D1077511621508001C6946 /* SwappedInIvar.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CB02D110DBC93000AE25C8 /* SwappedInIvar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D107761162150D001C6946 /* HooSenTestProbe.h in Headers */ = {isa = PBXBuildFile; fileRef = 7364E7A410F7710F002B5E45 /* HooSenTestProbe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D107771162150D001C6946 /* HooSenTestProbe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7364E7A310F7710F002B5E45 /* HooSenTestProbe.m */; };
-		73D1077811621510001C6946 /* ApplescriptUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7343C804111AD73E005A2689 /* ApplescriptUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D1077911621510001C6946 /* ApplescriptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343C805111AD73E005A2689 /* ApplescriptUtils.m */; };
-		73D1077A11621511001C6946 /* ApplescriptGUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7385A5A710FCD9F600ED053F /* ApplescriptGUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D1077B11621512001C6946 /* ApplescriptGUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7385A5A610FCD9F600ED053F /* ApplescriptGUI.m */; };
 		73D1077C11621513001C6946 /* TestingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D6EECE10C7CC1B0072DC88 /* TestingUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D1077D11621514001C6946 /* SetUpAndTearDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731DE7A810CD267D00C42727 /* SetUpAndTearDownTests.m */; };
 		73D37D4510A883F5000231A3 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
@@ -165,7 +163,6 @@
 		73D699B111946B7B005DAA84 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73D6EDC510C7C7C60072DC88 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
 		73D6EDCE10C7C80B0072DC88 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735679AF0C5B57FB00FF5880 /* SenTestingKit.framework */; };
-		73D6EE0810C7C8960072DC88 /* SHTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D6EE0710C7C8960072DC88 /* SHTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D6EE3610C7C9510072DC88 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */; };
 		73D6EE3D10C7C9650072DC88 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */; };
 		73E0CC30112039E600261F28 /* TableView.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73E0CC211120396400261F28 /* TableView.scpt */; };
@@ -649,6 +646,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				732E92C61189A5E400DD3435 /* SHShared.framework in Frameworks */,
+				7301397511996EAB002AFF89 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,7 +670,6 @@
 				73D6EDC510C7C7C60072DC88 /* OCMock.framework in Frameworks */,
 				73D6EDCE10C7C80B0072DC88 /* SenTestingKit.framework in Frameworks */,
 				7352FB4610D65E7800871424 /* SHShared.framework in Frameworks */,
-				7385A5C310FCDA4A00ED053F /* Carbon.framework in Frameworks */,
 				73BB93F91168AFF7008F3174 /* FScript.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -819,6 +816,18 @@
 			);
 			name = RBSplitView;
 			path = Src/RBSplitView;
+			sourceTree = "<group>";
+		};
+		73013A4011996EF4002AFF89 /* GUIFiddler */ = {
+			isa = PBXGroup;
+			children = (
+				73B050931168ECE90054CE44 /* GUIFiddler.m */,
+				7343C804111AD73E005A2689 /* ApplescriptUtils.h */,
+				7343C805111AD73E005A2689 /* ApplescriptUtils.m */,
+				7385A5A710FCD9F600ED053F /* ApplescriptGUI.h */,
+				7385A5A610FCD9F600ED053F /* ApplescriptGUI.m */,
+			);
+			name = GUIFiddler;
 			sourceTree = "<group>";
 		};
 		731254470E4215DA0047C4A9 /* Basic views */ = {
@@ -1014,7 +1023,6 @@
 		73BB93591168ABD0008F3174 /* Async Test */ = {
 			isa = PBXGroup;
 			children = (
-				73B050931168ECE90054CE44 /* GUIFiddler.m */,
 				73BB912C1168A055008F3174 /* HooAsyncTestRunner.h */,
 				73BB912F1168A063008F3174 /* HooAsyncTestRunner.m */,
 				73BB93281168AB69008F3174 /* AsyncTests.h */,
@@ -1057,10 +1065,6 @@
 				731DE7A810CD267D00C42727 /* SetUpAndTearDownTests.m */,
 				7364E7A410F7710F002B5E45 /* HooSenTestProbe.h */,
 				7364E7A310F7710F002B5E45 /* HooSenTestProbe.m */,
-				7343C804111AD73E005A2689 /* ApplescriptUtils.h */,
-				7343C805111AD73E005A2689 /* ApplescriptUtils.m */,
-				7385A5A710FCD9F600ED053F /* ApplescriptGUI.h */,
-				7385A5A610FCD9F600ED053F /* ApplescriptGUI.m */,
 				73B9707510FE75480086B35E /* NSInvocation_testHelpers.h */,
 				73B9707610FE75480086B35E /* NSInvocation_testHelpers.m */,
 			);
@@ -1085,6 +1089,7 @@
 		73D6EDBB10C7C6E60072DC88 /* TestUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				73013A4011996EF4002AFF89 /* GUIFiddler */,
 				73D6EE0710C7C8960072DC88 /* SHTestUtilities.h */,
 				73CC088611368AF600B53CA9 /* Tests */,
 				73CC088511368AF000B53CA9 /* Classes */,
@@ -1303,13 +1308,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D6EE0810C7C8960072DC88 /* SHTestUtilities.h in Headers */,
 				73D1074B1162144E001C6946 /* NSInvocation_testHelpers.h in Headers */,
 				73D1077211621503001C6946 /* OCMockRecorder_Extras.h in Headers */,
 				73D1077511621508001C6946 /* SwappedInIvar.h in Headers */,
 				73D107761162150D001C6946 /* HooSenTestProbe.h in Headers */,
-				73D1077811621510001C6946 /* ApplescriptUtils.h in Headers */,
-				73D1077A11621511001C6946 /* ApplescriptGUI.h in Headers */,
 				73D1077C11621513001C6946 /* TestingUtils.h in Headers */,
 				73BB912D1168A055008F3174 /* HooAsyncTestRunner.h in Headers */,
 				73BB932A1168AB69008F3174 /* AsyncTests.h in Headers */,
@@ -1631,6 +1633,8 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Src/GUIFiddler.m",
+				"$(SRCROOT)/Src/ApplescriptUtils.m",
+				"$(SRCROOT)/Src/ApplescriptGUI.m",
 			);
 			name = "Build GUIFiddler";
 			outputPaths = (
@@ -1804,6 +1808,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B052A21168F0610054CE44 /* GUIFiddler.m in Sources */,
+				7301396511996E21002AFF89 /* ApplescriptGUI.m in Sources */,
+				7301396A11996E2C002AFF89 /* ApplescriptUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1829,8 +1835,6 @@
 				73D1077311621504001C6946 /* OCMockRecorder_Extras.m in Sources */,
 				73D1077411621508001C6946 /* SwappedInIvar.m in Sources */,
 				73D107771162150D001C6946 /* HooSenTestProbe.m in Sources */,
-				73D1077911621510001C6946 /* ApplescriptUtils.m in Sources */,
-				73D1077B11621512001C6946 /* ApplescriptGUI.m in Sources */,
 				73D1077D11621514001C6946 /* SetUpAndTearDownTests.m in Sources */,
 				73BB91301168A063008F3174 /* HooAsyncTestRunner.m in Sources */,
 				73BB932B1168AB69008F3174 /* AsyncTests.m in Sources */,
@@ -2031,6 +2035,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7311CBAE10BFDA7100BF3A27 /* Project-Coverage.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx10.6;
 			};
 			name = Coverage;
 		};
@@ -2038,6 +2043,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7311CBB410BFDA7F00BF3A27 /* Target-Framework.xcconfig */;
 			buildSettings = {
+				GCC_VERSION = 4.2;
 				PRODUCT_NAME = SHShared;
 			};
 			name = Coverage;
@@ -2330,6 +2336,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7311CBAD10BFDA7100BF3A27 /* Project-Debug.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx10.6;
 				SYMROOT = "$(PROJECT_DIR)/../build";
 			};
 			name = Debug;
@@ -2338,6 +2345,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7311CBAC10BFDA7100BF3A27 /* Project-Release.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};

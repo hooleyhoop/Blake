@@ -121,7 +121,8 @@ void LoadScriptingAdditions(void) {
 
 + (NSAppleEventDescriptor *)parameters:(NSString *)firstArg, ... {
 	
-	NSParameterAssert([firstArg isKindOfClass: NSClassFromString(@"NSString")]);
+	NSAssert( [[firstArg class] isSubclassOfClass: NSClassFromString(@"NSString")], @"firstArg '%@' is not a string", [firstArg description] );
+	
 	NSAppleEventDescriptor *parameters = nil;
 	
 	NSString *eachObject;
@@ -170,7 +171,7 @@ void LoadScriptingAdditions(void) {
 		// script returned an AppleScript result
 		if( cAEList == [resultEvent descriptorType] ) {
 			// result is a list of other descriptors
-			logError(@"result is a list of other descriptors");
+			[NSException raise:@"result is a list of other descriptors" format:@""];
 		} else {
 			DescType desc = [resultEvent descriptorType];
 			if(desc){
@@ -181,7 +182,7 @@ void LoadScriptingAdditions(void) {
 				
 			}
 			returnVal = [resultEvent stringValue];
-			logInfo(@"%@ Script returned - %@, %@", scriptMethodName, resultEvent, returnVal );
+			NSLog(@"%@ Script returned - %@, %@", scriptMethodName, resultEvent, returnVal );
 		}
 	}
 	return returnVal;

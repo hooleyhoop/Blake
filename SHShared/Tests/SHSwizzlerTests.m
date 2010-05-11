@@ -45,11 +45,11 @@ static int initFake_callCount=0;
 - (void)sh_testBuildInvocationForSelector {
 }
 
-- (void)testBuildInvocationForSelector {
-	// NSInvocation* buildInvocationForSelector( id self, SEL _cmd )
+- (void)testBuildInvocationForOriginalSelector {
+	// NSInvocation* buildInvocationForOriginalSelector( id self, SEL _cmd )
 
-	STAssertNotNil( buildInvocationForSelector(self, @selector(testBuildInvocationForSelector)), @"don");
-	STAssertThrows( buildInvocationForSelector(self, @selector(chicken)), @"don");
+	STAssertNotNil( buildInvocationForOriginalSelector(self, @selector(testBuildInvocationForSelector)), @"don");
+	STAssertThrows( buildInvocationForOriginalSelector(self, @selector(chicken)), @"don");
 }
 
 - (void)testFillInvocationsArgumentsFrom_va_list {

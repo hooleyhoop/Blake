@@ -12,19 +12,19 @@
 @implementation ApplescriptGUI
 
 #pragma mark TextField
-+ (NSString *)getValueOfTextField:(NSUInteger)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName {
++ (NSString *)getValueOfTextField:(NSNumber *)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName {
 
 	NSParameterAssert(appName);
 	NSParameterAssert(windowName);
 
 	NSString *scriptFileName = @"TextField";
 	NSString *scriptMethodName = @"getValueOfTextField";
-	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, windowName, [NSString stringWithFormat:@"%i", txtFieldIndex], nil];
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, windowName, [txtFieldIndex stringValue], nil];
 	
 	return [ApplescriptUtils executeScript:scriptFileName method:scriptMethodName params:parameters];
 }
 
-+ (NSString *)setValueOfTextfield:(NSUInteger)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName toString:(NSString *)newValue {
++ (NSString *)setValueOfTextfield:(NSNumber *)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName toString:(NSString *)newValue {
 	
 	NSParameterAssert(appName);
 	NSParameterAssert(windowName);
@@ -32,7 +32,7 @@
 
 	NSString *scriptFileName = @"TextField";
 	NSString *scriptMethodName = @"doTypingInTextfield";
-	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, windowName, [NSString stringWithFormat:@"%i", txtFieldIndex], newValue, nil];
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, windowName, [txtFieldIndex stringValue], newValue, nil];
 	
 	return [ApplescriptUtils executeScript:scriptFileName method:scriptMethodName params:parameters];
 }
@@ -89,6 +89,8 @@
 	NSParameterAssert(menuName);
 	NSParameterAssert(appName);
 
+	NSLog(@"Args %@ %@ %@", appName, menuName, itemName);
+	
 	NSString *scriptFileName = @"openMenu";
 	NSString *scriptMethodName = @"is_menu_enabled";
 	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, menuName, itemName, nil];

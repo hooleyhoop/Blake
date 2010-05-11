@@ -18,26 +18,35 @@
 
 @implementation SHSwizzler
 
-NSInvocation* buildInvocationForSelector( id self, SEL _cmd ) {
+NSInvocation *buildInvocationForSelector( id self, SEL _cmd ) {
 	
-	NSString *selString = NSStringFromSelector(_cmd);
-	NSString *originalSelString = [NSString stringWithFormat:@"sh_%@", selString];
-	SEL originalSelector = NSSelectorFromString( originalSelString );
-	NSMethodSignature *signature=[self methodSignatureForSelector: originalSelector];
 	NSInvocation *invocation=nil;
+
+	NSString *selString = NSStringFromSelector(_cmd);
+	NSCAssert( selString, @"unknow Selector" ); 
+	SEL selector = NSSelectorFromString( selString );
+	NSMethodSignature *signature=[self methodSignatureForSelector: selector];
+	
 	if(signature)
 	{
 		invocation=[NSInvocation invocationWithMethodSignature:signature];
 		/* set Invocation's arguments 0 and 1 */
 		[invocation setTarget:self];
-		[invocation setSelector:originalSelector];
+		[invocation setSelector:selector];
 	} else {
-		logWarning(@"WE tried to replace a method that doesn't exist - it has to be in this class - %@. Just cause it is in the superclass doesnt count!!!!!", NSStringFromClass([self class]) );
-        [NSException raise:NSInvalidArgumentException format:@"There is no Selector %@ in %@", originalSelString, NSStringFromClass([self class])];
+        [NSException raise:NSInvalidArgumentException format:@"There is no Selector %@ in %@", selString, NSStringFromClass([self class])];
 	}
 	return invocation;
 }
 
+NSInvocation *buildInvocationForOriginalSelector( id self, SEL _cmd ) {
+	
+	NSString *selString = NSStringFromSelector(_cmd);
+	NSString *originalSelString = [NSString stringWithFormat:@"sh_%@", selString];
+	SEL original_cmd = NSSelectorFromString( originalSelString );
+
+	return buildInvocationForSelector( self, original_cmd );
+}
 
 //- (void)trashME:(id)firstObject, ... {
 //	
@@ -69,7 +78,7 @@ void fillInvocationsArgumentsFrom_va_list( va_list args, NSInvocation *invocatio
 id callOriginalMethod( id self, SEL _cmd, va_list args ){
 	
 	/* Build an invocation pointing to the original method */
-	NSInvocation *invocation = buildInvocationForSelector( self, _cmd );
+	NSInvocation *invocation = buildInvocationForOriginalSelector( self, _cmd );
 	
 	fillInvocationsArgumentsFrom_va_list( args, invocation );
 	

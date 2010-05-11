@@ -9,7 +9,8 @@
 #import "HooSenTestProbe.h"
 #import <Appkit/NSApplication.h>
 #import <Foundation/NSDebug.h>
-
+#import <objc/objc.h>
+#import <objc/objc-runtime.h>
 @class SenTestCaseSuite;
 
 @interface SenTestCase (HooSenTestCase)
@@ -35,13 +36,17 @@
 	}
 }
 
+// Access SenTestKit variables without compiler warnings
 - (void)setRun:(id)value {
 
-	NSAssert(NO, @"WHAT WAS THIS!");
-//	if(run!=value){
-//		[run release];
-//		run = [value retain];
-//	}
+	id runSneak;
+	Ivar runIvar = object_getInstanceVariable( self, "run", (void**)&runSneak);
+	NSAssert( runIvar, @"Maybe SenTestKit implementation changed?");
+	
+	if( runSneak!=value ){
+		[runSneak release];
+		object_setInstanceVariable( self, "run", (void *)[value retain] );
+	}
 }
 
 - (void)performTest_begin:(SenTestRun *)testCaseRun {
@@ -187,11 +192,13 @@
 
 @implementation SenTestSuite (HooSenTestSuite)
 
+// access SenTestKit's private iVars
 - (NSMutableArray *)tests {
-	
-	NSAssert(NO, @"What is this for?");
-	return nil;
-	// return tests;
+
+	id testsSneak;
+	Ivar testsIvar = object_getInstanceVariable( self, "tests", (void**)&testsSneak);
+	NSAssert( testsIvar, @"Perhaps they changed SentestKit implementation?");
+	return testsSneak;
 }
 
 @end

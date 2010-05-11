@@ -10,9 +10,7 @@
 #import <SHTestUtilities/TestingUtils.h>
 #import <SHTestUtilities/SwappedInIvar.h>
 #import <SHTestUtilities/HooSenTestProbe.h>
-#import <SHTestUtilities/ApplescriptGUI.h>
 #import <SHTestUtilities/NSInvocation_testHelpers.h>
-#import <SHTestUtilities/ApplescriptUtils.h>
 #import <SHTestUtilities/HooAsyncTestRunner.h>
 #import <SHTestUtilities/AsyncTests.h>
 #import <SHTestUtilities/AsyncTestProxy.h>
@@ -22,6 +20,10 @@
 #import <SHTestUtilities/FSBlockConviences.h>
 #import <SHTestUtilities/NSInvocation_testFutures.h>
 #import <SHTestUtilities/DelayedPerformer.h>
+
+// Moved To GUIFiddler
+//#import <SHTestUtilities/ApplescriptUtils.h>
+//#import <SHTestUtilities/ApplescriptGUI.h>
 
 #ifndef _BLOCK
 	#define _BLOCK(x) [x asBlock]

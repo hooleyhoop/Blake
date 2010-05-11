@@ -11,8 +11,8 @@
 }
 
 #pragma mark TextField
-+ (NSString *)getValueOfTextField:(NSUInteger)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName;
-+ (NSString *)setValueOfTextfield:(NSUInteger)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName toString:(NSString *)newValue;
++ (NSString *)getValueOfTextField:(NSNumber *)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName;
++ (NSString *)setValueOfTextfield:(NSNumber *)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName toString:(NSString *)newValue;
 
 #pragma mark PopUpButtons
 + (NSString *)getTextOfDropDownMenuItemOfApp:(NSString *)appName windowName:(NSString *)windowName;

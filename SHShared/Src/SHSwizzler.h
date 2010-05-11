@@ -13,5 +13,6 @@
 + (void)insertDebugCodeForInitMethod:(NSString *)selString ofClass:(NSString *)classString;
 
 NSInvocation *buildInvocationForSelector( id self, SEL _cmd );
+NSInvocation *buildInvocationForOriginalSelector( id self, SEL _cmd );
 
 @end

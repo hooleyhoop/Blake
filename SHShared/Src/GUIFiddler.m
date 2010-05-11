@@ -68,7 +68,9 @@ id _callHooSelector( id target, SEL _cmd, NSArray *args ){
 	NSCAssert( [args count]==([[invocation methodSignature] numberOfArguments]-2), @"wrong number of args?" );
 	NSEnumerator *argEnum = [args objectEnumerator];
 	for( NSUInteger i=2; i<[[invocation methodSignature] numberOfArguments]; i++){
-		[invocation setArgument:[argEnum nextObject] atIndex:(NSInteger)i];
+		
+		id arg = [argEnum nextObject];
+		[invocation setArgument:&arg atIndex:(NSInteger)i];
 	}
 	
 	//-- call the original method
@@ -87,10 +89,11 @@ id _callHooSelector( id target, SEL _cmd, NSArray *args ){
 	NSDictionary *dict = [eh userInfo];
 	NSString *object = [eh object];
 	NSString *targetClassName = [dict objectForKey:@"TargetClass"];
-	NSAssert(targetClassName, @"Need to specify targetClass Name");
+	NSAssert( targetClassName, @"Need to specify targetClass Name");
 	Class targetClass = NSClassFromString(targetClassName);
+	NSAssert1( targetClass, @"Cant get class %@", targetClassName );
 	NSString *selectorName = [dict objectForKey:@"SelectorName"];
-	NSAssert(selectorName, @"Need to specify Selector Name");
+	NSAssert( selectorName, @"Need to specify Selector Name");
 	SEL selector = NSSelectorFromString(selectorName);
 	NSArray *arguments = [dict objectForKey:@"Arguments"];
 	

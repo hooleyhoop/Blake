@@ -269,9 +269,9 @@ static BOOL _locked;
 	[self pushAction:tearDownUpSuite];
 
 	/* Launch the background App */
-	NSBundle *mainBundle = [NSBundle bundleForClass:NSClassFromString(@"ApplescriptUtils")];
+	NSBundle *mainBundle = [NSBundle bundleForClass:[self class]];
 	NSString *guiFiddler = [mainBundle pathForResource:@"GUIFiddler" ofType:nil];
-	NSCAssert(guiFiddler, @"cant find guiFiddler");
+	NSCAssert( guiFiddler, @"cant find guiFiddler" );
 
 //	???
 //	pid_t child_pid = vfork();
