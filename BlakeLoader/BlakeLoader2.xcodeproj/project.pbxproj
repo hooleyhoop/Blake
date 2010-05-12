@@ -374,6 +374,13 @@
 			remoteGlobalIDString = 732048EF10D00D3B00242B59;
 			remoteInfo = NodeListView;
 		};
+		7322A88F119AA3C8007B5F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734B046509177C13003B2B17 /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 732E93681189AFEA00DD3435 /* PerformanceTests.octest */;
+			remoteInfo = PerformanceTests;
+		};
 		73263EDB10AC5EA800D8E6B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 734B046509177C13003B2B17 /* SHShared.xcodeproj */;
@@ -2081,6 +2088,7 @@
 				7378124710C916EB003DC1AF /* SHTestUtilities.framework */,
 				73C20912113EBD88006EF7C4 /* TestUtilitiesTests.octest */,
 				73B051C01168EF160054CE44 /* GUIFiddler */,
+				7322A890119AA3C8007B5F34 /* PerformanceTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3090,6 +3098,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		7322A890119AA3C8007B5F34 /* PerformanceTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PerformanceTests.octest;
+			remoteRef = 7322A88F119AA3C8007B5F34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		73295ED9092B511100AE6D47 /* PropertyInspector_Test.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;

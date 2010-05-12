@@ -74,3 +74,6 @@
 
 OBJC_EXPORT void addDestructorCallback( Class classValue, SEL callback ) __attribute__((weak_import));
 
+#ifndef INT
+	#define INT(x) [NSNumber numberWithInt:x]
+#endif

@@ -98,6 +98,7 @@ id _callHooSelector( id target, SEL _cmd, NSArray *args ){
 	NSArray *arguments = [dict objectForKey:@"Arguments"];
 	
 	id result = _callHooSelector( targetClass, selector, arguments );
+	NSLog(@"GUIFiddler returned result %@", result);
 	
 	// -- construct result dictionary
 	NSMutableDictionary *resultDictionary = [NSMutableDictionary dictionaryWithObjectsAndKeys: result, @"resultValue", nil];

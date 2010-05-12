@@ -148,9 +148,9 @@ void LoadScriptingAdditions(void) {
 	return parameters;	
 }
 
-+ (NSString *)executeScript:(NSString *)scriptFileName method:(NSString *)scriptMethodName params:(NSAppleEventDescriptor *)parameters {
++ (id)executeScript:(NSString *)scriptFileName method:(NSString *)scriptMethodName params:(NSAppleEventDescriptor *)parameters {
 	
-	NSString *returnVal = nil;
+	id returnVal = nil;
 	NSDictionary *errors = [NSDictionary dictionary];
 	
 	NSAppleScript *appleScript = [ApplescriptUtils applescript:scriptFileName];
@@ -175,14 +175,26 @@ void LoadScriptingAdditions(void) {
 		} else {
 			DescType desc = [resultEvent descriptorType];
 			if(desc){
+				// Convert 4 char code to NSString
+				NSString *fourCC = NSFileTypeForHFSTypeCode(desc); 
+				NSLog(@"Desc type is %@", fourCC);
+
+				if( [fourCC isEqualToString:@"'utxt'"])
+					returnVal = [resultEvent stringValue];
+				else if( [fourCC isEqualToString:@"'obj '"])
+					returnVal = [resultEvent stringValue];
+				else if( [fourCC isEqualToString:@"'long'"])
+					returnVal = [NSNumber numberWithInt:[resultEvent int32Value]];
+				else {
+					[NSException raise:@"what is return type?" format:@"%@", fourCC];
+				}
+				NSLog(@"%@ Script returned - %@, %@", scriptMethodName, resultEvent, returnVal );
 				
 			}
 			NSData *data = [resultEvent data];
 			if(data){
 				
 			}
-			returnVal = [resultEvent stringValue];
-			NSLog(@"%@ Script returned - %@, %@", scriptMethodName, resultEvent, returnVal );
 		}
 	}
 	return returnVal;

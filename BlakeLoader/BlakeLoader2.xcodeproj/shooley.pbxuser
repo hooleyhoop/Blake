@@ -336,14 +336,16 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 294085936;
-			PBXWorkspaceStateSaveDate = 294085936;
+			PBXPerProjectTemplateStateSaveDate = 295347141;
+			PBXWorkspaceStateSaveDate = 295347141;
 		};
 		perUserProjectItems = {
+			7322A86B119AA3C7007B5F34 /* PBXTextBookmark */ = 7322A86B119AA3C7007B5F34 /* PBXTextBookmark */;
+			7322A893119AA3D9007B5F34 /* PBXTextBookmark */ = 7322A893119AA3D9007B5F34 /* PBXTextBookmark */;
+			7322A895119AA3FB007B5F34 /* PBXTextBookmark */ = 7322A895119AA3FB007B5F34 /* PBXTextBookmark */;
 			735967C51174BFB30045323A /* PBXTextBookmark */ = 735967C51174BFB30045323A /* PBXTextBookmark */;
 			735967C61174BFB30045323A /* PBXTextBookmark */ = 735967C61174BFB30045323A /* PBXTextBookmark */;
 			735967C71174BFB30045323A /* PBXTextBookmark */ = 735967C71174BFB30045323A /* PBXTextBookmark */;
-			735967CC1174BFB30045323A /* PBXTextBookmark */ = 735967CC1174BFB30045323A /* PBXTextBookmark */;
 			73856D361110485700A3EEB8 /* PBXTextBookmark */ = 73856D361110485700A3EEB8 /* PBXTextBookmark */;
 			7389E24E1111F397004D4B5D /* PBXTextBookmark */ = 7389E24E1111F397004D4B5D /* PBXTextBookmark */;
 			73A12E441111E218006F58FF /* PBXTextBookmark */ = 73A12E441111E218006F58FF /* PBXTextBookmark */;
@@ -359,7 +361,6 @@
 			73BB91531168A20F008F3174 /* PBXTextBookmark */ = 73BB91531168A20F008F3174 /* PBXTextBookmark */;
 			73BB95501168B2DE008F3174 /* PBXTextBookmark */ = 73BB95501168B2DE008F3174 /* PBXTextBookmark */;
 			73BB95681168B332008F3174 /* PBXTextBookmark */ = 73BB95681168B332008F3174 /* PBXTextBookmark */;
-			73DC4F851187654A00912E5B /* PBXTextBookmark */ = 73DC4F851187654A00912E5B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 739141BF090E4514001ADDD4 /* Source Control */;
 		userBuildSettings = {
@@ -559,6 +560,36 @@
 			sepNavSelRange = "{328, 8}";
 			sepNavVisRange = "{0, 484}";
 		};
+	};
+	7322A86B119AA3C7007B5F34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73D4A92C10DFE2920091B586 /* SHApplication_Extras.h */;
+		name = "SHApplication_Extras.h: 13";
+		rLen = 14;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 437;
+		vrLoc = 0;
+	};
+	7322A893119AA3D9007B5F34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7373009F0E028B5B00EBA987 /* BlakeDocument.m */;
+		name = "BlakeDocument.m: 173";
+		rLen = 43;
+		rLoc = 6740;
+		rType = 0;
+		vrLen = 1527;
+		vrLoc = 6152;
+	};
+	7322A895119AA3FB007B5F34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7373009F0E028B5B00EBA987 /* BlakeDocument.m */;
+		name = "BlakeDocument.m: 173";
+		rLen = 43;
+		rLoc = 6740;
+		rType = 0;
+		vrLen = 1527;
+		vrLoc = 6152;
 	};
 	7328A93B0DD73995006CE23F /* SKTGraphicViewTests.m */ = {
 		uiCtxt = {
@@ -1144,16 +1175,6 @@
 		vrLen = 647;
 		vrLoc = 141;
 	};
-	735967CC1174BFB30045323A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73D4A92C10DFE2920091B586 /* SHApplication_Extras.h */;
-		name = "SHApplication_Extras.h: 13";
-		rLen = 14;
-		rLoc = 260;
-		rType = 0;
-		vrLen = 437;
-		vrLoc = 0;
-	};
 	735B39D510FF715B00C9C4C5 /* UnknownEndToEndTest.m:30 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
@@ -1370,9 +1391,9 @@
 	};
 	7373009F0E028B5B00EBA987 /* BlakeDocument.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1263, 3304}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 3198}}";
 			sepNavSelRange = "{6740, 43}";
-			sepNavVisRange = "{4830, 2849}";
+			sepNavVisRange = "{6152, 1527}";
 		};
 	};
 	737300A00E028B5B00EBA987 /* BlakeDocument.h */ = {
@@ -4787,7 +4808,7 @@
 	};
 	73D4A92C10DFE2920091B586 /* SHApplication_Extras.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {596, 366}}";
+			sepNavIntBoundsRect = "{{0, 0}, {596, 356}}";
 			sepNavSelRange = "{260, 14}";
 			sepNavVisRange = "{0, 437}";
 		};
@@ -4841,16 +4862,6 @@
 	};
 	73DA59FB0EDB208500D4F5F0 /* TreeView */ = {
 		activeExec = 0;
-	};
-	73DC4F851187654A00912E5B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73D4A92C10DFE2920091B586 /* SHApplication_Extras.h */;
-		name = "SHApplication_Extras.h: 13";
-		rLen = 14;
-		rLoc = 260;
-		rType = 0;
-		vrLen = 437;
-		vrLoc = 0;
 	};
 	73DE234D0E4C789A00FC1C47 /* SketchTests.m */ = {
 		uiCtxt = {

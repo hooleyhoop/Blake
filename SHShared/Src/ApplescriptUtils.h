@@ -14,6 +14,6 @@
 + (NSAppleScript *)applescript:(NSString *)scriptName;
 + (NSAppleEventDescriptor *)eventForApplescriptMethod:(NSString *)methodName arguments:(NSAppleEventDescriptor *)paramList;
 + (NSAppleEventDescriptor *)parameters:(NSString *)firstArg, ...;
-+ (NSString *)executeScript:(NSString *)scriptFileName method:(NSString *)scriptMethodName params:(NSAppleEventDescriptor *)parameters;
++ (id)executeScript:(NSString *)scriptFileName method:(NSString *)scriptMethodName params:(NSAppleEventDescriptor *)parameters;
 
 @end

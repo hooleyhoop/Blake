@@ -58,6 +58,22 @@ NSString *_processName;
 	self.postAction = _BLOCK(@"[:arg1 | (NSDistributedNotificationCenter defaultCenter) removeObserver:arg1 name:'hooley_distrbuted_notification_callback' object:nil]");
 }
 
+#pragma mark Table
++ (GUITestProxy *)countOfRowsInTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName {
+	
+	NSParameterAssert(tableScrollName);
+	NSParameterAssert(windowName);
+	
+	struct HooAppleScriptFactory val;
+	
+	val.name			= @"count OfItems In Table";
+	val.className		= @"ApplescriptGUI";
+	val.selector		= @"countOfRowsInTableScroll:windowName:app:";
+	val.args			= [NSArray arrayWithObjects:tableScrollName, windowName, _processName, nil];
+	val.recievesAsync	= YES;
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
+}
+
 #pragma mark TextField
 + (GUITestProxy *)getValueOfTextField:(NSUInteger)txtFieldIndex ofWindow:(NSString *)windowName {
 	
@@ -172,12 +188,18 @@ NSString *_processName;
 	NSAssert(_recievesAsyncCallback, @"Needs to be _recievesAsyncCallback");
 	
 	NSDictionary *dict = [eh userInfo];
-	NSString *resultStringValue = [dict valueForKey:@"resultValue"];
-	if( [resultStringValue isEqualToString:@"true"] || [resultStringValue isEqualToString:@"false"] ) {
-		BOOL result = [resultStringValue boolValue];
-		_blockResult = result ? [FSBoolean fsTrue] : [FSBoolean fsFalse];
-	} else {
-		_blockResult = [resultStringValue retain];
+	id resultValue = [dict valueForKey:@"resultValue"];
+	if( [resultValue respondsToSelector:@selector(isEqualToString:)])
+	{
+		NSString *resultStringValue = resultValue;
+		if( [resultStringValue isEqualToString:@"true"] || [resultStringValue isEqualToString:@"false"] ) {
+			BOOL result = [resultStringValue boolValue];
+			_blockResult = result ? [FSBoolean fsTrue] : [FSBoolean fsFalse];
+		} else {
+			_blockResult = [resultStringValue retain];
+		}
+	} else if ([resultValue respondsToSelector:@selector(intValue)]) {
+		_blockResult = [resultValue retain];
 	}
 	
 	[self cleanup];

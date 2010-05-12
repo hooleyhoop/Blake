@@ -10,20 +10,23 @@
 
 }
 
-#pragma mark TextField
+#pragma mark Table Scripts
++ (NSNumber *)countOfRowsInTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
+
+#pragma mark TextField Scripts
 + (NSString *)getValueOfTextField:(NSNumber *)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName;
 + (NSString *)setValueOfTextfield:(NSNumber *)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName toString:(NSString *)newValue;
 
-#pragma mark PopUpButtons
+#pragma mark PopUpButtons Scripts
 + (NSString *)getTextOfDropDownMenuItemOfApp:(NSString *)appName windowName:(NSString *)windowName;
 + (NSString *)selectPopUpButtonItem:(NSString *)itemName ofApp:(NSString *)appName windowName:(NSString *)windowName;
 
-#pragma mark Main Menus	
+#pragma mark Main Menus	Scripts
 + (NSString *)openMainMenuItem:(NSString *)menuName ofApp:(NSString *)appName;
 + (NSString *)doMainMenuItem:(NSString *)itemName ofMenu:(NSString *)menuName ofApp:(NSString *)appName;
 + (NSString *)statusOfMenuItem:(NSString *)itemName ofMenu:(NSString *)menuName ofApp:(NSString *)appName;
 
-#pragma mark Off the Wall
+#pragma mark Off the Wall Scripts
 + (NSString *)attachGDBToTask:(int)pid file:(NSString *)fileName;
 + (NSString *)doScript:(NSString *)scriptFileName method:(NSString *)scriptMethodName;
 

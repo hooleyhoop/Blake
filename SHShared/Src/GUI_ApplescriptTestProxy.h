@@ -35,4 +35,7 @@ struct HooAppleScriptFactory
 + (GUITestProxy *)getValueOfTextField:(NSUInteger)txtFieldIndex ofWindow:(NSString *)windowName;
 + (GUITestProxy *)setValueOfTextfield:(NSUInteger)txtFieldIndex ofWindow:(NSString *)windowName toValue:(NSString *)newValue;
 
+#pragma mark Table
++ (GUITestProxy *)countOfRowsInTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName;
+
 @end
