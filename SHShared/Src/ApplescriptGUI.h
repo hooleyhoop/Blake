@@ -12,6 +12,7 @@
 
 #pragma mark Table Scripts
 + (NSNumber *)countOfRowsInTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
++ (NSArray *)indexesOfSelectedRowsInTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
 
 #pragma mark TextField Scripts
 + (NSString *)getValueOfTextField:(NSNumber *)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName;

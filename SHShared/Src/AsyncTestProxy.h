@@ -14,7 +14,7 @@
 
 	// we use one or the other
 	NSInvocation	*_remoteInvocation;
-	FSBlock			*_boolExpressionBlock, *_preAction, *_postAction;
+	FSBlock		*_boolExpressionBlock, *_preAction, *_postAction;
 
 	TestHelp		*_callbackOb;
 	NSInvocation	*_resultProcessObject;

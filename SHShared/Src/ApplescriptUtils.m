@@ -169,9 +169,25 @@ void LoadScriptingAdditions(void) {
 	if( kAENullEvent!=[resultEvent descriptorType] )
 	{
 		// script returned an AppleScript result
-		if( cAEList == [resultEvent descriptorType] ) {
+		if( cAEList == [resultEvent descriptorType] ) 
+		{
+			returnVal = [NSMutableArray array];
+
 			// result is a list of other descriptors
-			[NSException raise:@"result is a list of other descriptors" format:@""];
+			for( NSUInteger i=0; i<[resultEvent numberOfItems]; i++ )
+			{
+				NSAppleEventDescriptor *item = [resultEvent descriptorAtIndex:i];
+				DescType desc = [item descriptorType];
+				NSString *fourCC = NSFileTypeForHFSTypeCode(desc);
+				if( [fourCC isEqualToString:@"'long'"])
+				{
+					[returnVal addObject:[NSNumber numberWithInt:[item int32Value]]];
+				} else {
+					[NSException raise:@"what is return type of item in list?" format:@"%@", fourCC];
+				}
+			}
+			NSLog(@"returned list was %@", returnVal);
+			
 		} else {
 			DescType desc = [resultEvent descriptorType];
 			if(desc){

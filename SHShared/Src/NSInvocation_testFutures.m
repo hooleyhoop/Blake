@@ -23,7 +23,7 @@
 	
 	// of course, result isn't available at this stage
 	id result = nil;
-	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result arg2:ob2 ofBlock:[FSBlockConviences _assertEqualObjectsBlock] failMsg:nil];
+	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result arg2:ob2 ofBlock:[FSBlockConviences _assertEqualObjectsBlock] failMsg:@"Object %@ should be equal to %@"];
 	return outInv;
 }
 
@@ -35,7 +35,7 @@
 	
 	// of course, result isn't available at this stage
 	id result = nil;
-	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result arg2:ob2 ofBlock:[FSBlockConviences _assertNotEqualObjectsBlock] failMsg:nil];
+	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result arg2:ob2 ofBlock:[FSBlockConviences _assertNotEqualObjectsBlock] failMsg:@"Object %@ should not be equal to %@"];
 	return outInv;
 }
 
@@ -48,7 +48,7 @@
 	
 	// of course, result isn't available at this stage
 	id result = nil;
-	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result ofBlock:[FSBlockConviences _assertFailBlock] failMsg:nil];
+	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result ofBlock:[FSBlockConviences _assertFailBlock] failMsg:@"%@ should be false"];
 	return outInv;
 }
 
@@ -60,7 +60,7 @@
 	
 	// of course, result isn't available at this stage
 	id result = nil;
-	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result ofBlock:[FSBlockConviences _assertTrueBlock] failMsg:nil];
+	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result ofBlock:[FSBlockConviences _assertTrueBlock] failMsg:@"%@ should be true"];
 	return outInv;
 }
 
@@ -72,7 +72,7 @@
 	
 	// of course, result isn't available at this stage
 	id result = nil;
-	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result ofBlock:[FSBlockConviences _assertNilBlock] failMsg:nil];
+	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result ofBlock:[FSBlockConviences _assertNilBlock] failMsg:@"%@ should be nil"];
 	return outInv;
 }
 
@@ -84,7 +84,7 @@
 	
 	// of course, result isn't available at this stage
 	id result = nil;
-	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result ofBlock:[FSBlockConviences _assertNotNilBlock] failMsg:nil];
+	[[NSInvocation makeRetainedInvocationWithTarget:tests invocationOut:&outInv] assert_arg1:result ofBlock:[FSBlockConviences _assertNotNilBlock] failMsg:@"%@ should not be nil"];
 	return outInv;
 }
 

@@ -59,6 +59,21 @@ NSString *_processName;
 }
 
 #pragma mark Table
++ (GUITestProxy *)indexesOfSelectedRowsInTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName {
+	
+	NSParameterAssert(tableScrollName);
+	NSParameterAssert(windowName);
+
+	struct HooAppleScriptFactory val;
+	
+	val.name			= @"count OfItems In Table";
+	val.className		= @"ApplescriptGUI";
+	val.selector		= @"indexesOfSelectedRowsInTableScroll:windowName:app:";
+	val.args			= [NSArray arrayWithObjects:tableScrollName, windowName, _processName, nil];
+	val.recievesAsync	= YES;
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
+}
+
 + (GUITestProxy *)countOfRowsInTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName {
 	
 	NSParameterAssert(tableScrollName);
@@ -198,10 +213,15 @@ NSString *_processName;
 		} else {
 			_blockResult = [resultStringValue retain];
 		}
+		
+	// result is a number
 	} else if ([resultValue respondsToSelector:@selector(intValue)]) {
 		_blockResult = [resultValue retain];
-	}
 	
+	// result is an array
+	} else if ([resultValue respondsToSelector:@selector(containsObject:)]) {
+		_blockResult = [resultValue retain];
+	}
 	[self cleanup];
 }
 
