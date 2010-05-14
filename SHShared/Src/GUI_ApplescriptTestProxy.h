@@ -38,5 +38,6 @@ struct HooAppleScriptFactory
 #pragma mark Table
 + (GUITestProxy *)countOfRowsInTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName;
 + (GUITestProxy *)indexesOfSelectedRowsInTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName;
++ (GUITestProxy *)selectRowAtIndex:(NSUInteger)tableRow inTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName;
 
 @end

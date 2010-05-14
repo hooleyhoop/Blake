@@ -174,11 +174,21 @@ void LoadScriptingAdditions(void) {
 			returnVal = [NSMutableArray array];
 
 			// result is a list of other descriptors
-			for( NSUInteger i=0; i<[resultEvent numberOfItems]; i++ )
+			NSLog(@"Number of Items in Rsult List is %i", [resultEvent numberOfItems] );
+			for( NSUInteger i=1; i<=[resultEvent numberOfItems]; i++ )
 			{
 				NSAppleEventDescriptor *item = [resultEvent descriptorAtIndex:i];
+				NSLog(@"Item %i in result list is %@", i, item );
+				
+//				- (Boolean)booleanValue;
+//				- (OSType)enumCodeValue;
+//				- (SInt32)int32Value;
+//				- (OSType)typeCodeValue;
+//				- (NSString *)stringValue;				
+				
 				DescType desc = [item descriptorType];
 				NSString *fourCC = NSFileTypeForHFSTypeCode(desc);
+				
 				if( [fourCC isEqualToString:@"'long'"])
 				{
 					[returnVal addObject:[NSNumber numberWithInt:[item int32Value]]];

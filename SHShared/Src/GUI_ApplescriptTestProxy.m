@@ -59,6 +59,21 @@ NSString *_processName;
 }
 
 #pragma mark Table
++ (GUITestProxy *)selectRowAtIndex:(NSUInteger)tableRow inTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName {
+
+	NSParameterAssert(tableScrollName);
+	NSParameterAssert(windowName);
+	
+	struct HooAppleScriptFactory val;
+	
+	val.name			= @"Select A Row In Table";
+	val.className		= @"ApplescriptGUI";
+	val.selector		= @"selectRow:inTableScroll:windowName:app:";
+	val.args			= [NSArray arrayWithObjects:[NSNumber numberWithUnsignedLong:tableRow], tableScrollName, windowName, _processName, nil];
+	val.recievesAsync	= YES;
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
+}
+
 + (GUITestProxy *)indexesOfSelectedRowsInTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName {
 	
 	NSParameterAssert(tableScrollName);
@@ -66,7 +81,7 @@ NSString *_processName;
 
 	struct HooAppleScriptFactory val;
 	
-	val.name			= @"count OfItems In Table";
+	val.name			= @"Indexes Of Selected Rows In Table";
 	val.className		= @"ApplescriptGUI";
 	val.selector		= @"indexesOfSelectedRowsInTableScroll:windowName:app:";
 	val.args			= [NSArray arrayWithObjects:tableScrollName, windowName, _processName, nil];
