@@ -59,6 +59,22 @@ NSString *_processName;
 }
 
 #pragma mark Table
++ (GUITestProxy *)setSelectedRows:(NSArray *)tableRows inTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName {
+	
+	NSParameterAssert(tableRows);
+	NSParameterAssert(tableScrollName);
+	NSParameterAssert(windowName);
+	
+	struct HooAppleScriptFactory val;
+	
+	val.name			= @"Select A Row In Table";
+	val.className		= @"ApplescriptGUI";
+	val.selector		= @"selectRows:inTableScroll:windowName:app:";
+	val.args			= [NSArray arrayWithObjects:tableRows, tableScrollName, windowName, _processName, nil];
+	val.recievesAsync	= YES;
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
+}
+
 + (GUITestProxy *)selectRowAtIndex:(NSUInteger)tableRow inTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName {
 
 	NSParameterAssert(tableScrollName);

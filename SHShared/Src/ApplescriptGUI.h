@@ -11,6 +11,7 @@
 }
 
 #pragma mark Table Scripts
++ (NSString *)selectRows:(NSArray *)tableRows inTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
 + (NSString *)selectRow:(NSNumber *)tableRow inTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
 + (NSNumber *)countOfRowsInTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
 + (NSArray *)indexesOfSelectedRowsInTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;

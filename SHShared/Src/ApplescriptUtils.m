@@ -135,11 +135,32 @@ void LoadScriptingAdditions(void) {
 		
 		NSUInteger argIndex = 1;
 		va_start(argumentList, firstArg);					// Start scanning for arguments after firstString.
-		while( (eachObject=va_arg( argumentList, NSString* )) )	// As many times as we can get an argument of type "id"
+		while( (eachObject=va_arg( argumentList, id )) )	// As many times as we can get an argument of type "id"
 		{
-			NSAssert([eachObject isKindOfClass: NSClassFromString(@"NSString")], @"Only for string arguments at the moment");
+			NSAppleEventDescriptor *nextParameter = nil;
+
+			// What types can we send to applescript?
+			if([eachObject isKindOfClass: NSClassFromString(@"NSString")])
+			{
+				/* String */
+				nextParameter = [NSAppleEventDescriptor descriptorWithString:eachObject];
+
+			} else if([eachObject isKindOfClass: NSClassFromString(@"NSArray")]) {
+	
+				/* Array */
+				nextParameter = [NSAppleEventDescriptor listDescriptor];
+				NSUInteger subParamIndex = 1;
+				for( NSNumber *eachSubParam in eachObject ){
+					NSAppleEventDescriptor *nextSubParameter = [NSAppleEventDescriptor descriptorWithString:[eachSubParam stringValue]];
+					[nextParameter insertDescriptor:nextSubParameter atIndex:subParamIndex];
+					subParamIndex++;
+				}
 			
-			NSAppleEventDescriptor *nextParameter = [NSAppleEventDescriptor descriptorWithString:eachObject];
+			} else {
+				[NSException raise:@"ERROR - trying to pass unknow type of arg to applescript" format:@""];
+			}
+
+			NSAssert(nextParameter!=nil, @"did we even do anything?");
 			[parameters insertDescriptor:nextParameter atIndex:(argIndex+1)];
 			argIndex++;
 		}
@@ -174,11 +195,11 @@ void LoadScriptingAdditions(void) {
 			returnVal = [NSMutableArray array];
 
 			// result is a list of other descriptors
-			NSLog(@"Number of Items in Rsult List is %i", [resultEvent numberOfItems] );
+			NSLog(@"Number of Items in Rsult List is %lx", [resultEvent numberOfItems] );
 			for( NSUInteger i=1; i<=[resultEvent numberOfItems]; i++ )
 			{
 				NSAppleEventDescriptor *item = [resultEvent descriptorAtIndex:i];
-				NSLog(@"Item %i in result list is %@", i, item );
+				NSLog(@"Item %lu in result list is %@", i, item );
 				
 //				- (Boolean)booleanValue;
 //				- (OSType)enumCodeValue;
