@@ -5,6 +5,7 @@
 //  Created by Jonathan del Strother on 10/10/2007
 //  Copyright 2007 Best Before. All rights reserved.
 //
+#import "BBLogger.h"
 
 
 @class BBLogFile, LogEmailController;

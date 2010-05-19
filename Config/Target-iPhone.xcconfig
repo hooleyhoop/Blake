@@ -6,19 +6,23 @@
 //  Copyright 2008 Best Before Media Ltd. All rights reserved.
 //
 
-#include "/Code/Config/Target-Base.xcconfig"
+#include "Target-Base.xcconfig"
 
 CODE_SIGN_IDENTITY = iPhone Developer
 HEADER_SEARCH_PATHS = $(inherited) $(BUILT_PRODUCTS_DIR)/usr/local/include
 LIBRARY_SEARCH_PATHS = $(inherited) "$(SRCROOT)/lib"
 
-SDKROOT = iphoneos2.2
-IPHONEOS_DEPLOYMENT_TARGET = 2.2
+SDKROOT = iphonesimulator4.0
+GCC_VERSION = 4.2
+GCC_VERSION[sdk=iphoneos*] = 4.2
+
+IPHONEOS_DEPLOYMENT_TARGET = 3.2
+TARGETED_DEVICE_FAMILY = 1
 
 // Turn of accelerated dispatch on ppc, otherwise the debugger goes very flakey
 GCC_FAST_OBJC_DISPATCH[arch=ppc] = NO
 
-GCC_PREFIX_HEADER = $(PRODUCT_NAME)_Prefix.pch
+GCC_PREFIX_HEADER = pch/$(PRODUCT_NAME)_Prefix.pch
 
 // load objc classes from static libraries on load
 OTHER_LDFLAGS = $(inherited) -ObjC

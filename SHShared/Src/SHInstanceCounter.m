@@ -12,10 +12,12 @@
 
 #ifdef DEBUG
 
-static NSPointerArray *_allInstances=nil;
-static NSPointerArray *_instancesSinceMark=nil;
-
+static CFMutableArrayRef _allInstances;
+static CFMutableArrayRef _instancesSinceMark;
 static NSUInteger _instanceCount;
+
+static const void* TTRetainNoOp(CFAllocatorRef allocator, const void *value) { return value; }
+static void TTReleaseNoOp(CFAllocatorRef allocator, const void *value) { }
 
 #pragma mark -
 + (void)initialize  {
@@ -29,13 +31,13 @@ static NSUInteger _instanceCount;
 
 + (void)cleanUpInstanceCounter {
     
-    if([_allInstances count]>0){
+    if([(NSMutableArray *)_allInstances count]>0){
         [self printLeakingObjectInfo];
     } else {
         NSLog(@"** No Leaking Objects **");
 	}
-    [_allInstances release];
-	[_instancesSinceMark release];
+    [(NSMutableArray *)_allInstances release];
+	[(NSMutableArray *)_instancesSinceMark release];
     _allInstances = nil;
 	_instancesSinceMark = nil;
     _instanceCount = 0;
@@ -46,13 +48,16 @@ static NSUInteger _instanceCount;
     NSAssert1([self indexOf:value]==NSNotFound, @"HMM - we already contain this object %@", [self instanceDescription: value] );
 
 	if(_allInstances==nil){
-		_allInstances = [[NSPointerArray pointerArrayWithWeakObjects] retain];
+		CFArrayCallBacks callbacks = kCFTypeArrayCallBacks;
+		callbacks.retain = TTRetainNoOp;
+		callbacks.release = TTReleaseNoOp;
+		_allInstances = CFArrayCreateMutable( kCFAllocatorDefault, 0, &callbacks );
 	}
 	
-	[_allInstances addPointer:value];
+	[(NSMutableArray *)_allInstances addObject:value];
 
 	if(_instancesSinceMark)
-		[_instancesSinceMark addPointer:value];
+		[(NSMutableArray *)_instancesSinceMark addObject:value];
     _instanceCount++;
 }
 
@@ -63,12 +68,12 @@ static NSUInteger _instanceCount;
 	NSUInteger index = [self indexOf: value];
     NSAssert1( index!=NSNotFound, @"HMM - destroying an object we dont contain - %@", [self instanceDescription: value]);
 
-	[_allInstances removePointerAtIndex:index];
+	[(NSMutableArray *)_allInstances removeObjectAtIndex:index];
 
 	if(_instancesSinceMark){
 		NSUInteger index2 = [self indexOfSinceMark:value];
 		if(index2!=NSNotFound)
-			[_instancesSinceMark removePointerAtIndex:index2];
+			[(NSMutableArray *)_instancesSinceMark removeObjectAtIndex:index2];
 	}
 
     _instanceCount--;
@@ -91,7 +96,7 @@ static NSUInteger _instanceCount;
 
 + (void)printSmallLeakingObjectInfo {
 	
-	for( id each in _allInstances ){
+	for( id each in (NSMutableArray *)_allInstances ){
 //		if (![each isKindOfClass:NSClassFromString(@"NSWindow")]) {
 			NSLog(@"LEAKING %@", [self instanceDescription: each] );
 //		}
@@ -101,7 +106,7 @@ static NSUInteger _instanceCount;
 
 + (void)printSmallLeakingObjectInfoSinceMark {
 
-	for( id eachPtr in _instancesSinceMark ){
+	for( id eachPtr in (NSMutableArray *)_instancesSinceMark ){
 //		if( [eachPtr retainCount] - NSAutoreleasePoolCountForObject(eachPtr) )
 
 //		if (![each isKindOfClass:NSClassFromString(@"NSWindow")]) {
@@ -115,7 +120,7 @@ static NSUInteger _instanceCount;
 	
 	NSLog(@"***** %lu UNCLEAN OBJECTS ***** Thread %@ - is main %d", _instanceCount, [NSThread currentThread], [NSThread isMainThread]);
 	
-	for( id each in _allInstances ){
+	for( id each in (NSMutableArray *)_allInstances ){
 		NSLog(@"%@", [self instanceDescription: each] );
 	}
 	NSLog(@"***** END UNCLEAN OBJECTS *****");
@@ -125,7 +130,7 @@ static NSUInteger _instanceCount;
 
 	if(_allInstances==nil)
 		return 0;
-	NSAssert2( [_allInstances count]==_instanceCount, @"Instance count is out of sync (%i, %i)", [_allInstances count], _instanceCount );
+	NSAssert2( [(NSMutableArray *)_allInstances count]==_instanceCount, @"Instance count is out of sync (%i, %i)", [(NSMutableArray *)_allInstances count], _instanceCount );
 	return _instanceCount;
 }
 
@@ -136,7 +141,7 @@ static NSUInteger _instanceCount;
 		return 0;
 
 	NSUInteger objectsNotInReleasePoolCount = 0;
-	for( id eachPtr in _instancesSinceMark ) {
+	for( id eachPtr in (NSMutableArray *)_instancesSinceMark ) {
 //		if( [eachPtr retainCount] - NSAutoreleasePoolCountForObject(eachPtr) )
 			objectsNotInReleasePoolCount++;
 	}
@@ -145,13 +150,16 @@ static NSUInteger _instanceCount;
 
 + (void)newMark {
 	
-	if([_instancesSinceMark count]){
+	if([(NSMutableArray *)_instancesSinceMark count]){
 		NSLog(@"	Killing Leak pool %p", _instancesSinceMark);
-		[_instancesSinceMark release];
+		[(NSMutableArray *)_instancesSinceMark release];
 		_instancesSinceMark = nil;
 	}
 	if(!_instancesSinceMark) {
-		_instancesSinceMark = [[NSPointerArray pointerArrayWithWeakObjects] retain];
+		CFArrayCallBacks callbacks = kCFTypeArrayCallBacks;
+		callbacks.retain = TTRetainNoOp;
+		callbacks.release = TTReleaseNoOp;
+		_instancesSinceMark = CFArrayCreateMutable( kCFAllocatorDefault, 0, &callbacks );
 		NSLog(@"Creating Leak pool %p", _instancesSinceMark);
 	}
 }
@@ -162,7 +170,7 @@ static NSUInteger _instanceCount;
 		return NSNotFound;
 	
 	NSUInteger i=0;
-	for( id each in _instancesSinceMark ) {
+	for( id each in (NSMutableArray *)_instancesSinceMark ) {
 		if(value==each)
 			return i;
 		i++;
@@ -176,7 +184,7 @@ static NSUInteger _instanceCount;
 		return NSNotFound;
 
 	NSUInteger i=0;
-	for( id each in _allInstances ){
+	for( id each in (NSMutableArray *)_allInstances ){
 		if(value==each)
 			return i;
 		i++;
