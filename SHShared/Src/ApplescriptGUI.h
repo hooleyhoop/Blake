@@ -15,6 +15,8 @@
 + (NSString *)selectRow:(NSNumber *)tableRow inTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
 + (NSNumber *)countOfRowsInTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
 + (NSArray *)indexesOfSelectedRowsInTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
++ (NSString *)valueOfRow:(NSNumber *)tableRow inTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
++ (NSString *)dragSelectedRowsToIndex:(NSNumber *)tableRow inTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName;
 
 #pragma mark TextField Scripts
 + (NSString *)getValueOfTextField:(NSNumber *)txtFieldIndex windowName:(NSString *)windowName app:(NSString *)appName;

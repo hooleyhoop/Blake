@@ -13,6 +13,33 @@
 
 #pragma mark Table Scripts
 
++ (NSString *)dragSelectedRowsToIndex:(NSNumber *)position inTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName {
+
+	NSParameterAssert(tableScrollName);
+	NSParameterAssert(windowName);
+	NSParameterAssert(appName);
+	
+	NSString *scriptFileName = @"TableView";
+	NSString *scriptMethodName = @"dragSelectedRows";
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, windowName, tableScrollName, [position stringValue], nil];
+	
+	return [ApplescriptUtils executeScript:scriptFileName method:scriptMethodName params:parameters];		
+}
+
++ (NSString *)valueOfRow:(NSNumber *)tableRow inTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName {
+
+	NSParameterAssert(tableRow);
+	NSParameterAssert(tableScrollName);
+	NSParameterAssert(windowName);
+	NSParameterAssert(appName);
+	
+	NSString *scriptFileName = @"TableView";
+	NSString *scriptMethodName = @"valueOfRowInTable";
+	NSAppleEventDescriptor *parameters = [ApplescriptUtils parameters:appName, windowName, tableScrollName, [tableRow stringValue], nil];
+	
+	return [ApplescriptUtils executeScript:scriptFileName method:scriptMethodName params:parameters];	
+}
+
 + (NSString *)selectRows:(NSArray *)tableRows inTableScroll:(NSString *)tableScrollName windowName:(NSString *)windowName app:(NSString *)appName {
 	
 	NSParameterAssert(tableRows);

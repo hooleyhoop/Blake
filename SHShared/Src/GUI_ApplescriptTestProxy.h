@@ -40,5 +40,7 @@ struct HooAppleScriptFactory
 + (GUITestProxy *)indexesOfSelectedRowsInTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName;
 + (GUITestProxy *)selectRowAtIndex:(NSUInteger)tableRow inTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName;
 + (GUITestProxy *)setSelectedRows:(NSArray *)tableRows inTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName;
++ (GUITestProxy *)itemNameAtIndex:(NSUInteger)tableRow ofTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName;
++ (GUITestProxy *)dragSelectedRowsToIndex:(NSUInteger)tableRow ofTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName;
 
 @end

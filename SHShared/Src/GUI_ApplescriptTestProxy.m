@@ -59,6 +59,36 @@ NSString *_processName;
 }
 
 #pragma mark Table
+
++ (GUITestProxy *)dragSelectedRowsToIndex:(NSUInteger)tableRow ofTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName {
+
+	NSParameterAssert(tableScrollName);
+	NSParameterAssert(windowName);
+	
+	struct HooAppleScriptFactory val;
+	val.name			= @"drag selected rows";
+	val.className		= @"ApplescriptGUI";
+	val.selector		= @"dragSelectedRowsToIndex:inTableScroll:windowName:app:";
+	val.args			= [NSArray arrayWithObjects:[NSNumber numberWithUnsignedLong:tableRow], tableScrollName, windowName, _processName, nil];
+	val.recievesAsync	= YES;
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
+}
+
++ (GUITestProxy *)itemNameAtIndex:(NSUInteger)tableRow ofTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName {
+
+	NSParameterAssert(tableRow);
+	NSParameterAssert(tableScrollName);
+	NSParameterAssert(windowName);
+	
+	struct HooAppleScriptFactory val;
+	val.name			= @"Value of table row";
+	val.className		= @"ApplescriptGUI";
+	val.selector		= @"valueOfRow:inTableScroll:windowName:app:";
+	val.args			= [NSArray arrayWithObjects:[NSNumber numberWithUnsignedLong:tableRow], tableScrollName, windowName, _processName, nil];
+	val.recievesAsync	= YES;
+	return [GUI_ApplescriptTestProxy guiTestProxyForApplescriptAction:val];
+}
+
 + (GUITestProxy *)setSelectedRows:(NSArray *)tableRows inTableScroll:(NSString *)tableScrollName ofWindow:(NSString *)windowName {
 	
 	NSParameterAssert(tableRows);
