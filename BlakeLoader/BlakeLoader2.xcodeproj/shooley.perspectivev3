@@ -358,7 +358,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7322A895119AA3FB007B5F34</string>
+										<string>730E2FDE11A4420900C7CDAA</string>
 										<key>history</key>
 										<array>
 											<string>73856D361110485700A3EEB8</string>
@@ -380,7 +380,7 @@
 											<string>735967C61174BFB30045323A</string>
 											<string>735967C71174BFB30045323A</string>
 											<string>7322A86B119AA3C7007B5F34</string>
-											<string>7322A893119AA3D9007B5F34</string>
+											<string>7322A895119AA3FB007B5F34</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -394,18 +394,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {657, 388}}</string>
+								<string>{{0, 0}, {657, 378}}</string>
 								<key>RubberWindowFrame</key>
 								<string>5 217 1012 804 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>388pt</string>
+							<string>378pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>370pt</string>
+							<string>380pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -419,12 +419,14 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {657, 343}}</string>
+										<string>{{10, 27}, {657, 353}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
 								</dict>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -435,7 +437,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1009, 279}}</string>
+										<string>{{10, 27}, {657, 353}}</string>
+										<key>RubberWindowFrame</key>
+										<string>5 217 1012 804 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -474,8 +478,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {657, 343}}</string>
-										<key>RubberWindowFrame</key>
-										<string>5 217 1012 804 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -503,11 +505,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>7322A86E119AA3C7007B5F34</string>
+				<string>730E2FDF11A4420900C7CDAA</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>7322A86F119AA3C7007B5F34</string>
+				<string>730E2FE011A4420900C7CDAA</string>
 				<string>73D87FE51109D4020028B7D9</string>
-				<string>7322A870119AA3C7007B5F34</string>
+				<string>730E2FE111A4420900C7CDAA</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -681,7 +683,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>295347195.68997002</real>
+	<real>295977481.28415197</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>

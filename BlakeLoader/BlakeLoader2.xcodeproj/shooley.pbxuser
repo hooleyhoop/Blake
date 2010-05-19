@@ -336,12 +336,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 295347141;
-			PBXWorkspaceStateSaveDate = 295347141;
+			PBXPerProjectTemplateStateSaveDate = 295977467;
+			PBXWorkspaceStateSaveDate = 295977467;
 		};
 		perUserProjectItems = {
+			730E2FDE11A4420900C7CDAA /* PBXTextBookmark */ = 730E2FDE11A4420900C7CDAA /* PBXTextBookmark */;
 			7322A86B119AA3C7007B5F34 /* PBXTextBookmark */ = 7322A86B119AA3C7007B5F34 /* PBXTextBookmark */;
-			7322A893119AA3D9007B5F34 /* PBXTextBookmark */ = 7322A893119AA3D9007B5F34 /* PBXTextBookmark */;
 			7322A895119AA3FB007B5F34 /* PBXTextBookmark */ = 7322A895119AA3FB007B5F34 /* PBXTextBookmark */;
 			735967C51174BFB30045323A /* PBXTextBookmark */ = 735967C51174BFB30045323A /* PBXTextBookmark */;
 			735967C61174BFB30045323A /* PBXTextBookmark */ = 735967C61174BFB30045323A /* PBXTextBookmark */;
@@ -448,6 +448,16 @@
 			sepNavSelRange = "{727, 253}";
 			sepNavVisRange = "{581, 721}";
 		};
+	};
+	730E2FDE11A4420900C7CDAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7373009F0E028B5B00EBA987 /* BlakeDocument.m */;
+		name = "BlakeDocument.m: 173";
+		rLen = 43;
+		rLoc = 6740;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 6201;
 	};
 	731C0E280E0FFEC10056E799 /* DisabledSketchViewStuff.h */ = {
 		uiCtxt = {
@@ -570,16 +580,6 @@
 		rType = 0;
 		vrLen = 437;
 		vrLoc = 0;
-	};
-	7322A893119AA3D9007B5F34 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7373009F0E028B5B00EBA987 /* BlakeDocument.m */;
-		name = "BlakeDocument.m: 173";
-		rLen = 43;
-		rLoc = 6740;
-		rType = 0;
-		vrLen = 1527;
-		vrLoc = 6152;
 	};
 	7322A895119AA3FB007B5F34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -812,9 +812,10 @@
 	};
 	733D13F610C962EF00398A50 /* defs.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {948, 445}}";
-			sepNavSelRange = "{325, 23}";
+			sepNavIntBoundsRect = "{{0, 0}, {690, 880}}";
+			sepNavSelRange = "{303, 11}";
 			sepNavVisRange = "{0, 391}";
+			sepNavWindowFrame = "{{15, 15}, {749, 1008}}";
 		};
 	};
 	733D13FD10C9642200398A50 /* SHApplication.h */ = {
@@ -1391,9 +1392,9 @@
 	};
 	7373009F0E028B5B00EBA987 /* BlakeDocument.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1289, 3198}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 3081}}";
 			sepNavSelRange = "{6740, 43}";
-			sepNavVisRange = "{6152, 1527}";
+			sepNavVisRange = "{6201, 1478}";
 		};
 	};
 	737300A00E028B5B00EBA987 /* BlakeDocument.h */ = {

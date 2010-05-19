@@ -1,0 +1,8 @@
+#include "Target-Framework.xcconfig"
+
+TARGETED_DEVICE_FAMILY = 1
+WRAPPER_EXTENSION = octest
+OTHER_LDFLAGS = $(inherited) -framework Foundation -framework UIKit -framework SenTestingKit
+FRAMEWORK_SEARCH_PATHS =  "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks" 
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
+GCC_VERSION = 4.2

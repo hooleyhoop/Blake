@@ -599,12 +599,6 @@
 		73EF461D0AA312D200BCA172 /* SHExternalTimeSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHExternalTimeSourceProtocol.h; sourceTree = "<group>"; };
 		73F030E90B3051C4004A6CB6 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
 		73F030EA0B3051C4004A6CB6 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
-		73FDB10F11A40C730062E601 /* NSPointerArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPointerArray.h; sourceTree = "<group>"; };
-		73FDB11011A40C730062E601 /* NSPointerArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPointerArray.m; sourceTree = "<group>"; };
-		73FDB11911A40DCA0062E601 /* NSPointerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPointerFunctions.h; sourceTree = "<group>"; };
-		73FDB11A11A40DCA0062E601 /* NSPointerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPointerFunctions.m; sourceTree = "<group>"; };
-		73FDB13311A40E6A0062E601 /* NSConcretePointerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSConcretePointerFunctions.h; sourceTree = "<group>"; };
-		73FDB13411A40E6A0062E601 /* NSConcretePointerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSConcretePointerFunctions.m; sourceTree = "<group>"; };
 		73FF8EBA10A1FC4E0097E2A2 /* SHSharedUI */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = SHSharedUI; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FF8EC710A1FC680097E2A2 /* SHSharedUITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHSharedUITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FF8EE610A1FD0C0097E2A2 /* SHSharedUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSharedUI.h; sourceTree = "<group>"; };
@@ -958,7 +952,6 @@
 		7397FC750BD37287007578D2 /* Foundation Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				73FDB10E11A40C730062E601 /* iPhoneOnly */,
 				732C621F10B1946F003A6739 /* NSObject_Extras.h */,
 				732C622010B1946F003A6739 /* NSObject_Extras.m */,
 				73D37E0810A88BA1000231A3 /* NSIndexSet_Extras.h */,
@@ -1218,20 +1211,6 @@
 				73C886EC112C38D700780805 /* NSInvocation_forwardConstructionTests.m */,
 			);
 			name = "Unit tests";
-			sourceTree = "<group>";
-		};
-		73FDB10E11A40C730062E601 /* iPhoneOnly */ = {
-			isa = PBXGroup;
-			children = (
-				73FDB10F11A40C730062E601 /* NSPointerArray.h */,
-				73FDB11011A40C730062E601 /* NSPointerArray.m */,
-				73FDB11911A40DCA0062E601 /* NSPointerFunctions.h */,
-				73FDB11A11A40DCA0062E601 /* NSPointerFunctions.m */,
-				73FDB13311A40E6A0062E601 /* NSConcretePointerFunctions.h */,
-				73FDB13411A40E6A0062E601 /* NSConcretePointerFunctions.m */,
-			);
-			name = iPhoneOnly;
-			path = Src/iPhoneOnly;
 			sourceTree = "<group>";
 		};
 		73FF8EDA10A1FCA70097E2A2 /* SHShared */ = {
