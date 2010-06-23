@@ -44,7 +44,7 @@
 		732C622210B1946F003A6739 /* NSObject_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C622010B1946F003A6739 /* NSObject_Extras.m */; };
 		732E92641189A37300DD3435 /* GUI_ApplescriptTestProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E92621189A37300DD3435 /* GUI_ApplescriptTestProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		732E92651189A37300DD3435 /* GUI_ApplescriptTestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E92631189A37300DD3435 /* GUI_ApplescriptTestProxy.m */; };
-		732E92C61189A5E400DD3435 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared */; };
+		732E92C61189A5E400DD3435 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		732E93811189B06400DD3435 /* SimpleBlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E93801189B06400DD3435 /* SimpleBlocksTests.m */; };
 		733674F50F40AEFE00E40357 /* SHooleyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7858E0D1BDBE300EE14BC /* SHooleyObject.m */; };
 		7338DB051188A21500B5D536 /* ApplescriptGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338DB041188A21500B5D536 /* ApplescriptGUITests.m */; };
@@ -53,7 +53,7 @@
 		734F322810A36D2500B33AB7 /* SHViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E5D305090E357E00B63D4F /* SHViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		734F324110A36D8A00B33AB7 /* NSResponder_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE110E02781600EBA987 /* NSResponder_Extras.m */; };
 		734F324210A36D8B00B33AB7 /* NSResponder_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 7373FE120E02781600EBA987 /* NSResponder_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7352FB4610D65E7800871424 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared */; };
+		7352FB4610D65E7800871424 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		735386E310B019060035F6B5 /* MathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 735386E110B019060035F6B5 /* MathUtilities.m */; };
 		735386E410B019060035F6B5 /* MathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 735386E210B019060035F6B5 /* MathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		735AE8AD10A85B89001567CF /* nibManagerTest.nib in Resources */ = {isa = PBXBuildFile; fileRef = 735AE8AC10A85B89001567CF /* nibManagerTest.nib */; };
@@ -116,13 +116,13 @@
 		73C0F9640F554CC900DEEDFC /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE770E027B3C00EBA987 /* NSCharacterSet_Extensions.m */; };
 		73C0F9700F554D0500DEEDFC /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE770E027B3C00EBA987 /* NSCharacterSet_Extensions.m */; };
 		73C0F9710F554D0500DEEDFC /* NSCharacterSet_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7373FE760E027B3C00EBA987 /* NSCharacterSet_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73C8363A10A99BD10086F928 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared */; };
+		73C8363A10A99BD10086F928 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73C8364110A99C160086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		73C836C810A99DEE0086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		73C8C3A8118849E300211347 /* AttachToGDB.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73C8C39B118849CF00211347 /* AttachToGDB.scpt */; };
 		73CC088711368B1B00B53CA9 /* NSInvocation_testHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A2957110FF3C78001A17F6 /* NSInvocation_testHelpersTests.m */; };
-		73CC089111368B5C00B53CA9 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared */; };
-		73CC089211368B5C00B53CA9 /* SHTestUtilities in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities */; };
+		73CC089111368B5C00B53CA9 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
+		73CC089211368B5C00B53CA9 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */; };
 		73CC08BE11368BD600B53CA9 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
 		73CC08C311368BD800B53CA9 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
 		73CC08C411368BD900B53CA9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735679AF0C5B57FB00FF5880 /* SenTestingKit.framework */; };
@@ -163,17 +163,17 @@
 		73D1077C11621513001C6946 /* TestingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D6EECE10C7CC1B0072DC88 /* TestingUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D1077D11621514001C6946 /* SetUpAndTearDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731DE7A810CD267D00C42727 /* SetUpAndTearDownTests.m */; };
 		73D37D4510A883F5000231A3 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
-		73D37D4F10A8857E000231A3 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared */; };
-		73D37D5110A88584000231A3 /* SHSharedUI in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8EBA10A1FC4E0097E2A2 /* SHSharedUI */; };
+		73D37D4F10A8857E000231A3 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
+		73D37D5110A88584000231A3 /* SHSharedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8EBA10A1FC4E0097E2A2 /* SHSharedUI.framework */; };
 		73D37DD610A88AD6000231A3 /* SHViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D37DD510A88AD6000231A3 /* SHViewTests.m */; };
 		73D37DF910A88B6A000231A3 /* SHTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D37DF810A88B6A000231A3 /* SHTableViewTests.m */; };
 		73D37E0A10A88BA1000231A3 /* NSIndexSet_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D37E0810A88BA1000231A3 /* NSIndexSet_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D37E0B10A88BA1000231A3 /* NSIndexSet_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D37E0910A88BA1000231A3 /* NSIndexSet_Extras.m */; };
-		73D699B111946B7B005DAA84 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared */; };
+		73D699B111946B7B005DAA84 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73D6EDC510C7C7C60072DC88 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
 		73D6EDCE10C7C80B0072DC88 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735679AF0C5B57FB00FF5880 /* SenTestingKit.framework */; };
-		73D6EE3610C7C9510072DC88 /* SHTestUtilities in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities */; };
-		73D6EE3D10C7C9650072DC88 /* SHTestUtilities in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities */; };
+		73D6EE3610C7C9510072DC88 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */; };
+		73D6EE3D10C7C9650072DC88 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */; };
 		73E0CC30112039E600261F28 /* TableView.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73E0CC211120396400261F28 /* TableView.scpt */; };
 		73E0CC31112039E600261F28 /* SendFinderMessage.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73E0CC221120396400261F28 /* SendFinderMessage.scpt */; };
 		73E0CC32112039E600261F28 /* openMenu.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73E0CC231120396400261F28 /* openMenu.scpt */; };
@@ -440,7 +440,7 @@
 		7385A5A610FCD9F600ED053F /* ApplescriptGUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplescriptGUI.m; path = Src/ApplescriptGUI.m; sourceTree = "<group>"; };
 		7385A5A710FCD9F600ED053F /* ApplescriptGUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplescriptGUI.h; path = Src/ApplescriptGUI.h; sourceTree = "<group>"; };
 		7385A5C210FCDA4A00ED053F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
-		738C7C770C5CDC180096EF9D /* SHShared */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = SHShared; sourceTree = BUILT_PRODUCTS_DIR; };
+		738C7C770C5CDC180096EF9D /* SHShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		739252E90E446C6800BEB704 /* SHSwizzlerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHSwizzlerTests.m; path = Tests/SHSwizzlerTests.m; sourceTree = "<group>"; };
 		739252F90E446CC700BEB704 /* SHSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHSwizzler.m; path = Src/SHSwizzler.m; sourceTree = "<group>"; };
 		739252FA0E446CC700BEB704 /* SHInstanceCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHInstanceCounter.m; path = Src/SHInstanceCounter.m; sourceTree = "<group>"; };
@@ -476,7 +476,7 @@
 		73AE78200D436E2F00836A85 /* ExceptionHandling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExceptionHandling.framework; path = /System/Library/Frameworks/ExceptionHandling.framework; sourceTree = "<absolute>"; };
 		73AE78210D436E2F00836A85 /* Message.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Message.framework; path = /System/Library/Frameworks/Message.framework; sourceTree = "<absolute>"; };
 		73B050931168ECE90054CE44 /* GUIFiddler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GUIFiddler.m; path = Src/GUIFiddler.m; sourceTree = "<group>"; };
-		73B051B81168EEF70054CE44 /* GUIFiddler */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = GUIFiddler; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B051B81168EEF70054CE44 /* GUIFiddler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GUIFiddler; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B137D70DC53EB300DE138C /* SHooleyObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHooleyObjectTests.m; path = Tests/SHooleyObjectTests.m; sourceTree = "<group>"; };
 		73B208700F5EB655004C8012 /* NSArray_ExtensionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSArray_ExtensionsTests.m; path = Tests/NSArray_ExtensionsTests.m; sourceTree = "<group>"; };
 		73B2088C0F5EB80F004C8012 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = /Library/Frameworks/OCMock.framework; sourceTree = "<absolute>"; };
@@ -528,7 +528,7 @@
 		73D37DF810A88B6A000231A3 /* SHTableViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHTableViewTests.m; path = Tests/SHTableViewTests.m; sourceTree = "<group>"; };
 		73D37E0810A88BA1000231A3 /* NSIndexSet_Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSIndexSet_Extras.h; path = Src/NSIndexSet_Extras.h; sourceTree = "<group>"; };
 		73D37E0910A88BA1000231A3 /* NSIndexSet_Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSIndexSet_Extras.m; path = Src/NSIndexSet_Extras.m; sourceTree = "<group>"; };
-		73D6ED9510C7C5BC0072DC88 /* SHTestUtilities */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = SHTestUtilities; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHTestUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D6EDBE10C7C7060072DC88 /* OCMockRecorder_Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockRecorder_Extras.h; path = Src/OCMockRecorder_Extras.h; sourceTree = "<group>"; };
 		73D6EDBF10C7C7060072DC88 /* OCMockRecorder_Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCMockRecorder_Extras.m; path = Src/OCMockRecorder_Extras.m; sourceTree = "<group>"; };
 		73D6EE0710C7C8960072DC88 /* SHTestUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHTestUtilities.h; path = Src/SHTestUtilities.h; sourceTree = "<group>"; };
@@ -599,7 +599,7 @@
 		73EF461D0AA312D200BCA172 /* SHExternalTimeSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SHExternalTimeSourceProtocol.h; sourceTree = "<group>"; };
 		73F030E90B3051C4004A6CB6 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
 		73F030EA0B3051C4004A6CB6 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
-		73FF8EBA10A1FC4E0097E2A2 /* SHSharedUI */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = SHSharedUI; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FF8EBA10A1FC4E0097E2A2 /* SHSharedUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHSharedUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FF8EC710A1FC680097E2A2 /* SHSharedUITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHSharedUITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FF8EE610A1FD0C0097E2A2 /* SHSharedUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSharedUI.h; sourceTree = "<group>"; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -611,9 +611,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B2088D0F5EB80F004C8012 /* OCMock.framework in Frameworks */,
-				73C8363A10A99BD10086F928 /* SHShared in Frameworks */,
+				73C8363A10A99BD10086F928 /* SHShared.framework in Frameworks */,
 				73C8364110A99C160086F928 /* Cocoa.framework in Frameworks */,
-				73D6EE3610C7C9510072DC88 /* SHTestUtilities in Frameworks */,
+				73D6EE3610C7C9510072DC88 /* SHTestUtilities.framework in Frameworks */,
 				73662D341121B3CB00E8DC9F /* FScript.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,7 +622,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D699B111946B7B005DAA84 /* SHShared in Frameworks */,
+				73D699B111946B7B005DAA84 /* SHShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,7 +652,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732E92C61189A5E400DD3435 /* SHShared in Frameworks */,
+				732E92C61189A5E400DD3435 /* SHShared.framework in Frameworks */,
 				7301397511996EAB002AFF89 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -661,8 +661,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73CC089111368B5C00B53CA9 /* SHShared in Frameworks */,
-				73CC089211368B5C00B53CA9 /* SHTestUtilities in Frameworks */,
+				73CC089111368B5C00B53CA9 /* SHShared.framework in Frameworks */,
+				73CC089211368B5C00B53CA9 /* SHTestUtilities.framework in Frameworks */,
 				73CC08BE11368BD600B53CA9 /* FScript.framework in Frameworks */,
 				73CC08C311368BD800B53CA9 /* OCMock.framework in Frameworks */,
 				73CC08C411368BD900B53CA9 /* SenTestingKit.framework in Frameworks */,
@@ -676,7 +676,7 @@
 			files = (
 				73D6EDC510C7C7C60072DC88 /* OCMock.framework in Frameworks */,
 				73D6EDCE10C7C80B0072DC88 /* SenTestingKit.framework in Frameworks */,
-				7352FB4610D65E7800871424 /* SHShared in Frameworks */,
+				7352FB4610D65E7800871424 /* SHShared.framework in Frameworks */,
 				73BB93F91168AFF7008F3174 /* FScript.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -694,10 +694,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				73D37D4510A883F5000231A3 /* OCMock.framework in Frameworks */,
-				73D37D4F10A8857E000231A3 /* SHShared in Frameworks */,
-				73D37D5110A88584000231A3 /* SHSharedUI in Frameworks */,
+				73D37D4F10A8857E000231A3 /* SHShared.framework in Frameworks */,
+				73D37D5110A88584000231A3 /* SHSharedUI.framework in Frameworks */,
 				73C836C810A99DEE0086F928 /* Cocoa.framework in Frameworks */,
-				73D6EE3D10C7C9650072DC88 /* SHTestUtilities in Frameworks */,
+				73D6EE3D10C7C9650072DC88 /* SHTestUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,13 +707,13 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				738C7C770C5CDC180096EF9D /* SHShared */,
+				738C7C770C5CDC180096EF9D /* SHShared.framework */,
 				732360B80C5E75BD0039CC7F /* SHSharedTests.octest */,
 				73AC00F70F4037DF00FA9887 /* libSHShared_static.a */,
 				73AC016B0F4039D100FA9887 /* libSHShared_iphone.a */,
-				73FF8EBA10A1FC4E0097E2A2 /* SHSharedUI */,
+				73FF8EBA10A1FC4E0097E2A2 /* SHSharedUI.framework */,
 				73FF8EC710A1FC680097E2A2 /* SHSharedUITests.octest */,
-				73D6ED9510C7C5BC0072DC88 /* SHTestUtilities */,
+				73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */,
 				73CC082911368A3700B53CA9 /* TestUtilitiesTests.octest */,
 				73B051B81168EEF70054CE44 /* GUIFiddler */,
 				732E93681189AFEA00DD3435 /* PerformanceTests.octest */,
@@ -1408,7 +1408,7 @@
 			);
 			name = SHShared;
 			productName = SHShared;
-			productReference = 738C7C770C5CDC180096EF9D /* SHShared */;
+			productReference = 738C7C770C5CDC180096EF9D /* SHShared.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		73AC00F60F4037DF00FA9887 /* SHShared_static */ = {
@@ -1500,7 +1500,7 @@
 			);
 			name = SHTestUtilities;
 			productName = SHTestUtilities;
-			productReference = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities */;
+			productReference = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		73FF8EB910A1FC4E0097E2A2 /* SHSharedUI */ = {
@@ -1519,7 +1519,7 @@
 			);
 			name = SHSharedUI;
 			productName = SHSharedUI;
-			productReference = 73FF8EBA10A1FC4E0097E2A2 /* SHSharedUI */;
+			productReference = 73FF8EBA10A1FC4E0097E2A2 /* SHSharedUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		73FF8EC610A1FC680097E2A2 /* SHSharedUITests */ = {
