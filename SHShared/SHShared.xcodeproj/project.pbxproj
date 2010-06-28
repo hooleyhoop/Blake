@@ -126,6 +126,8 @@
 		73CC08BE11368BD600B53CA9 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
 		73CC08C311368BD800B53CA9 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
 		73CC08C411368BD900B53CA9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735679AF0C5B57FB00FF5880 /* SenTestingKit.framework */; };
+		73CF1D6C11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CF1D6A11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.h */; };
+		73CF1D6D11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1D6B11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.m */; };
 		73D106F111621254001C6946 /* MathUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735386D910B018E20035F6B5 /* MathUtilitiesTests.m */; };
 		73D106FB11621255001C6946 /* SHGlobalVarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7257410DAA01600FAA280 /* SHGlobalVarsTests.m */; };
 		73D106FC11621255001C6946 /* NSObject_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C622810B1950A003A6739 /* NSObject_ExtrasTests.m */; };
@@ -187,6 +189,7 @@
 		73E0CC3A112039E600261F28 /* HmmTests.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 73E0CC2B1120396400261F28 /* HmmTests.applescript */; };
 		73E0CC3B112039E600261F28 /* desktopFile.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73E0CC2C1120396400261F28 /* desktopFile.scpt */; };
 		73E0CC4A11203A2600261F28 /* doMenuItem.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73E0CC4911203A1B00261F28 /* doMenuItem.scpt */; };
+		73E0CC9511D369B600D4940D /* SHTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D6EE0710C7C8960072DC88 /* SHTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73E7214710DA832A00FAA280 /* SHGlobalVars.h in Headers */ = {isa = PBXBuildFile; fileRef = 7338CBD209164B3300A86517 /* SHGlobalVars.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73E7214810DA832A00FAA280 /* SHGlobalVars.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338CBD309164B3300A86517 /* SHGlobalVars.m */; };
 		73E9CAD210B0203300DBE683 /* MiscUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E9CAD010B0203300DBE683 /* MiscUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -523,6 +526,8 @@
 		73CB02D010DBC93000AE25C8 /* SwappedInIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwappedInIvar.m; path = Tests/SwappedInIvar.m; sourceTree = "<group>"; };
 		73CB02D110DBC93000AE25C8 /* SwappedInIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwappedInIvar.h; path = Tests/SwappedInIvar.h; sourceTree = "<group>"; };
 		73CC082911368A3700B53CA9 /* TestUtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CF1D6A11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray_ CSCSortedInsertion.h"; path = "Src/NSMutableArray_ CSCSortedInsertion.h"; sourceTree = "<group>"; };
+		73CF1D6B11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray_ CSCSortedInsertion.m"; path = "Src/NSMutableArray_ CSCSortedInsertion.m"; sourceTree = "<group>"; };
 		73D37DD510A88AD6000231A3 /* SHViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHViewTests.m; path = Tests/SHViewTests.m; sourceTree = "<group>"; };
 		73D37DE810A88B3D000231A3 /* SHPanelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHPanelTests.m; path = Tests/SHPanelTests.m; sourceTree = "<group>"; };
 		73D37DF810A88B6A000231A3 /* SHTableViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHTableViewTests.m; path = Tests/SHTableViewTests.m; sourceTree = "<group>"; };
@@ -968,6 +973,8 @@
 				7373FE770E027B3C00EBA987 /* NSCharacterSet_Extensions.m */,
 				73E785980D1BDC0600EE14BC /* NSArray_Extensions.h */,
 				73E785970D1BDC0600EE14BC /* NSArray_Extensions.m */,
+				73CF1D6A11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.h */,
+				73CF1D6B11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.m */,
 				73E7856E0D1BD93600EE14BC /* NSFileManager-OFExtensions.h */,
 				73E7856F0D1BD93600EE14BC /* NSFileManager-OFExtensions.m */,
 				73BEA2AD10C6DD8400B72903 /* NSSet_Extras.h */,
@@ -1294,6 +1301,7 @@
 				73ECA3C510D10CA600BC8785 /* SHAttributeProtocol.h in Headers */,
 				73E7214710DA832A00FAA280 /* SHGlobalVars.h in Headers */,
 				73A295DB10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).h in Headers */,
+				73CF1D6C11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1337,6 +1345,7 @@
 				73BB93A71168AE59008F3174 /* NSInvocation_testFutures.h in Headers */,
 				73BB944A1168B0FB008F3174 /* DelayedPerformer.h in Headers */,
 				732E92641189A37300DD3435 /* GUI_ApplescriptTestProxy.h in Headers */,
+				73E0CC9511D369B600D4940D /* SHTestUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1787,6 +1796,7 @@
 				731DE7CC10CD274A00C42727 /* SwizzleList.m in Sources */,
 				73E7214810DA832A00FAA280 /* SHGlobalVars.m in Sources */,
 				73A295DC10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).m in Sources */,
+				73CF1D6D11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
