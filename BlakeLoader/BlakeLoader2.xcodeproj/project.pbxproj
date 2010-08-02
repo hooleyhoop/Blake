@@ -80,10 +80,10 @@
 		730A5ADA0E06B9AD009458BA /* Sketch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730A55A30E0685FF009458BA /* Sketch.framework */; };
 		731C0E2A0E0FFEC10056E799 /* DisabledSketchViewStuff.h in Headers */ = {isa = PBXBuildFile; fileRef = 731C0E280E0FFEC10056E799 /* DisabledSketchViewStuff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		731C0E2B0E0FFEC10056E799 /* DisabledSketchViewStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C0E290E0FFEC10056E799 /* DisabledSketchViewStuff.m */; };
-		731DEA5E10CD351700C42727 /* SHTestUtilities in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378124710C916EB003DC1AF /* SHTestUtilities */; };
-		731DEA6110CD352200C42727 /* SHTestUtilities in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378124710C916EB003DC1AF /* SHTestUtilities */; };
-		731DED1710CD5D3B00C42727 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared */; };
-		731DED1810CD5D3E00C42727 /* SHSharedUI in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI */; };
+		731DEA5E10CD351700C42727 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378124710C916EB003DC1AF /* SHTestUtilities.framework */; };
+		731DEA6110CD352200C42727 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378124710C916EB003DC1AF /* SHTestUtilities.framework */; };
+		731DED1710CD5D3B00C42727 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared.framework */; };
+		731DED1810CD5D3E00C42727 /* SHSharedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI.framework */; };
 		731DED1910CD5D4400C42727 /* SHNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED857F0B9F6013003FC5C4 /* SHNodeGraph.framework */; };
 		731DED1A10CD5D4700C42727 /* ProtoNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C3B0270FDC27A10088A92A /* ProtoNodeGraph.framework */; };
 		731DED6E10CD607E00C42727 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DE7F910E813E1300DA1807 /* OCMock.framework */; };
@@ -101,8 +101,8 @@
 		732049A710D013AF00242B59 /* BlakeNodeListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 732049A510D013AF00242B59 /* BlakeNodeListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		732049A810D013AF00242B59 /* BlakeNodeListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 732049A610D013AF00242B59 /* BlakeNodeListView.m */; };
 		73206D2E0DAFB7D400624296 /* FScript.framework in Copy Files to frameworks */ = {isa = PBXBuildFile; fileRef = 73AFF7410D96A9DD0089F0BC /* FScript.framework */; };
-		73263EDD10AC5EB900D8E6B1 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared */; };
-		73263EE210AC5EBB00D8E6B1 /* SHSharedUI in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI */; };
+		73263EDD10AC5EB900D8E6B1 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared.framework */; };
+		73263EE210AC5EBB00D8E6B1 /* SHSharedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI.framework */; };
 		7328A9640DD73BB3006CE23F /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AFF7410D96A9DD0089F0BC /* FScript.framework */; };
 		7328A9690DD73BC7006CE23F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AE9D220D60F9AB00105927 /* SenTestingKit.framework */; };
 		732CC99C0D1C0129008F51AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -131,7 +131,7 @@
 		7347DAF70E83B948009321C5 /* BezierToolIcn.tif in Resources */ = {isa = PBXBuildFile; fileRef = 7347DAF60E83B948009321C5 /* BezierToolIcn.tif */; };
 		7347DB2B0E83BD98009321C5 /* SKTBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 7347DB290E83BD98009321C5 /* SKTBezier.h */; };
 		7347DB2C0E83BD98009321C5 /* SKTBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 7347DB2A0E83BD98009321C5 /* SKTBezier.m */; };
-		7364E58D10F75BFF002B5E45 /* SHTestUtilities in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378124710C916EB003DC1AF /* SHTestUtilities */; };
+		7364E58D10F75BFF002B5E45 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378124710C916EB003DC1AF /* SHTestUtilities.framework */; };
 		7364E5DE10F76174002B5E45 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AFF7410D96A9DD0089F0BC /* FScript.framework */; };
 		7364E5DF10F76174002B5E45 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AE9D220D60F9AB00105927 /* SenTestingKit.framework */; };
 		7364E5E010F76175002B5E45 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DE7F910E813E1300DA1807 /* OCMock.framework */; };
@@ -200,8 +200,8 @@
 		73B962320E82B35E00345C6F /* SKTDecorator_Wireframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B962300E82B35E00345C6F /* SKTDecorator_Wireframe.h */; };
 		73B962330E82B35E00345C6F /* SKTDecorator_Wireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B962310E82B35E00345C6F /* SKTDecorator_Wireframe.m */; };
 		73BACE9E10D2BF1300E01D0C /* BlakeMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730716530E017E1C002D3F81 /* BlakeMain.framework */; };
-		73BACEAB10D2BF4000E01D0C /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared */; };
-		73BACEAC10D2BF4200E01D0C /* SHSharedUI in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI */; };
+		73BACEAB10D2BF4000E01D0C /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared.framework */; };
+		73BACEAC10D2BF4200E01D0C /* SHSharedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI.framework */; };
 		73BACEAD10D2BF4900E01D0C /* SHPluginManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378547E0D1ABDB30092E72C /* SHPluginManager.framework */; };
 		73BACEAE10D2BF4C00E01D0C /* SHNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED857F0B9F6013003FC5C4 /* SHNodeGraph.framework */; };
 		73BACEAF10D2BF4D00E01D0C /* ProtoNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C3B0270FDC27A10088A92A /* ProtoNodeGraph.framework */; };
@@ -227,11 +227,11 @@
 		73BE989C0E87E201004A0FF0 /* SKTDecorator_Bezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BE989A0E87E201004A0FF0 /* SKTDecorator_Bezier.m */; };
 		73C6F9560EDD88A80067482D /* TreeViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C6F9550EDD88A80067482D /* TreeViewPlugin.m */; };
 		73C6FB1F0EDDA36B0067482D /* ObjectPalettePlugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 73C6FB1E0EDDA36B0067482D /* ObjectPalettePlugin.xml */; };
-		73C83FEC10A9C3740086F928 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared */; };
+		73C83FEC10A9C3740086F928 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared.framework */; };
 		73C83FF810A9C3900086F928 /* SHPluginManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378547E0D1ABDB30092E72C /* SHPluginManager.framework */; };
 		73C83FF910A9C3950086F928 /* SHNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED857F0B9F6013003FC5C4 /* SHNodeGraph.framework */; };
 		73C83FFA10A9C3980086F928 /* ProtoNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C3B0270FDC27A10088A92A /* ProtoNodeGraph.framework */; };
-		73C83FFC10A9C3B70086F928 /* SHSharedUI in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI */; };
+		73C83FFC10A9C3B70086F928 /* SHSharedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI.framework */; };
 		73C996EF0E327F5A002B972D /* DumbSketchDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C996EE0E327F5A002B972D /* DumbSketchDocument.m */; };
 		73D4A60A10DF989A0091B586 /* StubWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D4A60910DF989A0091B586 /* StubWindow.m */; };
 		73D4A92E10DFE2920091B586 /* SHApplication_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D4A92C10DFE2920091B586 /* SHApplication_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -263,22 +263,22 @@
 		73E71C0D10DA5B8700FAA280 /* BlakeNodeListViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E71C0C10DA5B8700FAA280 /* BlakeNodeListViewControllerTests.m */; };
 		73E724C910DA9A4F00FAA280 /* NodeListWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E724C810DA9A4F00FAA280 /* NodeListWindow.xib */; };
 		73E724CA10DA9A4F00FAA280 /* NodeListWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E724C810DA9A4F00FAA280 /* NodeListWindow.xib */; };
-		73ECA2A510D1098500BC8785 /* SHSharedUI in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI */; };
-		73ECA2C810D1098800BC8785 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared */; };
+		73ECA2A510D1098500BC8785 /* SHSharedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI.framework */; };
+		73ECA2C810D1098800BC8785 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared.framework */; };
 		73ECA2C910D1098F00BC8785 /* SHNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED857F0B9F6013003FC5C4 /* SHNodeGraph.framework */; };
 		73ECA2CA10D1099000BC8785 /* ProtoNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C3B0270FDC27A10088A92A /* ProtoNodeGraph.framework */; };
 		73ECA2CB10D1099600BC8785 /* SHPluginManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378547E0D1ABDB30092E72C /* SHPluginManager.framework */; };
 		73ECA3F410D1105D00BC8785 /* NodeListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73ECA3F310D1105D00BC8785 /* NodeListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73ECA53F10D116C200BC8785 /* SHNodeRegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ECA53E10D116C200BC8785 /* SHNodeRegisterTests.m */; };
 		73ECA55A10D1178100BC8785 /* NodeListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732048F010D00D3B00242B59 /* NodeListView.framework */; };
-		73ECA56A10D117AA00BC8785 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared */; };
-		73ECA56D10D117AC00BC8785 /* SHTestUtilities in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378124710C916EB003DC1AF /* SHTestUtilities */; };
-		73ECA56E10D117AE00BC8785 /* SHSharedUI in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI */; };
+		73ECA56A10D117AA00BC8785 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared.framework */; };
+		73ECA56D10D117AC00BC8785 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378124710C916EB003DC1AF /* SHTestUtilities.framework */; };
+		73ECA56E10D117AE00BC8785 /* SHSharedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI.framework */; };
 		73ECA56F10D117B300BC8785 /* SHNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED857F0B9F6013003FC5C4 /* SHNodeGraph.framework */; };
 		73ECA57010D117B500BC8785 /* ProtoNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C3B0270FDC27A10088A92A /* ProtoNodeGraph.framework */; };
-		73ECA57110D117C100BC8785 /* SHShared in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared */; };
-		73ECA57210D117C300BC8785 /* SHSharedUI in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI */; };
-		73ECA57310D117C500BC8785 /* SHTestUtilities in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378124710C916EB003DC1AF /* SHTestUtilities */; };
+		73ECA57110D117C100BC8785 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737854570D1ABD9C0092E72C /* SHShared.framework */; };
+		73ECA57210D117C300BC8785 /* SHSharedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8ED610A1FC880097E2A2 /* SHSharedUI.framework */; };
+		73ECA57310D117C500BC8785 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7378124710C916EB003DC1AF /* SHTestUtilities.framework */; };
 		73ECA57410D117CA00BC8785 /* SHNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED857F0B9F6013003FC5C4 /* SHNodeGraph.framework */; };
 		73ECA57510D117CB00BC8785 /* ProtoNodeGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C3B0270FDC27A10088A92A /* ProtoNodeGraph.framework */; };
 		73ECA5A710D11BC000BC8785 /* BlakeMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730716530E017E1C002D3F81 /* BlakeMain.framework */; };
@@ -1408,11 +1408,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73C83FEC10A9C3740086F928 /* SHShared in Frameworks */,
+				73C83FEC10A9C3740086F928 /* SHShared.framework in Frameworks */,
 				73C83FF810A9C3900086F928 /* SHPluginManager.framework in Frameworks */,
 				73C83FF910A9C3950086F928 /* SHNodeGraph.framework in Frameworks */,
 				73C83FFA10A9C3980086F928 /* ProtoNodeGraph.framework in Frameworks */,
-				73C83FFC10A9C3B70086F928 /* SHSharedUI in Frameworks */,
+				73C83FFC10A9C3B70086F928 /* SHSharedUI.framework in Frameworks */,
 				7398834B10D4F2AC0093AF0A /* FScript.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1431,8 +1431,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				73BACE9E10D2BF1300E01D0C /* BlakeMain.framework in Frameworks */,
-				73BACEAB10D2BF4000E01D0C /* SHShared in Frameworks */,
-				73BACEAC10D2BF4200E01D0C /* SHSharedUI in Frameworks */,
+				73BACEAB10D2BF4000E01D0C /* SHShared.framework in Frameworks */,
+				73BACEAC10D2BF4200E01D0C /* SHSharedUI.framework in Frameworks */,
 				73BACEAD10D2BF4900E01D0C /* SHPluginManager.framework in Frameworks */,
 				73BACEAE10D2BF4C00E01D0C /* SHNodeGraph.framework in Frameworks */,
 				73BACEAF10D2BF4D00E01D0C /* ProtoNodeGraph.framework in Frameworks */,
@@ -1443,7 +1443,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7364E58D10F75BFF002B5E45 /* SHTestUtilities in Frameworks */,
+				7364E58D10F75BFF002B5E45 /* SHTestUtilities.framework in Frameworks */,
 				7364E5DE10F76174002B5E45 /* FScript.framework in Frameworks */,
 				7364E5DF10F76174002B5E45 /* SenTestingKit.framework in Frameworks */,
 				7364E5E010F76175002B5E45 /* OCMock.framework in Frameworks */,
@@ -1456,9 +1456,9 @@
 			files = (
 				730A587C0E06987E009458BA /* BlakeMain.framework in Frameworks */,
 				730A58ED0E069FE7009458BA /* FScript.framework in Frameworks */,
-				731DEA5E10CD351700C42727 /* SHTestUtilities in Frameworks */,
-				731DED1710CD5D3B00C42727 /* SHShared in Frameworks */,
-				731DED1810CD5D3E00C42727 /* SHSharedUI in Frameworks */,
+				731DEA5E10CD351700C42727 /* SHTestUtilities.framework in Frameworks */,
+				731DED1710CD5D3B00C42727 /* SHShared.framework in Frameworks */,
+				731DED1810CD5D3E00C42727 /* SHSharedUI.framework in Frameworks */,
 				731DED1910CD5D4400C42727 /* SHNodeGraph.framework in Frameworks */,
 				731DED1A10CD5D4700C42727 /* ProtoNodeGraph.framework in Frameworks */,
 				731DED6E10CD607E00C42727 /* OCMock.framework in Frameworks */,
@@ -1507,8 +1507,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				73DF14850EDEFE4B00E9070C /* BlakeMain.framework in Frameworks */,
-				73ECA2A510D1098500BC8785 /* SHSharedUI in Frameworks */,
-				73ECA2C810D1098800BC8785 /* SHShared in Frameworks */,
+				73ECA2A510D1098500BC8785 /* SHSharedUI.framework in Frameworks */,
+				73ECA2C810D1098800BC8785 /* SHShared.framework in Frameworks */,
 				73ECA2C910D1098F00BC8785 /* SHNodeGraph.framework in Frameworks */,
 				73ECA2CA10D1099000BC8785 /* ProtoNodeGraph.framework in Frameworks */,
 				73ECA2CB10D1099600BC8785 /* SHPluginManager.framework in Frameworks */,
@@ -1531,7 +1531,7 @@
 				73AE9D230D60F9AB00105927 /* SenTestingKit.framework in Frameworks */,
 				73AFF7440D96A9DD0089F0BC /* FScript.framework in Frameworks */,
 				73FF44EF0E2699240063287B /* BlakeMain.framework in Frameworks */,
-				731DEA6110CD352200C42727 /* SHTestUtilities in Frameworks */,
+				731DEA6110CD352200C42727 /* SHTestUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1540,9 +1540,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73ECA55A10D1178100BC8785 /* NodeListView.framework in Frameworks */,
-				73ECA57110D117C100BC8785 /* SHShared in Frameworks */,
-				73ECA57210D117C300BC8785 /* SHSharedUI in Frameworks */,
-				73ECA57310D117C500BC8785 /* SHTestUtilities in Frameworks */,
+				73ECA57110D117C100BC8785 /* SHShared.framework in Frameworks */,
+				73ECA57210D117C300BC8785 /* SHSharedUI.framework in Frameworks */,
+				73ECA57310D117C500BC8785 /* SHTestUtilities.framework in Frameworks */,
 				73ECA57410D117CA00BC8785 /* SHNodeGraph.framework in Frameworks */,
 				73ECA57510D117CB00BC8785 /* ProtoNodeGraph.framework in Frameworks */,
 				73ECA5A710D11BC000BC8785 /* BlakeMain.framework in Frameworks */,
@@ -1556,9 +1556,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73ECA56A10D117AA00BC8785 /* SHShared in Frameworks */,
-				73ECA56D10D117AC00BC8785 /* SHTestUtilities in Frameworks */,
-				73ECA56E10D117AE00BC8785 /* SHSharedUI in Frameworks */,
+				73ECA56A10D117AA00BC8785 /* SHShared.framework in Frameworks */,
+				73ECA56D10D117AC00BC8785 /* SHTestUtilities.framework in Frameworks */,
+				73ECA56E10D117AE00BC8785 /* SHSharedUI.framework in Frameworks */,
 				73ECA56F10D117B300BC8785 /* SHNodeGraph.framework in Frameworks */,
 				73ECA57010D117B500BC8785 /* ProtoNodeGraph.framework in Frameworks */,
 			);
@@ -1573,8 +1573,8 @@
 				73AFF7420D96A9DD0089F0BC /* FScript.framework in Frameworks */,
 				7398FAF810AC58840035A762 /* SHNodeGraph.framework in Frameworks */,
 				7398FAFD10AC58850035A762 /* ProtoNodeGraph.framework in Frameworks */,
-				73263EDD10AC5EB900D8E6B1 /* SHShared in Frameworks */,
-				73263EE210AC5EBB00D8E6B1 /* SHSharedUI in Frameworks */,
+				73263EDD10AC5EB900D8E6B1 /* SHShared.framework in Frameworks */,
+				73263EE210AC5EBB00D8E6B1 /* SHSharedUI.framework in Frameworks */,
 				7320499910D012C600242B59 /* NodeListView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2079,13 +2079,13 @@
 		737854520D1ABD9C0092E72C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				737854570D1ABD9C0092E72C /* SHShared */,
+				737854570D1ABD9C0092E72C /* SHShared.framework */,
 				737854590D1ABD9C0092E72C /* SHSharedTests.octest */,
 				73D1BE520F572D3200F3988F /* libSHShared_static.a */,
 				73D1BE540F572D3200F3988F /* libSHShared_iphone.a */,
-				73FF8ED610A1FC880097E2A2 /* SHSharedUI */,
+				73FF8ED610A1FC880097E2A2 /* SHSharedUI.framework */,
 				73FF8ED810A1FC880097E2A2 /* SHSharedUITests.octest */,
-				7378124710C916EB003DC1AF /* SHTestUtilities */,
+				7378124710C916EB003DC1AF /* SHTestUtilities.framework */,
 				73C20912113EBD88006EF7C4 /* TestUtilitiesTests.octest */,
 				73B051C01168EF160054CE44 /* GUIFiddler */,
 				7322A890119AA3C8007B5F34 /* PerformanceTests.octest */,
@@ -3154,17 +3154,17 @@
 			remoteRef = 73684E9A0977E40400192B2E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7378124710C916EB003DC1AF /* SHTestUtilities */ = {
+		7378124710C916EB003DC1AF /* SHTestUtilities.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SHTestUtilities;
+			path = SHTestUtilities.framework;
 			remoteRef = 7378124610C916EB003DC1AF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		737854570D1ABD9C0092E72C /* SHShared */ = {
+		737854570D1ABD9C0092E72C /* SHShared.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SHShared;
+			path = SHShared.framework;
 			remoteRef = 737854560D1ABD9C0092E72C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -3357,10 +3357,10 @@
 			remoteRef = 73ED857E0B9F6013003FC5C4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		73FF8ED610A1FC880097E2A2 /* SHSharedUI */ = {
+		73FF8ED610A1FC880097E2A2 /* SHSharedUI.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SHSharedUI;
+			path = SHSharedUI.framework;
 			remoteRef = 73FF8ED510A1FC880097E2A2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
