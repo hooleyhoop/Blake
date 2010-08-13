@@ -97,11 +97,13 @@
 - (void)testAngleDegressBetweenTwoPtsAboutCentre {
 	// CGFloat angleDegressBetweenTwoPtsAboutCentre( CGPoint pt1, CGPoint pt2, CGPoint centrePt )
 
-	CGPoint centrePt = CGPointMake(0,0);
-	CGPoint p1 = CGPointMake(0,10);
-	CGPoint p2 = CGPointMake(10,0);
-	CGFloat angle = angleDegressBetweenTwoPtsAboutCentre( p1, p2, centrePt );
-	STAssertTrue( G3DCompareFloat( angle, 90.0f, 0.001f)==0, @"No - %f", angle);
+	
+		CGPoint centrePt = CGPointMake(0,0);
+		CGPoint p1 = CGPointMake(0,10);
+		CGPoint p2 = CGPointMake(10,0);
+		CGFloat angle = angleDegressBetweenTwoPtsAboutCentre( p1, p2, centrePt );
+		STAssertTrue( G3DCompareFloat( angle, 90.0f, 0.001f)==0, @"No - %f", angle);
+
 }
 
 
