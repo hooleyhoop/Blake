@@ -46,6 +46,7 @@ WARNING_CFLAGS[sdk=macosx10.5][arch=ppc] = $(inherited) $(GTM_GENERAL_WARNING_CF
 
 SDKROOT = macosx10.5
 SDKROOT[arch=i386] = macosx10.6
+SDKROOT[arch=x86_64] = macosx10.6
 
 MACOSX_DEPLOYMENT_TARGET = 10.5
 MACOSX_DEPLOYMENT_TARGET[sdk=macosx10.5][arch=ppc] = 10.5
