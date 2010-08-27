@@ -2,3 +2,4 @@
 
 WRAPPER_EXTENSION = octest
 OTHER_LDFLAGS = $(inherited) -framework Foundation -framework AppKit -framework SenTestingKit
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(DEVELOPER_FRAMEWORKS_DIR)"
