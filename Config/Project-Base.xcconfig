@@ -28,7 +28,7 @@ GCC_WARN_SIGN_COMPARE = YES
 
 GTM_CONFIGURATION_WARNING_CFLAGS = -Wno-unused-variable -Winit-self -Wno-extra
 GTM_EXTRA_WARNING_OVERRIDE_CFLAGS = -Wno-unused-parameter
-GTM_GENERAL_OTHER_CFLAGS = -Wbad-function-cast  -Wnested-externs -Wold-style-definition
+GTM_GENERAL_OTHER_CFLAGS = -Wbad-function-cast  -Wnested-externs -Wold-style-definition -fstack-protector-all
 GTM_GENERAL_OTHER_CPLUSPLUSFLAGS = -Wabi -Wctor-dtor-privacy -Wstrict-null-sentinel -Wsign-promo
 GTM_GENERAL_WARNING_CFLAGS = $(GTM_GENERAL_WARNING_CFLAGS1) $(GTM_GENERAL_WARNING_CFLAGS2) $(GTM_GENERAL_WARNING_CFLAGS3)
 GTM_GENERAL_WARNING_CFLAGS1 = -Wall -Wendif-labels -Wformat=2 -Wmissing-format-attribute -Wwrite-strings -Wstrict-aliasing=2
