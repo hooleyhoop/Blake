@@ -258,6 +258,13 @@
 			remoteGlobalIDString = 73B051B81168EEF70054CE44;
 			remoteInfo = GUIFiddler;
 		};
+		73950CDD127AC73C0073A137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73D337A20FF8C16F00DAA6C4 /* SHShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 732E93681189AFEA00DD3435;
+			remoteInfo = PerformanceTests;
+		};
 		73C357C910D8FEBD0000BAC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 73D337A20FF8C16F00DAA6C4 /* SHShared.xcodeproj */;
@@ -1616,6 +1623,7 @@
 				731DE75F10CD24CA00C42727 /* SHTestUtilities.framework */,
 				735F7F4111465F78000AC142 /* TestUtilitiesTests.octest */,
 				7393EB6B116DE36F00FA34FE /* GUIFiddler */,
+				73950CDE127AC73C0073A137 /* PerformanceTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1725,7 +1733,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DebugDrawing" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* DebugDrawing */;
 			projectDirPath = "";
 			projectReferences = (
@@ -1823,6 +1838,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = GUIFiddler;
 			remoteRef = 7393EB6A116DE36F00FA34FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		73950CDE127AC73C0073A137 /* PerformanceTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PerformanceTests.octest;
+			remoteRef = 73950CDD127AC73C0073A137 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		73C360FD10DA4F240000BAC5 /* Blake.app */ = {
