@@ -1,6 +1,5 @@
 // Xcode seems to have some super-secret overrides that take place between the target and project settings, thus defining these settings at project level has no effect.
 SKIP_INSTALL = NO
-DEPLOYMENT_POSTPROCESSING = NO
 GCC_ENABLE_SYMBOL_SEPARATION = NO
 
 GCC_VERSION = com.apple.compilers.llvm.clang.1_0

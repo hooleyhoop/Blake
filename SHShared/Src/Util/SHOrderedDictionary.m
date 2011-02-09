@@ -537,8 +537,8 @@
 
 #pragma mark NSCopying, hash, isEqual
 
-- (id)shallowCopy {
-
+- (id)copy_shallow {
+    
 	SHOrderedDictionary* copy = [[[self class] alloc] initBase];
 	NSMutableArray *array2 = [_array mutableCopy];
 	NSMutableDictionary *dict2 = [_dict mutableCopy];
@@ -547,14 +547,14 @@
 	return copy;
 }
 
-- (NSMutableArray *)deepCopyOfObjects {
+- (NSMutableArray *)copy_deep_justObjects {
 	return [[_array collectResultsOfSelector:@selector(copy)] retain];
 }
 
-- (id)deepCopy {
+- (id)copy_deep {
 	
 	// -- copy all elements from array
-	NSMutableArray *arrayCopy = [[self deepCopyOfObjects] autorelease];
+	NSMutableArray *arrayCopy = [[self copy_deep_justObjects] autorelease];
 	NSAssert([arrayCopy count]==[_array count], @"copy fucked up");
 	[arrayCopy makeObjectsPerformSelector:@selector(release)];
 

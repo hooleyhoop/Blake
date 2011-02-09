@@ -65,9 +65,9 @@
 - (BOOL)isSelected:(id)value;
 
  #pragma mark NSCopying, hash, isEqual
-- (NSMutableArray *)deepCopyOfObjects;
-- (id)shallowCopy;
-- (id)deepCopy;
+- (NSMutableArray *)copy_deep_justObjects;
+- (id)copy_shallow;
+- (id)copy_deep;
 - (BOOL)isEqualToOrderedDict:(SHOrderedDictionary *)value;
  
 #pragma mark accessor methods
