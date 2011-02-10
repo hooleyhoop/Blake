@@ -67,7 +67,7 @@ double sys_getrealtime(void) {
 	double startTime = sys_getrealtime();
 
 	// Original way
-	NSUInteger filterCount = 0;
+	NSInteger filterCount = 0;
 	do {
 		NSArray *filteredArray = [unfilteredArray itemsThatResultOfSelectorIsTrue:NSSelectorFromString(@"tempisKindOfClass:") withObject:[NSView class]];
 		NSAssert1( [filteredArray count]==10000, @"sheet! %i", [filteredArray count]);
@@ -75,7 +75,7 @@ double sys_getrealtime(void) {
 
 	} while( (sys_getrealtime()-startTime)<2.0 );
 	
-	NSLog(@"Old way %i", filterCount);
+	NSLog(@"Old way %ld", filterCount);
 	
 	// And again, time for 2 seconds
 	// Predicate way
@@ -91,7 +91,7 @@ double sys_getrealtime(void) {
 
 	} while( (sys_getrealtime()-startTime)<2.0 );
 
-	NSLog(@"Predicate way %i", filterCount2);
+	NSLog(@"Predicate way %ld", filterCount2);
 	
 	// And again
 	// Blocks way
@@ -109,7 +109,7 @@ double sys_getrealtime(void) {
 		
 	} while( (sys_getrealtime()-startTime)<2.0 );
 	
-	NSLog(@"Blocks way %i", filterCount3);
+	NSLog(@"Blocks way %ld", filterCount3);
 
 
 	// Results
