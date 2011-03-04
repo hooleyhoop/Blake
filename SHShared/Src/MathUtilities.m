@@ -47,6 +47,14 @@ BOOL nearlyEqualCGPoints( CGPoint pt1, CGPoint pt2 ){
     return NO;
 }
 
+// http://aggregate.ee.engr.uky.edu/MAGIC/
+#define FasI(f)  (*((int *) &(f)))
+#define FasUI(f) (*((unsigned int *) &(f)))
+
+#define	lt0(f)	(FasUI(f) > 0x80000000U)
+#define	le0(f)	(FasI(f) <= 0)
+#define	gt0(f)	(FasI(f) > 0)
+#define	ge0(f)	(FasUI(f) <= 0x80000000U)
 NSInteger G3DCompareFloat( CGFloat a, CGFloat b, CGFloat tol ) {
 	if ((a+tol) < b) return -1;
 	if ((b+tol) < a) return 1;
