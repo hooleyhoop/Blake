@@ -13,9 +13,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73AC016A0F4039D100FA9887"
-               BuildableName = "libSHShared_iphone.a"
-               BlueprintName = "SHShared_iphone"
+               BlueprintIdentifier = "732E93671189AFEA00DD3435"
+               BuildableName = "PerformanceTests.octest"
+               BlueprintName = "PerformanceTests"
                ReferencedContainer = "container:SHShared.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
