@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732A062F1387D5D50084F8FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732A062E1387D5D50084F8FD /* Cocoa.framework */; };
+		732A06391387D5D50084F8FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 732A06371387D5D50084F8FD /* InfoPlist.strings */; };
+		732A06411387D5D50084F8FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732A062E1387D5D50084F8FD /* Cocoa.framework */; };
+		732A06441387D5D50084F8FD /* SHShared2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732A062B1387D5D50084F8FD /* SHShared2.framework */; };
+		732A064A1387D5D50084F8FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 732A06481387D5D50084F8FD /* InfoPlist.strings */; };
+		732A064D1387D5D50084F8FD /* SHShared2Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 732A064C1387D5D50084F8FD /* SHShared2Tests.h */; };
+		732A064F1387D5D50084F8FD /* SHShared2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A064E1387D5D50084F8FD /* SHShared2Tests.m */; };
+		732A06681387D6BE0084F8FD /* HooStateMachine_abstractEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A06661387D6BE0084F8FD /* HooStateMachine_abstractEvent.h */; };
+		732A06691387D6BE0084F8FD /* HooStateMachine_abstractEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06671387D6BE0084F8FD /* HooStateMachine_abstractEvent.m */; };
+		732A066A1387D6BE0084F8FD /* HooStateMachine_abstractEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06671387D6BE0084F8FD /* HooStateMachine_abstractEvent.m */; };
+		732A066D1387D6F80084F8FD /* HooStateMachine_command.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A066B1387D6F80084F8FD /* HooStateMachine_command.h */; };
+		732A066E1387D6F80084F8FD /* HooStateMachine_command.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A066C1387D6F80084F8FD /* HooStateMachine_command.m */; };
+		732A066F1387D6F80084F8FD /* HooStateMachine_command.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A066C1387D6F80084F8FD /* HooStateMachine_command.m */; };
+		732A06721387D7120084F8FD /* HooStateMachine_event.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A06701387D7120084F8FD /* HooStateMachine_event.h */; };
+		732A06731387D7120084F8FD /* HooStateMachine_event.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06711387D7120084F8FD /* HooStateMachine_event.m */; };
+		732A06741387D7120084F8FD /* HooStateMachine_event.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06711387D7120084F8FD /* HooStateMachine_event.m */; };
+		732A06771387D72A0084F8FD /* HooStateMachine_state.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A06751387D72A0084F8FD /* HooStateMachine_state.h */; };
+		732A06781387D72A0084F8FD /* HooStateMachine_state.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06761387D72A0084F8FD /* HooStateMachine_state.m */; };
+		732A06791387D72A0084F8FD /* HooStateMachine_state.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06761387D72A0084F8FD /* HooStateMachine_state.m */; };
+		732A067C1387D7400084F8FD /* HooStateMachine_transition.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A067A1387D7400084F8FD /* HooStateMachine_transition.h */; };
+		732A067D1387D7400084F8FD /* HooStateMachine_transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A067B1387D7400084F8FD /* HooStateMachine_transition.m */; };
+		732A067E1387D7400084F8FD /* HooStateMachine_transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A067B1387D7400084F8FD /* HooStateMachine_transition.m */; };
+		732A06811387D7530084F8FD /* HooStateMachineConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A067F1387D7530084F8FD /* HooStateMachineConfigurator.h */; };
+		732A06821387D7530084F8FD /* HooStateMachineConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06801387D7530084F8FD /* HooStateMachineConfigurator.m */; };
+		732A06831387D7530084F8FD /* HooStateMachineConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06801387D7530084F8FD /* HooStateMachineConfigurator.m */; };
+		732A06861387D7680084F8FD /* HooStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A06841387D7680084F8FD /* HooStateMachine.h */; };
+		732A06871387D7680084F8FD /* HooStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06851387D7680084F8FD /* HooStateMachine.m */; };
+		732A06881387D7680084F8FD /* HooStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06851387D7680084F8FD /* HooStateMachine.m */; };
+		732A068B1387D77C0084F8FD /* HooStateMachine_controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A06891387D77C0084F8FD /* HooStateMachine_controller.h */; };
+		732A068C1387D77C0084F8FD /* HooStateMachine_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A068A1387D77C0084F8FD /* HooStateMachine_controller.m */; };
+		732A068D1387D77C0084F8FD /* HooStateMachine_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A068A1387D77C0084F8FD /* HooStateMachine_controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		732A06421387D5D50084F8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732A06211387D5D50084F8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732A062A1387D5D50084F8FD;
+			remoteInfo = SHShared2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		732A062B1387D5D50084F8FD /* SHShared2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHShared2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		732A062E1387D5D50084F8FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		732A06311387D5D50084F8FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		732A06321387D5D50084F8FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		732A06331387D5D50084F8FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		732A06361387D5D50084F8FD /* SHShared2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHShared2-Info.plist"; sourceTree = "<group>"; };
+		732A06381387D5D50084F8FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		732A063A1387D5D50084F8FD /* SHShared2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHShared2-Prefix.pch"; sourceTree = "<group>"; };
+		732A06401387D5D50084F8FD /* SHShared2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHShared2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732A06471387D5D50084F8FD /* SHShared2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHShared2Tests-Info.plist"; sourceTree = "<group>"; };
+		732A06491387D5D50084F8FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		732A064B1387D5D50084F8FD /* SHShared2Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHShared2Tests-Prefix.pch"; sourceTree = "<group>"; };
+		732A064C1387D5D50084F8FD /* SHShared2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHShared2Tests.h; sourceTree = "<group>"; };
+		732A064E1387D5D50084F8FD /* SHShared2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHShared2Tests.m; sourceTree = "<group>"; };
+		732A06661387D6BE0084F8FD /* HooStateMachine_abstractEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_abstractEvent.h; sourceTree = "<group>"; };
+		732A06671387D6BE0084F8FD /* HooStateMachine_abstractEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_abstractEvent.m; sourceTree = "<group>"; };
+		732A066B1387D6F80084F8FD /* HooStateMachine_command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_command.h; sourceTree = "<group>"; };
+		732A066C1387D6F80084F8FD /* HooStateMachine_command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_command.m; sourceTree = "<group>"; };
+		732A06701387D7120084F8FD /* HooStateMachine_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_event.h; sourceTree = "<group>"; };
+		732A06711387D7120084F8FD /* HooStateMachine_event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_event.m; sourceTree = "<group>"; };
+		732A06751387D72A0084F8FD /* HooStateMachine_state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_state.h; sourceTree = "<group>"; };
+		732A06761387D72A0084F8FD /* HooStateMachine_state.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_state.m; sourceTree = "<group>"; };
+		732A067A1387D7400084F8FD /* HooStateMachine_transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_transition.h; sourceTree = "<group>"; };
+		732A067B1387D7400084F8FD /* HooStateMachine_transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_transition.m; sourceTree = "<group>"; };
+		732A067F1387D7530084F8FD /* HooStateMachineConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachineConfigurator.h; sourceTree = "<group>"; };
+		732A06801387D7530084F8FD /* HooStateMachineConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachineConfigurator.m; sourceTree = "<group>"; };
+		732A06841387D7680084F8FD /* HooStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine.h; sourceTree = "<group>"; };
+		732A06851387D7680084F8FD /* HooStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine.m; sourceTree = "<group>"; };
+		732A06891387D77C0084F8FD /* HooStateMachine_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_controller.h; sourceTree = "<group>"; };
+		732A068A1387D77C0084F8FD /* HooStateMachine_controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732A06271387D5D50084F8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732A062F1387D5D50084F8FD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732A063C1387D5D50084F8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732A06411387D5D50084F8FD /* Cocoa.framework in Frameworks */,
+				732A06441387D5D50084F8FD /* SHShared2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		732A061F1387D5D50084F8FD = {
+			isa = PBXGroup;
+			children = (
+				732A06341387D5D50084F8FD /* SHShared2 */,
+				732A06451387D5D50084F8FD /* SHShared2Tests */,
+				732A062D1387D5D50084F8FD /* Frameworks */,
+				732A062C1387D5D50084F8FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		732A062C1387D5D50084F8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732A062B1387D5D50084F8FD /* SHShared2.framework */,
+				732A06401387D5D50084F8FD /* SHShared2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732A062D1387D5D50084F8FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732A062E1387D5D50084F8FD /* Cocoa.framework */,
+				732A06301387D5D50084F8FD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		732A06301387D5D50084F8FD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732A06311387D5D50084F8FD /* AppKit.framework */,
+				732A06321387D5D50084F8FD /* CoreData.framework */,
+				732A06331387D5D50084F8FD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		732A06341387D5D50084F8FD /* SHShared2 */ = {
+			isa = PBXGroup;
+			children = (
+				732A06641387D6780084F8FD /* Statemachine */,
+				732A06351387D5D50084F8FD /* Supporting Files */,
+			);
+			path = SHShared2;
+			sourceTree = "<group>";
+		};
+		732A06351387D5D50084F8FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				732A06361387D5D50084F8FD /* SHShared2-Info.plist */,
+				732A06371387D5D50084F8FD /* InfoPlist.strings */,
+				732A063A1387D5D50084F8FD /* SHShared2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		732A06451387D5D50084F8FD /* SHShared2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				732A064C1387D5D50084F8FD /* SHShared2Tests.h */,
+				732A064E1387D5D50084F8FD /* SHShared2Tests.m */,
+				732A06461387D5D50084F8FD /* Supporting Files */,
+			);
+			path = SHShared2Tests;
+			sourceTree = "<group>";
+		};
+		732A06461387D5D50084F8FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				732A06471387D5D50084F8FD /* SHShared2Tests-Info.plist */,
+				732A06481387D5D50084F8FD /* InfoPlist.strings */,
+				732A064B1387D5D50084F8FD /* SHShared2Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		732A06641387D6780084F8FD /* Statemachine */ = {
+			isa = PBXGroup;
+			children = (
+				732A06661387D6BE0084F8FD /* HooStateMachine_abstractEvent.h */,
+				732A06671387D6BE0084F8FD /* HooStateMachine_abstractEvent.m */,
+				732A066B1387D6F80084F8FD /* HooStateMachine_command.h */,
+				732A066C1387D6F80084F8FD /* HooStateMachine_command.m */,
+				732A06701387D7120084F8FD /* HooStateMachine_event.h */,
+				732A06711387D7120084F8FD /* HooStateMachine_event.m */,
+				732A06751387D72A0084F8FD /* HooStateMachine_state.h */,
+				732A06761387D72A0084F8FD /* HooStateMachine_state.m */,
+				732A067A1387D7400084F8FD /* HooStateMachine_transition.h */,
+				732A067B1387D7400084F8FD /* HooStateMachine_transition.m */,
+				732A067F1387D7530084F8FD /* HooStateMachineConfigurator.h */,
+				732A06801387D7530084F8FD /* HooStateMachineConfigurator.m */,
+				732A06841387D7680084F8FD /* HooStateMachine.h */,
+				732A06851387D7680084F8FD /* HooStateMachine.m */,
+				732A06891387D77C0084F8FD /* HooStateMachine_controller.h */,
+				732A068A1387D77C0084F8FD /* HooStateMachine_controller.m */,
+			);
+			name = Statemachine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		732A06281387D5D50084F8FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732A06681387D6BE0084F8FD /* HooStateMachine_abstractEvent.h in Headers */,
+				732A066D1387D6F80084F8FD /* HooStateMachine_command.h in Headers */,
+				732A06721387D7120084F8FD /* HooStateMachine_event.h in Headers */,
+				732A06771387D72A0084F8FD /* HooStateMachine_state.h in Headers */,
+				732A067C1387D7400084F8FD /* HooStateMachine_transition.h in Headers */,
+				732A06811387D7530084F8FD /* HooStateMachineConfigurator.h in Headers */,
+				732A06861387D7680084F8FD /* HooStateMachine.h in Headers */,
+				732A068B1387D77C0084F8FD /* HooStateMachine_controller.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		732A062A1387D5D50084F8FD /* SHShared2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732A06521387D5D50084F8FD /* Build configuration list for PBXNativeTarget "SHShared2" */;
+			buildPhases = (
+				732A06261387D5D50084F8FD /* Sources */,
+				732A06271387D5D50084F8FD /* Frameworks */,
+				732A06281387D5D50084F8FD /* Headers */,
+				732A06291387D5D50084F8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHShared2;
+			productName = SHShared2;
+			productReference = 732A062B1387D5D50084F8FD /* SHShared2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		732A063F1387D5D50084F8FD /* SHShared2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732A06551387D5D50084F8FD /* Build configuration list for PBXNativeTarget "SHShared2Tests" */;
+			buildPhases = (
+				732A063B1387D5D50084F8FD /* Sources */,
+				732A063C1387D5D50084F8FD /* Frameworks */,
+				732A063D1387D5D50084F8FD /* Resources */,
+				732A063E1387D5D50084F8FD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732A06431387D5D50084F8FD /* PBXTargetDependency */,
+			);
+			name = SHShared2Tests;
+			productName = SHShared2Tests;
+			productReference = 732A06401387D5D50084F8FD /* SHShared2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732A06211387D5D50084F8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tinsal Parks";
+			};
+			buildConfigurationList = 732A06241387D5D50084F8FD /* Build configuration list for PBXProject "SHShared2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 732A061F1387D5D50084F8FD;
+			productRefGroup = 732A062C1387D5D50084F8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732A062A1387D5D50084F8FD /* SHShared2 */,
+				732A063F1387D5D50084F8FD /* SHShared2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		732A06291387D5D50084F8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732A06391387D5D50084F8FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732A063D1387D5D50084F8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732A064A1387D5D50084F8FD /* InfoPlist.strings in Resources */,
+				732A064D1387D5D50084F8FD /* SHShared2Tests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		732A063E1387D5D50084F8FD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732A06261387D5D50084F8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732A06691387D6BE0084F8FD /* HooStateMachine_abstractEvent.m in Sources */,
+				732A066E1387D6F80084F8FD /* HooStateMachine_command.m in Sources */,
+				732A06731387D7120084F8FD /* HooStateMachine_event.m in Sources */,
+				732A06781387D72A0084F8FD /* HooStateMachine_state.m in Sources */,
+				732A067D1387D7400084F8FD /* HooStateMachine_transition.m in Sources */,
+				732A06821387D7530084F8FD /* HooStateMachineConfigurator.m in Sources */,
+				732A06871387D7680084F8FD /* HooStateMachine.m in Sources */,
+				732A068C1387D77C0084F8FD /* HooStateMachine_controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732A063B1387D5D50084F8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732A064F1387D5D50084F8FD /* SHShared2Tests.m in Sources */,
+				732A066A1387D6BE0084F8FD /* HooStateMachine_abstractEvent.m in Sources */,
+				732A066F1387D6F80084F8FD /* HooStateMachine_command.m in Sources */,
+				732A06741387D7120084F8FD /* HooStateMachine_event.m in Sources */,
+				732A06791387D72A0084F8FD /* HooStateMachine_state.m in Sources */,
+				732A067E1387D7400084F8FD /* HooStateMachine_transition.m in Sources */,
+				732A06831387D7530084F8FD /* HooStateMachineConfigurator.m in Sources */,
+				732A06881387D7680084F8FD /* HooStateMachine.m in Sources */,
+				732A068D1387D77C0084F8FD /* HooStateMachine_controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		732A06431387D5D50084F8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732A062A1387D5D50084F8FD /* SHShared2 */;
+			targetProxy = 732A06421387D5D50084F8FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		732A06371387D5D50084F8FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732A06381387D5D50084F8FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		732A06481387D5D50084F8FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732A06491387D5D50084F8FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		732A06501387D5D50084F8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		732A06511387D5D50084F8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		732A06531387D5D50084F8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHShared2/SHShared2-Prefix.pch";
+				INFOPLIST_FILE = "SHShared2/SHShared2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		732A06541387D5D50084F8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHShared2/SHShared2-Prefix.pch";
+				INFOPLIST_FILE = "SHShared2/SHShared2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		732A06561387D5D50084F8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHShared2Tests/SHShared2Tests-Prefix.pch";
+				INFOPLIST_FILE = "SHShared2Tests/SHShared2Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		732A06571387D5D50084F8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHShared2Tests/SHShared2Tests-Prefix.pch";
+				INFOPLIST_FILE = "SHShared2Tests/SHShared2Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732A06241387D5D50084F8FD /* Build configuration list for PBXProject "SHShared2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732A06501387D5D50084F8FD /* Debug */,
+				732A06511387D5D50084F8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732A06521387D5D50084F8FD /* Build configuration list for PBXNativeTarget "SHShared2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732A06531387D5D50084F8FD /* Debug */,
+				732A06541387D5D50084F8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732A06551387D5D50084F8FD /* Build configuration list for PBXNativeTarget "SHShared2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732A06561387D5D50084F8FD /* Debug */,
+				732A06571387D5D50084F8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732A06211387D5D50084F8FD /* Project object */;
+}

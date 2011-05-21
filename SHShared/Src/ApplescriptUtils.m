@@ -150,7 +150,8 @@ void LoadScriptingAdditions(void) {
 				/* Array */
 				nextParameter = [NSAppleEventDescriptor listDescriptor];
 				NSUInteger subParamIndex = 1;
-				for( NSNumber *eachSubParam in eachObject ){
+                NSArray *eachOb2 = (NSArray *)eachObject;
+				for( NSNumber *eachSubParam in eachOb2 ){
 					NSAppleEventDescriptor *nextSubParameter = [NSAppleEventDescriptor descriptorWithString:[eachSubParam stringValue]];
 					[nextParameter insertDescriptor:nextSubParameter atIndex:subParamIndex];
 					subParamIndex++;
