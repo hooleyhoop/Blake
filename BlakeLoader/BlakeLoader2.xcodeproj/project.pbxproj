@@ -1218,7 +1218,7 @@
 		73ACC2BF0DD2FA240085A301 /* SKTWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTWindowController.m; path = Sketch/SKTWindowController.m; sourceTree = "<group>"; };
 		73ACC2C00DD2FA240085A301 /* Draw2App.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Draw2App.icns; path = Sketch/Draw2App.icns; sourceTree = "<group>"; };
 		73ACC2C10DD2FA240085A301 /* SKTText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTText.h; path = Sketch/SKTText.h; sourceTree = "<group>"; };
-		73ACC2C20DD2FA240085A301 /* Sketch.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; name = Sketch.sdef; path = Sketch/Sketch.sdef; sourceTree = "<group>"; };
+		73ACC2C20DD2FA240085A301 /* Sketch.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sketch.sdef; path = Sketch/Sketch.sdef; sourceTree = "<group>"; };
 		73ACC2C40DD2FA240085A301 /* SKTInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SKTInfo.plist; path = Sketch/SKTInfo.plist; sourceTree = "<group>"; };
 		73ACC2C50DD2FA240085A301 /* SKTLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTLine.m; path = Sketch/SKTLine.m; sourceTree = "<group>"; };
 		73ACC2C80DD2FA240085A301 /* SKTRenderingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTRenderingView.h; path = Sketch/SKTRenderingView.h; sourceTree = "<group>"; };
@@ -1331,7 +1331,7 @@
 		73BAF4D00E0815EB00455F07 /* SketchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SketchExtension.h; path = Sketch/SketchExtension.h; sourceTree = "<group>"; };
 		73BAF4D10E0815EB00455F07 /* SketchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SketchExtension.m; path = Sketch/SketchExtension.m; sourceTree = "<group>"; };
 		73BAF6B20E08261C00455F07 /* SketchExtensionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SketchExtensionTests.m; path = Sketch/Tests/SketchExtensionTests.m; sourceTree = "<group>"; };
-		73BB96801168B910008F3174 /* Blake.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; name = Blake.sdef; path = Blake/Blake.sdef; sourceTree = "<group>"; };
+		73BB96801168B910008F3174 /* Blake.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Blake.sdef; path = Blake/Blake.sdef; sourceTree = "<group>"; };
 		73BBC4F90DE46BFA00321618 /* StubGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StubGraphic.h; path = Sketch/Tests/StubGraphic.h; sourceTree = "<group>"; };
 		73BBC4FA0DE46BFA00321618 /* StubGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StubGraphic.m; path = Sketch/Tests/StubGraphic.m; sourceTree = "<group>"; };
 		73BE6FBD09868161005D9DE4 /* startup.fscript */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = startup.fscript; path = ../scripts/startup.fscript; sourceTree = SOURCE_ROOT; };
@@ -3042,7 +3042,11 @@
 			isa = PBXProject;
 			buildConfigurationList = 739141BB090E4514001ADDD4 /* Build configuration list for PBXProject "BlakeLoader2" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Pharm */;
 			projectDirPath = "";
 			projectReferences = (

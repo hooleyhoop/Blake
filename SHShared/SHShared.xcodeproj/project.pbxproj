@@ -27,39 +27,17 @@
 		7301396511996E21002AFF89 /* ApplescriptGUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7385A5A610FCD9F600ED053F /* ApplescriptGUI.m */; };
 		7301396A11996E2C002AFF89 /* ApplescriptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343C805111AD73E005A2689 /* ApplescriptUtils.m */; };
 		7301397511996EAB002AFF89 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7385A5C210FCDA4A00ED053F /* Carbon.framework */; };
-		731DE68E10CD244400C42727 /* SHShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 739253D50E447E1A00BEB704 /* SHShared.m */; };
-		731DE7CC10CD274A00C42727 /* SwizzleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 731DE7CA10CD274A00C42727 /* SwizzleList.m */; };
-		731DE7EA10CD277300C42727 /* SwizzleList.h in Headers */ = {isa = PBXBuildFile; fileRef = 731DE7E910CD276500C42727 /* SwizzleList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		732360FF0C5E77040039CC7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
-		73263E1210AC5E5900D8E6B1 /* SHArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7392531E0E446DBC00BEB704 /* SHArrayController.m */; };
-		73263E1310AC5E5900D8E6B1 /* SHArrayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7392531F0E446DBC00BEB704 /* SHArrayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73263FE610AC601D00D8E6B1 /* SHWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 731253980E42122C0047C4A9 /* SHWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73263FE710AC601D00D8E6B1 /* SHWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 731253990E42122C0047C4A9 /* SHWindow.m */; };
 		73263FE810AC603F00D8E6B1 /* SHWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C43A2D0E4B0216000AE339 /* SHWindowTests.m */; };
-		7329463210A4358E001FFE74 /* NSDocumentController_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C3F18A0E01BBAE00E1CFCB /* NSDocumentController_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7329463310A4358F001FFE74 /* NSDocumentController_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C3F18B0E01BBAE00E1CFCB /* NSDocumentController_Extensions.m */; };
-		7329463410A43593001FFE74 /* NSApplication_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C3F1D30E01C38500E1CFCB /* NSApplication_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7329463510A43594001FFE74 /* NSApplication_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C3F1D40E01C38500E1CFCB /* NSApplication_Extensions.m */; };
-		732C622110B1946F003A6739 /* NSObject_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 732C621F10B1946F003A6739 /* NSObject_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		732C622210B1946F003A6739 /* NSObject_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C622010B1946F003A6739 /* NSObject_Extras.m */; };
 		732E92641189A37300DD3435 /* GUI_ApplescriptTestProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E92621189A37300DD3435 /* GUI_ApplescriptTestProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		732E92651189A37300DD3435 /* GUI_ApplescriptTestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E92631189A37300DD3435 /* GUI_ApplescriptTestProxy.m */; };
-		732E92C61189A5E400DD3435 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		732E93811189B06400DD3435 /* SimpleBlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E93801189B06400DD3435 /* SimpleBlocksTests.m */; };
 		733674F50F40AEFE00E40357 /* SHooleyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7858E0D1BDBE300EE14BC /* SHooleyObject.m */; };
 		7338DB051188A21500B5D536 /* ApplescriptGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338DB041188A21500B5D536 /* ApplescriptGUITests.m */; };
 		7338DB0F1188A33500B5D536 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		7338DB431188A7F600B5D536 /* TestScript.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 7338DB421188A7D700B5D536 /* TestScript.scpt */; };
-		734F322810A36D2500B33AB7 /* SHViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E5D305090E357E00B63D4F /* SHViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		734F324110A36D8A00B33AB7 /* NSResponder_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE110E02781600EBA987 /* NSResponder_Extras.m */; };
-		734F324210A36D8B00B33AB7 /* NSResponder_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 7373FE120E02781600EBA987 /* NSResponder_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7352FB4610D65E7800871424 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
-		735386E310B019060035F6B5 /* MathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 735386E110B019060035F6B5 /* MathUtilities.m */; };
-		735386E410B019060035F6B5 /* MathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 735386E210B019060035F6B5 /* MathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		735AE8AD10A85B89001567CF /* nibManagerTest.nib in Resources */ = {isa = PBXBuildFile; fileRef = 735AE8AC10A85B89001567CF /* nibManagerTest.nib */; };
-		735C2D4710A1B85F00C2DF56 /* SHAppProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7352BA390D61AFDA008F3C1F /* SHAppProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		735C2DD210A1BC7A00C2DF56 /* SHBundleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 73021A340B26D737001A8D04 /* SHBundleLoader.m */; };
-		735C2DD310A1BC7B00C2DF56 /* SHBundleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 73021A330B26D737001A8D04 /* SHBundleLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73662D341121B3CB00E8DC9F /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
 		736C30C811A3FFF500812E21 /* SHooleyObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E7858D0D1BDBE300EE14BC /* SHooleyObject.h */; };
 		738E35B311A41B910066DBC6 /* BBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E508280E23C1DF00C077ED /* BBLogger.m */; };
@@ -72,10 +50,6 @@
 		738E35C211A41BB40066DBC6 /* SHShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E5D300090E356500B63D4F /* SHShared.h */; };
 		738E35C511A41BB90066DBC6 /* SHShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E5D300090E356500B63D4F /* SHShared.h */; };
 		738E35CE11A41C0F0066DBC6 /* SHooleyObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E7858D0D1BDBE300EE14BC /* SHooleyObject.h */; };
-		7398FB5C10AC5C1D0035A762 /* FilteringArrayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E7856A0D1BD92F00EE14BC /* FilteringArrayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7398FB5D10AC5C1D0035A762 /* FilteringArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785690D1BD92F00EE14BC /* FilteringArrayController.m */; };
-		73A295DB10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).h in Headers */ = {isa = PBXBuildFile; fileRef = 73A295D910FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73A295DC10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).m in Sources */ = {isa = PBXBuildFile; fileRef = 73A295DA10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).m */; };
 		73AC01110F40383000FA9887 /* SHOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A4D2D0C5B44DC0074F782 /* SHOrderedDictionary.m */; };
 		73AC01240F40388A00FA9887 /* SHSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 739252F90E446CC700BEB704 /* SHSwizzler.m */; };
 		73AC012A0F40389700FA9887 /* SHInstanceCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 739252FA0E446CC700BEB704 /* SHInstanceCounter.m */; };
@@ -86,8 +60,6 @@
 		73AC01750F403A2A00FA9887 /* SHSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 739252F90E446CC700BEB704 /* SHSwizzler.m */; };
 		73AC01760F403A2B00FA9887 /* SHInstanceCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 739252FA0E446CC700BEB704 /* SHInstanceCounter.m */; };
 		73B052A21168F0610054CE44 /* GUIFiddler.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B050931168ECE90054CE44 /* GUIFiddler.m */; };
-		73B208680F5EB60A004C8012 /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E785970D1BDC0600EE14BC /* NSArray_Extensions.m */; };
-		73B208690F5EB60B004C8012 /* NSArray_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E785980D1BDC0600EE14BC /* NSArray_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73B2088D0F5EB80F004C8012 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
 		73BB912D1168A055008F3174 /* HooAsyncTestRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB912C1168A055008F3174 /* HooAsyncTestRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73BB91301168A063008F3174 /* HooAsyncTestRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB912F1168A063008F3174 /* HooAsyncTestRunner.m */; };
@@ -111,23 +83,15 @@
 		73BB93F91168AFF7008F3174 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
 		73BB944A1168B0FB008F3174 /* DelayedPerformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB94481168B0FB008F3174 /* DelayedPerformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73BB944B1168B0FB008F3174 /* DelayedPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB94491168B0FB008F3174 /* DelayedPerformer.m */; };
-		73BEA2AF10C6DD8400B72903 /* NSSet_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BEA2AD10C6DD8400B72903 /* NSSet_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73BEA2B010C6DD8400B72903 /* NSSet_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BEA2AE10C6DD8400B72903 /* NSSet_Extras.m */; };
 		73C0F9640F554CC900DEEDFC /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE770E027B3C00EBA987 /* NSCharacterSet_Extensions.m */; };
-		73C0F9700F554D0500DEEDFC /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE770E027B3C00EBA987 /* NSCharacterSet_Extensions.m */; };
-		73C0F9710F554D0500DEEDFC /* NSCharacterSet_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7373FE760E027B3C00EBA987 /* NSCharacterSet_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73C8363A10A99BD10086F928 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73C8364110A99C160086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		73C836C810A99DEE0086F928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		73C8C3A8118849E300211347 /* AttachToGDB.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73C8C39B118849CF00211347 /* AttachToGDB.scpt */; };
 		73CC088711368B1B00B53CA9 /* NSInvocation_testHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A2957110FF3C78001A17F6 /* NSInvocation_testHelpersTests.m */; };
-		73CC089111368B5C00B53CA9 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73CC089211368B5C00B53CA9 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */; };
 		73CC08BE11368BD600B53CA9 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73662D331121B3CB00E8DC9F /* FScript.framework */; };
 		73CC08C311368BD800B53CA9 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
 		73CC08C411368BD900B53CA9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735679AF0C5B57FB00FF5880 /* SenTestingKit.framework */; };
-		73CF1D6C11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CF1D6A11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.h */; };
-		73CF1D6D11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1D6B11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.m */; };
 		73D106F111621254001C6946 /* MathUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735386D910B018E20035F6B5 /* MathUtilitiesTests.m */; };
 		73D106FB11621255001C6946 /* SHGlobalVarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7257410DAA01600FAA280 /* SHGlobalVarsTests.m */; };
 		73D106FC11621255001C6946 /* NSObject_ExtrasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C622810B1950A003A6739 /* NSObject_ExtrasTests.m */; };
@@ -165,13 +129,9 @@
 		73D1077C11621513001C6946 /* TestingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D6EECE10C7CC1B0072DC88 /* TestingUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D1077D11621514001C6946 /* SetUpAndTearDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731DE7A810CD267D00C42727 /* SetUpAndTearDownTests.m */; };
 		73D37D4510A883F5000231A3 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
-		73D37D4F10A8857E000231A3 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73D37D5110A88584000231A3 /* SHSharedUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FF8EBA10A1FC4E0097E2A2 /* SHSharedUI.framework */; };
 		73D37DD610A88AD6000231A3 /* SHViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D37DD510A88AD6000231A3 /* SHViewTests.m */; };
 		73D37DF910A88B6A000231A3 /* SHTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D37DF810A88B6A000231A3 /* SHTableViewTests.m */; };
-		73D37E0A10A88BA1000231A3 /* NSIndexSet_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D37E0810A88BA1000231A3 /* NSIndexSet_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D37E0B10A88BA1000231A3 /* NSIndexSet_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D37E0910A88BA1000231A3 /* NSIndexSet_Extras.m */; };
-		73D699B111946B7B005DAA84 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738C7C770C5CDC180096EF9D /* SHShared.framework */; };
 		73D6EDC510C7C7C60072DC88 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
 		73D6EDCE10C7C80B0072DC88 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735679AF0C5B57FB00FF5880 /* SenTestingKit.framework */; };
 		73D6EE3610C7C9510072DC88 /* SHTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D6ED9510C7C5BC0072DC88 /* SHTestUtilities.framework */; };
@@ -190,85 +150,18 @@
 		73E0CC3B112039E600261F28 /* desktopFile.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73E0CC2C1120396400261F28 /* desktopFile.scpt */; };
 		73E0CC4A11203A2600261F28 /* doMenuItem.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 73E0CC4911203A1B00261F28 /* doMenuItem.scpt */; };
 		73E0CC9511D369B600D4940D /* SHTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D6EE0710C7C8960072DC88 /* SHTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73E7214710DA832A00FAA280 /* SHGlobalVars.h in Headers */ = {isa = PBXBuildFile; fileRef = 7338CBD209164B3300A86517 /* SHGlobalVars.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73E7214810DA832A00FAA280 /* SHGlobalVars.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338CBD309164B3300A86517 /* SHGlobalVars.m */; };
-		73E9CAD210B0203300DBE683 /* MiscUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E9CAD010B0203300DBE683 /* MiscUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73E9CAD310B0203300DBE683 /* MiscUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E9CAD110B0203300DBE683 /* MiscUtilities.m */; };
 		73E9CC4510B0656400DBE683 /* SHSharedUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FF8EE610A1FD0C0097E2A2 /* SHSharedUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73ECA3A710D10C3500BC8785 /* SHOperatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E785800D1BD99500EE14BC /* SHOperatorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73ECA3C510D10CA600BC8785 /* SHAttributeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E7857F0D1BD99500EE14BC /* SHAttributeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73F2F4AA0F40A2F600D294F4 /* BBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E508280E23C1DF00C077ED /* BBLogger.m */; };
 		73F2F4D50F40A42D00D294F4 /* LogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E5081B0E23C1AF00C077ED /* LogController.m */; };
 		73F2F5AB0F40AB5A00D294F4 /* NSString_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE2B0E0278CD00EBA987 /* NSString_Extras.m */; };
-		73FBC10010A86A76000AABAA /* SHDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7373FFFD0E0283D100EBA987 /* SHDocument.xib */; };
-		73FF3F970F546A6D00D325A7 /* SHOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A4D2D0C5B44DC0074F782 /* SHOrderedDictionary.m */; };
-		73FF3F980F546A6E00D325A7 /* SHSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 739252F90E446CC700BEB704 /* SHSwizzler.m */; };
-		73FF3F990F546A6F00D325A7 /* SHInstanceCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 739252FA0E446CC700BEB704 /* SHInstanceCounter.m */; };
-		73FF3F9A0F546A7000D325A7 /* BBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E508280E23C1DF00C077ED /* BBLogger.m */; };
-		73FF3F9B0F546A7100D325A7 /* LogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E5081B0E23C1AF00C077ED /* LogController.m */; };
-		73FF3F9C0F546A7200D325A7 /* NSString_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FE2B0E0278CD00EBA987 /* NSString_Extras.m */; };
-		73FF3F9D0F546A7300D325A7 /* SHooleyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7858E0D1BDBE300EE14BC /* SHooleyObject.m */; };
-		73FF3FAF0F546ADB00D325A7 /* SHooleyObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E7858D0D1BDBE300EE14BC /* SHooleyObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF3FB00F546ADE00D325A7 /* SHInstanceCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 739252FC0E446CC700BEB704 /* SHInstanceCounter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF3FB10F546ADF00D325A7 /* SHSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 739252FB0E446CC700BEB704 /* SHSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF3FB90F546B0100D325A7 /* SHOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 739A4D2C0C5B44DC0074F782 /* SHOrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF3FBA0F546B1500D325A7 /* LogController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E5081C0E23C1AF00C077ED /* LogController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF3FBB0F546B1700D325A7 /* BBLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E5082A0E23C1DF00C077ED /* BBLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF3FBC0F546B2400D325A7 /* NSString_Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 7373FE2C0E0278CD00EBA987 /* NSString_Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF3FBF0F546B3A00D325A7 /* SHShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E5D300090E356500B63D4F /* SHShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF8DF010A1F9DB0097E2A2 /* SHDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373FDD90E0276A800EBA987 /* SHDocumentController.m */; };
-		73FF8DF110A1F9DC0097E2A2 /* SHDocumentController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7373FDD80E0276A800EBA987 /* SHDocumentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF8DFA10A1FB100097E2A2 /* SHDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C3F2950E01D10600E1CFCB /* SHDocument.m */; };
-		73FF8DFB10A1FB110097E2A2 /* SHDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C3F2940E01D10600E1CFCB /* SHDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73FF8EE810A1FD350097E2A2 /* SHView.h in Headers */ = {isa = PBXBuildFile; fileRef = 739253280E446DD300BEB704 /* SHView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73FF8EE910A1FD350097E2A2 /* SHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 739253290E446DD300BEB704 /* SHView.m */; };
 		73FF8EF710A1FEC40097E2A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		73FF8F0710A1FF4D0097E2A2 /* SHTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 731253890E4211F10047C4A9 /* SHTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73FF8F0810A1FF4D0097E2A2 /* SHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7312538A0E4211F10047C4A9 /* SHTableView.m */; };
-		73FF8F0910A1FFB10097E2A2 /* SHWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B6175E0E34903300F90A9E /* SHWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF8F0A10A1FFB20097E2A2 /* SHWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B6175F0E34903300F90A9E /* SHWindowController.m */; };
-		73FF8F0D10A200060097E2A2 /* BBNibManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AB932E0D4544F5007A913B /* BBNibManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF8F0E10A200070097E2A2 /* BBNibManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AB932F0D4544F5007A913B /* BBNibManager.m */; };
-		73FF905D10A2F91F0097E2A2 /* SHSingletonViewExtensionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 739BC2790E0A618900078679 /* SHSingletonViewExtensionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FF905F10A2F9920097E2A2 /* SHDocumentViewExtensionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DA5B020EDB24E700D4F5F0 /* SHDocumentViewExtensionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		732360B90C5E75C70039CC7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
-		};
-		732E929A1189A5A100DD3435 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
-		};
-		7352FB4210D65E6800871424 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
-		};
-		7352FB4410D65E7500871424 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
-		};
-		73CC088F11368B4F00B53CA9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
-		};
 		73CC091011368C1E00B53CA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
@@ -303,20 +196,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 73FF8EB910A1FC4E0097E2A2;
 			remoteInfo = SHSharedUI;
-		};
-		73D37DC610A88A56000231A3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
-		};
-		73D699AF11946B74005DAA84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
 		};
 		73D6EE3410C7C94A0072DC88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -443,7 +322,6 @@
 		7385A5A610FCD9F600ED053F /* ApplescriptGUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplescriptGUI.m; path = Src/ApplescriptGUI.m; sourceTree = "<group>"; };
 		7385A5A710FCD9F600ED053F /* ApplescriptGUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplescriptGUI.h; path = Src/ApplescriptGUI.h; sourceTree = "<group>"; };
 		7385A5C210FCDA4A00ED053F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
-		738C7C770C5CDC180096EF9D /* SHShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		739252E90E446C6800BEB704 /* SHSwizzlerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHSwizzlerTests.m; path = Tests/SHSwizzlerTests.m; sourceTree = "<group>"; };
 		739252F90E446CC700BEB704 /* SHSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHSwizzler.m; path = Src/SHSwizzler.m; sourceTree = "<group>"; };
 		739252FA0E446CC700BEB704 /* SHInstanceCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHInstanceCounter.m; path = Src/SHInstanceCounter.m; sourceTree = "<group>"; };
@@ -616,7 +494,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B2088D0F5EB80F004C8012 /* OCMock.framework in Frameworks */,
-				73C8363A10A99BD10086F928 /* SHShared.framework in Frameworks */,
 				73C8364110A99C160086F928 /* Cocoa.framework in Frameworks */,
 				73D6EE3610C7C9510072DC88 /* SHTestUtilities.framework in Frameworks */,
 				73662D341121B3CB00E8DC9F /* FScript.framework in Frameworks */,
@@ -627,15 +504,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D699B111946B7B005DAA84 /* SHShared.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		738C7C750C5CDC170096EF9D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				732360FF0C5E77040039CC7F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,7 +525,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732E92C61189A5E400DD3435 /* SHShared.framework in Frameworks */,
 				7301397511996EAB002AFF89 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -666,7 +533,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73CC089111368B5C00B53CA9 /* SHShared.framework in Frameworks */,
 				73CC089211368B5C00B53CA9 /* SHTestUtilities.framework in Frameworks */,
 				73CC08BE11368BD600B53CA9 /* FScript.framework in Frameworks */,
 				73CC08C311368BD800B53CA9 /* OCMock.framework in Frameworks */,
@@ -681,7 +547,6 @@
 			files = (
 				73D6EDC510C7C7C60072DC88 /* OCMock.framework in Frameworks */,
 				73D6EDCE10C7C80B0072DC88 /* SenTestingKit.framework in Frameworks */,
-				7352FB4610D65E7800871424 /* SHShared.framework in Frameworks */,
 				73BB93F91168AFF7008F3174 /* FScript.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,7 +564,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				73D37D4510A883F5000231A3 /* OCMock.framework in Frameworks */,
-				73D37D4F10A8857E000231A3 /* SHShared.framework in Frameworks */,
 				73D37D5110A88584000231A3 /* SHSharedUI.framework in Frameworks */,
 				73C836C810A99DEE0086F928 /* Cocoa.framework in Frameworks */,
 				73D6EE3D10C7C9650072DC88 /* SHTestUtilities.framework in Frameworks */,
@@ -712,7 +576,6 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				738C7C770C5CDC180096EF9D /* SHShared.framework */,
 				732360B80C5E75BD0039CC7F /* SHSharedTests.octest */,
 				73AC00F70F4037DF00FA9887 /* libSHShared_static.a */,
 				73AC016B0F4039D100FA9887 /* libSHShared_iphone.a */,
@@ -1263,48 +1126,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		738C7C720C5CDC170096EF9D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				735C2D4710A1B85F00C2DF56 /* SHAppProtocol.h in Headers */,
-				73FF3FAF0F546ADB00D325A7 /* SHooleyObject.h in Headers */,
-				73FF3FB00F546ADE00D325A7 /* SHInstanceCounter.h in Headers */,
-				73FF3FB10F546ADF00D325A7 /* SHSwizzler.h in Headers */,
-				73FF3FB90F546B0100D325A7 /* SHOrderedDictionary.h in Headers */,
-				73FF3FBA0F546B1500D325A7 /* LogController.h in Headers */,
-				73FF3FBB0F546B1700D325A7 /* BBLogger.h in Headers */,
-				73FF3FBC0F546B2400D325A7 /* NSString_Extras.h in Headers */,
-				73FF3FBF0F546B3A00D325A7 /* SHShared.h in Headers */,
-				73C0F9710F554D0500DEEDFC /* NSCharacterSet_Extensions.h in Headers */,
-				73B208690F5EB60B004C8012 /* NSArray_Extensions.h in Headers */,
-				735C2DD310A1BC7B00C2DF56 /* SHBundleLoader.h in Headers */,
-				73FF8DF110A1F9DC0097E2A2 /* SHDocumentController.h in Headers */,
-				73FF8DFB10A1FB110097E2A2 /* SHDocument.h in Headers */,
-				73FF8F0910A1FFB10097E2A2 /* SHWindowController.h in Headers */,
-				73FF8F0D10A200060097E2A2 /* BBNibManager.h in Headers */,
-				73FF905D10A2F91F0097E2A2 /* SHSingletonViewExtensionProtocol.h in Headers */,
-				73FF905F10A2F9920097E2A2 /* SHDocumentViewExtensionProtocol.h in Headers */,
-				734F322810A36D2500B33AB7 /* SHViewControllerProtocol.h in Headers */,
-				734F324210A36D8B00B33AB7 /* NSResponder_Extras.h in Headers */,
-				7329463210A4358E001FFE74 /* NSDocumentController_Extensions.h in Headers */,
-				7329463410A43593001FFE74 /* NSApplication_Extensions.h in Headers */,
-				73D37E0A10A88BA1000231A3 /* NSIndexSet_Extras.h in Headers */,
-				7398FB5C10AC5C1D0035A762 /* FilteringArrayController.h in Headers */,
-				73263E1310AC5E5900D8E6B1 /* SHArrayController.h in Headers */,
-				735386E410B019060035F6B5 /* MathUtilities.h in Headers */,
-				73E9CAD210B0203300DBE683 /* MiscUtilities.h in Headers */,
-				732C622110B1946F003A6739 /* NSObject_Extras.h in Headers */,
-				73BEA2AF10C6DD8400B72903 /* NSSet_Extras.h in Headers */,
-				731DE7EA10CD277300C42727 /* SwizzleList.h in Headers */,
-				73ECA3A710D10C3500BC8785 /* SHOperatorProtocol.h in Headers */,
-				73ECA3C510D10CA600BC8785 /* SHAttributeProtocol.h in Headers */,
-				73E7214710DA832A00FAA280 /* SHGlobalVars.h in Headers */,
-				73A295DB10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).h in Headers */,
-				73CF1D6C11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		73AC00F30F4037DF00FA9887 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1375,7 +1196,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				732360BA0C5E75C70039CC7F /* PBXTargetDependency */,
 				73D6EE3510C7C94A0072DC88 /* PBXTargetDependency */,
 			);
 			name = SHSharedTests;
@@ -1395,30 +1215,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				73D699B011946B74005DAA84 /* PBXTargetDependency */,
 			);
 			name = PerformanceTests;
 			productName = PerformanceTests;
 			productReference = 732E93681189AFEA00DD3435 /* PerformanceTests.octest */;
 			productType = "com.apple.product-type.bundle";
-		};
-		738C7C760C5CDC170096EF9D /* SHShared */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 738C7C7A0C5CDC1A0096EF9D /* Build configuration list for PBXNativeTarget "SHShared" */;
-			buildPhases = (
-				738C7C720C5CDC170096EF9D /* Headers */,
-				738C7C730C5CDC170096EF9D /* Resources */,
-				738C7C740C5CDC170096EF9D /* Sources */,
-				738C7C750C5CDC170096EF9D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SHShared;
-			productName = SHShared;
-			productReference = 738C7C770C5CDC180096EF9D /* SHShared.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		73AC00F60F4037DF00FA9887 /* SHShared_static */ = {
 			isa = PBXNativeTarget;
@@ -1464,7 +1265,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				732E929B1189A5A100DD3435 /* PBXTargetDependency */,
 			);
 			name = GUIFiddler;
 			productName = GUIFiddler;
@@ -1483,7 +1283,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				73CC089011368B4F00B53CA9 /* PBXTargetDependency */,
 				73D1075311621476001C6946 /* PBXTargetDependency */,
 			);
 			name = TestUtilitiesTests;
@@ -1505,7 +1304,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7352FB4510D65E7500871424 /* PBXTargetDependency */,
 			);
 			name = SHTestUtilities;
 			productName = SHTestUtilities;
@@ -1524,7 +1322,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				73D37DC710A88A56000231A3 /* PBXTargetDependency */,
 			);
 			name = SHSharedUI;
 			productName = SHSharedUI;
@@ -1545,7 +1342,6 @@
 			dependencies = (
 				73D37D4410A883E9000231A3 /* PBXTargetDependency */,
 				73D6EE3C10C7C95F0072DC88 /* PBXTargetDependency */,
-				7352FB4310D65E6800871424 /* PBXTargetDependency */,
 			);
 			name = SHSharedUITests;
 			productName = SHSharedUITests;
@@ -1575,7 +1371,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				738C7C760C5CDC170096EF9D /* SHShared */,
 				732360B70C5E75BD0039CC7F /* SHSharedTests */,
 				73AC00F60F4037DF00FA9887 /* SHShared_static */,
 				73AC016A0F4039D100FA9887 /* SHShared_iphone */,
@@ -1603,14 +1398,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		738C7C730C5CDC170096EF9D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73FBC10010A86A76000AABAA /* SHDocument.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1774,42 +1561,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		738C7C740C5CDC170096EF9D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73FF3F970F546A6D00D325A7 /* SHOrderedDictionary.m in Sources */,
-				73FF3F980F546A6E00D325A7 /* SHSwizzler.m in Sources */,
-				73FF3F990F546A6F00D325A7 /* SHInstanceCounter.m in Sources */,
-				73FF3F9A0F546A7000D325A7 /* BBLogger.m in Sources */,
-				73FF3F9B0F546A7100D325A7 /* LogController.m in Sources */,
-				73FF3F9C0F546A7200D325A7 /* NSString_Extras.m in Sources */,
-				73FF3F9D0F546A7300D325A7 /* SHooleyObject.m in Sources */,
-				73C0F9700F554D0500DEEDFC /* NSCharacterSet_Extensions.m in Sources */,
-				73B208680F5EB60A004C8012 /* NSArray_Extensions.m in Sources */,
-				735C2DD210A1BC7A00C2DF56 /* SHBundleLoader.m in Sources */,
-				73FF8DF010A1F9DB0097E2A2 /* SHDocumentController.m in Sources */,
-				73FF8DFA10A1FB100097E2A2 /* SHDocument.m in Sources */,
-				73FF8F0A10A1FFB20097E2A2 /* SHWindowController.m in Sources */,
-				73FF8F0E10A200070097E2A2 /* BBNibManager.m in Sources */,
-				734F324110A36D8A00B33AB7 /* NSResponder_Extras.m in Sources */,
-				7329463310A4358F001FFE74 /* NSDocumentController_Extensions.m in Sources */,
-				7329463510A43594001FFE74 /* NSApplication_Extensions.m in Sources */,
-				73D37E0B10A88BA1000231A3 /* NSIndexSet_Extras.m in Sources */,
-				7398FB5D10AC5C1D0035A762 /* FilteringArrayController.m in Sources */,
-				73263E1210AC5E5900D8E6B1 /* SHArrayController.m in Sources */,
-				735386E310B019060035F6B5 /* MathUtilities.m in Sources */,
-				73E9CAD310B0203300DBE683 /* MiscUtilities.m in Sources */,
-				732C622210B1946F003A6739 /* NSObject_Extras.m in Sources */,
-				73BEA2B010C6DD8400B72903 /* NSSet_Extras.m in Sources */,
-				731DE68E10CD244400C42727 /* SHShared.m in Sources */,
-				731DE7CC10CD274A00C42727 /* SwizzleList.m in Sources */,
-				73E7214810DA832A00FAA280 /* SHGlobalVars.m in Sources */,
-				73A295DC10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).m in Sources */,
-				73CF1D6D11D8B5C200347BBD /* NSMutableArray_ CSCSortedInsertion.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		73AC00F40F4037DF00FA9887 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1909,31 +1660,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		732360BA0C5E75C70039CC7F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 738C7C760C5CDC170096EF9D /* SHShared */;
-			targetProxy = 732360B90C5E75C70039CC7F /* PBXContainerItemProxy */;
-		};
-		732E929B1189A5A100DD3435 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 738C7C760C5CDC170096EF9D /* SHShared */;
-			targetProxy = 732E929A1189A5A100DD3435 /* PBXContainerItemProxy */;
-		};
-		7352FB4310D65E6800871424 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 738C7C760C5CDC170096EF9D /* SHShared */;
-			targetProxy = 7352FB4210D65E6800871424 /* PBXContainerItemProxy */;
-		};
-		7352FB4510D65E7500871424 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 738C7C760C5CDC170096EF9D /* SHShared */;
-			targetProxy = 7352FB4410D65E7500871424 /* PBXContainerItemProxy */;
-		};
-		73CC089011368B4F00B53CA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 738C7C760C5CDC170096EF9D /* SHShared */;
-			targetProxy = 73CC088F11368B4F00B53CA9 /* PBXContainerItemProxy */;
-		};
 		73CC091111368C1E00B53CA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 73CC082811368A3700B53CA9 /* TestUtilitiesTests */;
@@ -1958,16 +1684,6 @@
 			isa = PBXTargetDependency;
 			target = 73FF8EB910A1FC4E0097E2A2 /* SHSharedUI */;
 			targetProxy = 73D37D4310A883E9000231A3 /* PBXContainerItemProxy */;
-		};
-		73D37DC710A88A56000231A3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 738C7C760C5CDC170096EF9D /* SHShared */;
-			targetProxy = 73D37DC610A88A56000231A3 /* PBXContainerItemProxy */;
-		};
-		73D699B011946B74005DAA84 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 738C7C760C5CDC170096EF9D /* SHShared */;
-			targetProxy = 73D699AF11946B74005DAA84 /* PBXContainerItemProxy */;
 		};
 		73D6EE3510C7C94A0072DC88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2079,14 +1795,6 @@
 			};
 			name = Coverage;
 		};
-		736DF8470DC9F0A9006C1E4F /* Coverage */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7311CBB410BFDA7F00BF3A27 /* Target-Framework.xcconfig */;
-			buildSettings = {
-				PRODUCT_NAME = SHShared;
-			};
-			name = Coverage;
-		};
 		736DF8480DC9F0A9006C1E4F /* Coverage */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7311CBB010BFDA7F00BF3A27 /* Target-TestBundle.xcconfig */;
@@ -2094,23 +1802,6 @@
 				PRODUCT_NAME = SHSharedTests;
 			};
 			name = Coverage;
-		};
-		738C7C7B0C5CDC1A0096EF9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7311CBB410BFDA7F00BF3A27 /* Target-Framework.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				PRODUCT_NAME = SHShared;
-			};
-			name = Debug;
-		};
-		738C7C7C0C5CDC1A0096EF9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7311CBB410BFDA7F00BF3A27 /* Target-Framework.xcconfig */;
-			buildSettings = {
-				PRODUCT_NAME = SHShared;
-			};
-			name = Release;
 		};
 		73AC010C0F4037E000FA9887 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2457,16 +2148,6 @@
 				732E93751189AFEB00DD3435 /* Debug */,
 				732E93761189AFEB00DD3435 /* Coverage */,
 				732E93771189AFEB00DD3435 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		738C7C7A0C5CDC1A0096EF9D /* Build configuration list for PBXNativeTarget "SHShared" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				738C7C7B0C5CDC1A0096EF9D /* Debug */,
-				736DF8470DC9F0A9006C1E4F /* Coverage */,
-				738C7C7C0C5CDC1A0096EF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

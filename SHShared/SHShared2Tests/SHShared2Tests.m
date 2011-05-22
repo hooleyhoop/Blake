@@ -6,7 +6,15 @@
 //  Copyright 2011 Tinsal Parks. All rights reserved.
 //
 
-#import "SHShared2Tests.h"
+#import <SenTestingKit/SenTestingKit.h>
+
+
+@interface SHShared2Tests : SenTestCase {
+@private
+    
+}
+
+@end
 
 
 @implementation SHShared2Tests
