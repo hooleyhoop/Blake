@@ -13,31 +13,6 @@
 		732A06441387D5D50084F8FD /* SHShared2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732A062B1387D5D50084F8FD /* SHShared2.framework */; };
 		732A064A1387D5D50084F8FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 732A06481387D5D50084F8FD /* InfoPlist.strings */; };
 		732A064F1387D5D50084F8FD /* SHShared2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A064E1387D5D50084F8FD /* SHShared2Tests.m */; };
-		732A06681387D6BE0084F8FD /* HooStateMachine_abstractEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A06661387D6BE0084F8FD /* HooStateMachine_abstractEvent.h */; };
-		732A06691387D6BE0084F8FD /* HooStateMachine_abstractEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06671387D6BE0084F8FD /* HooStateMachine_abstractEvent.m */; };
-		732A066A1387D6BE0084F8FD /* HooStateMachine_abstractEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06671387D6BE0084F8FD /* HooStateMachine_abstractEvent.m */; };
-		732A066D1387D6F80084F8FD /* HooStateMachine_command.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A066B1387D6F80084F8FD /* HooStateMachine_command.h */; };
-		732A066E1387D6F80084F8FD /* HooStateMachine_command.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A066C1387D6F80084F8FD /* HooStateMachine_command.m */; };
-		732A066F1387D6F80084F8FD /* HooStateMachine_command.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A066C1387D6F80084F8FD /* HooStateMachine_command.m */; };
-		732A06721387D7120084F8FD /* HooStateMachine_event.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A06701387D7120084F8FD /* HooStateMachine_event.h */; };
-		732A06731387D7120084F8FD /* HooStateMachine_event.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06711387D7120084F8FD /* HooStateMachine_event.m */; };
-		732A06741387D7120084F8FD /* HooStateMachine_event.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06711387D7120084F8FD /* HooStateMachine_event.m */; };
-		732A06771387D72A0084F8FD /* HooStateMachine_state.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A06751387D72A0084F8FD /* HooStateMachine_state.h */; };
-		732A06781387D72A0084F8FD /* HooStateMachine_state.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06761387D72A0084F8FD /* HooStateMachine_state.m */; };
-		732A06791387D72A0084F8FD /* HooStateMachine_state.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06761387D72A0084F8FD /* HooStateMachine_state.m */; };
-		732A067C1387D7400084F8FD /* HooStateMachine_transition.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A067A1387D7400084F8FD /* HooStateMachine_transition.h */; };
-		732A067D1387D7400084F8FD /* HooStateMachine_transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A067B1387D7400084F8FD /* HooStateMachine_transition.m */; };
-		732A067E1387D7400084F8FD /* HooStateMachine_transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A067B1387D7400084F8FD /* HooStateMachine_transition.m */; };
-		732A06811387D7530084F8FD /* HooStateMachineConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A067F1387D7530084F8FD /* HooStateMachineConfigurator.h */; };
-		732A06821387D7530084F8FD /* HooStateMachineConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06801387D7530084F8FD /* HooStateMachineConfigurator.m */; };
-		732A06831387D7530084F8FD /* HooStateMachineConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06801387D7530084F8FD /* HooStateMachineConfigurator.m */; };
-		732A06861387D7680084F8FD /* HooStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A06841387D7680084F8FD /* HooStateMachine.h */; };
-		732A06871387D7680084F8FD /* HooStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06851387D7680084F8FD /* HooStateMachine.m */; };
-		732A06881387D7680084F8FD /* HooStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A06851387D7680084F8FD /* HooStateMachine.m */; };
-		732A068B1387D77C0084F8FD /* HooStateMachine_controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 732A06891387D77C0084F8FD /* HooStateMachine_controller.h */; };
-		732A068C1387D77C0084F8FD /* HooStateMachine_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A068A1387D77C0084F8FD /* HooStateMachine_controller.m */; };
-		732A068D1387D77C0084F8FD /* HooStateMachine_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A068A1387D77C0084F8FD /* HooStateMachine_controller.m */; };
-		732A06901387E7720084F8FD /* StateMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A068F1387E7720084F8FD /* StateMachineTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,23 +39,6 @@
 		732A06491387D5D50084F8FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		732A064B1387D5D50084F8FD /* SHShared2Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHShared2Tests-Prefix.pch"; sourceTree = "<group>"; };
 		732A064E1387D5D50084F8FD /* SHShared2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHShared2Tests.m; sourceTree = "<group>"; };
-		732A06661387D6BE0084F8FD /* HooStateMachine_abstractEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_abstractEvent.h; sourceTree = "<group>"; };
-		732A06671387D6BE0084F8FD /* HooStateMachine_abstractEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_abstractEvent.m; sourceTree = "<group>"; };
-		732A066B1387D6F80084F8FD /* HooStateMachine_command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_command.h; sourceTree = "<group>"; };
-		732A066C1387D6F80084F8FD /* HooStateMachine_command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_command.m; sourceTree = "<group>"; };
-		732A06701387D7120084F8FD /* HooStateMachine_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_event.h; sourceTree = "<group>"; };
-		732A06711387D7120084F8FD /* HooStateMachine_event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_event.m; sourceTree = "<group>"; };
-		732A06751387D72A0084F8FD /* HooStateMachine_state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_state.h; sourceTree = "<group>"; };
-		732A06761387D72A0084F8FD /* HooStateMachine_state.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_state.m; sourceTree = "<group>"; };
-		732A067A1387D7400084F8FD /* HooStateMachine_transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_transition.h; sourceTree = "<group>"; };
-		732A067B1387D7400084F8FD /* HooStateMachine_transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_transition.m; sourceTree = "<group>"; };
-		732A067F1387D7530084F8FD /* HooStateMachineConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachineConfigurator.h; sourceTree = "<group>"; };
-		732A06801387D7530084F8FD /* HooStateMachineConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachineConfigurator.m; sourceTree = "<group>"; };
-		732A06841387D7680084F8FD /* HooStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine.h; sourceTree = "<group>"; };
-		732A06851387D7680084F8FD /* HooStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine.m; sourceTree = "<group>"; };
-		732A06891387D77C0084F8FD /* HooStateMachine_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooStateMachine_controller.h; sourceTree = "<group>"; };
-		732A068A1387D77C0084F8FD /* HooStateMachine_controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooStateMachine_controller.m; sourceTree = "<group>"; };
-		732A068F1387E7720084F8FD /* StateMachineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateMachineTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +103,6 @@
 		732A06341387D5D50084F8FD /* SHShared2 */ = {
 			isa = PBXGroup;
 			children = (
-				732A06641387D6780084F8FD /* Statemachine */,
 				732A06351387D5D50084F8FD /* Supporting Files */,
 			);
 			path = SHShared2;
@@ -164,7 +121,6 @@
 		732A06451387D5D50084F8FD /* SHShared2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				732A068F1387E7720084F8FD /* StateMachineTests.m */,
 				732A064E1387D5D50084F8FD /* SHShared2Tests.m */,
 				732A06461387D5D50084F8FD /* Supporting Files */,
 			);
@@ -181,29 +137,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		732A06641387D6780084F8FD /* Statemachine */ = {
-			isa = PBXGroup;
-			children = (
-				732A06661387D6BE0084F8FD /* HooStateMachine_abstractEvent.h */,
-				732A06671387D6BE0084F8FD /* HooStateMachine_abstractEvent.m */,
-				732A066B1387D6F80084F8FD /* HooStateMachine_command.h */,
-				732A066C1387D6F80084F8FD /* HooStateMachine_command.m */,
-				732A06701387D7120084F8FD /* HooStateMachine_event.h */,
-				732A06711387D7120084F8FD /* HooStateMachine_event.m */,
-				732A06751387D72A0084F8FD /* HooStateMachine_state.h */,
-				732A06761387D72A0084F8FD /* HooStateMachine_state.m */,
-				732A067A1387D7400084F8FD /* HooStateMachine_transition.h */,
-				732A067B1387D7400084F8FD /* HooStateMachine_transition.m */,
-				732A067F1387D7530084F8FD /* HooStateMachineConfigurator.h */,
-				732A06801387D7530084F8FD /* HooStateMachineConfigurator.m */,
-				732A06841387D7680084F8FD /* HooStateMachine.h */,
-				732A06851387D7680084F8FD /* HooStateMachine.m */,
-				732A06891387D77C0084F8FD /* HooStateMachine_controller.h */,
-				732A068A1387D77C0084F8FD /* HooStateMachine_controller.m */,
-			);
-			name = Statemachine;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -211,14 +144,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732A06681387D6BE0084F8FD /* HooStateMachine_abstractEvent.h in Headers */,
-				732A066D1387D6F80084F8FD /* HooStateMachine_command.h in Headers */,
-				732A06721387D7120084F8FD /* HooStateMachine_event.h in Headers */,
-				732A06771387D72A0084F8FD /* HooStateMachine_state.h in Headers */,
-				732A067C1387D7400084F8FD /* HooStateMachine_transition.h in Headers */,
-				732A06811387D7530084F8FD /* HooStateMachineConfigurator.h in Headers */,
-				732A06861387D7680084F8FD /* HooStateMachine.h in Headers */,
-				732A068B1387D77C0084F8FD /* HooStateMachine_controller.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,14 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732A06691387D6BE0084F8FD /* HooStateMachine_abstractEvent.m in Sources */,
-				732A066E1387D6F80084F8FD /* HooStateMachine_command.m in Sources */,
-				732A06731387D7120084F8FD /* HooStateMachine_event.m in Sources */,
-				732A06781387D72A0084F8FD /* HooStateMachine_state.m in Sources */,
-				732A067D1387D7400084F8FD /* HooStateMachine_transition.m in Sources */,
-				732A06821387D7530084F8FD /* HooStateMachineConfigurator.m in Sources */,
-				732A06871387D7680084F8FD /* HooStateMachine.m in Sources */,
-				732A068C1387D77C0084F8FD /* HooStateMachine_controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,15 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				732A064F1387D5D50084F8FD /* SHShared2Tests.m in Sources */,
-				732A066A1387D6BE0084F8FD /* HooStateMachine_abstractEvent.m in Sources */,
-				732A066F1387D6F80084F8FD /* HooStateMachine_command.m in Sources */,
-				732A06741387D7120084F8FD /* HooStateMachine_event.m in Sources */,
-				732A06791387D72A0084F8FD /* HooStateMachine_state.m in Sources */,
-				732A067E1387D7400084F8FD /* HooStateMachine_transition.m in Sources */,
-				732A06831387D7530084F8FD /* HooStateMachineConfigurator.m in Sources */,
-				732A06881387D7680084F8FD /* HooStateMachine.m in Sources */,
-				732A068D1387D77C0084F8FD /* HooStateMachine_controller.m in Sources */,
-				732A06901387E7720084F8FD /* StateMachineTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
