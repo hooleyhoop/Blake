@@ -25,7 +25,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "107"
-         endingLineNumber = "107">
+         endingLineNumber = "107"
+         landmarkName = "-my_stop"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
