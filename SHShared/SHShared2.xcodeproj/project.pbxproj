@@ -13,6 +13,19 @@
 		732A06441387D5D50084F8FD /* SHShared2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732A062B1387D5D50084F8FD /* SHShared2.framework */; };
 		732A064A1387D5D50084F8FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 732A06481387D5D50084F8FD /* InfoPlist.strings */; };
 		732A064F1387D5D50084F8FD /* SHShared2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A064E1387D5D50084F8FD /* SHShared2Tests.m */; };
+		73CFF71113ABEF4B00FA0498 /* NSInvocation(ForwardedConstruction).m in Sources */ = {isa = PBXBuildFile; fileRef = 73CFF70F13ABEF4B00FA0498 /* NSInvocation(ForwardedConstruction).m */; };
+		73CFF71213ABEF4B00FA0498 /* NSInvocation(ForwardedConstruction).h in Headers */ = {isa = PBXBuildFile; fileRef = 73CFF71013ABEF4B00FA0498 /* NSInvocation(ForwardedConstruction).h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73CFF72E13ABF09D00FA0498 /* Shared2_headers.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CFF72D13ABF09D00FA0498 /* Shared2_headers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73CFF73513ABF0EC00FA0498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CFF73413ABF0EC00FA0498 /* Foundation.framework */; };
+		73CFF74013ABF0EC00FA0498 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CFF73F13ABF0EC00FA0498 /* SenTestingKit.framework */; };
+		73CFF74213ABF0EC00FA0498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CFF74113ABF0EC00FA0498 /* UIKit.framework */; };
+		73CFF74313ABF0EC00FA0498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CFF73413ABF0EC00FA0498 /* Foundation.framework */; };
+		73CFF74513ABF0EC00FA0498 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CFF74413ABF0EC00FA0498 /* CoreGraphics.framework */; };
+		73CFF74813ABF0EC00FA0498 /* libShared2_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CFF73313ABF0EC00FA0498 /* libShared2_ios.a */; };
+		73CFF74E13ABF0EC00FA0498 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73CFF74C13ABF0EC00FA0498 /* InfoPlist.strings */; };
+		73CFF75013ABF0EC00FA0498 /* Shared2_iosTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 73CFF74F13ABF0EC00FA0498 /* Shared2_iosTests.h */; };
+		73CFF75213ABF0EC00FA0498 /* Shared2_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CFF75113ABF0EC00FA0498 /* Shared2_iosTests.m */; };
+		73CFF75F13ABF25D00FA0498 /* SHShared2.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CFF75E13ABF25D00FA0498 /* SHShared2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +35,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 732A062A1387D5D50084F8FD;
 			remoteInfo = SHShared2;
+		};
+		73CFF74613ABF0EC00FA0498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732A06211387D5D50084F8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73CFF73213ABF0EC00FA0498;
+			remoteInfo = Shared2_ios;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,6 +59,22 @@
 		732A06491387D5D50084F8FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		732A064B1387D5D50084F8FD /* SHShared2Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHShared2Tests-Prefix.pch"; sourceTree = "<group>"; };
 		732A064E1387D5D50084F8FD /* SHShared2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHShared2Tests.m; sourceTree = "<group>"; };
+		73CFF70F13ABEF4B00FA0498 /* NSInvocation(ForwardedConstruction).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation(ForwardedConstruction).m"; sourceTree = "<group>"; };
+		73CFF71013ABEF4B00FA0498 /* NSInvocation(ForwardedConstruction).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation(ForwardedConstruction).h"; sourceTree = "<group>"; };
+		73CFF72113ABEFF400FA0498 /* SHShared2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHShared2.h; sourceTree = "<group>"; };
+		73CFF72D13ABF09D00FA0498 /* Shared2_headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shared2_headers.h; sourceTree = "<group>"; };
+		73CFF73313ABF0EC00FA0498 /* libShared2_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShared2_ios.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CFF73413ABF0EC00FA0498 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73CFF73813ABF0EC00FA0498 /* Shared2_ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shared2_ios-Prefix.pch"; sourceTree = "<group>"; };
+		73CFF73E13ABF0EC00FA0498 /* Shared2_iosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shared2_iosTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CFF73F13ABF0EC00FA0498 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		73CFF74113ABF0EC00FA0498 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		73CFF74413ABF0EC00FA0498 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		73CFF74B13ABF0EC00FA0498 /* Shared2_iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shared2_iosTests-Info.plist"; sourceTree = "<group>"; };
+		73CFF74D13ABF0EC00FA0498 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73CFF74F13ABF0EC00FA0498 /* Shared2_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared2_iosTests.h; sourceTree = "<group>"; };
+		73CFF75113ABF0EC00FA0498 /* Shared2_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shared2_iosTests.m; sourceTree = "<group>"; };
+		73CFF75E13ABF25D00FA0498 /* SHShared2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHShared2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +95,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73CFF73013ABF0EC00FA0498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CFF73513ABF0EC00FA0498 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CFF73A13ABF0EC00FA0498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CFF74013ABF0EC00FA0498 /* SenTestingKit.framework in Frameworks */,
+				73CFF74213ABF0EC00FA0498 /* UIKit.framework in Frameworks */,
+				73CFF74313ABF0EC00FA0498 /* Foundation.framework in Frameworks */,
+				73CFF74513ABF0EC00FA0498 /* CoreGraphics.framework in Frameworks */,
+				73CFF74813ABF0EC00FA0498 /* libShared2_ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -67,6 +123,9 @@
 			children = (
 				732A06341387D5D50084F8FD /* SHShared2 */,
 				732A06451387D5D50084F8FD /* SHShared2Tests */,
+				73CFF75D13ABF25D00FA0498 /* Framework */,
+				73CFF73613ABF0EC00FA0498 /* Shared2_ios */,
+				73CFF74913ABF0EC00FA0498 /* Shared2_iosTests */,
 				732A062D1387D5D50084F8FD /* Frameworks */,
 				732A062C1387D5D50084F8FD /* Products */,
 			);
@@ -77,6 +136,8 @@
 			children = (
 				732A062B1387D5D50084F8FD /* SHShared2.framework */,
 				732A06401387D5D50084F8FD /* SHShared2Tests.octest */,
+				73CFF73313ABF0EC00FA0498 /* libShared2_ios.a */,
+				73CFF73E13ABF0EC00FA0498 /* Shared2_iosTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +146,10 @@
 			isa = PBXGroup;
 			children = (
 				732A062E1387D5D50084F8FD /* Cocoa.framework */,
+				73CFF73413ABF0EC00FA0498 /* Foundation.framework */,
+				73CFF73F13ABF0EC00FA0498 /* SenTestingKit.framework */,
+				73CFF74113ABF0EC00FA0498 /* UIKit.framework */,
+				73CFF74413ABF0EC00FA0498 /* CoreGraphics.framework */,
 				732A06301387D5D50084F8FD /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -103,6 +168,10 @@
 		732A06341387D5D50084F8FD /* SHShared2 */ = {
 			isa = PBXGroup;
 			children = (
+				73CFF72113ABEFF400FA0498 /* SHShared2.h */,
+				73CFF72D13ABF09D00FA0498 /* Shared2_headers.h */,
+				73CFF71013ABEF4B00FA0498 /* NSInvocation(ForwardedConstruction).h */,
+				73CFF70F13ABEF4B00FA0498 /* NSInvocation(ForwardedConstruction).m */,
 				732A06351387D5D50084F8FD /* Supporting Files */,
 			);
 			path = SHShared2;
@@ -137,10 +206,63 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		73CFF73613ABF0EC00FA0498 /* Shared2_ios */ = {
+			isa = PBXGroup;
+			children = (
+				73CFF73713ABF0EC00FA0498 /* Supporting Files */,
+			);
+			path = Shared2_ios;
+			sourceTree = "<group>";
+		};
+		73CFF73713ABF0EC00FA0498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73CFF73813ABF0EC00FA0498 /* Shared2_ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73CFF74913ABF0EC00FA0498 /* Shared2_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				73CFF74F13ABF0EC00FA0498 /* Shared2_iosTests.h */,
+				73CFF75113ABF0EC00FA0498 /* Shared2_iosTests.m */,
+				73CFF74A13ABF0EC00FA0498 /* Supporting Files */,
+			);
+			path = Shared2_iosTests;
+			sourceTree = "<group>";
+		};
+		73CFF74A13ABF0EC00FA0498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73CFF74B13ABF0EC00FA0498 /* Shared2_iosTests-Info.plist */,
+				73CFF74C13ABF0EC00FA0498 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73CFF75D13ABF25D00FA0498 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				73CFF75E13ABF25D00FA0498 /* SHShared2.h */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
 		732A06281387D5D50084F8FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CFF71213ABEF4B00FA0498 /* NSInvocation(ForwardedConstruction).h in Headers */,
+				73CFF72E13ABF09D00FA0498 /* Shared2_headers.h in Headers */,
+				73CFF75F13ABF25D00FA0498 /* SHShared2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CFF73113ABF0EC00FA0498 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,12 +309,49 @@
 			productReference = 732A06401387D5D50084F8FD /* SHShared2Tests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		73CFF73213ABF0EC00FA0498 /* Shared2_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CFF75313ABF0EC00FA0498 /* Build configuration list for PBXNativeTarget "Shared2_ios" */;
+			buildPhases = (
+				73CFF72F13ABF0EC00FA0498 /* Sources */,
+				73CFF73013ABF0EC00FA0498 /* Frameworks */,
+				73CFF73113ABF0EC00FA0498 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shared2_ios;
+			productName = Shared2_ios;
+			productReference = 73CFF73313ABF0EC00FA0498 /* libShared2_ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		73CFF73D13ABF0EC00FA0498 /* Shared2_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CFF75613ABF0EC00FA0498 /* Build configuration list for PBXNativeTarget "Shared2_iosTests" */;
+			buildPhases = (
+				73CFF73913ABF0EC00FA0498 /* Sources */,
+				73CFF73A13ABF0EC00FA0498 /* Frameworks */,
+				73CFF73B13ABF0EC00FA0498 /* Resources */,
+				73CFF73C13ABF0EC00FA0498 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73CFF74713ABF0EC00FA0498 /* PBXTargetDependency */,
+			);
+			name = Shared2_iosTests;
+			productName = Shared2_iosTests;
+			productReference = 73CFF73E13ABF0EC00FA0498 /* Shared2_iosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		732A06211387D5D50084F8FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Tinsal Parks";
 			};
 			buildConfigurationList = 732A06241387D5D50084F8FD /* Build configuration list for PBXProject "SHShared2" */;
@@ -209,6 +368,8 @@
 			targets = (
 				732A062A1387D5D50084F8FD /* SHShared2 */,
 				732A063F1387D5D50084F8FD /* SHShared2Tests */,
+				73CFF73213ABF0EC00FA0498 /* Shared2_ios */,
+				73CFF73D13ABF0EC00FA0498 /* Shared2_iosTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,10 +391,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73CFF73B13ABF0EC00FA0498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CFF74E13ABF0EC00FA0498 /* InfoPlist.strings in Resources */,
+				73CFF75013ABF0EC00FA0498 /* Shared2_iosTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		732A063E1387D5D50084F8FD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		73CFF73C13ABF0EC00FA0498 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CFF71113ABEF4B00FA0498 /* NSInvocation(ForwardedConstruction).m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +448,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73CFF72F13ABF0EC00FA0498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CFF73913ABF0EC00FA0498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CFF75213ABF0EC00FA0498 /* Shared2_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -271,6 +470,11 @@
 			isa = PBXTargetDependency;
 			target = 732A062A1387D5D50084F8FD /* SHShared2 */;
 			targetProxy = 732A06421387D5D50084F8FD /* PBXContainerItemProxy */;
+		};
+		73CFF74713ABF0EC00FA0498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73CFF73213ABF0EC00FA0498 /* Shared2_ios */;
+			targetProxy = 73CFF74613ABF0EC00FA0498 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -291,6 +495,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		73CFF74C13ABF0EC00FA0498 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73CFF74D13ABF0EC00FA0498 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -304,6 +516,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
@@ -320,6 +533,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
@@ -340,6 +554,10 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SHShared2/SHShared2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					"SHARED2_IS_LIBRARY=1",
+				);
 				INFOPLIST_FILE = "SHShared2/SHShared2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
@@ -404,6 +622,96 @@
 			};
 			name = Release;
 		};
+		73CFF75413ABF0EC00FA0498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/Shared2_ios.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shared2_ios/Shared2_ios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		73CFF75513ABF0EC00FA0498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/Shared2_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shared2_ios/Shared2_ios-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73CFF75713ABF0EC00FA0498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shared2_ios/Shared2_ios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shared2_iosTests/Shared2_iosTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		73CFF75813ABF0EC00FA0498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shared2_ios/Shared2_ios-Prefix.pch";
+				INFOPLIST_FILE = "Shared2_iosTests/Shared2_iosTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,7 +722,7 @@
 				732A06511387D5D50084F8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		732A06521387D5D50084F8FD /* Build configuration list for PBXNativeTarget "SHShared2" */ = {
 			isa = XCConfigurationList;
@@ -423,7 +731,7 @@
 				732A06541387D5D50084F8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		732A06551387D5D50084F8FD /* Build configuration list for PBXNativeTarget "SHShared2Tests" */ = {
 			isa = XCConfigurationList;
@@ -432,7 +740,25 @@
 				732A06571387D5D50084F8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
+		};
+		73CFF75313ABF0EC00FA0498 /* Build configuration list for PBXNativeTarget "Shared2_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CFF75413ABF0EC00FA0498 /* Debug */,
+				73CFF75513ABF0EC00FA0498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73CFF75613ABF0EC00FA0498 /* Build configuration list for PBXNativeTarget "Shared2_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CFF75713ABF0EC00FA0498 /* Debug */,
+				73CFF75813ABF0EC00FA0498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

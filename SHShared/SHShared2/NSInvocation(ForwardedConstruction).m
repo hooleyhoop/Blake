@@ -36,16 +36,11 @@
 
 @implementation DeallocatorHelper
 
-//
-// initWithObject
-//
-// Init method for objects which sets the id to be autoreleased.
-//
-- (id)initWithObject:(id)newObject
-{
+
+- (id)initWithObject:(id)newObject {
+    
 	self = [super init];
-	if (self != nil)
-	{
+	if (self != nil){
 		object = newObject;
 	}
 	return self;
