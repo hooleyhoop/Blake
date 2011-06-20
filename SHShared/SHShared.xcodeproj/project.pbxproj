@@ -61,8 +61,6 @@
 		73AC01760F403A2B00FA9887 /* SHInstanceCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 739252FA0E446CC700BEB704 /* SHInstanceCounter.m */; };
 		73B052A21168F0610054CE44 /* GUIFiddler.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B050931168ECE90054CE44 /* GUIFiddler.m */; };
 		73B2088D0F5EB80F004C8012 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B2088C0F5EB80F004C8012 /* OCMock.framework */; };
-		73BB912D1168A055008F3174 /* HooAsyncTestRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB912C1168A055008F3174 /* HooAsyncTestRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73BB91301168A063008F3174 /* HooAsyncTestRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB912F1168A063008F3174 /* HooAsyncTestRunner.m */; };
 		73BB932A1168AB69008F3174 /* AsyncTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB93281168AB69008F3174 /* AsyncTests.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73BB932B1168AB69008F3174 /* AsyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB93291168AB69008F3174 /* AsyncTests.m */; };
 		73BB93531168ABC9008F3174 /* AsyncTestProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BB934F1168ABC9008F3174 /* AsyncTestProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -365,8 +363,6 @@
 		73B6175F0E34903300F90A9E /* SHWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHWindowController.m; path = Src/SHWindowController.m; sourceTree = "<group>"; };
 		73B9707510FE75480086B35E /* NSInvocation_testHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSInvocation_testHelpers.h; path = Src/NSInvocation_testHelpers.h; sourceTree = "<group>"; };
 		73B9707610FE75480086B35E /* NSInvocation_testHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSInvocation_testHelpers.m; path = Src/NSInvocation_testHelpers.m; sourceTree = "<group>"; };
-		73BB912C1168A055008F3174 /* HooAsyncTestRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HooAsyncTestRunner.h; path = Src/HooAsyncTestRunner.h; sourceTree = "<group>"; };
-		73BB912F1168A063008F3174 /* HooAsyncTestRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HooAsyncTestRunner.m; path = Src/HooAsyncTestRunner.m; sourceTree = "<group>"; };
 		73BB93281168AB69008F3174 /* AsyncTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncTests.h; path = Src/AsyncTests.h; sourceTree = "<group>"; };
 		73BB93291168AB69008F3174 /* AsyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncTests.m; path = Src/AsyncTests.m; sourceTree = "<group>"; };
 		73BB934F1168ABC9008F3174 /* AsyncTestProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncTestProxy.h; path = Src/AsyncTestProxy.h; sourceTree = "<group>"; };
@@ -900,8 +896,6 @@
 		73BB93591168ABD0008F3174 /* Async Test */ = {
 			isa = PBXGroup;
 			children = (
-				73BB912C1168A055008F3174 /* HooAsyncTestRunner.h */,
-				73BB912F1168A063008F3174 /* HooAsyncTestRunner.m */,
 				73BB93281168AB69008F3174 /* AsyncTests.h */,
 				73BB93291168AB69008F3174 /* AsyncTests.m */,
 				73BB934F1168ABC9008F3174 /* AsyncTestProxy.h */,
@@ -1157,7 +1151,6 @@
 				73D1077511621508001C6946 /* SwappedInIvar.h in Headers */,
 				73D107761162150D001C6946 /* HooSenTestProbe.h in Headers */,
 				73D1077C11621513001C6946 /* TestingUtils.h in Headers */,
-				73BB912D1168A055008F3174 /* HooAsyncTestRunner.h in Headers */,
 				73BB932A1168AB69008F3174 /* AsyncTests.h in Headers */,
 				73BB93531168ABC9008F3174 /* AsyncTestProxy.h in Headers */,
 				73BB93551168ABC9008F3174 /* GuiTestProxy.h in Headers */,
@@ -1625,7 +1618,6 @@
 				73D1077411621508001C6946 /* SwappedInIvar.m in Sources */,
 				73D107771162150D001C6946 /* HooSenTestProbe.m in Sources */,
 				73D1077D11621514001C6946 /* SetUpAndTearDownTests.m in Sources */,
-				73BB91301168A063008F3174 /* HooAsyncTestRunner.m in Sources */,
 				73BB932B1168AB69008F3174 /* AsyncTests.m in Sources */,
 				73BB93541168ABC9008F3174 /* AsyncTestProxy.m in Sources */,
 				73BB93561168ABC9008F3174 /* GuiTestProxy.m in Sources */,
