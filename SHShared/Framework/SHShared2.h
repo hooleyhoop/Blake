@@ -7,4 +7,4 @@
 //
 #define SHARED2_IS_LIBRARY 1
 
-#import <HooStateMachine/Shared2_headers.h>
+#import <SHShared2/Shared2_headers.h>
