@@ -1023,10 +1023,10 @@
 				7338CBD309164B3300A86517 /* SHGlobalVars.m */,
 				73F030E90B3051C4004A6CB6 /* ImageAndTextCell.h */,
 				73F030EA0B3051C4004A6CB6 /* ImageAndTextCell.m */,
-				739A4D2C0C5B44DC0074F782 /* SHOrderedDictionary.h */,
-				739A4D2D0C5B44DC0074F782 /* SHOrderedDictionary.m */,
 				73AB932E0D4544F5007A913B /* BBNibManager.h */,
 				73AB932F0D4544F5007A913B /* BBNibManager.m */,
+				739A4D2C0C5B44DC0074F782 /* SHOrderedDictionary.h */,
+				739A4D2D0C5B44DC0074F782 /* SHOrderedDictionary.m */,
 				73A295D910FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).h */,
 				73A295DA10FF3DB8001A17F6 /* NSInvocation(ForwardedConstruction).m */,
 			);

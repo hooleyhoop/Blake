@@ -115,8 +115,6 @@
 		73870DA80FD7E62E0073D9C7 /* AllChildProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73870DA60FD7E62E0073D9C7 /* AllChildProxy.m */; };
 		73870DF90FD7EA910073D9C7 /* SHCustomMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 734855750D99A4A200087B6A /* SHCustomMutableArray.m */; };
 		73870DFA0FD7EA920073D9C7 /* SHCustomMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 734855760D99A4A200087B6A /* SHCustomMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7389CF4A10BAE73D00BDEB28 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733218610D5FC3BA0012D71A /* SHShared.framework */; };
-		7389CF5B10BAE77700BDEB28 /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733218610D5FC3BA0012D71A /* SHShared.framework */; };
 		739CA44F0E93B54400AB1F93 /* SketchModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8C2040E8D01CC0037E99F /* SketchModelTests.m */; };
 		739CA4510E93B54E00AB1F93 /* StubContentFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8C23B0E8D022A0037E99F /* StubContentFilter.m */; };
 		739CA4520E93B54F00AB1F93 /* StubFilterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8BF680E8CE9380037E99F /* StubFilterUser.m */; };
@@ -127,7 +125,6 @@
 		73A8BE160E8CE4F80037E99F /* SHNodeGraphModel_sketchAmmends.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A8BE150E8CE4F80037E99F /* SHNodeGraphModel_sketchAmmends.m */; };
 		73A8BE180E8CE50A0037E99F /* SHNodeGraphModel_sketchAmmends.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A8BE170E8CE50A0037E99F /* SHNodeGraphModel_sketchAmmends.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73A8BE1A0E8CE5350037E99F /* SketchGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A8BDC90E8CE1410037E99F /* SketchGraph.framework */; };
-		73BBC38E10B1B51A00F1CB2F /* SHShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733218610D5FC3BA0012D71A /* SHShared.framework */; };
 		73C3B39E0FDC4B190088A92A /* SHExecutableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D201100C00900B006CF2C6 /* SHExecutableNode.m */; };
 		73CB010B10DB93BA00AE25C8 /* NodeGraphLoaderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73ADB0E70D718B46005E15D3 /* NodeGraphLoaderProtocol.h */; };
 		73CE27BA0E9623CF00826441 /* AbstractModelFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739CA62F0E93D6E500AB1F93 /* AbstractModelFilterTests.m */; };
@@ -178,33 +175,12 @@
 			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = SHNodeGraph;
 		};
-		733218600D5FC3BA0012D71A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 738C7C770C5CDC180096EF9D;
-			remoteInfo = SHShared;
-		};
 		733218620D5FC3BA0012D71A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 732360B80C5E75BD0039CC7F;
 			remoteInfo = SHSharedTests;
-		};
-		734CCCE20FC46DBD0068F8D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
-		};
-		734E94840F95F10100248B4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
 		};
 		734E94860F95F10A00248B4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -248,13 +224,6 @@
 			remoteGlobalIDString = 732E93681189AFEA00DD3435;
 			remoteInfo = PerformanceTests;
 		};
-		7352F9C210D6569400871424 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
-		};
 		7389CF2610BAE5C500BDEB28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
@@ -268,13 +237,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = SHNodeGraph;
-		};
-		7389FBE70EB0D233003DD618 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
 		};
 		73A8BE1E0E8CE5400037E99F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -338,13 +300,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 73D6ED9410C7C5BC0072DC88;
 			remoteInfo = SHTestUtilities;
-		};
-		73F5431F0FB33599006CCA39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7332185B0D5FC3BA0012D71A /* SHShared.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 738C7C760C5CDC170096EF9D;
-			remoteInfo = SHShared;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -594,7 +549,6 @@
 				7314438C0C09BB86007F971A /* FScript.framework in Frameworks */,
 				734DEB400D99568100B5990C /* OCMock.framework in Frameworks */,
 				73FA722B0FB5E7A200B6D453 /* ProtoNodeGraph.framework in Frameworks */,
-				7389CF5B10BAE77700BDEB28 /* SHShared.framework in Frameworks */,
 				73D6EEB310C7CB240072DC88 /* SHTestUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,7 +574,6 @@
 				734E98261068DBFD00E69660 /* Foundation.framework in Frameworks */,
 				734E982B1068DBFE00E69660 /* AppKit.framework in Frameworks */,
 				734E982C1068DC0100E69660 /* Cocoa.framework in Frameworks */,
-				73BBC38E10B1B51A00F1CB2F /* SHShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,7 +607,6 @@
 			files = (
 				734E94880F95F10F00248B4B /* ProtoNodeGraph.framework in Frameworks */,
 				73F543F10FB352CD006CCA39 /* Cocoa.framework in Frameworks */,
-				7389CF4A10BAE73D00BDEB28 /* SHShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,7 +727,6 @@
 		7332185C0D5FC3BA0012D71A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				733218610D5FC3BA0012D71A /* SHShared.framework */,
 				733218630D5FC3BA0012D71A /* SHSharedTests.octest */,
 				73BA80DC0F418D8400262035 /* libSHShared_static.a */,
 				73BA80DE0F418D8400262035 /* libSHShared_iphone.a */,
@@ -1426,7 +1377,6 @@
 			);
 			dependencies = (
 				731442990C09A830007F971A /* PBXTargetDependency */,
-				734CCCE30FC46DBD0068F8D7 /* PBXTargetDependency */,
 				7389CF2710BAE5C500BDEB28 /* PBXTargetDependency */,
 				73D6EEAD10C7CB170072DC88 /* PBXTargetDependency */,
 			);
@@ -1467,7 +1417,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				734E94850F95F10100248B4B /* PBXTargetDependency */,
 			);
 			name = ProtoNodeGraph;
 			productName = ProtoNodeGraph;
@@ -1488,7 +1437,6 @@
 			dependencies = (
 				734E956C0F95FD9F00248B4B /* PBXTargetDependency */,
 				73D6EE8510C7CA8F0072DC88 /* PBXTargetDependency */,
-				7352F9C310D6569400871424 /* PBXTargetDependency */,
 			);
 			name = ProtoNodeGraphTests;
 			productName = ProtoNodeGraphTests;
@@ -1508,7 +1456,6 @@
 			);
 			dependencies = (
 				7389FBE60EB0D233003DD618 /* PBXTargetDependency */,
-				7389FBE80EB0D233003DD618 /* PBXTargetDependency */,
 			);
 			name = SketchGraph;
 			productName = SketchGraph;
@@ -1528,7 +1475,6 @@
 			);
 			dependencies = (
 				734E94870F95F10A00248B4B /* PBXTargetDependency */,
-				73F543200FB33599006CCA39 /* PBXTargetDependency */,
 			);
 			name = SHNodeGraph;
 			productInstallPath = "$(HOME)/Library/Frameworks";
@@ -1574,13 +1520,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		733218610D5FC3BA0012D71A /* SHShared.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SHShared.framework;
-			remoteRef = 733218600D5FC3BA0012D71A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		733218630D5FC3BA0012D71A /* SHSharedTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
@@ -1853,16 +1792,6 @@
 			target = 8DC2EF4F0486A6940098B216 /* SHNodeGraph */;
 			targetProxy = 732DAE330E851082005E3CC4 /* PBXContainerItemProxy */;
 		};
-		734CCCE30FC46DBD0068F8D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SHShared;
-			targetProxy = 734CCCE20FC46DBD0068F8D7 /* PBXContainerItemProxy */;
-		};
-		734E94850F95F10100248B4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SHShared;
-			targetProxy = 734E94840F95F10100248B4B /* PBXContainerItemProxy */;
-		};
 		734E94870F95F10A00248B4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 734E94330F95EFB800248B4B /* ProtoNodeGraph */;
@@ -1873,11 +1802,6 @@
 			target = 734E94330F95EFB800248B4B /* ProtoNodeGraph */;
 			targetProxy = 734E956B0F95FD9F00248B4B /* PBXContainerItemProxy */;
 		};
-		7352F9C310D6569400871424 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SHShared;
-			targetProxy = 7352F9C210D6569400871424 /* PBXContainerItemProxy */;
-		};
 		7389CF2710BAE5C500BDEB28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 734E94330F95EFB800248B4B /* ProtoNodeGraph */;
@@ -1887,11 +1811,6 @@
 			isa = PBXTargetDependency;
 			target = 8DC2EF4F0486A6940098B216 /* SHNodeGraph */;
 			targetProxy = 7389FBE50EB0D233003DD618 /* PBXContainerItemProxy */;
-		};
-		7389FBE80EB0D233003DD618 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SHShared;
-			targetProxy = 7389FBE70EB0D233003DD618 /* PBXContainerItemProxy */;
 		};
 		73A8BE1F0E8CE5400037E99F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1917,11 +1836,6 @@
 			isa = PBXTargetDependency;
 			name = SHTestUtilities;
 			targetProxy = 73D6EEAC10C7CB170072DC88 /* PBXContainerItemProxy */;
-		};
-		73F543200FB33599006CCA39 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SHShared;
-			targetProxy = 73F5431F0FB33599006CCA39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

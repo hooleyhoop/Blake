@@ -9,12 +9,12 @@
 #import "SHAttribute.h"
 #import "SHInputAttribute.h"
 #import "SHConnectlet.h"
-#import <SHShared/SHMutableValueProtocol.h>
+//#import <SHShared/SHMutableValueProtocol.h>
 #import "SHAttributePrivateMethods.h"
 #import "SHInterConnector.h"
 #import "SH_Path.h"
-#import "SHNodeAttributeMethods.h"
-#import "SHConnectableNode.h"
+//#import "SHNodeAttributeMethods.h"
+//#import "SHConnectableNode.h"
 #import "SHInlet.h"
 #import "SHOutlet.h"
 

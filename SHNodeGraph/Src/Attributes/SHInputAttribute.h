@@ -5,7 +5,7 @@
 //  Created by Steve Hooley on 15/02/2005.
 //  Copyright 2005 HooleyHoop. All rights reserved.
 //
-#import <ProtoNodeGraph/SHProtoInputAttribute.h>
+#import "SHProtoInputAttribute.h"
 
 @class SHInlet, SHNode, SHOutputAttribute;
 
